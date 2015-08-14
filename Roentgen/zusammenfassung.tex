@@ -1,0 +1,211 @@
+\documentclass[12pt,a4paper]{article}
+
+\usepackage[onehalfspacing]{setspace}
+\usepackage{natbib}
+ 
+\usepackage{float}
+%fÃ¼r feststellen der figures und tables [H] dranschreiben
+\usepackage{units}
+%wird so benutzt: 
+%\unit[value/Zahl]{dimension/Einheit} oder 
+%\unitfrac[value/Zahl]{dimension/Einheit num/ZÃ¤hler}{dimension/Einheit denum/Nenner} oder
+%\nicefrac[fontcommand/Schriftart]{dimension/Einheit num/ZÃ¤hler}{dimension/Einheit denum/Nenner}
+\usepackage{amssymb}
+\usepackage{caption}
+\usepackage{subcaption}
+
+\usepackage{hyperref}
+
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\usepackage[latin9]{inputenc}
+\usepackage[ngerman]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{textcomp}
+
+
+\begin{document}
+
+\tableofcontents
+
+\section{Theorie}
+
+\subsection{Erzeugen von Röntgenstrahlung}
+\label{subsec:erzeugen von röntgenstrahlung}
+\begin{itemize}
+\item Röntgenröhren
+\begin{itemize}
+\item Beschleunigen von Elektronen aus einem Glühdraht
+\item Bremsen an der Kathode, wodurch Röntgenstrahlung emittiert wird
+\end{itemize}
+\item Synchrotornstrahlung
+\begin{itemize}
+\item Undolator zum verlassen des Kreises
+\item Monochromator
+\item Focusierung
+\item Spectrometer
+\end{itemize}
+\end{itemize}
+
+\subsection{Charakteristische Röntgenstrahlung}
+\begin{itemize}
+\item Atom spezifische Röntgenstrahlung, die von den Schalen der Elektronen abhängen
+\end{itemize}
+
+\subsection{Bremsstrahlung}
+\begin{itemize}
+\item Die Strahlung entsteht durch abbremsen geladener Teilchen, siehe \ref{subsec:erzeugen von röntgenstrahlung}
+\end{itemize}
+
+\begin{align}
+E_{photo} = h \cdot f = E_{kin} = e \cdot U
+\end{align}
+
+\subsection{Schalenmodell der Elektronenhülle eines Atoms}
+
+\subsection{Mosley'sches Gesetz}
+\begin{itemize}
+\item Beschreibt den Übergang eines Elektrons von der L in die K Schale, bzw. die Energie der K$_\alpha$ Übergänge
+\end{itemize}
+\begin{align}
+f = \frac{\lambda}{c} = f_R \cdot Z_{eff}^2 \left( \frac{1}{n_1^2} - \frac{1}{n_2^2} \right)
+\end{align}
+\begin{itemize}
+\item $f_R$:	angepasste Rydberg-Frequenz
+\item $Z_{eff}$:	effektive Kernladung
+\item $n_1, n_2$:	Hauptquantenzahl der Zustände
+\end{itemize}
+
+\subsection{effektive Kernladungszahl}
+\begin{align}
+Z_{eff} = Z - S
+\end{align}
+\begin{itemize}
+\item Z:	Kernladungszahl
+\item S:	Abschirmungskonstante (heuristisch)
+\end{itemize}
+\subsection{Aufbau von Kristallen}
+\begin{itemize}
+\item bcc, fcc, sc
+\end{itemize}
+\subsection{Beugung von Röntgenstrahlen an einem Kristallgitter}
+
+\subsection{Bragg'sche Refelexionsbedingung}
+
+\begin{align}
+2 \cdot d \cdot sin(\theta) = n \cdot \lambda
+\end{align}
+
+\begin{itemize}
+\item d:	Ebenenabstand
+\item $\theta$:	Einfallswinkel (nicht zu Lot)
+\item $\lambda$:	Wellenlänge des Röntgenstrahls
+\item n:	Interferenz Bedingung 
+\end{itemize}
+
+\subsection{Begriff der Netzebene}
+
+\subsection{Gitterkonstante und Netzebenenabstand eines Kristalls}
+
+\subsection{Analyse von Pulvergemischen}
+
+\subsection{Funktionsweise eines Monochromators}
+\begin{itemize}
+\item Verwendung der Bragg-Reflexion eines Kristalls, wodurch man monochromatische Strahlung erhält
+\end{itemize}
+
+\subsection{Arten von Röntgendetektoren/Funktionsweise eines Detektors}
+\begin{itemize}
+\item Totzeit erklären
+\end{itemize}
+\vspace{1cm}
+\begin{itemize}
+\item Halbleiterdetektoren
+	\begin{itemize}
+	\item Vorteile:
+		\begin{itemize}
+		\item hohe Energieauflösung
+		\end{itemize}
+	\item Nachteile:
+		\begin{itemize}
+		\item schwaches Signal
+		\item kühlung notwendig
+		\end{itemize}
+	\end{itemize}
+\item Szintillator:
+	\begin{itemize}
+	\item Vorteile:
+		\begin{itemize}
+		\item hohe Quantenausbeute
+		\item kurze Totzeit
+		\item gute Linearität
+		\end{itemize}
+	\item Nachteile:
+		\begin{itemize}
+		\item schlechte Energieauflösung
+		\end{itemize}
+	\end{itemize}
+\item Röntgenfilm
+	\begin{itemize}
+	\item Vorteile:
+		\begin{itemize}
+		\item großflächig
+		\item hohe Ortsauflösung
+		\item Langzeitspeicher
+		\end{itemize}
+	\item Nachteile:
+		\begin{itemize}
+		\item hohe Strahlungsdosis
+		\item nicht-lineare Schwärzung
+		\item nicht energieempfindlich
+		\end{itemize}
+	\end{itemize}
+\end{itemize}
+
+\subsection{Detektor-Totzeiten}
+\begin{itemize}
+\item Wenn ein Teilchen detektiert wurde, kann für kurze Zeit kein weiteres Teichen detektiert werde, diesen Zeitraum nennt man Totzeit
+\end{itemize}
+\subsection{Fluoreszenz}
+\begin{itemize}
+\item Spontane Licht Emission kurz nach der Anregung des Materials
+\item Das emittierte Licht hat in der Regel eine geringere Energie als das zuvor emittierte
+\item Spin ist erhalten
+\end{itemize}
+
+
+\section{Auswertung}
+
+\subsection{Messung des Emissionsspektrums}
+\subsubsection{Messung des Emissionsspektrums}
+\begin{itemize}
+\item Untersuchung von Röntgenbeugung an einem Silizium(111)-Einkristall
+\item Aufnahme des Emissionsspektrums der Kupferanode mittels Bragg'schen Verfahren
+\begin{itemize}
+\item Zählrate über Winkel auftragen (numpy dataten einlesen, matplotlib fürs plotten)
+\item Lage aller $K_{\alpha_{1,2}} \text{ und } K_\beta$ Linien von Cu und deren Intensitätsverhältnisse (für jede Ordung und alle anderen Ordnungen)
+\item Signal-zu-Rausch Verhältnis für $K_{\alpha_{1,2}}$ und $K_\beta$ Linien, SRV = $\frac{P_{Signal}}{P_{Rauschen}}$
+\end{itemize}
+\end{itemize}
+\subsubsection{Netzebenenabstände anderer Kristalle}
+\begin{itemize}
+\item Bestimmen der Netzebenenabstände von Si(331) und Ge(111)
+\item Vergleich mit Literaturwerten
+\end{itemize}
+
+\subsection{Pulverdeffraktometrie/Debye-Scherrer-Verfahren}
+\begin{itemize}
+\item Analyse einer unbekannten Pulverprobe
+\item Daten aus dem Deffraktogramm mit Datenbank Abgleichen, zur Bestimmung der Pulverzusammensetzung
+\item Netzebenenabstände aus dem Deffraktogramm bestimmen
+\item Graphisch zeigen, das die Bestimmte Kristallstrucktur mit dem Diffraktogramm verträglich ist
+\item Ermitteln der mittleren Kristallgröße
+\end{itemize}
+
+
+
+
+
+\end{document}

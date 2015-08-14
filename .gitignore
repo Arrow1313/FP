@@ -1,0 +1,8 @@
+*.toc
+*.loc
+*.out
+*.bll
+*.blg
+*.xml
+*.gz
+*.*~
