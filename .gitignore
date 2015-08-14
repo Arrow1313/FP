@@ -8,3 +8,12 @@
 *.*~
 *.aux
 
+/roentgen/*.toc
+/roentgen/*.loc
+/roentgen/*.out
+/roentgen/*.bll
+/roentgen/*.blg
+/roentgen/*.xml
+/roentgen/*.gz
+/roentgen/*.*~
+/roentgen/*.aux
