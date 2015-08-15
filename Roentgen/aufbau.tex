@@ -2,7 +2,7 @@
 \section{Aufbau}
 F\"ur die Spektroskopie wird ein Vollschutz-Diffraktometer "X'Pert" der Firma Philips verwendet.
 Vorteile des Diffraktometers sind der modulare Aufbau, welcher ein flexibles und einfaches handhaben erm\"oglicht, so wie die hohe Messgenauigkeit.
-Das Diffraktometer wird \"uber einen \"uber eine Computer gesteuert, an welchem die Beschleunigungsspannung in einem Bereich von \unit[15]{keV} bis \unit[50]{keV} eingestellt werden kann, bei einem Strom von \unit[5]{mA} bis \unit[36]{mA}.
+Das Diffraktometer wird \"uber einen \"uber eine Computer gesteuert, an welchem die Beschleunigungsspannung in einem Bereich von \SI{15}{keV} bis \SI{50}{keV} eingestellt werden kann, bei einem Strom von \SI{5}{mA} bis \SI{36}{mA}.
 Der Winkelbereich liegt bei 8$^\circ$ bis 140$^\circ$.
 Nach dem einstellen der Beschleunigungsspannung, des Stroms und des Winkelbereichs verl\"aft die Messung vollautomatisch.
 Die Messdaten werden automatisch digitalisiert und auf dem Computer gespeichert.
@@ -11,11 +11,21 @@ Die Messdaten werden automatisch digitalisiert und auf dem Computer gespeichert.
 Bild und kurze beschreibung noch hizuf\"ugen.  \linebreak
 ??? \linebreak
 
-Eine schematische Skizze des Strahlengans im Deffraktometer ist in Abb ?? zu sehen.
-
-\begin{figure}[ht]
+Eine schematische Skizze des Strahlengans im Deffraktometer ist in Abb \ref{fig:strahlengang} zu sehen.
+\vspace{1cm}
+\begin{figure}[H]
 	\centering
-  \includegraphics[scale=1]{strahlengang.png}
+  \includegraphics[scale=0.25]{strahlengang.png}
 	\caption{Prinzipieller Strahlengang, entnommen von \cite{anleitung}}
 	\label{fig:strahlengang}
 \end{figure}
+
+Die Strahlen der Quelle m\"ussen zu auf die Probe bzw. den Detektor fokussiert werden, da die Quelle nahezu isotrop abstrahlt. Der prim\"are Sollerspalt, welcher aus parallelen Kupferplatten besteht absorbiert einen Teil der divergenten Strahlung.
+Der Sollerspalt kann auf einen Winkelbereich von $\frac{1}{32}^\circ$ bis 4$^\circ$ eingestellt werden.
+Der fokussierte Strahl gelangt durch eine Blende auf das Target, als Target werden Si(111)-, Si(331)-, Ge(111)-Einkristalle und eine Pulverprobe verwendet.
+Die gestreuten R\"ontgenstrahlen gelangen durch eine Streublende auf den sekund\"aren Sollerspalt.
+Hinter dem sekund\"aren Sollerspalt befindet sich ein optionaler Beam-Attenuator, welcher den Detektor bei zu hohen Countrates (>500000 Counts/s) durch abschw\"achen des Strahls sch\"utzt.
+Dann folgt eine ebenfalls optionaler Ni-Filter, mit dem die Ni-K$_\alpha$-Linie absorbiert und so die Cu K$_\beta$-Linie unterdr\"uckt wird. Dabei wird das Cu K$_{\alpha_{1,2}}$ Dublett nicht unterdr\"uckt.
+Es kann auch noch ein Monocromator verwendet werde, mit welchem das Spektrum auf die Cu K$_\alpha$-Linie monocromatisiert werden kann.
+Bevor die R\"ontgenstrahlen auf den Detektor treffe, werde sie noch durch eine Detektorblende geleitet.
+
