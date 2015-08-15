@@ -2,9 +2,38 @@
 %erklären, !was! wir machen, !warum! wir das machen und mit welchem ziel
 %(wichtig) präzize erklären, wie bei dem versuch vorgegangen und was gemacht wurde
 Nach dem Braggschen Verfahren soll ein SI(111)-Einkristall untersucht werden. Genauer werden die Röntgenspektren für mindestens drei verschiedene Beschleunigungsspannungen aufgenommen. Zusätzlich wird ein Spektrum mit eingesetztem Ni-Filter bei einer hohen Röhrenspannung aufgenommen.
-Bei jeder Messung wird die Intensität als Funktion des Winkels bestimmt und die Lage aller Ordnungen der Braggreflexe der K$_{\alpha_{1,2}}$- und K$_\beta$-Linien von Kupfer und deren Intensitätsverhältnisse zueinander. In der Messung des Emissionsspektrums mit Ni-Filter wird zusätzlich die Abschwächung der K$_\beta$-Linie und das "`Signal zu Rausch"' Verhältnis für die K$_{\alpha_{1,2}}$ Linien, deren resultierende Energie und Energiebreite bestimmt.
-Zuletzt sollen die Netzebenenabstände weiterer Einkristalle bestimmt werden, indem der SI(111)-Einkristall durch diese ersetzt wird und die Emissionsspektren aufgenommen werden. Die Resultate werden dann mit Literaturwerten für die Netzebenenabstände verglichen.
-\subsection{Verwendete Formeln}
+Bei jeder Messung wird die Intensität als Funktion des Winkels bestimmt und die Lage aller Ordnungen der Braggreflexe der K$_{\alpha_{1,2}}$- und K$_\beta$-Linien von Kupfer und deren Intensitätsverhältnisse zueinander. Aufgrund des Strukturfaktors für das Diamantgitter (Silitium und Germanium), wird der Braggreflex zweiter Ordnung unterdrückt. In der Messung des Emissionsspektrums mit Ni-Filter wird zusätzlich die Abschwächung der K$_\beta$-Linie und das "`Signal zu Rausch"' Verhältnis für die K$_{\alpha_{1,2}}$ Linien, deren resultierende Energie und Energiebreite bestimmt.
+Zuletzt sollen die Netzebenenabstände weiterer Einkristalle bestimmt werden, indem der Si(111)-Einkristall durch diese ersetzt wird und die Emissionsspektren aufgenommen werden. Die Resultate werden dann mit Literaturwerten für die Netzebenenabstände verglichen.
+\subsubsection{Justage}
+Voraussetzung für diese Messungen ist eine ordentliche Justage der Proben.
+...
+\subsubsection{Emissionsspektrum der Kupferanode}
 %eine legende kann angefertigt werden, die selbstverständlichen buchstaben müssen nicht extra erklärt werden
 %mit knappen erklärungen die !verwendeten! formeln, sowie die zugehörige fehlerrechnung einfügen.
-Um das Emissionsspektrum der Kupferanode nach dem Braggschen Verfahren an einem SI(111)-Einkristall zu bestimmen, muss ein Literaturwert für den Netzebenenabstand vorausgesetzt werden. Der Netzebenenabstand beträgt (...)\SIUnitSymbolAngstrom (Referenz auf Quelle).
+Um das Emissionsspektrum der Kupferanode nach dem Braggschen Verfahren an einem Si(111)-Einkristall zu bestimmen, muss ein Literaturwert für den Netzebenenabstand vorausgesetzt werden. Der Netzebenenabstand beträgt ???\SI{3,1}{\angstrom} (vgl. ???). Damit können die Energien der Charakteristischen Strahlung von Kupfer nach der Braggschen Gleichung und dem Zusammenhang zwischen Energie und Wellenlänge aus den Winkeln maximaler Reflexion bestimmt werden:
+\begin{align}
+E = \frac{hc}{\lambda} = \frac{hc}{2d_{[nh,nk,nl]}sin(\Theta)}
+\end{align}
+d soll hierbei aufgrung des vernachlässigbaren Fehlers der Literaturangabe als fehlerlos angenommen werden.
+Der Fehler für die Energie berechnet sich also aus dem Fehler für den Winkel bei maximaler Reflexion:
+\begin{align}
+\Delta E =  \lvert\frac{\partial E}{\partial \Theta}\Delta \Theta\rvert =  \lvert\frac{E}{\tan\Theta}\Delta \Theta\rvert
+\end{align}
+Die zugehörigen Counts können dann am Maximum der angefitteten Gausskurven abgelesen werden:
+\begin{align}
+I = \frac{a}{\sqrt{2\pi \sigma^2}}
+\end{align}
+Die Parameter $a$ und $\sigma$ sowie deren Fehler werden aus dem Fit berechnet.
+Der Fehler von $I$ ist dann:
+\begin{align}
+\Delta I = \sqrt{\left(\frac{\Delta a}{\sqrt{2\pi \sigma^2}}\right)^2+\left(\frac{a\Delta \sigma}{\sqrt{2\pi \sigma^4}}\right)^2}
+\end{align}
+\subsubsection{Bestimmung der Netzebenenabstände von Si(331) und Ge(111)}
+Um die Netzebenenabstände der Einkristalle Si(331) und Ge(111) zu bestimmen, werden diese in das Diffraktometer eingesetzt. Mit der Braggschen Gleichung werden nach der Aufnahme der Emissionsspektren die Netzebenenabstände bestimmt:
+\begin{align}
+d = n d_{[nh,nk,nl]} = \frac{n \lambda}{2 \sin{\Theta}} = \frac{n hc}{ 2 E \sin{\Theta}}
+\end{align}
+Für den Fehler ergibt sich also:
+\begin{align}
+\Delta d = \sqrt{\left(\frac{\partial d}{\partial \Theta}\Delta \Theta\right)^2+ \left(\frac{\partial d}{\partial E}\Delta E\right)^2} = d \sqrt{\left(\frac{\Delta \Theta}{\tan{\Theta}}\right)^2+ \left(\frac{\Delta E}{E}\right)^2}
+\end{align}
