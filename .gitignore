@@ -17,3 +17,5 @@
 /roentgen/*.gz
 /roentgen/*.*~
 /roentgen/*.aux
+/roentgen/roentgen.loc
+/roentgen/roentgen.pdf
