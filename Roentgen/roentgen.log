@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.11.19)  17 AUG 2015 15:55
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.11.19)  17 AUG 2015 16:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -969,7 +969,7 @@ File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 \openout2 = `deckblatt.aux'.
 
  (./deckblatt.tex
-<logo.png, id=68, 2007.5pt x 632.3625pt>
+<logo.png, id=72, 2007.5pt x 632.3625pt>
 File: logo.png Graphic file (type png)
  <use logo.png>
 Package pdftex.def Info: logo.png used on input line 7.
@@ -995,7 +995,7 @@ l.38 \newpage
               [1
 
 ] (./einleitung.tex) (./theorie.tex (./Bragg.tex
-<Bragg.pdf, id=103, 597.23125pt x 845.1575pt>
+<Bragg.pdf, id=108, 597.23125pt x 845.1575pt>
 File: Bragg.pdf Graphic file (type pdf)
  <use Bragg.pdf>
 Package pdftex.def Info: Bragg.pdf used on input line 6.
@@ -1006,8 +1006,8 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <7> on input line 10.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 10.
-))
-(./messung_der_emissionsspektrums.tex [2 <./Bragg.pdf>]
+)
+(./Detektoren.tex)) (./messung_der_emissionsspektrums.tex [2 <./Bragg.pdf>]
 (./versuchsdurchfuehrung.tex
 
 Package natbib Warning: Citation `si_a' on page 3 undefined on input line 13.
@@ -1038,15 +1038,22 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 53.
  (./roentgen.aux (./deckblatt.aux) (./versuchsdurchfuehrung2.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 53.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 53.
-Package rerunfilecheck Info: File `roentgen.out' has not changed.
-(rerunfilecheck)             Checksum: F5A42257ECF3577EB0CBB0EB2D035DA6;1216.
+
+
+Package rerunfilecheck Warning: File `roentgen.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `roentgen.out':
+(rerunfilecheck)             Before: DF6B6AB0FAAEC45E984F726911CAA380;1276
+(rerunfilecheck)             After:  2D402D9F1F8DFC528AE8708C233262E2;1296.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 53.
  ) 
 Here is how much of TeX's memory you used:
- 17170 strings out of 493304
- 325750 string characters out of 6139870
+ 17175 strings out of 493304
+ 325820 string characters out of 6139870
  364806 words of memory out of 5000000
- 20280 multiletter control sequences out of 15000+600000
+ 20281 multiletter control sequences out of 15000+600000
  98997 words of font info for 77 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  39i,13n,38p,10420b,951s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1063,10 +1070,10 @@ re/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm
 /lmr7.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fo
 nts/type1/public/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.p
 fb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb>
-Output written on roentgen.pdf (10 pages, 318625 bytes).
+Output written on roentgen.pdf (10 pages, 318678 bytes).
 PDF statistics:
- 259 PDF objects out of 1000 (max. 8388607)
- 218 compressed objects within 3 object streams
- 46 named destinations out of 1000 (max. 500000)
- 145 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 264 PDF objects out of 1000 (max. 8388607)
+ 223 compressed objects within 3 object streams
+ 47 named destinations out of 1000 (max. 500000)
+ 153 words of extra memory for PDF output out of 10000 (max. 10000000)
 
