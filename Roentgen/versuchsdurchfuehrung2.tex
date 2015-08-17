@@ -1,2 +1,14 @@
 \subsection{Versuchsdurchführung}
-Um die Zusammensetzung einer unbekannten Pulverprobe zu bestimmen, werden mit dem Diffraktometer Diffraktogramme erstellt, aus denen mittels einer Datenbank qualitativ die Probenzusammensetzung ermittelt werden kann. Ebenfalls sollen unabhängig von dieser Auswertung mithilfe der Datenbank einige Netzebenenabstände d aus den Diffraktogrammen manuell bestimmt werden. Nachdem graphisch gezeigt wurde, dass die gefundene Kristallstruktur mit den Diffraktogrammen verträglich ist, soll aus den Daten eine Abschätzung für die mittlere Kristallitgröße gemacht werden. 
+Um die Zusammensetzung einer unbekannten Pulverprobe zu bestimmen, werden mit dem Diffraktometer Diffraktogramme erstellt, aus denen mittels einer Datenbank qualitativ die Probenzusammensetzung ermittelt werden kann. Ebenfalls sollen unabhängig von der Auswertung mithilfe der Datenbank einige Netzebenenabstände d aus den Diffraktogrammen manuell bestimmt werden. Dies geschieht nach der Braggschen Gleichung analog zum Versuchsteil 2.1.3 Formel ??. Nachdem graphisch gezeigt wurde, dass die gefundene Kristallstruktur mit den Diffraktogrammen verträglich ist, soll aus den Daten eine Abschätzung für die mittlere Kristallitgröße gemacht werden, welche aus der Scherrergleichung bestimmt werden kann.
+\begin{align}
+\delta(2\Theta)_{Korn} = \frac{K \lambda }{B cos{\Theta_0}}
+\end{align}
+Dabei ist $\delta(2\Theta)$ die volle Halbwertsbreite (FWHM) des Reflexes im Bogenmaß, $\Theta_0$ das Maximum des Reflexes, $K$ der Scherrer Formfaktor mit $K \approx 0.89$ und B die gesuchte Korngröße.
+Es ergibt sich also Für die Korngröße B, wenn man beachtet, dass $\delta(2\Theta)_{Korn} = \delta(2\Theta)_{Pulver} - \delta(2\Theta)_{Einkristall} := $ und $E = \frac{hc}{\lambda}$ gilt:
+\begin{align}
+B = \frac{0.89 hc}{(\delta(2\Theta)_{Pulver} - \delta(2\Theta)_{Einkristall})Ecos{\Theta_0}}
+\end{align}
+Es ergibt sich ein Fehler von:
+\begin{align}
+\Delta B = B\sqrt{\left(\frac{\Delta (\delta(2\Theta)_{Pulver} - \delta(2\Theta)_{Einkristall})}{\delta(2\Theta)_{Pulver} - \delta(2\Theta)_{Einkristall}}\right)^2+\left(\frac{\Delta E}{E}\right)^2+\left(\frac{\Delta \Theta_0}{\cot{\Theta_0}}\right)^2}
+\end{align}
