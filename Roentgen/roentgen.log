@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.11.19)  17 AUG 2015 12:43
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.11.19)  17 AUG 2015 12:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -969,7 +969,7 @@ File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 \openout2 = `deckblatt.aux'.
 
  (./deckblatt.tex
-<logo.png, id=60, 2007.5pt x 632.3625pt>
+<logo.png, id=64, 2007.5pt x 632.3625pt>
 File: logo.png Graphic file (type png)
  <use logo.png>
 Package pdftex.def Info: logo.png used on input line 7.
@@ -994,12 +994,12 @@ been already used, duplicate ignored
 l.38 \newpage
               [1
 
-] (./einleitung.tex) (./messung_der_emissionsspektrums.tex
-(./versuchsdurchfuehrung.tex
+] (./einleitung.tex) (./theorie.tex)
+(./messung_der_emissionsspektrums.tex (./versuchsdurchfuehrung.tex [2]
 
-Package natbib Warning: Citation `si_a' on page 2 undefined on input line 13.
+Package natbib Warning: Citation `si_a' on page 3 undefined on input line 13.
 
-[2]) (./auswertung_1.tex
+) (./auswertung_1.tex
 
 Package natbib Warning: Citation `si_a' on page 3 undefined on input line 4.
 
@@ -1018,23 +1018,23 @@ File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 
 Package natbib Warning: There were undefined citations.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 52.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 53.
 [8
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 52.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 53.
  (./roentgen.aux (./deckblatt.aux) (./versuchsdurchfuehrung2.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 52.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 52.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 53.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 53.
 Package rerunfilecheck Info: File `roentgen.out' has not changed.
-(rerunfilecheck)             Checksum: 2D40B062145C2C4BFA71F0402C26BE8A;1100.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 52.
+(rerunfilecheck)             Checksum: 6268B8737BEDBF48AD47E3B2AA530B25;1143.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 53.
  ) 
 Here is how much of TeX's memory you used:
- 17109 strings out of 493304
- 325061 string characters out of 6139870
+ 17114 strings out of 493304
+ 325112 string characters out of 6139870
  364749 words of memory out of 5000000
- 20245 multiletter control sequences out of 15000+600000
+ 20246 multiletter control sequences out of 15000+600000
  71887 words of font info for 54 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  39i,13n,38p,10420b,951s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1050,10 +1050,10 @@ public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/shar
 e/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/
 lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf
 /fonts/type1/public/lm/lmsy8.pfb>
-Output written on roentgen.pdf (9 pages, 260107 bytes).
+Output written on roentgen.pdf (9 pages, 260815 bytes).
 PDF statistics:
- 206 PDF objects out of 1000 (max. 8388607)
- 179 compressed objects within 2 object streams
- 40 named destinations out of 1000 (max. 500000)
- 118 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 211 PDF objects out of 1000 (max. 8388607)
+ 184 compressed objects within 2 object streams
+ 41 named destinations out of 1000 (max. 500000)
+ 126 words of extra memory for PDF output out of 10000 (max. 10000000)
 
