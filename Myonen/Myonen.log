@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.11.19)  20 AUG 2015 15:46
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.11.19)  20 AUG 2015 16:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1064,13 +1064,13 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 1.
 
-)) (./aufbau.tex) (./versuchsdurchfuehrung.tex) (./auswertung.tex)
+[2])) (./aufbau.tex) (./versuchsdurchfuehrung.tex) (./auswertung.tex)
 (./diskussion.tex) (./fazit.tex)
 
 Package natbib Warning: There were undefined citations.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 55.
-[2] [3]
+[3]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 55.
  (./Myonen.aux (./deckblatt.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 55.
@@ -1084,13 +1084,13 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 55.
  ) 
 Here is how much of TeX's memory you used:
- 17099 strings out of 493304
- 324220 string characters out of 6139870
- 365007 words of memory out of 5000000
+ 17100 strings out of 493304
+ 324235 string characters out of 6139870
+ 367007 words of memory out of 5000000
  20243 multiletter control sequences out of 15000+600000
  99699 words of font info for 81 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 39i,13n,39p,10418b,816s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 39i,15n,39p,10418b,940s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
 ips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share
 /texmf/fonts/enc/dvips/lm/lm-mathit.enc}</usr/share/texmf/fonts/type1/public/lm
@@ -1100,10 +1100,10 @@ i8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/font
 s/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></u
 sr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf/fonts/type1/p
 ublic/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb>
-Output written on Myonen.pdf (4 pages, 233766 bytes).
+Output written on Myonen.pdf (4 pages, 235158 bytes).
 PDF statistics:
- 153 PDF objects out of 1000 (max. 8388607)
- 133 compressed objects within 2 object streams
- 22 named destinations out of 1000 (max. 500000)
+ 154 PDF objects out of 1000 (max. 8388607)
+ 134 compressed objects within 2 object streams
+ 23 named destinations out of 1000 (max. 500000)
  110 words of extra memory for PDF output out of 10000 (max. 10000000)
 
