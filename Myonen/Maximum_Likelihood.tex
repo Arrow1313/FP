@@ -9,5 +9,23 @@ L = \prod_{i=1}^N P(t_i|\tau) = \prod_{i=1}^N \frac{1}{\tau}\frac{e^{-\frac{t_i}
 \end{align}
 ergibt. Es wird davon ausgegangen, dass die gemessenen Zerfallszeiten der wahrscheinlichsten Messung entsprechen, sodass die Messung einem Maximum der Warscheinlichkeitsdichtefunktion bezüglich $\tau$ entspricht. Um das Maximum von $L$ zu bestimmen betrachtet man die Funktion
 \begin{align}
-\ln{L} = \ln\left[\prod_{i=1}^N P(t_i|\tau)\right]
-\end{align} 
+\ln{L} = \ln\left[\prod_{i=1}^N P(t_i|\tau)\right] = \sum_{i=1}^{N}\ln[P(t_i|\tau)] = -\left[\sum_{i=1}^{N}\ln(\tau) + \frac{t_i}{\tau} + \ln(e^{-\frac{T_1}{\tau}}-e^{-\frac{T_2}{\tau}})\right]
+\end{align}
+und bestimmt die Nullstelle der Ableitung nach $\tau$.
+Schließlich erhält man die beste Approximation für die Lebensdauer $\tau$:
+\begin{align}
+\hat{\tau} = \frac{1}{N}\sum_{i=1}^{N} t_i - \frac{T_1e^{-\frac{T_1}{\tau}}-T_2e^{-\frac{T_2}{\tau}}}{e^{-\frac{T_1}{\tau}}-e^{-\frac{T_2}{\tau}}}
+\end{align}
+Da es nur M Kanäle und damit M mögliche Zeiten $t_k$ gibt, kann die erste Summe umgeschrieben werden,
+\begin{align}
+\sum_{i=1}^{N} t_i = \sum_{k=1}^{M} N_k t_k \text{ wobei } N = \sum_{k=1}^{M} N_k
+\end{align}
+sodass der Fehler von $\hat{\tau}$ über den statistischen Fehler auf $N_k$, welcher $\sqrt{N_k}$ beträgt, bestimmt werden kann.
+Es ergibt sich also
+\begin{align}
+\hat{\tau} = \sum_{k=1}^{M} N_k t_k - \frac{T_1e^{-\frac{T_1}{\tau}}-T_2e^{-\frac{T_2}{\tau}}}{e^{-\frac{T_1}{\tau}}-e^{-\frac{T_2}{\tau}}}
+\end{align}
+mit einem Fehler von
+\begin{align}
+\Delta\hat{\tau} = \frac{1}{N}\sqrt{\sum_{k=1}^{M}N_kt_k^2}
+\end{align}
