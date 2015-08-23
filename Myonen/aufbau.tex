@@ -1,24 +1,21 @@
 \section{Versuchsaufbau}
 %skizze zum versuchsaufbau (oder foto) einfügen,   es muss erklärt werden wie das ganze funktioniert und welche speziellen einstellungen verwendet wurden (z.b. welche knöpfe an den geräten für die messung verdreht wurden)
-Der Versuchsaufbau ist in Abbildung \ref{fig:aufbau} zu sehe. Die Hauptbestandteile sind die vier Szintillatoren (PM 1-4), welche jeweils noch mit einem Photomultiplier verbunden sind.
+Der Versuchsaufbau ist in Abbildung \ref{fig:aufbau} zu sehen. Die Hauptbestandteile sind die vier Szintillatoren (PM 1-4), welche jeweils noch mit einem Photomultiplier verbunden sind.
 
 \begin{figure}[H]
 	\centering
-  %\includegraphics[scale=0.4]{unterdruekung.png}
+  \includegraphics[scale=0.4]{unterdruekung.png}
 	\caption{Schaltskizze des Versuchsaufbaus}
 	\label{fig:aufbau}
 \end{figure}
 
 Der Szintillator für die Registrierung der Myonen ist PM3, es handelt sich um einen 25x25x25 cm$^3$ Plastikblock-Szintillator. PM1, PM2 und PM4 sind flach Szintillatoren, wobei PM4 als Veto fungiert, so dass nur Ereignisse die von PM3 noch registriert werden, jedoch nicht von PM4. PM1, PM2 und PM4 sind über eine logische Einheit an den Start-Pin des TAC angeschlossen. Der TAC wird gestartet, falls PM1 und PM2 ein Ereignis registrieren und PM4 keins registriert. Wenn PM4 auch noch das Myon registriert wird der TAC nicht gestartet, da das Myon nicht zerfallen ist. PM3 ist über den Photomuliplier an den Stop-Pin des TAC angeschlossen. Das Signal des TAC wird an einen Verstärker (AMP) weiter geleitet, welche das Signal an einen Analog-Digital-Konverter (ADC) weitergibt. Es wurde noch ein Delay eingebaut, da die Szintillatoren ein unterschiedliches Baujahr haben (größere Auflösungszeit) und die sich die Kabellänge unterscheiden. Neben dem Universitätsgebäude wir noch ein Eisenblock als Absorber verwendet, wodurch Myonen mit niedriger Energie vollständig absorbiert werden und sich das Energiespektrum nach oben verschiebt. Der Vorteil des Absorbers ist, das andere Strahlung zum Teil vollständig geblockt wird.
 
-\subsection{Szintillationszähler}
-Szintillationszähler werden zum detektieren von Strahlung verwendet. Des Szintialltionszähler besteht aus einem Szintillator, welcher gegen äußeren Lichteinfall geschützt ist und einem Photomulitplier zu verstärken des Signals. Sie basieren darauf, dass der Szintillator durch die Strahlung ionisiert wird und Photonen abgibt, welche über einen Photomuliplier verstärkt werden. Dadurch entsteht ein Strom an der Anode es Photmultipliers welchen meinstens über eine Digital-Analog-Konverter digitalisiert und an einen Computer weiter gegeben wird.
-
 \subsection{Diskriminator}
 Ein Diskriminator wandelt ein analoges Signal in ein digitales Signal mit einer Auflösung von einem Bit um. Es kann eine untere Schranke eingestellt werden, ab welcher eine 0 ausgegeben wird. Zusätzlich kann auch eine obere Schranke eingestellt werde, sodass nur bei einer Spannung zwischen den Schranke eine 1 ausgegeben wird. Es ist auch einstellbar wie lange das Signal ausgegeben wird.
 
 \subsection{Analog-Digital-Konverter}
-Ein Analog-Digital-Konverter wandelt ein analoges Spannungssignal eine in digitales Spannungssignal um. Das Auflösungsvermögen wird in Bit angegeben, je größer die Anzahl der Bits ist des so kleinschrittiger kann das analoge Signal aufgelöst werden. Die Umsetzungsgeschwindigkeit gibt an, wie lange es dauert eine Änderung des analogen Signals in ein digitales Signal umzuwandeln. 
+Ein Analog-Digital-Konverter wandelt ein analoges Spannungssignal eine in digitales Spannungssignal um. Das Auflösungsvermögen wird in Bit angegeben, je größer die Anzahl der Bits ist des so kleinschrittiger kann das analoge Signal aufgelöst werden. Die Umsetzungsgeschwindigkeit gibt an, wie lange es dauert eine Änderung des analogen Signals zu digitalisieren. 
 
 \subsection{Delay}
 Da verschiedene Signale nahezu zeitgleich ankommen müssen, werden einzelne Signale mit einem Delay versehe, damit sie zeitgleich ankommen. Das Delay wird meistens über längere Kabel realisiert.
