@@ -1,0 +1,27 @@
+\subsection{Kanal-Zeit-Eichung}
+Für eine genaue Bestimmung der Lebensdauer von Myonen ist eine exakte Zeiteichung extrem wichtig. Für die Zeiteichung wird ein TAC, ein dual Timer und ein Oszilloskop verwendet. Der schematische Aufbau ist in Abbildung \ref{fig:kanal_zeit} zu sehen. 
+
+\begin{figure}[H]
+	\centering
+  \includegraphics[scale=0.5]{kanal_zeit.png}
+	\caption{Schematischer Aufbau für die Kanal-Zeit-Eichung}
+	\label{fig:kanal_zeit}
+\end{figure}
+
+Der dual Timer wird mit wir verwendet, um kurze Signale mit bekannter Länge zu erzeugen. Über die High und Lows des Signals wird der TAC gesteuert, wodurch eine Spannung in Abhängigkeit der Länge des Signals erzeugt wird. Das Signal wird verstärkt und mit dem ADC digitalisiert, damit es vom Mulit-Channel-Analyser verwertet werden kann. Durch variiren der Signallänge lassen sich die verschiedene Kanäle ansprechen, wodurch eine Beziehung zwischen einer Zeit und einem Kanal hergestellt wird. Die Zeitintervalle werden gegen die Kanäle aufgetragen und mit Gleichung \ref{eqn:kanal} gefittet. Die Parameter und Variablen des Fits sind in Tabelle \ref{tab:fit_kanal}
+
+\begin{align}
+\label{eqn:kanal}
+t = A*k+B
+\end{align}
+
+\begin{table}[H]
+	\caption{Parameter des Fits}
+	\label{tab:fit_kanal}
+	\begin{tabular}{c|l}
+	t & Zeitintervall \\ 
+	k & Kanal \\ 
+	A & Proportionalitätsfaktor \\ 
+	B & Offset \\ 
+	\end{tabular} 
+\end{table}
