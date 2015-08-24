@@ -1,20 +1,20 @@
 \subsubsection{Maximum Likelihood Methode}
 Um die mittlere Lebensdauer von Myonen zu bestimmen eignet sich die Maximum Likelihood Methode. Wie in Abschnitt 2.3 besprochen sind Zerfallszeiten mit Zeitunabhängiger Zerfallsrate exponentialverteilt, sodass sich die einparametrige Warscheinlichkeitsdichte
 \begin{align}
-P(t_i|\tau) = \frac{1}{\tau}\frac{e^{-\frac{t_i}{\tau}}}{e^{-\frac{T_1}{\tau}}-e^{-\frac{T_2}{\tau}}}
+P(t_i|\tau) = \frac{1}{\tau}\frac{e^{-\frac{t_i}{\tau}}}{1-e^{-\frac{T}{\tau}}}
 \end{align}
-ergibt. Da die Messung des Zeitintervalls nach oben und unten beschränkt ist, wurde die Warschenlichkeitsdichte normiert, wobei $T_1$ die untere Schranke und $T_2$ die obere Schranke der Zeitmessung ist. Es wird davon ausgegangen, dass die einzelnen Zeitmessungen unabhängig voneinander sind, sodass sich für die gesamte Messung die n-dimensionale Warscheinlichkeitsdichte
+ergibt. Da die Messung des Zeitintervalls nach oben und unten beschränkt ist, wurde die Warschenlichkeitsdichte normiert, wobei $T$ die obere Schranke der Zeitmessung ist. Es wird davon ausgegangen, dass die einzelnen Zeitmessungen unabhängig voneinander sind, sodass sich für die gesamte Messung die n-dimensionale Warscheinlichkeitsdichte
 \begin{align}
-L = \prod_{i=1}^N P(t_i|\tau) = \prod_{i=1}^N \frac{1}{\tau}\frac{e^{-\frac{t_i}{\tau}}}{e^{-\frac{T_1}{\tau}}-e^{-\frac{T_2}{\tau}}}
+L = \prod_{i=1}^N P(t_i|\tau) = \prod_{i=1}^N \frac{1}{\tau}\frac{e^{-\frac{t_i}{\tau}}}{1-e^{-\frac{T}{\tau}}}
 \end{align}
 ergibt. Es wird davon ausgegangen, dass die gemessenen Zerfallszeiten der wahrscheinlichsten Messung entsprechen, sodass die Messung einem Maximum der Warscheinlichkeitsdichtefunktion bezüglich $\tau$ entspricht. Um das Maximum von $L$ zu bestimmen betrachtet man die Funktion
 \begin{align}
-\ln{L} = \ln\left[\prod_{i=1}^N P(t_i|\tau)\right] = \sum_{i=1}^{N}\ln[P(t_i|\tau)] = -\left[\sum_{i=1}^{N}\ln(\tau) + \frac{t_i}{\tau} + \ln(e^{-\frac{T_1}{\tau}}-e^{-\frac{T_2}{\tau}})\right]
+\ln{L} = \ln\left[\prod_{i=1}^N P(t_i|\tau)\right] = \sum_{i=1}^{N}\ln[P(t_i|\tau)] = -\left[\sum_{i=1}^{N}\ln(\tau) + \frac{t_i}{\tau} + \ln(1-e^{-\frac{T}{\tau}})\right]
 \end{align}
 und bestimmt die Nullstelle der Ableitung nach $\tau$.
 Schließlich erhält man die beste Approximation für die Lebensdauer $\tau$:
 \begin{align}
-\hat{\tau} = \frac{1}{N}\sum_{i=1}^{N} t_i - \frac{T_1e^{-\frac{T_1}{\tau}}-T_2e^{-\frac{T_2}{\tau}}}{e^{-\frac{T_1}{\tau}}-e^{-\frac{T_2}{\tau}}}
+\hat{\tau} = \frac{1}{N}\sum_{i=1}^{N} t_i + \frac{Te^{-\frac{T}{\tau}}}{1-e^{-\frac{T}{\tau}}}
 \end{align}
 Da es nur M Kanäle und damit M mögliche Zeiten $t_k$ gibt, kann die erste Summe umgeschrieben werden,
 \begin{align}
@@ -23,9 +23,11 @@ Da es nur M Kanäle und damit M mögliche Zeiten $t_k$ gibt, kann die erste Summe 
 sodass der Fehler von $\hat{\tau}$ über den statistischen Fehler auf $N_k$, welcher $\sqrt{N_k}$ beträgt, bestimmt werden kann.
 Es ergibt sich also
 \begin{align}
-\hat{\tau} = \sum_{k=1}^{M} N_k t_k - \frac{T_1e^{-\frac{T_1}{\tau}}-T_2e^{-\frac{T_2}{\tau}}}{e^{-\frac{T_1}{\tau}}-e^{-\frac{T_2}{\tau}}}
+\hat{\tau} = \sum_{k=1}^{M} N_k t_k + \frac{Te^{-\frac{T}{\tau}}}{1-e^{-\frac{T}{\tau}}}
+\label{eqn:tau_rek}
 \end{align}
 mit einem Fehler von
 \begin{align}
 \Delta\hat{\tau} = \frac{1}{N}\sqrt{\sum_{k=1}^{M}N_kt_k^2}
 \end{align}
+Formel \ref{eqn:tau_rek} muss dabei rekursiv angewendet werden.
