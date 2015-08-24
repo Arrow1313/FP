@@ -30,4 +30,8 @@ mit einem Fehler von
 \begin{align}
 \Delta\hat{\tau} = \frac{1}{N}\sqrt{\sum_{k=1}^{M}N_kt_k^2}
 \end{align}
-Formel \ref{eqn:tau_rek} muss dabei rekursiv angewendet werden.
+Formel \ref{eqn:tau_rek} muss dabei rekursiv angewendet werden, da $\tau$ unbekannt ist.
+Als Startwert für $\tau$ kann das arithmetische Mittel verwendet werden:
+\begin{align}
+\tau_0 = \frac{1}{N}\sum_{k=1}^{M} N_k t_k
+\end{align}
