@@ -1,9 +1,35 @@
 \subsection{Hochspannung der Photomultiplier}
-Ein exaktes einstellen der Photomulitplier ist ist essenziell für eine gute Messung. Die Spannungen von PM1, PM2 und PM4 sollen dabei einen Wert von 2100 V nicht überschreiten. Der Arbeitspunkt von PM3 liegt im Bereich von 2600-2700 V. Für die Bestimmung des optimalen Arbeitspunktes wird die Schwelle des Diskriminators auf einen möglichst geringen Wert eingestellt. Es wird die die Zählrate in Abhängigkeit der Spannung untersucht und nach einem  Plateau im Bereich von 100 bis 1000 Counts/s gesucht, da sich der Photomulitplier dann am optimalen Arbeitspunkt befindet. Falls die Zählraten zu niedrig sind kann ein $^{60}Co$-Präparat verwendet werden, um die Zählrate zu erhöhen.
-
-Die aufgenommenen Spannungskennlinien sind in Abbildung ?? bis ?? zu sehen.
+Ein exaktes einstellen der Photomulitplier ist ist essenziell für eine gute Messung. Die Spannungen von PM2 und PM4 sollen dabei einen Wert von 2200 V nicht überschreiten. Die Spannung von PM1 soll 2000V nicht übersteigen. Der Arbeitspunkt von PM3 liegt im Bereich von 2700-3000 V, dabei soll ein Wert von 3000V nicht überschritten werden. Für die Bestimmung des optimalen Arbeitspunktes wird die Schwelle des Diskriminators auf einen möglichst geringen Wert eingestellt. Es wird der Logarithmus der Zählrate in Abhängigkeit der Spannung untersucht und nach dem Punkt, an dem die Steigung abknickt gesucht, da sich der Photomulitplier dann am optimalen Arbeitspunkt befindet. Da die Zählrate logarithmisch aufgetragen wird, wurde ein $^{60}Co$-Präparat verwendet, um die Zählrate zu erhöhen.
+Die aufgenommenen Spannungskennlinien sind in Abbildung \ref{fig:hoch_1} bis \ref{fig:hoch_4} zu sehen.
 
 %Auswertung der Spannungskennlinien, beschreibung der Plots
+\begin{figure}[H]
+	\centering
+  \includegraphics[scale=0.33]{pm_1_spannung.pdf}
+	\caption{Messung der Zählrate in Abhängigkeit der Spannung für die ersten Photomulipier. Es wurde ein $^{60}Co$-Präparat verwendet, um die Zählrate zu erhöhen. Der Abknick wurde bei einer Spannung von 1870V bestimmt.}
+	\label{fig:hoch_1}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+  \includegraphics[scale=0.33]{pm_2_spannung.pdf}
+	\caption{Messung der Zählrate in Abhängigkeit der Spannung für die zweiten Photomulipier. Es wurde ein $^{60}Co$-Präparat verwendet, um die Zählrate zu erhöhen. Der Abknick wurde bei einer Spannung von 2060V bestimmt.}
+	\label{fig:hoch_2}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+  \includegraphics[scale=0.33]{pm_3_spannung.pdf}
+	\caption{Messung der Zählrate in Abhängigkeit der Spannung für die dritten Photomulipier. Es wurde ein $^{60}Co$-Präparat verwendet, um die Zählrate zu erhöhen. Der Abknick wurde bei einer Spannung von 2750V bestimmt.}
+	\label{fig:hoch_3}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+  \includegraphics[scale=0.33]{pm_4_spannung.pdf}
+	\caption{Messung der Zählrate in Abhängigkeit der Spannung für die vierten Photomulipier. Es wurde ein $^{60}Co$-Präparat verwendet, um die Zählrate zu erhöhen. Der Abknick wurde bei einer Spannung von 2085V bestimmt.}
+	\label{fig:hoch_4}
+\end{figure}
 
 Die bestimmten Spannungen für die Photomulitplier sind in Tabelle \ref{tab:hochspannung} aufgetragen.
 
@@ -13,10 +39,10 @@ Die bestimmten Spannungen für die Photomulitplier sind in Tabelle \ref{tab:hochs
 \label{tab:hochspannung}
 \begin{tabular}{|c|c|}
 \hline Photomultiplier & Spannung[V] \\ \hline
-\hline PM1 &  \\ 
-\hline PM2 &  \\ 
-\hline PM3 &  \\ 
-\hline PM4 &  \\ 
+\hline PM1 & 1870 \\ 
+\hline PM2 & 2060 \\ 
+\hline PM3 & 2750 \\ 
+\hline PM4 & 2085 \\ 
 \hline 
 \end{tabular} 
 \end{table}
