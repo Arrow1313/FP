@@ -1,4 +1,4 @@
-#set yrange["0":"3"]
+set yrange["0":"3"]
 #set xrange["Zahl":"Zahl"]
 
 #set xlabel "1/U_A^{1/2}/(1/V^{1/2})" #achsenbeschriftung
@@ -21,17 +21,17 @@
 #set grid x #vertikales gitter
 
 #set sample 10000 #bessere auflösung
-#a=7.6
-#s= 1.45
-#m = 0.1
-#f(x) = a/((2*pi*s)**0.5)*exp(-((x-m)/s)**2/2) #funktionen definieren
-#fit f(x) "Probe.dat" using 1:2 via s,a,m #funktionen fitten
-#plot "Probe.dat" title "Messdaten", f(x) title "Regressionsgerade"#, "Beispiel2.dat" smooth csplines title "Messdaten mit csplines" #plotten von messdaten, regression, und #csplines
+a=7.6
+s= 1.45
+m = 0.1
+f(x) = a/((2*pi*s)**0.5)*exp(-((x-m)/s)**2/2) #funktionen definieren
+fit f(x) "Probe.dat" using 1:2 via s,a,m #funktionen fitten
+plot "Probe.dat" title "Messdaten", f(x) title "Regressionsgerade"#, "Beispiel2.dat" smooth csplines title "Messdaten mit csplines" #plotten von messdaten, regression, und csplines
 
-#set terminal postscript eps enhanced color font 'Helvetica,14' #ausgabeformat
-#set output "Beispiel.eps" #name des dokuments
-#replot #dokument plotten
-#!epstopdf Beispiel.eps #eps in pdf umwandeln
+set terminal postscript eps enhanced color font 'Helvetica,14' #ausgabeformat
+set output "Beispiel.eps" #name des dokuments
+replot #dokument plotten
+!epstopdf Beispiel.eps #eps in pdf umwandeln
 
 
 #A(x) = 2*(0.5+atan(x)/pi) #eingeschränkte funktion
