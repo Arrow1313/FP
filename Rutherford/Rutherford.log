@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.8.7)  28 AUG 2015 14:46
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.11.19)  28 AUG 2015 16:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -973,11 +973,22 @@ File: logo.png Graphic file (type png)
  <use logo.png>
 Package pdftex.def Info: logo.png used on input line 7.
 (pdftex.def)             Requested size: 362.77264pt x 114.27383pt.
- [1
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <24.88> on input line 16.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <20.74> on input line 16.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <17.28> on input line 16.
+
+Overfull \hbox (31.00671pt too wide) in paragraph at lines 41--47
+ [][] 
+ []
+
+[1
 
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./logo.png>]) (./Rutherfor
-d.toc)
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./logo.png>])
+(./Rutherford.toc)
 \tf@toc=\write4
 \openout4 = `Rutherford.toc'.
 
@@ -1001,8 +1012,6 @@ File: aufbau.png Graphic file (type png)
 Package pdftex.def Info: aufbau.png used on input line 15.
 (pdftex.def)             Requested size: 317.58087pt x 101.17621pt.
 ) (./rstreuung.tex [2 <./streukammer.png> <./aufbau.png>]) (./rueckstreuung.tex
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <17.28> on input line 1.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10> on input line 1.
 
@@ -1031,11 +1040,11 @@ Package rerunfilecheck Info: File `Rutherford.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 56.
  ) 
 Here is how much of TeX's memory you used:
- 17082 strings out of 493304
- 324086 string characters out of 6139872
+ 17098 strings out of 493304
+ 324360 string characters out of 6139870
  359156 words of memory out of 5000000
- 20236 multiletter control sequences out of 15000+600000
- 79654 words of font info for 65 fonts, out of 8000000 for 9000
+ 20252 multiletter control sequences out of 15000+600000
+ 93810 words of font info for 79 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  39i,9n,38p,10422b,741s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/en
@@ -1047,7 +1056,7 @@ i8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/font
 s/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb><
 /usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1
 /public/lm/lmsy8.pfb>
-Output written on Rutherford.pdf (5 pages, 306211 bytes).
+Output written on Rutherford.pdf (5 pages, 306475 bytes).
 PDF statistics:
  152 PDF objects out of 1000 (max. 8388607)
  130 compressed objects within 2 object streams
