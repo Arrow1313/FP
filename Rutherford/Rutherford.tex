@@ -1,0 +1,59 @@
+\documentclass[12pt,a4paper]{article}
+
+\usepackage[onehalfspacing]{setspace}
+\usepackage{natbib}
+ 
+\usepackage{float}
+%für feststellen der figures und tables [H] dranschreiben
+\usepackage{siunitx}
+%\SI{value}{unit commands} \SI{value}[pre-unit]{unit commands}
+%\usepackage{units}
+%wird so benutzt: 
+%\unit[value/Zahl]{dimension/Einheit} oder 
+%\unitfrac[value/Zahl]{dimension/Einheit num/Zähler}{dimension/Einheit denum/Nenner} oder
+%\nicefrac[fontcommand/Schriftart]{dimension/Einheit num/Zähler}{dimension/Einheit denum/Nenner}
+\usepackage{amssymb}
+\usepackage{caption}
+\usepackage{subcaption}
+
+\usepackage{hyperref}
+
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\usepackage[latin9]{inputenc}
+\usepackage[ngerman]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{textcomp}
+
+
+
+
+\begin{document}
+
+\include{deckblatt}
+
+\newpage
+\tableofcontents
+\newpage
+
+\bibliographystyle{plain}
+
+
+\input{einleitung}
+\input{theorie}
+\input{aufbau}
+\input{rstreuung}
+\input{rueckstreuung}
+\input{alu_kern}
+\input{reichweite_1}
+\input{energieverlust}
+\input{alu_papier}
+\input{fazit}
+
+
+
+\bibliography{ref}
+
+\end{document}

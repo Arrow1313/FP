@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.11.19)  29 AUG 2015 14:47
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.11.19)  29 AUG 2015 18:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**Myonen.tex
-(./Myonen.tex
+**Rutherford.tex
+(./Rutherford.tex
 LaTeX2e <2011/06/27>
 Babel <3.9h> and hyphenation patterns for 78 languages loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -792,31 +792,31 @@ Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 337.
 Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 338.
 Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 339.
 Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 340.
-) (./Myonen.aux
+) (./Rutherford.aux
 (./deckblatt.aux))
-\openout1 = `Myonen.aux'.
+\openout1 = `Rutherford.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 32.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 32.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 33.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 33.
  (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 32.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 33.
 
 (/usr/share/texmf/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -833,7 +833,7 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \AtBeginShipoutBox=\box52
-Package hyperref Info: Link coloring OFF on input line 32.
+Package hyperref Info: Link coloring OFF on input line 33.
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
@@ -842,13 +842,13 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count166
 )
-LaTeX Info: Redefining \ref on input line 32.
-LaTeX Info: Redefining \pageref on input line 32.
-LaTeX Info: Redefining \nameref on input line 32.
+LaTeX Info: Redefining \ref on input line 33.
+LaTeX Info: Redefining \pageref on input line 33.
+LaTeX Info: Redefining \nameref on input line 33.
 
-(./Myonen.out) (./Myonen.out)
+(./Rutherford.out) (./Rutherford.out)
 \@outlinefile=\write3
-\openout3 = `Myonen.out'.
+\openout3 = `Rutherford.out'.
 
 
 *geometry* driver: auto-detecting
@@ -914,52 +914,52 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \c__siunitx_mathsf_int=\count173
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 32.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 33.
 
 (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 32.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 33.
 
 (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 32.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 33.
 
 
 (/usr/share/texmf/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 32.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 33.
 
 
 (/usr/share/texmf/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 32.
+(Font)              <12> on input line 33.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 32.
+(Font)              <8> on input line 33.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 32.
-LaTeX Font Info:    Try loading font information for U+msa on input line 32.
+(Font)              <6> on input line 33.
+LaTeX Font Info:    Try loading font information for U+msa on input line 33.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 32.
+LaTeX Font Info:    Try loading font information for U+msb on input line 33.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for OT1+lmss on input line 32.
+LaTeX Font Info:    Try loading font information for OT1+lmss on input line 33.
 
 
 (/usr/share/texmf/tex/latex/lm/ot1lmss.fd
 File: ot1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 \c__siunitx_mathtt_int=\count174
-LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 32.
+LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 33.
 
 
 (/usr/share/texmf/tex/latex/lm/ot1lmtt.fd
@@ -968,43 +968,53 @@ File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 \openout2 = `deckblatt.aux'.
 
  (./deckblatt.tex
-<logo.png, id=100, 2007.5pt x 632.3625pt>
+<logo.png, id=60, 2007.5pt x 632.3625pt>
 File: logo.png Graphic file (type png)
  <use logo.png>
 Package pdftex.def Info: logo.png used on input line 7.
 (pdftex.def)             Requested size: 362.77264pt x 114.27383pt.
- [1
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <24.88> on input line 16.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <20.74> on input line 16.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <17.28> on input line 16.
+
+Overfull \hbox (31.00671pt too wide) in paragraph at lines 41--47
+ [][] 
+ []
+
+[1
 
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./logo.png>]) (./Myonen.to
-c)
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./logo.png>])
+(./Rutherford.toc)
 \tf@toc=\write4
-\openout4 = `Myonen.toc'.
+\openout4 = `Rutherford.toc'.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.38 \newpage
+l.39 \newpage
               [1
 
-] (./einleitung.tex) (./theorie.tex (./standartmodell.tex
-Underfull \hbox (badness 10000) in paragraph at lines 28--28
-[]|\T1/lmr/m/n/12 elektrische
- []
+] (./einleitung.tex) (./theorie.tex (./wirkungsquerschnitt.tex)) (./aufbau.tex 
+[2] <streukammer.png, id=109, 546.04pt x 384.43625pt>
+File: streukammer.png Graphic file (type png)
 
+<use streukammer.png>
+Package pdftex.def Info: streukammer.png used on input line 7.
+(pdftex.def)             Requested size: 218.41212pt x 153.77177pt.
+ <aufbau.png, id=110, 793.96625pt x 252.945pt>
+File: aufbau.png Graphic file (type png)
 
-Overfull \hbox (0.75677pt too wide) in paragraph at lines 28--28
-[]|\T1/lmr/m/n/12 Farbe| 
- []
-
-[2]) (./Zerfallskanaele.tex
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 1.
+<use aufbau.png>
+Package pdftex.def Info: aufbau.png used on input line 15.
+(pdftex.def)             Requested size: 317.58087pt x 101.17621pt.
+) (./rstreuung.tex) (./rueckstreuung.tex
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10> on input line 1.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 1.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
@@ -1012,88 +1022,45 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mu' on input line 1.
+(hyperref)                removing `\alpha' on input line 1.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 1.
 
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 1.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\pi' on input line 1.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 1.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 1.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 1.
-
-
-Overfull \hbox (31.70003pt too wide) in paragraph at lines 7--34
- [][] 
- []
-
-) (./lebensdauer.tex [3]) (./relativistisch.tex
-LaTeX Font Info:    Try loading font information for TS1+lmr on input line 2.
-
-(/usr/share/texmf/tex/latex/lm/ts1lmr.fd
-File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)) (./Bethe_Bloch.tex)
-(./Szintillationszaeler.tex)) (./aufbau.tex [4]
-<unterdruekung.png, id=183, 1085.05376pt x 611.28375pt>
-File: unterdruekung.png Graphic file (type png)
-
-<use unterdruekung.png>
-Package pdftex.def Info: unterdruekung.png used on input line 7.
-(pdftex.def)             Requested size: 434.01381pt x 244.50917pt.
- [5 <./unterdruekung.png>]) (./versuchsdurchfuehrung.tex (./hochspannung.tex [6
-]) (./schwellspannung.tex) (./Maximum_Likelihood.tex
-[7] [8]) (./Chisquare.tex)) (./auswertung.tex) (./diskussion.tex) (./fazit.tex)
-(./Myonen.bbl)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 55.
- [9]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 55.
- (./Myonen.aux (./deckblatt.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 55.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 55.
-Package rerunfilecheck Info: File `Myonen.out' has not changed.
-(rerunfilecheck)             Checksum: 53C87AB6563F00679425B6E1174BD3DA;1538.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 55.
+[3 <./streukammer.png> <./aufbau.png>]) (./alu_kern.tex) (./fazit.tex)
+(./Rutherford.bbl [4])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 56.
+ [5]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 56.
+ (./Rutherford.aux (./deckblatt.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 56.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 56.
+Package rerunfilecheck Info: File `Rutherford.out' has not changed.
+(rerunfilecheck)             Checksum: 2D6BA6A3A5964B9AF7A78B6B24AA29CE;842.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 56.
  ) 
 Here is how much of TeX's memory you used:
- 17226 strings out of 493304
- 326399 string characters out of 6139870
- 368425 words of memory out of 5000000
- 20302 multiletter control sequences out of 15000+600000
- 105077 words of font info for 85 fonts, out of 8000000 for 9000
+ 17130 strings out of 493304
+ 324736 string characters out of 6139870
+ 361171 words of memory out of 5000000
+ 20266 multiletter control sequences out of 15000+600000
+ 106815 words of font info for 88 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 39i,15n,44p,10418b,1010s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share/texmf/fonts/en
-c/dvips/lm/lm-ts1.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/
-share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/l
-m-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}</usr/share/texmf/f
-onts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10
-.pfb></usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts
-/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi6.pfb><
-/usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/
-public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/shar
-e/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/
-lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf
-/fonts/type1/public/lm/lmsy8.pfb>
-Output written on Myonen.pdf (10 pages, 427601 bytes).
+ 39i,10n,38p,10422b,829s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/en
+c/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/s
+hare/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texmf/fonts/type1/public/lm
+/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/tex
+mf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/public/lm/lmm
+i6.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/font
+s/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></
+usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf/fonts/type1/
+public/lm/lmsy8.pfb>
+Output written on Rutherford.pdf (6 pages, 315664 bytes).
 PDF statistics:
- 282 PDF objects out of 1000 (max. 8388607)
- 251 compressed objects within 3 object streams
- 56 named destinations out of 1000 (max. 500000)
- 203 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 169 PDF objects out of 1000 (max. 8388607)
+ 146 compressed objects within 2 object streams
+ 30 named destinations out of 1000 (max. 500000)
+ 128 words of extra memory for PDF output out of 10000 (max. 10000000)
 
