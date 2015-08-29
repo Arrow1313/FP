@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.11.19)  29 AUG 2015 02:45
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.11.19)  29 AUG 2015 18:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1000,13 +1000,13 @@ l.39 \newpage
               [1
 
 ] (./einleitung.tex) (./theorie.tex (./wirkungsquerschnitt.tex)) (./aufbau.tex 
-<streukammer.png, id=96, 546.04pt x 384.43625pt>
+[2] <streukammer.png, id=109, 546.04pt x 384.43625pt>
 File: streukammer.png Graphic file (type png)
 
 <use streukammer.png>
 Package pdftex.def Info: streukammer.png used on input line 7.
 (pdftex.def)             Requested size: 218.41212pt x 153.77177pt.
- [2] <aufbau.png, id=110, 793.96625pt x 252.945pt>
+ <aufbau.png, id=110, 793.96625pt x 252.945pt>
 File: aufbau.png Graphic file (type png)
 
 <use aufbau.png>
@@ -1041,26 +1041,26 @@ Package rerunfilecheck Info: File `Rutherford.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 56.
  ) 
 Here is how much of TeX's memory you used:
- 17113 strings out of 493304
- 324566 string characters out of 6139870
- 360171 words of memory out of 5000000
- 20256 multiletter control sequences out of 15000+600000
- 93810 words of font info for 79 fonts, out of 8000000 for 9000
+ 17130 strings out of 493304
+ 324736 string characters out of 6139870
+ 361171 words of memory out of 5000000
+ 20266 multiletter control sequences out of 15000+600000
+ 106815 words of font info for 88 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 39i,9n,38p,10422b,829s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/en
-c/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/s
+ 39i,10n,38p,10422b,829s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/en
+c/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/s
 hare/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texmf/fonts/type1/public/lm
 /lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/tex
 mf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/public/lm/lmm
 i6.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/font
 s/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></
 usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf/fonts/type1/
-public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb>
-Output written on Rutherford.pdf (6 pages, 317285 bytes).
+public/lm/lmsy8.pfb>
+Output written on Rutherford.pdf (6 pages, 315664 bytes).
 PDF statistics:
- 173 PDF objects out of 1000 (max. 8388607)
- 149 compressed objects within 2 object streams
+ 169 PDF objects out of 1000 (max. 8388607)
+ 146 compressed objects within 2 object streams
  30 named destinations out of 1000 (max. 500000)
  128 words of extra memory for PDF output out of 10000 (max. 10000000)
 
