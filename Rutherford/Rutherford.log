@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.11.19)  29 AUG 2015 20:57
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.11.19)  31 AUG 2015 07:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -972,7 +972,7 @@ File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 \openout2 = `deckblatt.aux'.
 
  (./deckblatt.tex
-<logo.png, id=104, 2007.5pt x 632.3625pt>
+<logo.png, id=108, 2007.5pt x 632.3625pt>
 File: logo.png Graphic file (type png)
  <use logo.png>
 Package pdftex.def Info: logo.png used on input line 7.
@@ -1024,20 +1024,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 1.
 
-[2]) (./rutherstreu.tex)) (./aufbau.tex
-<streukammer.png, id=166, 546.04pt x 384.43625pt>
-File: streukammer.png Graphic file (type png)
- <use streukammer.png>
-Package pdftex.def Info: streukammer.png used on input line 7.
-(pdftex.def)             Requested size: 218.41212pt x 153.77177pt.
-
-<aufbau.png, id=167, 793.96625pt x 252.945pt>
-File: aufbau.png Graphic file (type png)
- <use aufbau.png>
-Package pdftex.def Info: aufbau.png used on input line 15.
-(pdftex.def)             Requested size: 317.58087pt x 101.17621pt.
-)
-(./rstreuung.tex [3 <./streukammer.png>]) (./rueckstreuung.tex
+[2]) (./rutherstreu.tex) (./energieverlust2.tex
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 1.
@@ -1050,7 +1037,33 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 1.
 
-) (./alu_kern.tex [4 <./aufbau.png>]) (./reichweite_1.tex [5])
+[3])) (./aufbau.tex <streukammer.png, id=188, 546.04pt x 384.43625pt>
+File: streukammer.png Graphic file (type png)
+
+<use streukammer.png>
+Package pdftex.def Info: streukammer.png used on input line 7.
+(pdftex.def)             Requested size: 218.41212pt x 153.77177pt.
+ <aufbau.png, id=189, 793.96625pt x 252.945pt>
+File: aufbau.png Graphic file (type png)
+
+<use aufbau.png>
+Package pdftex.def Info: aufbau.png used on input line 15.
+(pdftex.def)             Requested size: 317.58087pt x 101.17621pt.
+) (./rstreuung.tex [4 <./streukammer.png>])
+(./rueckstreuung.tex
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\alpha' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1.
+
+) (./alu_kern.tex [5 <./aufbau.png>]) (./reichweite_1.tex [6])
 (./energieverlust.tex
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
@@ -1064,26 +1077,26 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 1.
 
-<zerfalls_reihe.png, id=191, 1446.40375pt x 239.89626pt>
+<zerfalls_reihe.png, id=212, 1446.40375pt x 239.89626pt>
 File: zerfalls_reihe.png Graphic file (type png)
 
 <use zerfalls_reihe.png>
 Package pdftex.def Info: zerfalls_reihe.png used on input line 11.
 (pdftex.def)             Requested size: 477.31471pt x 79.166pt.
-) (./alu_papier.tex [6 <./zerfalls_reihe.png>]
+) (./alu_papier.tex [7 <./zerfalls_reihe.png>]
 
-LaTeX Warning: Reference `sec:energieverlust' on page 7 undefined on input line
+LaTeX Warning: Reference `sec:energieverlust' on page 8 undefined on input line
  7.
 
 ) (./fazit.tex) (./Rutherford.bbl)
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 59.
- [7]
+ [8]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 59.
  (./Rutherford.aux (./deckblatt.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 59.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 59.
 Package rerunfilecheck Info: File `Rutherford.out' has not changed.
-(rerunfilecheck)             Checksum: A04AA8A38D17E810DAA9C31BC992AA30;1582.
+(rerunfilecheck)             Checksum: 6A12BA3B5C057A3642568F9313CA6264;1671.
 
 
 LaTeX Warning: There were undefined references.
@@ -1094,26 +1107,28 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 59.
  ) 
 Here is how much of TeX's memory you used:
- 17207 strings out of 493304
- 325835 string characters out of 6139870
- 362367 words of memory out of 5000000
- 20306 multiletter control sequences out of 15000+600000
- 120926 words of font info for 102 fonts, out of 8000000 for 9000
+ 17227 strings out of 493304
+ 326143 string characters out of 6139870
+ 364443 words of memory out of 5000000
+ 20315 multiletter control sequences out of 15000+600000
+ 125188 words of font info for 103 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  39i,10n,38p,10422b,754s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/en
-c/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/s
-hare/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texmf/fonts/type1/public/lm
-/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/tex
-mf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/public/lm/lmm
-i6.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/font
-s/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></
-usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf/fonts/type1/
-public/lm/lmsy8.pfb>
-Output written on Rutherford.pdf (8 pages, 370274 bytes).
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/en
+c/dvips/lm/lm-mathex.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/u
+sr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/l
+m/lm-ec.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texm
+f/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lme
+x10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fo
+nts/type1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb
+></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type
+1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/s
+hare/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/publi
+c/lm/lmsy8.pfb>
+Output written on Rutherford.pdf (9 pages, 386200 bytes).
 PDF statistics:
- 252 PDF objects out of 1000 (max. 8388607)
- 225 compressed objects within 3 object streams
- 48 named destinations out of 1000 (max. 500000)
- 221 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 281 PDF objects out of 1000 (max. 8388607)
+ 251 compressed objects within 3 object streams
+ 56 named destinations out of 1000 (max. 500000)
+ 229 words of extra memory for PDF output out of 10000 (max. 10000000)
 
