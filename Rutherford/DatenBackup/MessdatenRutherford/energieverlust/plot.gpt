@@ -1,0 +1,76 @@
+set xrange [2:]
+plot '100.csv' using 1:2 title '100.csv' with steps
+pause -1
+
+plot '125.csv' using 1:2 title '125.csv' with steps
+pause -1
+
+plot '150.csv' using 1:2 title '150.csv' with steps
+pause -1
+
+plot '175.csv' using 1:2 title '175.csv' with steps
+pause -1
+
+plot '200.csv' using 1:2 title '200.csv' with steps
+pause -1
+
+plot '225.csv' using 1:2 title '225.csv' with steps
+pause -1
+
+plot '250.csv' using 1:2 title '250.csv' with steps
+pause -1
+
+plot '275.csv' using 1:2 title '275.csv' with steps
+pause -1
+
+plot '300.csv' using 1:2 title '300.csv' with steps
+pause -1
+
+plot '325.csv' using 1:2 title '325.csv' with steps
+pause -1
+
+plot '350.csv' using 1:2 title '350.csv' with steps
+pause -1
+
+plot '375.csv' using 1:2 title '375.csv' with steps
+pause -1
+
+plot '400.csv' using 1:2 title '400.csv' with steps
+pause -1
+
+plot '425.csv' using 1:2 title '425.csv' with steps
+pause -1
+
+plot '450.csv' using 1:2 title '450.csv' with steps
+pause -1
+
+plot '475.csv' using 1:2 title '475.csv' with steps
+pause -1
+
+plot '500.csv' using 1:2 title '500.csv' with steps
+pause -1
+
+plot '525.csv' using 1:2 title '525.csv' with steps
+pause -1
+
+plot '550.csv' using 1:2 title '550.csv' with steps
+pause -1
+
+plot '575.csv' using 1:2 title '575.csv' with steps
+pause -1
+
+plot '600.csv' using 1:2 title '600.csv' with steps
+pause -1
+
+plot '625.csv' using 1:2 title '625.csv' with steps
+pause -1
+
+plot '650.csv' using 1:2 title '650.csv' with steps
+pause -1
+
+plot '675.csv' using 1:2 title '675.csv' with steps
+pause -1
+
+plot '700.csv' using 1:2 title '700.csv' with steps
+pause -1
+
