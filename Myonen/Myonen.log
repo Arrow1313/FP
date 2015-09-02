@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.11.19)  2 SEP 2015 21:32
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.11.19)  2 SEP 2015 22:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -968,7 +968,7 @@ File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 \openout2 = `deckblatt.aux'.
 
  (./deckblatt.tex
-<logo.png, id=108, 2007.5pt x 632.3625pt>
+<logo.png, id=104, 2007.5pt x 632.3625pt>
 File: logo.png Graphic file (type png)
  <use logo.png>
 Package pdftex.def Info: logo.png used on input line 7.
@@ -1043,13 +1043,13 @@ Overfull \hbox (31.70003pt too wide) in paragraph at lines 7--34
  [][] 
  []
 
-<Muon_Decay.png, id=173, 432.86719pt x 461.47406pt>
+<Muon_Decay.png, id=168, 432.86719pt x 461.47406pt>
 File: Muon_Decay.png Graphic file (type png)
  <use Muon_Decay.png>
 Package pdftex.def Info: Muon_Decay.png used on input line 39.
 (pdftex.def)             Requested size: 432.86612pt x 461.47292pt.
 
-[3] <cosmicray_.jpg, id=185, 1660.2025pt x 1185.42876pt>
+[3] <cosmicray_.jpg, id=181, 1660.2025pt x 1185.42876pt>
 File: cosmicray_.jpg Graphic file (type jpg)
  <use cosmicray_.jpg>
 Package pdftex.def Info: cosmicray_.jpg used on input line 46.
@@ -1066,7 +1066,7 @@ LaTeX Font Info:    Try loading font information for TS1+lmr on input line 2.
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) [5 <./cosmicray_.jpg>])
 (./Bethe_Bloch.tex) (./Szintillationszaeler.tex)) (./aufbau.tex
-<unterdruekung.png, id=204, 1085.05376pt x 611.28375pt>
+<unterdruekung.png, id=201, 1085.05376pt x 611.28375pt>
 File: unterdruekung.png Graphic file (type png)
 
 <use unterdruekung.png>
@@ -1074,19 +1074,19 @@ Package pdftex.def Info: unterdruekung.png used on input line 7.
 (pdftex.def)             Requested size: 434.01381pt x 244.50917pt.
  [6] [7 <./unterdruekung.png>])
 (./versuchsdurchfuehrung.tex (./hochspannung.tex
-<pm_1_spannung.pdf, id=219, 1445.4pt x 712.76285pt>
+<pm_1_spannung.pdf, id=216, 1445.4pt x 712.76285pt>
 File: pm_1_spannung.pdf Graphic file (type pdf)
  <use pm_1_spannung.pdf>
 Package pdftex.def Info: pm_1_spannung.pdf used on input line 8.
 (pdftex.def)             Requested size: 476.98347pt x 235.21246pt.
 
-[8] <pm_2_spannung.pdf, id=226, 1445.4pt x 712.76285pt>
+[8] <pm_2_spannung.pdf, id=223, 1445.4pt x 712.76285pt>
 File: pm_2_spannung.pdf Graphic file (type pdf)
 
 <use pm_2_spannung.pdf>
 Package pdftex.def Info: pm_2_spannung.pdf used on input line 15.
 (pdftex.def)             Requested size: 476.98347pt x 235.21246pt.
- <pm_3_spannung.pdf, id=227, 1445.4pt x 712.76285pt>
+ <pm_3_spannung.pdf, id=224, 1445.4pt x 712.76285pt>
 File: pm_3_spannung.pdf Graphic file (type pdf)
 
 <use pm_3_spannung.pdf>
@@ -1096,7 +1096,7 @@ Package pdftex.def Info: pm_3_spannung.pdf used on input line 22.
 
 pdfTeX warning: pdflatex (file ./pm_2_spannung.pdf): PDF inclusion: multiple pd
 fs with page group included in a single page
->] <pm_4_spannung.pdf, id=323, 1445.4pt x 712.76285pt>
+>] <pm_4_spannung.pdf, id=320, 1445.4pt x 712.76285pt>
 File: pm_4_spannung.pdf Graphic file (type pdf)
  <use pm_4_spannung.pdf>
 Package pdftex.def Info: pm_4_spannung.pdf used on input line 29.
@@ -1105,52 +1105,59 @@ Package pdftex.def Info: pm_4_spannung.pdf used on input line 29.
 
 pdfTeX warning: pdflatex (file ./pm_4_spannung.pdf): PDF inclusion: multiple pd
 fs with page group included in a single page
->]) (./delay.tex <delay_1.pdf, id=422, 1445.4pt x 712.76285pt>
+>]) (./delay.tex <delay_1.pdf, id=419, 1445.4pt x 712.76285pt>
 File: delay_1.pdf Graphic file (type pdf)
 
 <use delay_1.pdf>
 Package pdftex.def Info: delay_1.pdf used on input line 8.
 (pdftex.def)             Requested size: 476.98347pt x 235.21246pt.
- [11] <delay_2.pdf, id=429, 1445.4pt x 712.76285pt>
+ [11] <delay_2.pdf, id=426, 1445.4pt x 712.76285pt>
 File: delay_2.pdf Graphic file (type pdf)
 
 <use delay_2.pdf>
 Package pdftex.def Info: delay_2.pdf used on input line 16.
 (pdftex.def)             Requested size: 476.98347pt x 235.21246pt.
-) (./kanal_zeit.tex [12 <./delay_1.pdf> <./delay_2.pdf
+ <DelayPMT2.jpg, id=429, 2601.72pt x 1951.29pt>
+File: DelayPMT2.jpg Graphic file (type jpg)
+
+<use DelayPMT2.jpg>
+Package pdftex.def Info: DelayPMT2.jpg used on input line 38.
+(pdftex.def)             Requested size: 312.19293pt x 234.1447pt.
+ [12 <./delay_1.pdf> <./delay_2.pdf
 
 pdfTeX warning: pdflatex (file ./delay_2.pdf): PDF inclusion: multiple pdfs wit
 h page group included in a single page
->] <kanal_zeit.png, id=494, 725.71124pt x 422.57875pt>
+>]) (./kanal_zeit.tex <kanal_zeit.png, id=493, 725.71124pt x 422.57875pt>
 File: kanal_zeit.png Graphic file (type png)
- <use kanal_zeit.png>
+
+<use kanal_zeit.png>
 Package pdftex.def Info: kanal_zeit.png used on input line 6.
 (pdftex.def)             Requested size: 362.85474pt x 211.28885pt.
-
-[13 <./kanal_zeit.png>] <kanal_zeit.pdf, id=508, 1445.4pt x 712.76285pt>
+ [13 <./DelayPMT2.jpg> <./kanal_zeit.png>]
+<kanal_zeit.pdf, id=504, 1445.4pt x 712.76285pt>
 File: kanal_zeit.pdf Graphic file (type pdf)
-
-<use kanal_zeit.pdf>
+ <use kanal_zeit.pdf>
 Package pdftex.def Info: kanal_zeit.pdf used on input line 46.
 (pdftex.def)             Requested size: 476.98347pt x 235.21246pt.
-) (./Maximum_Likelihood.tex [14 <./kanal_zeit.pdf>])
-(./Chisquare.tex)) (./auswertung.tex) (./diskussion.tex) (./fazit.tex)
-(./Myonen.bbl [15])
+)
+(./Maximum_Likelihood.tex [14 <./kanal_zeit.pdf>] [15])) (./auswertung.tex)
+(./diskussion.tex) (./fazit.tex) (./Myonen.bbl)
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 55.
  [16]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 55.
- (./Myonen.aux (./deckblatt.aux))
+ (./Myonen.aux
+(./deckblatt.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 55.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 55.
 Package rerunfilecheck Info: File `Myonen.out' has not changed.
-(rerunfilecheck)             Checksum: 5C4257D2E270CF1632B8FFCA126F8DE0;1661.
+(rerunfilecheck)             Checksum: F63A1E37B14355422FA9676749F83704;1587.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 55.
  ) 
 Here is how much of TeX's memory you used:
- 17324 strings out of 493304
- 327968 string characters out of 6139870
- 369401 words of memory out of 5000000
- 20361 multiletter control sequences out of 15000+600000
+ 17330 strings out of 493304
+ 328116 string characters out of 6139870
+ 369477 words of memory out of 5000000
+ 20368 multiletter control sequences out of 15000+600000
  105077 words of font info for 85 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  39i,15n,44p,10418b,1010s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1166,10 +1173,10 @@ public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/shar
 e/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/
 lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf
 /fonts/type1/public/lm/lmsy8.pfb>
-Output written on Myonen.pdf (17 pages, 996793 bytes).
+Output written on Myonen.pdf (17 pages, 3505580 bytes).
 PDF statistics:
  632 PDF objects out of 1000 (max. 8388607)
- 355 compressed objects within 4 object streams
- 80 named destinations out of 1000 (max. 500000)
- 269 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 354 compressed objects within 4 object streams
+ 81 named destinations out of 1000 (max. 500000)
+ 266 words of extra memory for PDF output out of 10000 (max. 10000000)
 

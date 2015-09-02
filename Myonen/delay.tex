@@ -1,7 +1,7 @@
 \subsection{Delay}
 Da PM1, PM2 und PM4 sind über eine logische Einheit verbunden, welche den TAC startet. Deshalb muss sichergestellt werde, dass die Signale der drei Photomuliplier Zeitgleich ankommen. Die Zeitversetzung (Delay) der Signale wir über die Kabellänge der Photomuliplier zur logischen Einheit eingestellt.
 
-Es kann angenommen werde, das die Signale von PM3 und PM4 zur selben Zeit ankommen, deshalb kann das Signal von PM3 gut als Referenz für die ersten beiden verwendet werden. Für die Bestimmung des Delays werden PM1 (bzw. PM2) und PM3 an die logische Einheit angeschlossen, jedoch ohne ein Veto. Es wir erwartet, das sich ein Plateau ausbildet, das Delay in der Mitte des Plateaus ist die optimale Einstellung. Damit sich ein möglichst kleines Plateau ausbildet, müssen die Pulse der Diskriminatoren minimal sein. In Abbildung \ref{fig:delay_1} ist zu sehen, dass für den ersten Photomulipier kein eindeutiges Plateau identifiziert werden konnte. Deshalb wurde das Delay mit dem Oszilloskop bestimmt, dafür wurden die beide Signale beobachtet und das Delay so eingestellt, das sich die Signale überlappen. Für den ersten Photomuliplier wurde so ein Delay von 9ns bestimmt. In Abbildung \ref{fig:delay_2} ist sind die Messdaten für den zweiten Photomuliplier zu sehen. Im Bereich von 20 bis 28ns ist ein Plateau zu erkennen, das Delay wurde mit dem Wert (24ns) in der Mitte des Plateaus angenommen. Das Delay von 24ns für den zweiten Photomuliplier wurde zusätzlich noch mit dem Oszilloskop bestimmt und konnte so noch einmal bestätigt werden.
+Es kann angenommen werde, das die Signale von PM3 und PM4 zur selben Zeit ankommen, deshalb kann das Signal von PM3 gut als Referenz für die ersten beiden verwendet werden. Für die Bestimmung des Delays werden PM1 (bzw. PM2) und PM3 an die logische Einheit angeschlossen, jedoch ohne ein Veto. Es wir erwartet, das sich ein Plateau ausbildet, das Delay in der Mitte des Plateaus ist die optimale Einstellung. Damit sich ein möglichst kleines Plateau ausbildet, müssen die Pulse der Diskriminatoren minimal sein. In Abbildung \ref{fig:delay_1} ist zu sehen, dass für den ersten Photomulipier kein eindeutiges Plateau identifiziert werden konnte. Deshalb wurde das Delay mit dem Oszilloskop bestimmt, dafür wurden die beide Signale beobachtet und das Delay so eingestellt, das sich die Signale überlappen. Für den ersten Photomuliplier wurde so ein Delay von 9ns bestimmt. In Abbildung \ref{fig:delay_2} sind die Messdaten für den zweiten Photomuliplier zu sehen. Im Bereich von 20 bis 28ns ist ein Plateau zu erkennen, das Delay wurde mit dem Wert (24ns) in der Mitte des Plateaus angenommen. Das Delay von 24ns für den zweiten Photomuliplier wurde zusätzlich noch mit dem Oszilloskop bestimmt und konnte so noch einmal bestätigt werden.
 
 \begin{figure}[H]
 	\centering
@@ -14,7 +14,7 @@ Es kann angenommen werde, das die Signale von PM3 und PM4 zur selben Zeit ankomm
 \begin{figure}[H]
 	\centering
   \includegraphics[scale=0.33]{delay_2.pdf}
-		\caption{Counts in Abhängigkeit vom Delay für die ersten Photomuliplier, es ist im Bereich von 20 bis 28 ns zu erkennen. Das Delay wurde mit 24 ns, in der Mitte des Plateaus angenommen, dieser Wert wurde mit den Oszilloskop zusätzlich verifiziert.}
+		\caption{Counts in Abhängigkeit vom Delay für die ersten Photomuliplier, es ist im Bereich von 20 bis 28 ns zu erkennen. Das Delay wurde mit 24 ns, in der Mitte des Plateaus angenommen, dieser Wert wurde mit dem Oszilloskop zusätzlich verifiziert.}
 	\label{fig:delay_2}
 \end{figure}
 
@@ -32,3 +32,10 @@ Es ergeben sich die Delays in Tabelle \ref{tab:delay}.
 	\end{tabular} 
 \end{table}
 
+Das Oszilloskopbild Abb. \ref{PMT2Delay} zeigt, dass die Signale beim zweiten Photomultiplier übereinander liegen. Auffällig war, dass trotz Abschlusswiderstand verschobene Signale angezeigt wurden, die eigentlich nicht zu sehen sein sollten.
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.12]{DelayPMT2}
+\caption{Oszilloskopbild Delay PMT 2}
+\label{PMT2Delay}
+\end{figure}
