@@ -1,0 +1,10 @@
+set xrange [2:]
+plot 'alu.csv' using 1:2 title 'alu.csv' with steps
+pause -1
+
+plot 'biebel.csv' using 1:2 title 'biebel.csv' with steps
+pause -1
+
+plot 'papier.csv' using 1:2 title 'papier.csv' with steps
+pause -1
+
