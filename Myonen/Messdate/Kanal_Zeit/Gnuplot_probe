@@ -1,0 +1,38 @@
+#set yrange["0":"3"]
+#set xrange["Zahl":"Zahl"]
+
+set xlabel "Kanal" #achsenbeschriftung
+set ylabel "Zeit/{/Symbol m}s"
+
+#set mxtics 5 #nicht beschriftete striche an den achsen
+#set mytics 5
+#set ytics 1 #beschriftete striche an den achsen
+#set xtics 1
+
+#set key left top #position der legende
+
+#set style fill solid border 3 #fillstyle für z.b. ein histogramm
+#binwidth=0.08 #breite der bins beim histogramm
+#set boxwidth 0.5*binKanal Pulsbreite[mu s]  err_pulswidth absolute #breite der säulen im vergleich zu den bins
+#bin(x,width)=width*floor(x/width) + binwidth/2.0 #funktion für bins
+#plot "Beispiel.dat" u (bin($1,binwidth)):(1.0) notitle smooth freq with boxes #histogramm plotten
+#set grid y #horizontales gitter
+#set grid x #vertikales gitter
+
+#set sample 10000 #bessere auflösung
+A(x) = 1*(0.5+atan(x)/pi)
+b=1
+#s= 1.45
+#m = 0.1
+f(x) = A(b)*(12.59-0.210)/(5937-44)*x #funktionen definieren
+fit f(x) "kalib.dat" using 2:1:(5*$3) via b#funktionen fitten
+plot "kalib.dat" with yerrorbar title "Messdaten", f(x) title "Regressionsgerade"#, "Beispiel2.dat" smooth csplines title "Messdaten mit csplines" #plotten von messdaten, regression, und #csplines
+
+set terminal postscript eps enhanced color font 'Helvetica,14' #ausgabeformat
+set output "Beispiel.eps" #name des dokuments
+replot #dokument plotten
+!epstopdf Beispiel.eps #eps in pdf umwandeln
+
+
+#A(x) = 2*(0.5+atan(x)/pi) #eingeschränkte funktion
+#f(x) = A(a)*cos(x)+c #amplitude beschränken
