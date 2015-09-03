@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.11.19)  24 AUG 2015 09:29
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.11.19)  3 SEP 2015 10:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1010,7 +1010,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (./Detektoren.tex [2 <./Bragg.pdf>])) (./messung_der_emissionsspektrums.tex
 (./versuchsdurchfuehrung.tex [3]
 
-Package natbib Warning: Citation `si_a' on page 4 undefined on input line 13.
+Package natbib Warning: Citation `si_a' on page 4 undefined on input line 12.
 
 [4]) (./auswertung_1.tex
 
@@ -1063,7 +1063,7 @@ re/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm
 /lmr7.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fo
 nts/type1/public/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.p
 fb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb>
-Output written on roentgen.pdf (10 pages, 320759 bytes).
+Output written on roentgen.pdf (10 pages, 320757 bytes).
 PDF statistics:
  269 PDF objects out of 1000 (max. 8388607)
  228 compressed objects within 3 object streams

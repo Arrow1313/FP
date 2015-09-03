@@ -6,3 +6,12 @@
 %bei jedem fit erklären, nach welchem zusammenhang gefittet wurde und warum!
 %bei plots darauf achten, dass die achsenbeschriftung (auch die tics) die richtige größe haben und die legende im plot nicht die messwerte verdeckt
 %kurz die aufgabenstellung abgehandeln
+Die gemessenen Daten werden in von Abb. \ref{fig:Kanal_Einträge_Fehler_Plot} dargestellt.
+\begin{figure}[H]
+\centering
+\includegraphics[scale = 0.35]{Kanal_Eintraege_Fehler_Plot}
+\caption{Plot der Einträge gegen die Kanäle}
+\label{fig:Kanal_Einträge_Fehler_Plot}
+\end{figure}
+Die ersten 17 Kanäle sind dabei wegen starkem Rauschen unbrauchbar.
+Die mittlere Lebensdauer soll nun mit der Maximum Likelihood Methode bestimmt werden. Dafür wurde ein Programm in Python geschrieben, welches $\tau$ (= mittlere Lebensdauer) iterativ mittels Formel \ref{eqn:tau_rek} rekursiv bestimmt. Als Startwert wird der Mittelwert (Formel \ref{eqn:startwert}) verwendet. Der Python-Code kann im Anhang nachvollzogen werden.
