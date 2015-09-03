@@ -13,5 +13,15 @@ Die gemessenen Daten werden in von Abb. \ref{fig:Kanal_Einträge_Fehler_Plot} dar
 \caption{Plot der Einträge gegen die Kanäle}
 \label{fig:Kanal_Einträge_Fehler_Plot}
 \end{figure}
-Die ersten 17 Kanäle sind dabei wegen starkem Rauschen unbrauchbar.
-Die mittlere Lebensdauer soll nun mit der Maximum Likelihood Methode bestimmt werden. Dafür wurde ein Programm in Python geschrieben, welches $\tau$ (= mittlere Lebensdauer) iterativ mittels Formel \ref{eqn:tau_rek} rekursiv bestimmt. Als Startwert wird der Mittelwert (Formel \ref{eqn:startwert}) verwendet. Der Python-Code kann im Anhang nachvollzogen werden.
+Die ersten 17 Kanäle sind dabei wegen starkem Rauschen unbrauchbar. Die mittlere Lebensdauer soll nun mit der Maximum Likelihood Methode bestimmt werden. Dafür wurde ein Programm in Python geschrieben, welches $\tau$ (= mittlere Lebensdauer) iterativ mittels Formel \ref{eqn:tau_rek} rekursiv bestimmt. Als Startwert wird der Mittelwert (Formel \ref{eqn:startwert}) verwendet. Der Python-Code kann im Anhang nachvollzogen werden. Die Iteration wurde für beide Kanal-Zeit-Eichungen durchgeführt. Die Ergebnisse sind in Tabelle \ref{tab:maximum_likelihood_iteration} dargestellt.
+\begin{table}[H]
+\centering
+\caption{Iteration für $\hat{\tau}$}
+\begin{tabular}{|c|c|c|c|c|}
+\hline $f(k)$ Kanal-Zeit & $\tau_0/\mu s$ & Iterationsschritte & $\hat{\tau}$ & $\Delta\hat{\tau}/\mu s$ \\ 
+\hline $A*k+B$ & 2.93 & 16 & 2.98 & 0.15 \\ 
+\hline $A*k$ & 2.85 & 15 & 2.89 & 0.15 \\ 
+\hline 
+\end{tabular} 
+\label{tab:maximum_likelihood_iteration}
+\end{table}

@@ -1,6 +1,6 @@
+\newpage
 \section{Anhang}
-Der Python-Code zur Bestimmung der mittleren Lebensdauer von Myonen ist im folgenden dargestellt.
-\begin{figure}[H]
+Der Python-Code zur Bestimmung der mittleren Lebensdauer von Myonen und dessen Fehler, nach Formel \ref{eqn:tau_err}, ist im folgenden dargestellt.
 \begin{framed}
 \begin{lstlisting}
 import numpy as np
@@ -13,9 +13,10 @@ Kanal_Einträge_Fehler = np.array(
     pd.read_csv('Kanal_Einträge_Fehler.dat',
                 skiprows= Kanalskip, sep = ' ')).T
 A= [0.002106, 0.002136]
-B= [0.12, 0]
+B= [0.126, 0]
 mu = []
 T = []
+mu_err = []
 
 print(Kanal_Einträge_Fehler.T)
 print(len(Kanal_Einträge_Fehler[0]))
@@ -25,13 +26,20 @@ def arith_mittel(N_k,t_k):
     mu = 1/np.sum(N_k)*np.sum(N_k*t_k)
     return mu
 
+def fehler_tau(N_k,t_k):
+    mu = 1/np.sum(N_k)*np.sqrt(np.sum(N_k*t_k**2))
+    return mu
+
 for i in range (len(A)):
     mu.append(arith_mittel(
         Kanal_Einträge_Fehler[1],
         (A[i]*(Kanal_Einträge_Fehler[0]-Kanalskip)+B[i])*10**(-6)))
+    mu_err.append(fehler_tau(
+        Kanal_Einträge_Fehler[1],
+        (A[i]*(Kanal_Einträge_Fehler[0]-Kanalskip)+B[i])*10**(-6)))
     T.append((A[i]*(
         Kanal_Einträge_Fehler[0][-1]-Kanalskip)+B[i])*10**(-6))
-print(mu, T)
+print(mu, mu_err, T)
 
 def tau_iter(T,mu_iter_1, mu,a=0):
     a += 1
@@ -47,4 +55,3 @@ for i in range (len(mu)):
     print(T[i]*np.exp(-T[i]/tau)/(1-np.exp(-T[i]/tau)))
 \end{lstlisting}
 \end{framed}
-\end{figure}
