@@ -25,8 +25,8 @@ b=1
 #s= 1.45
 #m = 0.1
 f(x) = A(b)*(12.59-0.210)/(5937-44)*x #funktionen definieren
-fit f(x) "kalib.dat" using 2:1:(5*$3) via b#funktionen fitten
-plot "kalib.dat" with yerrorbar title "Messdaten", f(x) title "Regressionsgerade"#, "Beispiel2.dat" smooth csplines title "Messdaten mit csplines" #plotten von messdaten, regression, und #csplines
+fit f(x) "kalib2.dat" using 2:1:(5*$3) via b#funktionen fitten
+plot "kalib2.dat" with yerrorbar title "Messdaten", f(x) title "Regressionsgerade"#, "Beispiel2.dat" smooth csplines title "Messdaten mit csplines" #plotten von messdaten, regression, und #csplines
 
 set terminal postscript eps enhanced color font 'Helvetica,14' #ausgabeformat
 set output "Beispiel.eps" #name des dokuments
