@@ -6,22 +6,23 @@
 %bei jedem fit erklären, nach welchem zusammenhang gefittet wurde und warum!
 %bei plots darauf achten, dass die achsenbeschriftung (auch die tics) die richtige größe haben und die legende im plot nicht die messwerte verdeckt
 %kurz die aufgabenstellung abgehandeln
-Die gemessenen Daten werden in von Abb. \ref{fig:Kanal_Einträge_Fehler_Plot} dargestellt.
+Die gemessenen Daten werden in Abb. \ref{fig:Kanal_Einträge_Fehler_Plot} dargestellt.
 \begin{figure}[H]
 \centering
 \includegraphics[scale = 0.35]{Kanal_Eintraege_Fehler_Plot}
-\caption{Plot der Einträge gegen die Kanäle}
+\caption{Plot der Einträge gegen die Kanäle ab Channel 18}
 \label{fig:Kanal_Einträge_Fehler_Plot}
 \end{figure}
-Die ersten 17 Kanäle sind dabei wegen starkem Rauschen unbrauchbar. Die mittlere Lebensdauer soll nun mit der Maximum Likelihood Methode bestimmt werden. Dafür wurde ein Programm in Python geschrieben, welches $\tau$ (= mittlere Lebensdauer) iterativ mittels Formel \ref{eqn:tau_rek} rekursiv bestimmt. Als Startwert wird der Mittelwert (Formel \ref{eqn:startwert}) verwendet. Der Python-Code kann im Anhang nachvollzogen werden. Die Iteration wurde für beide Kanal-Zeit-Eichungen durchgeführt. Die Ergebnisse sind in Tabelle \ref{tab:maximum_likelihood_iteration} dargestellt.
+Die ersten 17 Kanäle sind dabei wegen starkem Rauschen unbrauchbar und wurden deshalb weggelassen. Die mittlere Lebensdauer soll nun mit der Maximum Likelihood Methode bestimmt werden. Dafür wurde ein Programm in Python geschrieben, welches $\tau$ (= mittlere Lebensdauer) iterativ mittels Formel \ref{eqn:tau_rek} rekursiv bestimmt. Als Startwert wird der Mittelwert (Formel \ref{eqn:startwert}) verwendet. Der Python-Code kann im Anhang nachvollzogen werden. Die Iteration wurde für beide Kanal-Zeit-Eichungen durchgeführt und wurde nach Konvergenz in der 24. Nachkommastelle abgebrochen. Die Ergebnisse sind in Tabelle \ref{tab:maximum_likelihood_iteration} dargestellt.
 \begin{table}[H]
 \centering
 \caption{Iteration für $\hat{\tau}$}
 \begin{tabular}{|c|c|c|c|c|}
-\hline $f(k)$ Kanal-Zeit & $\tau_0/\mu s$ & Iterationsschritte & $\hat{\tau}$ & $\Delta\hat{\tau}/\mu s$ \\ 
+\hline $f(k)$ Kanal-Zeit & $\tau_0/\mu s$ & Iterationsschritte & $\hat{\tau}/\mu s$ & $\Delta\hat{\tau}/\mu s$ \\ 
 \hline $A*k+B$ & 2.93 & 16 & 2.98 & 0.15 \\ 
 \hline $A*k$ & 2.85 & 15 & 2.89 & 0.15 \\ 
 \hline 
 \end{tabular} 
 \label{tab:maximum_likelihood_iteration}
 \end{table}
+Man sieht sofort, dass die Iteration nach wenigen Schritten konvergiert, wobei die bestimmten Lebensdauern im Vergleich zum Literaturwert $\tau_{lit} = \SI{2,1969811(22)}{$\mu$s}$ (vgl. \cite{wiki_myon}) zu groß sind. Aufgrund der geringen statistischen Fehler auf die Zeiten $t_k$ und $T$, wurden diese nicht in die Berechnung des Gesamtfehlers für $\hat{\tau}$ mit einbezogen.
