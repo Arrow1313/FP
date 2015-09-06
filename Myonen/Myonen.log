@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.11.19)  6 SEP 2015 13:59
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.8.7)  6 SEP 2015 23:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1202,7 +1202,7 @@ pdfTeX warning: pdflatex (file ./Disk_3.pdf): PDF inclusion: multiple pdfs with
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    n
-l.31 ...nm,scale = 0.5,clip]{Cobalt60_Zerfall.pdf}
+l.31 ...m,scale = 0.5, clip]{Cobalt60_Zerfall.pdf}
                                                   
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -1302,7 +1302,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 71.
  ) 
 Here is how much of TeX's memory you used:
  19436 strings out of 493304
- 355868 string characters out of 6139870
+ 355868 string characters out of 6139872
  429356 words of memory out of 5000000
  22366 multiletter control sequences out of 15000+600000
  105714 words of font info for 87 fonts, out of 8000000 for 9000
@@ -1321,7 +1321,7 @@ e/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/
 lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf
 /fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10
 .pfb>
-Output written on Myonen.pdf (26 pages, 3721055 bytes).
+Output written on Myonen.pdf (26 pages, 3721112 bytes).
 PDF statistics:
  1057 PDF objects out of 1200 (max. 8388607)
  531 compressed objects within 6 object streams
