@@ -106,7 +106,7 @@ Dabei ergibt sich der Fehler nach Gl. \ref{eqn:delta_verlust} bestimmt
 
 \begin{align}
 \label{eqn:delta_verlust}
-\Delta \frac{dE}{dx} = \sqrt{\left( \frac{\Delta E}{dx} \right)^2 + \left( \frac{\Delta dx \cdot dE}{dx^2} \right)^2 }
+\Delta \frac{dE}{dx} = \sqrt{\left( \frac{\Delta dE}{dx} \right)^2 + \left( \frac{\Delta dx \cdot dE}{dx^2} \right)^2 }
 \end{align}
 
 Die Wegdifferenz wurde mit Gleichung \ref{eqn:reich_normal} bestimmte, dabei P$_{normal}$ = 760 Torr und x$_{normal}$ = 6 cm. Die Energie wurde mit Gl. \ref{eqn:energie-kanal} bestimmt. Die Energie wurde über den Mittelwert bestimmt, Gl. \ref{eqn:e_mittel} der Fehler ist in Gl. \ref{eqn:delta_e_mittel} angegeben.
@@ -121,7 +121,7 @@ Die Wegdifferenz wurde mit Gleichung \ref{eqn:reich_normal} bestimmte, dabei P$_
 \Delta \bar{E} = \sqrt{ \left( \frac{\Delta E_1}{2} \right)^2 + \left( \frac{\Delta E_2}{2} \right)^2}
 \end{align}
 
-Die bestimmten Peakpositonen in abhängigkeit vom Druck sind in Tabelle ?? aufgetragen. Trägt man nun $\frac{dE}{dx}$ gegen $dE$ auf erwartet man das von der Bethe-Bloch-Formel beschriebenen Verhalten. Die Bethe-Bloch-Formel ist in Gleichung \ref{eqn:bethe-bloch} beschrieben, da nur der Verlauf der Daten von intresse ist und nicht die Werte der einzelnen Parameter, können die Messdaten mit einem Vereinfachten Modell, Gl. \ref{eqn:bethe-bloch-einfach} gefittet werden. Dabei wird ein linearer Zusammenhang zwischen der Energie und dem Geschwindigkeitsquadrat der Teilchen angenommen ($E_{kin} \sim v^2$).
+Die bestimmten Peakpositonen in Abhängigkeit vom Druck sind in Tabelle \ref{tab:multi-fit-erg} aufgetragen. Trägt man nun $\frac{dE}{dx}$ gegen $dE$ auf erwartet man das von der Bethe-Bloch-Formel beschriebenen Verhalten. Die Bethe-Bloch-Formel ist in Gleichung \ref{eqn:bethe-bloch} beschrieben, da nur der Verlauf der Daten von intresse ist und nicht die Werte der einzelnen Parameter, können die Messdaten mit einem Vereinfachten Modell, Gl. \ref{eqn:bethe-bloch-einfach} gefittet werden. Dabei wird ein linearer Zusammenhang zwischen der Energie und dem Geschwindigkeitsquadrat der Teilchen angenommen ($E_{kin} \sim v^2$).
 
 \begin{align}
 \label{eqn:bethe-bloch-einfach}
@@ -205,7 +205,7 @@ In Abb. \ref{fig:bethe_4} ist $\frac{dE}{dx}$ gegen $dE$ für den 7,69 MeV Peak a
 \begin{table}[H]
 \centering
 \caption{Fitwerte für den 7,69 MeV Peak nach Gl. \ref{eqn:bethe-bloch-einfach}}
-\label{tab:bethe_fit_3}
+\label{tab:bethe_fit_4}
 \begin{tabular}{|c|c|}
 \hline Parameter & Wert \\ 
 \hline A & 2,3 $\pm$ 0,2 \\ 

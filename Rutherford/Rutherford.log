@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.11.19)  7 SEP 2015 18:22
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.11.19)  7 SEP 2015 18:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -793,11 +793,7 @@ Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 338.
 Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 339.
 Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 340.
 ) (./Rutherford.aux
-(./deckblatt.aux)
-
-LaTeX Warning: Label `tab:bethe_fit_3' multiply defined.
-
-)
+(./deckblatt.aux))
 \openout1 = `Rutherford.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
@@ -1151,7 +1147,7 @@ Overfull \hbox (17.13579pt too wide) in paragraph at lines 70--71
  []
 
 [13 <./multi_fit.pdf>] [14 <./linear_fit.pdf>]
-<bethebloch_1.pdf, id=529, 1517.67pt x 870.85347pt>
+<bethebloch_1.pdf, id=530, 1517.67pt x 870.85347pt>
 File: bethebloch_1.pdf Graphic file (type pdf)
  <use bethebloch_1.pdf>
 Package pdftex.def Info: bethebloch_1.pdf used on input line 148.
@@ -1161,7 +1157,7 @@ Overfull \hbox (17.13579pt too wide) in paragraph at lines 148--149
  [][] 
  []
 
-[15] <bethebloch_2.pdf, id=550, 1517.67pt x 870.85347pt>
+[15] <bethebloch_2.pdf, id=552, 1517.67pt x 870.85347pt>
 File: bethebloch_2.pdf Graphic file (type pdf)
 
 <use bethebloch_2.pdf>
@@ -1172,7 +1168,7 @@ Overfull \hbox (17.13579pt too wide) in paragraph at lines 171--172
  [][] 
  []
 
-[16 <./bethebloch_1.pdf>] <bethebloch_3.pdf, id=615, 1517.67pt x 870.85347pt>
+[16 <./bethebloch_1.pdf>] <bethebloch_3.pdf, id=617, 1517.67pt x 870.85347pt>
 File: bethebloch_3.pdf Graphic file (type pdf)
 
 <use bethebloch_3.pdf>
@@ -1183,14 +1179,10 @@ Overfull \hbox (17.13579pt too wide) in paragraph at lines 196--197
  [][] 
  []
 
-[17 <./bethebloch_2.pdf>]
-
-LaTeX Warning: Reference `tab:bethe_fit_4' on page 18 undefined on input line 2
-03.
-
-<bethebloch_4.pdf, id=685, 1517.67pt x 870.85347pt>
+[17 <./bethebloch_2.pdf>] <bethebloch_4.pdf, id=687, 1517.67pt x 870.85347pt>
 File: bethebloch_4.pdf Graphic file (type pdf)
- <use bethebloch_4.pdf>
+
+<use bethebloch_4.pdf>
 Package pdftex.def Info: bethebloch_4.pdf used on input line 220.
 (pdftex.def)             Requested size: 500.83266pt x 287.38252pt.
 
@@ -1198,7 +1190,7 @@ Overfull \hbox (17.13579pt too wide) in paragraph at lines 220--221
  [][] 
  []
 
-[18 <./bethebloch_3.pdf>] <bragg_kurve_1.pdf, id=754, 1517.67pt x 870.85347pt>
+[18 <./bethebloch_3.pdf>] <bragg_kurve_1.pdf, id=757, 1517.67pt x 870.85347pt>
 File: bragg_kurve_1.pdf Graphic file (type pdf)
 
 <use bragg_kurve_1.pdf>
@@ -1209,7 +1201,7 @@ Overfull \hbox (17.13579pt too wide) in paragraph at lines 237--238
  [][] 
  []
 
-[19 <./bethebloch_4.pdf>] <bragg_kurve_2.pdf, id=817, 1517.67pt x 870.85347pt>
+[19 <./bethebloch_4.pdf>] <bragg_kurve_2.pdf, id=820, 1517.67pt x 870.85347pt>
 File: bragg_kurve_2.pdf Graphic file (type pdf)
 
 <use bragg_kurve_2.pdf>
@@ -1220,7 +1212,7 @@ Overfull \hbox (17.13579pt too wide) in paragraph at lines 247--248
  [][] 
  []
 
-<bragg_kurve_3.pdf, id=819, 1517.67pt x 870.85347pt>
+<bragg_kurve_3.pdf, id=822, 1517.67pt x 870.85347pt>
 File: bragg_kurve_3.pdf Graphic file (type pdf)
  <use bragg_kurve_3.pdf>
 Package pdftex.def Info: bragg_kurve_3.pdf used on input line 257.
@@ -1234,7 +1226,7 @@ Overfull \hbox (17.13579pt too wide) in paragraph at lines 257--258
 
 pdfTeX warning: pdflatex (file ./bragg_kurve_2.pdf): PDF inclusion: multiple pd
 fs with page group included in a single page
->] <bragg_kurve_4.pdf, id=922, 1517.67pt x 870.85347pt>
+>] <bragg_kurve_4.pdf, id=925, 1517.67pt x 870.85347pt>
 File: bragg_kurve_4.pdf Graphic file (type pdf)
 
 <use bragg_kurve_4.pdf>
@@ -1249,25 +1241,25 @@ Overfull \hbox (17.13579pt too wide) in paragraph at lines 268--269
 
 pdfTeX warning: pdflatex (file ./bragg_kurve_4.pdf): PDF inclusion: multiple pd
 fs with page group included in a single page
->] <ab_alu.pdf, id=1028, 2312.64pt x 875.37035pt>
+>] <ab_alu.pdf, id=1031, 1517.67pt x 870.85347pt>
 File: ab_alu.pdf Graphic file (type pdf)
  <use ab_alu.pdf>
 Package pdftex.def Info: ab_alu.pdf used on input line 16.
-(pdftex.def)             Requested size: 462.5198pt x 175.07097pt.
+(pdftex.def)             Requested size: 303.52863pt x 174.1676pt.
 
-<ab_papier.pdf, id=1029, 2312.64pt x 875.37035pt>
+<ab_papier.pdf, id=1032, 1517.67pt x 870.85347pt>
 File: ab_papier.pdf Graphic file (type pdf)
  <use ab_papier.pdf>
 Package pdftex.def Info: ab_papier.pdf used on input line 23.
-(pdftex.def)             Requested size: 462.5198pt x 175.07097pt.
- [22 <./ab_alu.pdf>] <ab_biebel.pdf, id=1067, 1517.67pt x 870.85347pt>
+(pdftex.def)             Requested size: 303.52863pt x 174.1676pt.
+ [22 <./ab_alu.pdf>] <ab_biebel.pdf, id=1070, 1517.67pt x 870.85347pt>
 File: ab_biebel.pdf Graphic file (type pdf)
 
 <use ab_biebel.pdf>
 Package pdftex.def Info: ab_biebel.pdf used on input line 30.
 (pdftex.def)             Requested size: 303.52863pt x 174.1676pt.
 ) (./fazit.tex) (./anhang.tex
-<poisson.pdf, id=1068, 1517.67pt x 870.85347pt>
+<poisson.pdf, id=1071, 1517.67pt x 870.85347pt>
 File: poisson.pdf Graphic file (type pdf)
  <use poisson.pdf>
 Package pdftex.def Info: poisson.pdf used on input line 5.
@@ -1296,19 +1288,12 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 60.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 60.
 Package rerunfilecheck Info: File `Rutherford.out' has not changed.
 (rerunfilecheck)             Checksum: 5C9DC5077D6E9E6A6289023A8688BF55;1719.
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 60.
  ) 
 Here is how much of TeX's memory you used:
  17448 strings out of 493304
  329715 string characters out of 6139870
- 368283 words of memory out of 5000000
+ 368338 words of memory out of 5000000
  20448 multiletter control sequences out of 15000+600000
  128176 words of font info for 104 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
@@ -1324,10 +1309,10 @@ nts/type1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb
 1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/s
 hare/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/publi
 c/lm/lmsy8.pfb>
-Output written on Rutherford.pdf (26 pages, 767201 bytes).
+Output written on Rutherford.pdf (26 pages, 750461 bytes).
 PDF statistics:
- 1253 PDF objects out of 1440 (max. 8388607)
- 658 compressed objects within 7 object streams
+ 1258 PDF objects out of 1440 (max. 8388607)
+ 660 compressed objects within 7 object streams
  121 named destinations out of 1000 (max. 500000)
  332 words of extra memory for PDF output out of 10000 (max. 10000000)
 
