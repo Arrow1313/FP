@@ -1,4 +1,12 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.8.7)  7 SEP 2015 15:18
+=======
+<<<<<<< HEAD
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.11.19)  7 SEP 2015 12:47
+=======
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.8.7)  7 SEP 2015 12:49
+>>>>>>> 7ca6655c16d7b459875159f20b35c0d03425e312
+>>>>>>> d4a6334c57474da0d8ad0840d5aa789f56450eb1
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -984,7 +992,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <17.28> on input line 16.
 
-Overfull \hbox (31.00671pt too wide) in paragraph at lines 41--47
+Overfull \hbox (31.00671pt too wide) in paragraph at lines 40--46
  [][] 
  []
 
@@ -1037,7 +1045,14 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 1.
 
+<<<<<<< HEAD
 [3] <Bethe.png, id=191, 816.651pt x 573.1011pt>
+=======
+<<<<<<< HEAD
+[3])) (./aufbau.tex <streukammer.png, id=187, 546.04pt x 384.43625pt>
+=======
+[3] <Bethe.png, id=186, 816.651pt x 573.1011pt>
+>>>>>>> d4a6334c57474da0d8ad0840d5aa789f56450eb1
 File: Bethe.png Graphic file (type png)
  <use Bethe.png>
 Package pdftex.def Info: Bethe.png used on input line 29.
@@ -1050,13 +1065,26 @@ Package pdftex.def Info: Braggkurve.png used on input line 37.
 (pdftex.def)             Requested size: 407.60179pt x 286.18849pt.
 ))
 (./aufbau.tex [4 <./Bethe.png>]
+<<<<<<< HEAD
 <streukammer.png, id=206, 546.04pt x 384.43625pt>
+=======
+<streukammer.png, id=201, 546.04pt x 384.43625pt>
+>>>>>>> 7ca6655c16d7b459875159f20b35c0d03425e312
+>>>>>>> d4a6334c57474da0d8ad0840d5aa789f56450eb1
 File: streukammer.png Graphic file (type png)
  <use streukammer.png>
 Package pdftex.def Info: streukammer.png used on input line 7.
 (pdftex.def)             Requested size: 218.41212pt x 153.77177pt.
+<<<<<<< HEAD
+ <aufbau.png, id=188, 793.96625pt x 252.945pt>
+=======
 
+<<<<<<< HEAD
 [5 <./Braggkurve.png>] <aufbau.png, id=214, 793.96625pt x 252.945pt>
+=======
+[5 <./Braggkurve.png>] <aufbau.png, id=209, 793.96625pt x 252.945pt>
+>>>>>>> 7ca6655c16d7b459875159f20b35c0d03425e312
+>>>>>>> d4a6334c57474da0d8ad0840d5aa789f56450eb1
 File: aufbau.png Graphic file (type png)
 
 <use aufbau.png>
@@ -1123,7 +1151,15 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 1.
 
+<<<<<<< HEAD
 <zerfalls_reihe.png, id=418, 1446.40375pt x 239.89626pt>
+=======
+<<<<<<< HEAD
+<zerfalls_reihe.png, id=211, 1446.40375pt x 239.89626pt>
+=======
+<zerfalls_reihe.png, id=413, 1446.40375pt x 239.89626pt>
+>>>>>>> 7ca6655c16d7b459875159f20b35c0d03425e312
+>>>>>>> d4a6334c57474da0d8ad0840d5aa789f56450eb1
 File: zerfalls_reihe.png Graphic file (type png)
 
 <use zerfalls_reihe.png>
@@ -1306,11 +1342,45 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 60.
  ) 
 Here is how much of TeX's memory you used:
+<<<<<<< HEAD
  17449 strings out of 493304
  329731 string characters out of 6139872
  368284 words of memory out of 5000000
  20448 multiletter control sequences out of 15000+600000
  128176 words of font info for 104 fonts, out of 8000000 for 9000
+=======
+<<<<<<< HEAD
+ 17226 strings out of 493304
+ 326127 string characters out of 6139870
+ 363442 words of memory out of 5000000
+ 20315 multiletter control sequences out of 15000+600000
+ 125188 words of font info for 103 fonts, out of 8000000 for 9000
+ 957 hyphenation exceptions out of 8191
+ 39i,10n,38p,10422b,754s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/en
+c/dvips/lm/lm-mathex.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/u
+sr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/l
+m/lm-ec.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texm
+f/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lme
+x10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fo
+nts/type1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb
+></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type
+1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/s
+hare/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/publi
+c/lm/lmsy8.pfb>
+Output written on Rutherford.pdf (9 pages, 387523 bytes).
+PDF statistics:
+ 280 PDF objects out of 1000 (max. 8388607)
+ 250 compressed objects within 3 object streams
+ 55 named destinations out of 1000 (max. 500000)
+ 229 words of extra memory for PDF output out of 10000 (max. 10000000)
+=======
+ 17414 strings out of 493304
+ 329199 string characters out of 6139872
+ 368076 words of memory out of 5000000
+ 20425 multiletter control sequences out of 15000+600000
+ 123914 words of font info for 103 fonts, out of 8000000 for 9000
+>>>>>>> d4a6334c57474da0d8ad0840d5aa789f56450eb1
  957 hyphenation exceptions out of 8191
  39i,15n,43p,10422b,754s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/en
@@ -1326,8 +1396,16 @@ hare/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/publi
 c/lm/lmsy8.pfb>
 Output written on Rutherford.pdf (26 pages, 749951 bytes).
 PDF statistics:
+<<<<<<< HEAD
  1254 PDF objects out of 1440 (max. 8388607)
  659 compressed objects within 7 object streams
  122 named destinations out of 1000 (max. 500000)
  332 words of extra memory for PDF output out of 10000 (max. 10000000)
+=======
+ 1193 PDF objects out of 1200 (max. 8388607)
+ 636 compressed objects within 7 object streams
+ 116 named destinations out of 1000 (max. 500000)
+ 319 words of extra memory for PDF output out of 10000 (max. 10000000)
+>>>>>>> 7ca6655c16d7b459875159f20b35c0d03425e312
+>>>>>>> d4a6334c57474da0d8ad0840d5aa789f56450eb1
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.8.7)  6 SEP 2015 23:01
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.11.19)  7 SEP 2015 13:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1020,7 +1020,7 @@ Package color Info: Redefining color green on input line 38.
 File: logo.png Graphic file (type png)
  <use logo.png>
 Package pdftex.def Info: logo.png used on input line 7.
-(pdftex.def)             Requested size: 362.77411pt x 91.89766pt.
+(pdftex.def)             Requested size: 362.77411pt x 96.73184pt.
  [1
 
 
@@ -1121,26 +1121,26 @@ File: unterdruekung.png Graphic file (type png)
 Package pdftex.def Info: unterdruekung.png used on input line 7.
 (pdftex.def)             Requested size: 434.01381pt x 244.50917pt.
  [6] [7 <./unterdruekung.png>])
-(./versuchsdurchfuehrung.tex (./hochspannung.tex [8]
-<pm_1_spannung.pdf, id=219, 1445.4pt x 714.56966pt>
+(./versuchsdurchfuehrung.tex (./hochspannung.tex
+<pm_1_spannung.pdf, id=215, 1445.4pt x 714.56966pt>
 File: pm_1_spannung.pdf Graphic file (type pdf)
  <use pm_1_spannung.pdf>
 Package pdftex.def Info: pm_1_spannung.pdf used on input line 8.
 (pdftex.def)             Requested size: 476.98347pt x 235.80872pt.
 
-<pm_2_spannung.pdf, id=220, 1445.4pt x 714.56966pt>
+[8] <pm_2_spannung.pdf, id=220, 1445.4pt x 714.56966pt>
 File: pm_2_spannung.pdf Graphic file (type pdf)
- <use pm_2_spannung.pdf>
+
+<use pm_2_spannung.pdf>
 Package pdftex.def Info: pm_2_spannung.pdf used on input line 15.
 (pdftex.def)             Requested size: 476.98347pt x 235.80872pt.
-
-<pm_3_spannung.pdf, id=221, 1445.4pt x 714.56966pt>
+ <pm_3_spannung.pdf, id=221, 1445.4pt x 714.56966pt>
 File: pm_3_spannung.pdf Graphic file (type pdf)
- <use pm_3_spannung.pdf>
+
+<use pm_3_spannung.pdf>
 Package pdftex.def Info: pm_3_spannung.pdf used on input line 22.
 (pdftex.def)             Requested size: 476.98347pt x 235.80872pt.
-
-[9 <./pm_1_spannung.pdf> <./pm_2_spannung.pdf
+ [9 <./pm_1_spannung.pdf> <./pm_2_spannung.pdf
 
 pdfTeX warning: pdflatex (file ./pm_2_spannung.pdf): PDF inclusion: multiple pd
 fs with page group included in a single page
@@ -1302,7 +1302,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 71.
  ) 
 Here is how much of TeX's memory you used:
  19436 strings out of 493304
- 355868 string characters out of 6139872
+ 355868 string characters out of 6139870
  429356 words of memory out of 5000000
  22366 multiletter control sequences out of 15000+600000
  105714 words of font info for 87 fonts, out of 8000000 for 9000
@@ -1321,7 +1321,7 @@ e/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/
 lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf
 /fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10
 .pfb>
-Output written on Myonen.pdf (26 pages, 3721112 bytes).
+Output written on Myonen.pdf (26 pages, 3720812 bytes).
 PDF statistics:
  1057 PDF objects out of 1200 (max. 8388607)
  531 compressed objects within 6 object streams

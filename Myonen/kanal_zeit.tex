@@ -8,7 +8,7 @@ Für eine genaue Bestimmung der Lebensdauer von Myonen ist eine exakte Zeiteichun
 	\label{fig:kanal_zeit}
 \end{figure}
 
-Der dual Timer wird verwendet, um kurze Signale mit bekannter Länge zu erzeugen. Über die High und Lows des Signals wird der TAC gesteuert, wodurch eine Spannung in Abhängigkeit der Länge des Signals erzeugt wird. Das Signal wird verstärkt und mit dem ADC digitalisiert, damit es vom Mulit-Channel-Analyser verwertet werden kann. Durch variiren der Signallänge lassen sich die verschiedene Kanäle ansprechen, wodurch eine Beziehung zwischen einer Zeit und einem Kanal hergestellt wird. Die Zeitintervalle werden gegen die Kanäle aufgetragen und mit Gleichung \ref{eqn:kanal} gefittet. Zum Vergleich soll zusätzlich ein Fit mit $B = 0$ erzwungen werden. Die Parameter und Variablen des Fits sind in Tabelle \ref{tab:fit_kanal} zu sehen
+Der dual Timer wird verwendet, um kurze Signale mit bekannter Länge zu erzeugen. Über die Highs und Lows des Signals wird der TAC gesteuert, wodurch eine Spannung in Abhängigkeit der Länge des Signals erzeugt wird. Das Signal wird verstärkt und mit dem ADC digitalisiert, damit es vom Mulit-Channel-Analyser verwertet werden kann. Durch variieren der Signallänge lassen sich die verschiedene Kanäle ansprechen, wodurch eine Beziehung zwischen einer Zeit und einem Kanal hergestellt wird. Die Zeitintervalle werden gegen die Kanäle aufgetragen und mit Gleichung \ref{eqn:kanal} gefittet. Zum Vergleich soll zusätzlich ein Fit mit $B = 0$ erzwungen werden. Die Parameter und Variablen des Fits sind in Tabelle \ref{tab:fit_kanal} zu sehen
 
 \begin{align}
 \label{eqn:kanal}
@@ -26,7 +26,7 @@ t = A*k+B
 	\end{tabular} 
 \end{table}
 
-In Abbildung \ref{fig:kanal_zeit_fit} sind die Messwerte zu sehen. Für die Fitparameter ergaben sich dabei die Werte in Tabelle \ref{tab:fit}. Das $\chi_{red}^2$ hat ein Wert von 0,02, was einem guten Fit entspricht.
+In Abbildung \ref{fig:kanal_zeit_fit} sind die Messwerte zu sehen. Für die Fitparameter ergaben sich dabei die Werte in Tabelle \ref{tab:fit}. Das reduzierte Chiquadrat $\chi_{red}^2$ hat ein Wert von 0,233, was einem guten Fit entspricht.
 
 \begin{table}[H]
 \centering
@@ -47,7 +47,7 @@ In Abbildung \ref{fig:kanal_zeit_fit} sind die Messwerte zu sehen. Für die Fitpa
 	\caption{Kanal-Zeit-Eichung}
 	\label{fig:kanal_zeit_fit}
 \end{figure}
-Zum Vergleich sind die Fitparameter für $B = 0$ in Tabelle \ref{tab:fit2} zu sehen. Der Fit für $B = 0$ ist in Abb. \ref{fig:kanal_zeit_fit2} dargestellt.
+Zum Vergleich sind die Fitparameter für $B = 0$ in Tabelle \ref{tab:fit2} zu sehen. Der Fit für $B = 0$ ist in Abb. \ref{fig:kanal_zeit_fit2} dargestellt. Das reduzierte Chiquadrat $\chi_{red}^2$ beträgt 0,719.
 \begin{table}[H]
 \centering
 \caption{Fitparameter mit Fehlern und $\chi_{red}^2$ für $B = 0$}
