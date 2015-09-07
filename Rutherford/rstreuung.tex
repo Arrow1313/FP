@@ -4,11 +4,11 @@
 In diesem Versuchsabschnitt soll die Streuung von $\alpha$-Strahlung an Goldfolie untersucht werden.
 
 \subsection{Versuchsdurchführung}
-Es soll die Streuung von $\alpha$-Teilchen an Goldfolie in einem Winkelbereich von -30$^\circ$ bis 30$^\circ$, in 5$^\circ$-Schritten untersucht werden. Neben der Goldfolie wird noch der Kollimator mit einer Spaltbreite von 1mm eingesetzt. Die Streukammer wird auf 35 mbar evakuiert. Die Messdaten werden mit dem Computer aufgenommen. Für jeden Winkel wurde für einen Zeitraum von 3min gemessen. Die aufgenommen Histogramme werden mit der Poissonverteilung gefittet (Beispiel im Anhang). Der Fehler des Winkels wurde mit 2$^\circ$ angenommen. Die so Bestimmten Zählraten werden mit Gl. \ref{eqn:ruth} gefittet. Da das Winkelmaß ein Offset besitzt wird dies durch eine additive Konstante als Fitparameter berücksichtigt.
+Die Streuung von $\alpha$-Teilchen an einer Goldfolie wird in einem Winkelbereich von -30$^\circ$ bis 30$^\circ$ in 5$^\circ$-Schritten untersucht. Neben der Goldfolie wird der Kollimator mit einer Spaltbreite von 1mm eingesetzt. Die Streukammer wird auf 35 mbar evakuiert. Die Messdaten werden mit dem Computer aufgenommen. Für jeden Winkel wurde für einen Zeitraum von 3min gemessen. Die aufgenommen Histogramme werden mit der Poissonverteilung gefittet (Beispiel im Anhang). Der Fehler des Winkels wurde mit 2$^\circ$ angenommen. Die so Bestimmten Zählraten werden mit Gl. \ref{eqn:ruth} gefittet. Da das Winkelmaß einen Offset besitzt, wird dies durch eine additive Konstante als Fitparameter berücksichtigt.
 
 \begin{align}
 \label{eqn:ruth}
-f(x) = \frac{A}{sin^4 \left( \frac{\pi x}{360} - \frac{B}{2} \right)}
+f(x) = \frac{A}{sin^4 \left[ \frac{\pi (x-B)}{180} \right]}
 \end{align}
 
 \subsection{Auswertung}
