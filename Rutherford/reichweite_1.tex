@@ -25,7 +25,7 @@ Der Druck wird solange erhöht, bis die Countrate auf 0 abfällt. Da der Abfall de
 f(x) = B + \frac{A-B}{1 + \left( \frac{x}{D} \right)^C}
 \end{align}
 
-Die Messwert mit dem Fit sind in Abb. \ref{fig:reichweite} zu sehen, für den Fit ergeben sich die Werte in Tabelle \ref{tab:fit_logi}.
+Die Messwerte mit dem Fit sind in Abb. \ref{fig:reichweite} zu sehen, für den Fit ergeben sich die Werte in Tabelle \ref{tab:fit_logi}.
 
 
 \begin{figure}[H]
@@ -59,11 +59,11 @@ p_0 = D \sqrt[C]{\frac{A}{B}}
 
 
 
-Mit den bestimmten Parametern aus Tabelle \ref{tab:fit_logi} ergibt sich ein Druck von 504 $\pm$ 34 mbar. Bei einem Normaldruck von p$_{normal}$ = 1013,25 und einem Abstand von x$_0$ = 5 $\pm$ 0.5 cm kann mit Gl. \ref{eqn:reich_normal} die Reichweite der $\alpha$-Strahlung in Luft bestimmt werden. Es ergibt sich eine Reichweite von 2,5 $\pm$ 0.3 cm.  Dieser Wert muss jedoch noch korrigiert werden, da durch die 3$\mu$m dicke Goldfolie die Energie der $\alpha$-Strahlung von 5,4 MeV auf 4,5 MeV abgeschwächt wird. Es ergibt sich damit ein Korrekturfaktor nach Gl. \ref{eqn:korrekur} welcher multiplikativ in Gl. \ref{eqn:reich_normal} eingeht. Damit ergibt sich ein korregierter Wert von 2,98 $\pm$ 0,36. Erwartet wurde ein Wert von 2,96 cm, dieser Wert wurde mit der empirischen Reichweite nach Geiger bestimmt (siehe \cite{wiki_geiger}). Der Korrigierte Werte weicht um 0,67\% ab, was ein sehr gutes Ergebnis ist.
+Mit den bestimmten Parametern aus Tabelle \ref{tab:fit_logi} ergibt sich ein Druck von 504 $\pm$ 34 mbar. Bei einem Normaldruck von p$_{normal}$ = 1013,25 mbar und einem Abstand von x$_0$ = 5 $\pm$ 0.5 cm kann mit Gl. \ref{eqn:reich_normal} die Reichweite der $\alpha$-Strahlung in Luft bestimmt werden. Es ergibt sich eine Reichweite von 2,5 $\pm$ 0.3 cm.  Dieser Wert muss jedoch korrigiert werden, da durch die 3$\mu$m dicke Goldfolie die Energie der $\alpha$-Strahlung von 5,5 MeV auf 4,5 MeV abgeschwächt wird. Es ergibt sich damit ein Korrekturfaktor nach Gl. \ref{eqn:korrekur} welcher multiplikativ in Gl. \ref{eqn:reich_normal} eingeht. Damit ergibt sich ein korregierter Wert von 3,04 $\pm$ 0,37. Erwartet wurde ein Wert von 2,96 cm, dieser Wert wurde mit der empirischen Reichweite nach Geiger bestimmt (siehe \cite{wiki_geiger}). Der Korrigierte Werte weicht um 2,7\% ab, was ein gutes Ergebnis ist, wobei der Erwartete Wert innerhalb der Fehler des gemessenen liegt.
 
 
 
 \begin{align}
 \label{eqn:korrekur}
-f_{korrektur} = \frac{5,4 MeV}{4,5 MeV}
+f_{korrektur} = \frac{5,5 MeV}{4,5 MeV}
 \end{align}
