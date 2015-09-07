@@ -12,8 +12,15 @@ https://de.wikipedia.org/wiki/bethe-formel.
 \bibitem{Radi}
 https://de.wikipedia.org/wiki/radium.
 
+\bibitem{anleitung}
+https://moodle2.uni-wuppertal.de/pluginfile.php/222749/mod\_resource/content/1/fpi-7.pdf.
+
 \bibitem{Landau}
 L.D.Landau E.M.Lifschitz.
 \newblock {\em Lehrbuch der Theoretischen Physik, I Mechanik}.
+
+\bibitem{wiki_geiger}
+Wikipedia.
+\newblock https://de.wikipedia.org/wiki/abschirmung\_\%28strahlung\%29).
 
 \end{thebibliography}
