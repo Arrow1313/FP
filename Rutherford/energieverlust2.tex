@@ -1,6 +1,7 @@
 \subsection{Energieverlust von $\alpha$-Teilchen in Materie}
 Der Energieverlust von $\alpha$-Teilchen in Materie kann mit der Braggkurve, welche den Energieverlust in Abhängigkeit von der zurückgelegten Weglänge im Medium angibt, sowie mit der Bethe Formel, welche den Energieverlust pro Weglängenelement dx in Abhängigkeit von der Geschwindigkeit des Teilchens angibt, beschrieben werden. Die Bethe-Formel in der relativistischen Form lautet:
 \begin{align}
+\label{eqn:bethe-bloch}
 -\frac{dE}{dx} = \frac{4\pi n Z^2}{m_ec^2\beta^2}\left(\frac{e^2}{4\pi\varepsilon_0}\right)^2\left[\ln\left(\frac{2m_ec^2\beta^2}{I(1-\beta)^2}\right)-\beta^2\right]
 \end{align}
 \begin{table}[H]
@@ -19,5 +20,21 @@ $I$	&	mittleres Anregungspotential des Material\\
 \end{tabular}
 \end{table}
 (vgl. \cite{Bethe-Formel})
-Die Bethe Formel ist in Abb. ?? für Aluminium doppelt logarithmisch dargestellt, wobei genauere Details materialabhängig sind.
-Die Bragg-Kurve ist in Abb. ?? für das Material ?? dargestellt. Das Maximum der Bragg-Kurve ist näherungsweise gleichzusetzen mit der Reichweite des Teilchens, da der Energieverlust kurz danach auf Null absinkt.
+Die Bethe Formel ist in Abb. \ref{fig:bethe} für Aluminium doppelt logarithmisch dargestellt, wobei genauere Details materialabhängig sind.
+Die Bragg-Kurve ist in Abb. \ref{fig:braggkurve} für das $\alpha$-Strahlung in Luft dargestellt. Das Maximum der Bragg-Kurve ist näherungsweise gleichzusetzen mit der Reichweite des Teilchens, da der Energieverlust kurz danach auf Null absinkt.
+
+
+\begin{figure}[H]
+	\centering
+  \includegraphics[scale=0.5]{Bethe.png}
+	\caption{Bethe-Bloch-Kurve}
+	\label{fig:bethe}
+\end{figure}
+
+
+\begin{figure}[H]
+	\centering
+  \includegraphics[scale=0.5]{Braggkurve.png}
+	\caption{Braggkurve für $\alpha$-Strahlung in Luft}
+	\label{fig:braggkurve}
+\end{figure}
