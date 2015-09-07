@@ -42,7 +42,7 @@ Der Fehler ergibt sich dabei mit nach Gl. \ref{eqn:delta_alu}.
 
 \begin{align}
 \label{eqn:delta_alu}
-\Delta Z_{Al} = \sqrt{ \left( \frac{Z_{Au}^2 \cdot A_{Al} \cdot d_{Au}}{4 \cdot A_{Au} \cdot d_{Al}} \right) \left[ \left( \frac{\Delta A_{Al} \cdot d_{Au}}{A_{Al}} \right)^2 + \left( \frac{\Delta A_{Au} \cdot d_{Al}}{A_{Au}} \right)^2 \right]}
+\Delta Z_{Al} = Z_{Au}\sqrt{ \frac{d_{Au}}{d_{Al}}}\cdot  \sqrt{\frac{(\Delta A_{Al})^2}{4A_{Al}\cdot A_{Au}} + \frac{A_{Al}}{4 A_{Au}^3} (\Delta A_{Au})^2}
 \end{align}
 
 A$_{AL,Au}$ wird dabei aus den Fits entnommen. Die Messwerte der Rutherfordstreuung an Aluminium und der Fit sind in Abb. \ref{fig:rutherford_alu} zu sehen. Für den Fit ergeben sich die Werte in Tabelle \ref{fig:rutherford_alu}.
