@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.11.19)  31 AUG 2015 15:40
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.11.19)  7 SEP 2015 12:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -984,7 +984,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <17.28> on input line 16.
 
-Overfull \hbox (31.00671pt too wide) in paragraph at lines 41--47
+Overfull \hbox (31.00671pt too wide) in paragraph at lines 40--46
  [][] 
  []
 
@@ -1037,13 +1037,13 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 1.
 
-[3])) (./aufbau.tex <streukammer.png, id=188, 546.04pt x 384.43625pt>
+[3])) (./aufbau.tex <streukammer.png, id=187, 546.04pt x 384.43625pt>
 File: streukammer.png Graphic file (type png)
 
 <use streukammer.png>
 Package pdftex.def Info: streukammer.png used on input line 7.
 (pdftex.def)             Requested size: 218.41212pt x 153.77177pt.
- <aufbau.png, id=189, 793.96625pt x 252.945pt>
+ <aufbau.png, id=188, 793.96625pt x 252.945pt>
 File: aufbau.png Graphic file (type png)
 
 <use aufbau.png>
@@ -1077,7 +1077,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 1.
 
-<zerfalls_reihe.png, id=212, 1446.40375pt x 239.89626pt>
+<zerfalls_reihe.png, id=211, 1446.40375pt x 239.89626pt>
 File: zerfalls_reihe.png Graphic file (type png)
 
 <use zerfalls_reihe.png>
@@ -1107,9 +1107,9 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 59.
  ) 
 Here is how much of TeX's memory you used:
- 17227 strings out of 493304
- 326143 string characters out of 6139870
- 364443 words of memory out of 5000000
+ 17226 strings out of 493304
+ 326127 string characters out of 6139870
+ 363442 words of memory out of 5000000
  20315 multiletter control sequences out of 15000+600000
  125188 words of font info for 103 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
@@ -1125,10 +1125,10 @@ nts/type1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb
 1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/s
 hare/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/publi
 c/lm/lmsy8.pfb>
-Output written on Rutherford.pdf (9 pages, 386261 bytes).
+Output written on Rutherford.pdf (9 pages, 387523 bytes).
 PDF statistics:
- 281 PDF objects out of 1000 (max. 8388607)
- 251 compressed objects within 3 object streams
- 56 named destinations out of 1000 (max. 500000)
+ 280 PDF objects out of 1000 (max. 8388607)
+ 250 compressed objects within 3 object streams
+ 55 named destinations out of 1000 (max. 500000)
  229 words of extra memory for PDF output out of 10000 (max. 10000000)
 
