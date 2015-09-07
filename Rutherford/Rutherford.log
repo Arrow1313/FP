@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.11.19)  7 SEP 2015 19:40
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.8.7)  7 SEP 2015 23:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1306,8 +1306,8 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 60.
  ) 
 Here is how much of TeX's memory you used:
  17449 strings out of 493304
- 329722 string characters out of 6139870
- 368315 words of memory out of 5000000
+ 329722 string characters out of 6139872
+ 369356 words of memory out of 5000000
  20448 multiletter control sequences out of 15000+600000
  128176 words of font info for 104 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
@@ -1323,7 +1323,7 @@ nts/type1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb
 1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/s
 hare/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/publi
 c/lm/lmsy8.pfb>
-Output written on Rutherford.pdf (27 pages, 747327 bytes).
+Output written on Rutherford.pdf (27 pages, 745537 bytes).
 PDF statistics:
  1260 PDF objects out of 1440 (max. 8388607)
  663 compressed objects within 7 object streams
