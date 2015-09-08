@@ -2,20 +2,46 @@
 \subsection{Auswertung}
 Es soll das Röntgenspektrum der Kupferanode bei drei unterschiedlichen Beschleunigungsspannungen und mit einem Ni-Filter, bei möglichst hoher Röntgenspannung untersucht werden.
 Zum beugen der Röntgenstrahlen wird ein Si(111)-Einkristall verwendet, der Netzebenabstand liegt bei \SI{3,1356}{\angstrom}, entnommen von \cite{si_a}.
-Gescannt wird ein Winkelbereich von ??$^\circ$ bis ??$^\circ$, dabei wurden für die Beschleunigungsspannung Werte von
+Gescannt wird ein Winkelbereich von 15$^\circ$ bis 130$^\circ$, dabei wurden für die Beschleunigungsspannung Werte von
 \begin{itemize}
-\item U = ?? und A = ??
-\item U = ?? und A = ??
-\item U = ?? und A = ??
+\item U = 30kV und A = 10mA
+\item U = 40kV und A = 10mA
+\item U = 40kV und A = 30mA
 \end{itemize}
  verwendet. Dabei ergeben sich die folgenden Plots.
  
  % Plots der Messunge f\"ur die Kupferanode mit unterschiedlichen Beschleunigungsspannungen
+In Abb. \ref{fig:spektrum_1} ist das Diffraktogramm für U = 30kV und A = 10mA.
  
+\begin{figure}[H]
+	\centering
+  \includegraphics[scale=0.30]{spektrum_1.pdf}
+	\caption{Diffraktogramm bei 30kV Beschleunigungsspannung und einem Anodenstrom von 10mA}
+	\label{fig:spektrum_1}
+\end{figure}
+
+In Abb. \ref{fig:spektrum_2} ist das Diffraktogramm für U = 40kV und A = 10mA.
  
-Es ist deutlich zu erkennen, das bei steigender Beschleunigungsspannung und Strom die Counts größer werden und so die Peaks deutlich von dem Untergrund zu unterscheiden sind.
-Um Informationen über den Winkel und die Intensität zu erhalten, werden die Peaks mit der Gauß verteilung gefittet.
-Die Energie wird nach Gleichung ?? bestimmt, die Counts ergeben sich mit Gleichung ??. Der Fehler wird mit Gleichung ?? bestimmt.
+\begin{figure}[H]
+	\centering
+  \includegraphics[scale=0.30]{spektrum_2.pdf}
+	\caption{Diffraktogramm bei 40kV Beschleunigungsspannung und einem Anodenstrom von 10mA}
+	\label{fig:spektrum_2}
+\end{figure}
+
+In Abb. \ref{fig:spektrum_3} ist das Diffraktogramm für U = 40kV und A = 30mA.
+
+\begin{figure}[H]
+	\centering
+  \includegraphics[scale=0.30]{spektrum_3.pdf}
+	\caption{Diffraktogramm bei 40kV Beschleunigungsspannung und einem Anodenstrom von 30mA}
+	\label{fig:spektrum_3}
+\end{figure}
+ 
+
+Es ist deutlich zu erkennen, das bei steigender Beschleunigungsspannung und Strom die Anzahl der Counts größer werden und so die Peaks deutlich von dem Untergrund zu unterscheiden sind.
+Um Informationen über den Winkel und die Intensität zu erhalten, werden die Peaks mit der Voigtverteilung gefittet.
+Die Energie wird nach Gleichung  bestimmt, die Counts ergeben sich mit Gleichung ??. Der Fehler wird mit Gleichung ?? bestimmt.
 
 Es ergeben sich die folgenden Ergebnisse:
 
