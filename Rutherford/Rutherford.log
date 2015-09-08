@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.11.19)  8 SEP 2015 05:21
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.11.19)  8 SEP 2015 16:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1262,17 +1262,12 @@ Overfull \hbox (17.13579pt too wide) in paragraph at lines 23--24
  [][] 
  []
 
-[23 <./ab_alu.pdf>] <ab_biebel.pdf, id=1074, 1517.67pt x 870.85347pt>
+[23 <./ab_alu.pdf>] <ab_biebel.pdf, id=1074, 1445.4pt x 712.76285pt>
 File: ab_biebel.pdf Graphic file (type pdf)
 
 <use ab_biebel.pdf>
 Package pdftex.def Info: ab_biebel.pdf used on input line 30.
-(pdftex.def)             Requested size: 500.83266pt x 287.38252pt.
-
-Overfull \hbox (17.13579pt too wide) in paragraph at lines 30--31
- [][] 
- []
-
+(pdftex.def)             Requested size: 476.98347pt x 235.21246pt.
 ) (./fazit.tex) (./anhang.tex [24 <./ab_papier.pdf> <./ab_biebel.pdf
 
 pdfTeX warning: pdflatex (file ./ab_biebel.pdf): PDF inclusion: multiple pdfs w
@@ -1307,7 +1302,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 60.
 Here is how much of TeX's memory you used:
  17449 strings out of 493304
  329722 string characters out of 6139870
- 369422 words of memory out of 5000000
+ 368422 words of memory out of 5000000
  20448 multiletter control sequences out of 15000+600000
  128176 words of font info for 104 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
@@ -1323,7 +1318,7 @@ nts/type1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb
 1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/s
 hare/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/publi
 c/lm/lmsy8.pfb>
-Output written on Rutherford.pdf (27 pages, 745740 bytes).
+Output written on Rutherford.pdf (27 pages, 745438 bytes).
 PDF statistics:
  1260 PDF objects out of 1440 (max. 8388607)
  663 compressed objects within 7 object streams
