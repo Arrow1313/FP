@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.11.19)  8 SEP 2015 23:37
+=======
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.9.8)  8 SEP 2015 23:36
+>>>>>>> 9d5480094b22393521e11d1ad27ad2a082fcc45d
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1027,14 +1031,43 @@ Package natbib Warning: Citation `si_a' on page 6 undefined on input line 4.
 LaTeX Font Info:    Try loading font information for TS1+lmr on input line 7.
  (/usr/share/texmf/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+<<<<<<< HEAD
 ) [7] [8]))
 (./pulverdeffraktometrie.tex [9]
 \openout2 = `versuchsdurchfuehrung2.aux'.
 
  (./versuchsdurchfuehrung2.tex) [10
+=======
+)
+<spektrum_1.pdf, id=165, 1517.67pt x 870.85347pt>
+File: spektrum_1.pdf Graphic file (type pdf)
+ <use spektrum_1.pdf>
+Package pdftex.def Info: spektrum_1.pdf used on input line 18.
+(pdftex.def)             Requested size: 455.30452pt x 261.25806pt.
+ [5]
+<spektrum_2.pdf, id=178, 1517.67pt x 870.85347pt>
+File: spektrum_2.pdf Graphic file (type pdf)
+ <use spektrum_2.pdf>
+Package pdftex.def Info: spektrum_2.pdf used on input line 27.
+(pdftex.def)             Requested size: 455.30452pt x 261.25806pt.
 
-])
-(./fazit.tex)
+<spektrum_3.pdf, id=180, 1517.67pt x 870.85347pt>
+File: spektrum_3.pdf Graphic file (type pdf)
+ <use spektrum_3.pdf>
+Package pdftex.def Info: spektrum_3.pdf used on input line 36.
+(pdftex.def)             Requested size: 455.30452pt x 261.25806pt.
+ [6 <./spektrum_1.pdf> <./spektrum_2.pdf
+
+pdfTeX warning: pdflatex (file ./spektrum_2.pdf): PDF inclusion: multiple pdfs 
+with page group included in a single page
+>] [7 <./spektrum_3.pdf>] [8])) (./pulverdeffraktometrie.tex [9]
+\openout2 = `versuchsdurchfuehrung2.aux'.
+
+>>>>>>> 9d5480094b22393521e11d1ad27ad2a082fcc45d
+
+(./versuchsdurchfuehrung2.tex) [10
+
+]) (./fazit.tex)
 
 Package natbib Warning: There were undefined citations.
 
@@ -1051,10 +1084,17 @@ Package rerunfilecheck Info: File `Roentgen.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 53.
  ) 
 Here is how much of TeX's memory you used:
+<<<<<<< HEAD
  17203 strings out of 493304
  326138 string characters out of 6139870
  365057 words of memory out of 5000000
  20291 multiletter control sequences out of 15000+600000
+=======
+ 17201 strings out of 493304
+ 326207 string characters out of 6139872
+ 364136 words of memory out of 5000000
+ 20296 multiletter control sequences out of 15000+600000
+>>>>>>> 9d5480094b22393521e11d1ad27ad2a082fcc45d
  98997 words of font info for 77 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  39i,13n,38p,10420b,951s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1071,10 +1111,19 @@ re/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm
 /lmr7.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fo
 nts/type1/public/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.p
 fb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb>
+<<<<<<< HEAD
 Output written on Roentgen.pdf (12 pages, 339982 bytes).
 PDF statistics:
  307 PDF objects out of 1000 (max. 8388607)
  259 compressed objects within 3 object streams
  59 named destinations out of 1000 (max. 500000)
  180 words of extra memory for PDF output out of 10000 (max. 10000000)
+=======
+Output written on Roentgen.pdf (12 pages, 1623718 bytes).
+PDF statistics:
+ 428 PDF objects out of 1000 (max. 8388607)
+ 281 compressed objects within 3 object streams
+ 55 named destinations out of 1000 (max. 500000)
+ 168 words of extra memory for PDF output out of 10000 (max. 10000000)
+>>>>>>> 9d5480094b22393521e11d1ad27ad2a082fcc45d
 
