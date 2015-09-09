@@ -39,10 +39,7 @@ In Abb. \ref{fig:spektrum_3} ist das Diffraktogramm für U = 40kV und A = 30mA.
 \end{figure}
  
 
-Es ist deutlich zu erkennen, das bei steigender Beschleunigungsspannung und Strom die Anzahl der Counts größer werden und so die Peaks deutlich von dem Untergrund zu unterscheiden sind.
-Um Informationen über den Winkel und die Intensität zu erhalten, werden die Peaks mit der Voigtverteilung gefittet. Aus den Fitparametern kann die Intensität der einzelnen Peaks bestimmt und verglichen werden.
-
-Der Fit für U=30kV und A=10mA ist in Abb. \ref{fig:30_10_fit} zu sehen, die Fitparameter ergaben sich die Werte in Tabelle \ref{tab:30_10_fit}.
+Es ist deutlich zu erkennen, das bei steigender Beschleunigungsspannung und Strom die Anzahl der Counts größer werden und so die Peaks deutlich von dem Untergrund zu unterscheiden sind. Um Informationen über den Winkel und die Intensität zu erhalten, werden die Peaks mit der Voigtverteilung gefittet. Aus den Fitparametern kann die Intensität der einzelnen Peaks bestimmt und verglichen werden. Der Fit für U=30kV und A=10mA ist in Abb. \ref{fig:30_10_fit} zu sehen, die Fitparameter ergaben sich die Werte in Tabelle \ref{tab:30_10_fit}. Alle weiteren Peaks wurde nach dem selben verfahren bestimmt.
 
 \begin{figure}[H]
 	\centering
@@ -65,77 +62,68 @@ Der Fit für U=30kV und A=10mA ist in Abb. \ref{fig:30_10_fit} zu sehen, die Fitp
 \end{tabular} 
 \end{table}
 
-Der Fit für U=40kV und A=10mA ist in Abb. \ref{fig:40_10_fit} zu sehen, die Fitparameter ergaben sich die Werte in Tabelle \ref{tab:40_10_fit}.
-
-\begin{figure}[H]
-	\centering
-  \includegraphics[scale=0.2]{40_10_voigt.pdf}
-	\caption{Diffraktogramm bei 40kV Beschleunigungsspannung und einem Anodenstrom von 10mA}
-	\label{fig:40_10_fit}
-\end{figure}
-
-
-\begin{table}[H]
-\centering
-\caption{Fitparameter für eine Beschleunigungsspannung von 40kV und einem Anodenstrom von 10mV}
-\label{tab:40_10_fit}
-\begin{tabular}{|c|c|c|c|c|c|c|}
-\hline Peak & Paramter & Center & Amplitude & Sigma & Gamma & $\chi_{red}^2$ \\ 
-\hline 1 & Wert & 25,6400 $\pm$ 0,0001 & 425 $\pm$ 6 & 0,0121 $\pm$ 0,0007 & 0,0089 $\pm$ 0,0007 & 4,11 \\ 
-\hline 2 & Wert & 28,4282 $\pm$ 0,0003  & 1149 $\pm$ 52 & 0,018 $\pm$ 0,001 & 0,0007 $\pm$ 0,002 & 14,46 \\ 
-\hline 3 & Wert & 28,5008 $\pm$ 0,0003 & 621 $\pm$ 75 & 0,020 $\pm$ 0,003 & -0,006 $\pm$ 0,006 & 14,46 \\ 
-\hline 
-\end{tabular} 
-\end{table}
-
-
-Der Fit für U=40kV und A=30mA ist in Abb. \ref{fig:40_30_fit} zu sehen, die Fitparameter ergaben sich die Werte in Tabelle \ref{tab:40_30_fit}.
-
-\begin{figure}[H]
-	\centering
-  \includegraphics[scale=0.2]{40_30_voigt.pdf}
-	\caption{Diffraktogramm bei 40kV Beschleunigungsspannung und einem Anodenstrom von 30mA}
-	\label{fig:40_30_fit}
-\end{figure}
-
-
-\begin{table}[H]
-\centering
-\caption{Fitparameter für eine Beschleunigungsspannung von 40kV und einem Anodenstrom von 30mV}
-\label{tab:40_30_fit}
-\begin{tabular}{|c|c|c|c|c|c|c|}
-\hline Peak & Paramter & Center & Amplitude & Sigma & Gamma & $\chi_{red}^2$ \\ 
-\hline 1 & Wert & 25.64521 $\pm$ 0,00001 & 498 $\pm$ 158 & 0,031 $\pm$ 0,005 & -0,03 $\pm$ 0,02 & 1,13 \\ 
-\hline 2 & Wert & 28,433 $\pm$ 0,001  & 1046 $\pm$ 873 & 0,01 $\pm$ 0,04 & -0,05 $\pm$ 0,05 & 71,49 \\ 
-\hline 3 & Wert & 28,507 $\pm$ 0,001 & 1814 $\pm$ 613 & 0,022 $\pm$ 0,005 & -0,004 $\pm$ 0,012 & 71,49 \\ 
-\hline 
-\end{tabular} 
-\end{table}
-
-
-
-
 \subsubsection{Verhältnisse}
-Aus den bestimmten Peaks sollen die Verhältnisse der Cu-Linien und der Ordnungen unter einander. Für den Voigt-Fit die eingebaute Funktion des Pythonpackages lmfit (cite) verwendet. Die Voigtverteilung wird über ein normiertes Intergral bestimmt, worduch der Fit Parameter für die Amplitude für die Verhältnisbestimmung verwendet werden.
+Aus den bestimmten Peaks sollen die Verhältnisse der Cu-Linien und der Ordnungen unter einander. Für den Voigt-Fit die eingebaute Funktion des Pythonpackages lmfit (cite) verwendet. Die Voigtverteilung wird über ein normiertes Intergral bestimmt, worduch der Fit Parameter für die Amplitude für die Verhältnisbestimmung verwendet werden. Die mit den Fits bestimmten Amplituden sind in Tabelle \ref{tab:wichtige_parameter} zu sehen.
 
 \begin{table}[H]
-\caption{In der Tabelle sind die Verhältnisse der einzelnen Cu-Linie und die der Ordnungen zu einander aufgetragen.}
-\label{tab:verhaeltnisse}
 \centering
+\caption{Bestimmte Winkel und Amplituden für die verschiedenen Beschleunigungsspannungen und Anodenströme}
+\label{tab:wichtige_parameter}
 \begin{tabular}{|c|c|c|c|c|}
-\hline Cu-Linie & Ordnung & Counts & \% der K$_{\alpha_1}$ & \% der 1. Ordnung \\ 
-\hline K$_{\alpha_1}$ & 1 &  &  &  \\ 
-\hline K$_{\alpha_2}$ & 1 &  &  &  \\ 
-\hline K$_\beta$ & 1 &  &  &  \\ 
-\hline K$_{\alpha_1}$ & 3 &  &  &  \\ 
-\hline K$_{\alpha_2}$ & 3 &  &  &  \\ 
-\hline K$_\beta$ & 3 &  &  &  \\ 
-\hline K$_\beta$ & 4 &  &  &  \\ 
+\hline Beschleunigunsspannung und Anodenstrom & Ordnung & Linie & Winkel & Amplitude \\ 
+\hline U = 30 kV, A = 10mA & 1 & $K_{\alpha_1}$ & 28,4278 $\pm$ 0,0007 & 790 $\pm$ 96 \\ 
+\hline  &  & $K_{\alpha_2}$ & 28,4996 $\pm$ 0,0007 & 425 $\pm$ 128 \\ 
+\hline  &  & $K_\beta$ & 25,639 $\pm$ 0,001 & 260 $\pm$ 5 \\ 
+\hline  & 3 & $K_{\alpha_1}$ & 94,933 $\pm$ 0,004 & 155 $\pm$ 2 \\ 
+\hline  &  & $K_{\alpha_2}$ & 94,2453 $\pm$ 0,0006 & 76 $\pm$ 2 \\ 
+\hline  &  & $K_\beta$ & 83,5022 $\pm$ 0,0008 & 37 $\pm$ 1 \\ 
+\hline U = 40 kV, A = 10 mA & 1 & $K_{\alpha_1}$ & 28,4282 $\pm$ 0,0003 & 1149 $\pm$ 52 \\ 
+\hline  &  & $K_{\alpha_2}$ & 28,5008 $\pm$ 0,0003 & 654 $\pm$ 75 \\ 
+\hline  &  & $K_\beta$ & 25,5400 $\pm$ 0.0001 & 425 $\pm$ 6 \\ 
+\hline  & 3 & $K_{\alpha_1}$ & 94,9336 $\pm$ 0,0003 & 245 $\pm$ 2 \\ 
+\hline  &  & $K_{\alpha_2}$ & 95,2448 $\pm$ 0,0004 & 122 $\pm$ 2 \\ 
+\hline  &  & $K_\beta$ & 83,5043 $\pm$ 0,0006 & 57 $\pm$ 2 \\ 
+\hline U = 40 kV, a = 30 mA & 1 & $K_{\alpha_1}$ & 28,433 $\pm$ 0,001 & 1046 $\pm$ 873 \\ 
+\hline  &  & $K_{\alpha_2}$ & 28,507 $\pm$ 0,001 & 1814 $\pm$ 613 \\ 
+\hline  &  & $K_\beta$ & 25,6452 $\pm$ 0,0001 & 498 $\pm$ 158 \\ 
+\hline  & 3 & $K_{\alpha_1}$ & 94,9398 $\pm$ 0,0002 & 771 $\pm$ 6 \\ 
+\hline  &  & $K_{\alpha_2}$ & 95,2518 $\pm$ 0,0003 & 362 $\pm$ 4 \\ 
+\hline  &  & $K_\beta$ & 83,5110 $\pm$ 0,0004 & 184 $\pm$ 4 \\ 
 \hline 
 \end{tabular} 
 \end{table}
 
-%auswertung der Verhaeltnisse
+Das Verhältnis wir nach Gl. bestimmt, der Fehler ergibt sich dabei nach Gl. ??.
+
+\begin{align}
+\label{eqn:verhältniss}
+V = \frac{A_1}{A_2}
+\end{align}
+
+\begin{align}
+\Delta V = \sqrt{\left( \frac{\Delta A_1}{A_2} \right)^2 + \left( \frac{\Delta A_2 A_1}{A_2^2} \right)^2}
+\end{align}
+
+ Aus den Amplituden in Tabelle \ref{tab:wichtige_parameter} ergeben sich die Verhältnisse unter den Ordnungen in Tabelle ??.
+
+\begin{table}[H]
+\centering
+\caption{Verhältniss der Peaks bei unterschiedlicher Ordnung, dabei wird die Amplitude des Peaks erster Ordnung durch den der dritten geteilt}
+\label{tab:verhältniss_ordnung}
+\begin{tabular}{|c|c|c|}
+\hline Anodenspannung und Anodenstrom & Linie  & Verhältniss \\ 
+\hline U = 30 kV, A = 10 mA & $K_\beta$ & 7,027 $\pm$ 0,2 \\ 
+\hline  & $K_{\alpha_1}$ &  5,1 $\pm$ 0,6 \\ 
+\hline  & $K_{\alpha_2}$ & 6 $\pm$ 2 \\ 
+\hline U = 40 kV, A = 10 mA & $K_\beta$ & 7,4 $\pm$ 0,3 \\ 
+\hline  & $K_{\alpha_2}$ & 4,7 $\pm$ 0,2 \\ 
+\hline  & $K_{\alpha_2}$ & 5,4 $\pm$ 0,6 \\ 
+\hline U = 40 kV, A = 30 mA & $K_\beta$ & 2,7 $\pm$ 0,8 \\ 
+\hline  & $K_{\alpha_2}$ & 1 $\pm$ 1 \\ 
+\hline  & $K_{\alpha_2}$ & 5 $\pm$ 2 \\ 
+\hline 
+\end{tabular} 
+\end{table}
 
 \subsubsection{Abschwächung durch den Ni-Filter}
 Es soll die Abschwächung der K$_\beta$-Linie und das Signal-zu-Rausch Verhältniss der K$_{\alpha_{1,2}}$-Linie und deren Energie und Energiebreite bestimmt werden.
