@@ -93,7 +93,7 @@ Aus den bestimmten Peaks sollen die Verhältnisse der Cu-Linien und der Ordnungen
 \end{tabular} 
 \end{table}
 
-Das Verhältnis wir nach Gl. bestimmt, der Fehler ergibt sich dabei nach Gl. ??.
+Das Verhältnis wir nach Gl. \ref{eqn:verhältniss} bestimmt, der Fehler ergibt sich dabei nach Gl. \ref{eqn:delta_verhältniss}.
 
 \begin{align}
 \label{eqn:verhältniss}
@@ -101,10 +101,11 @@ V = \frac{A_1}{A_2}
 \end{align}
 
 \begin{align}
+\label{eqn:delta_verhältniss}
 \Delta V = \sqrt{\left( \frac{\Delta A_1}{A_2} \right)^2 + \left( \frac{\Delta A_2 A_1}{A_2^2} \right)^2}
 \end{align}
 
- Aus den Amplituden in Tabelle \ref{tab:wichtige_parameter} ergeben sich die Verhältnisse unter den Ordnungen in Tabelle ??.
+ Aus den Amplituden in Tabelle \ref{tab:wichtige_parameter} ergeben sich die Verhältnisse unter den Ordnungen in Tabelle \ref{tab:verhältniss_ordnung}. Die Verhältnisse bei unterschiedlichen Beschleunigungsspannungen und Anodenströmen sind in Tabelle \ref{tab:verhältniss_messung} aufgetragen.
 
 \begin{table}[H]
 \centering
@@ -121,6 +122,23 @@ V = \frac{A_1}{A_2}
 \hline U = 40 kV, A = 30 mA & $K_\beta$ & 2,7 $\pm$ 0,8 \\ 
 \hline  & $K_{\alpha_2}$ & 1 $\pm$ 1 \\ 
 \hline  & $K_{\alpha_2}$ & 5 $\pm$ 2 \\ 
+\hline 
+\end{tabular} 
+\end{table}
+
+
+\begin{table}[H]
+\centering
+\caption{Verhältniss der Peaks bei unterschiedlichen Beschleunigungsspannungen und Anodenströmen, dabei wird die Amplitude des Peaks erster Ordnung durch den der dritten geteilt}
+\label{tab:verhältniss_messung}
+\begin{tabular}{|p{3,5cm}|c|c|c|c|}
+\hline Beschleunigungs- spannung  und Anodenstrom &  Ordnung & $K_\beta$ & $K_{\alpha_2}$ & $K_{\alpha_2}$ \\ 
+\hline 30 10 / 40 10 & 1 & 0,61 $\pm$ 0,01 & 0,69 $\pm$ 0,09 & 0,6 $\pm$ 0,2 \\ 
+\hline  & 3 & 0,650 $\pm$ 0,003 & 0,63 $\pm$ 0,01 & 0,62 $\pm$ 0,02 \\ 
+\hline 30 10 / 40 30 & 1 & 0,5 $\pm$ 0,2 & 0,8 $\pm$ 0,6 & 0,2 $\pm$ 0,1 \\ 
+\hline  & 3 & 0,201 $\pm$ 0,007 & 0,218 $\pm$ 0,003 & 0,210 $\pm$ 0,006 \\ 
+\hline 40 10 / 40 30 & 1 & 0,9 $\pm$ 0,3 & 1,1 $\pm$ 0,9 & 0,36 $\pm$ 0,01 \\ 
+\hline  & 3 & 0,31 $\pm$ 0,01 & 0,3446 $\pm$ 0,0004 & 0,337 $\pm$ 0,007 \\ 
 \hline 
 \end{tabular} 
 \end{table}
