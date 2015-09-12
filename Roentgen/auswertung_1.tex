@@ -83,8 +83,8 @@ Aus den bestimmten Peaks sollen die Verhältnisse der Cu-Linien und der Ordnungen
 \hline  & 3 & $K_{\alpha_1}$ & 94,9336 $\pm$ 0,0003 & 245 $\pm$ 2 \\ 
 \hline  &  & $K_{\alpha_2}$ & 95,2448 $\pm$ 0,0004 & 122 $\pm$ 2 \\ 
 \hline  &  & $K_\beta$ & 83,5043 $\pm$ 0,0006 & 57 $\pm$ 2 \\ 
-\hline U = 40 kV, a = 30 mA & 1 & $K_{\alpha_1}$ & 28,433 $\pm$ 0,001 & 1046 $\pm$ 873 \\ 
-\hline  &  & $K_{\alpha_2}$ & 28,507 $\pm$ 0,001 & 1814 $\pm$ 613 \\ 
+\hline U = 40 kV, a = 30 mA & 1 & $K_{\alpha_1}$ & 28,433 $\pm$ 0,001 & 1814 $\pm$ 613 \\ 
+\hline  &  & $K_{\alpha_2}$ & 28,507 $\pm$ 0,001 & 1046 $\pm$ 873 \\ 
 \hline  &  & $K_\beta$ & 25,6452 $\pm$ 0,0001 & 498 $\pm$ 158 \\ 
 \hline  & 3 & $K_{\alpha_1}$ & 94,9398 $\pm$ 0,0002 & 771 $\pm$ 6 \\ 
 \hline  &  & $K_{\alpha_2}$ & 95,2518 $\pm$ 0,0003 & 362 $\pm$ 4 \\ 
@@ -145,16 +145,71 @@ V = \frac{A_1}{A_2}
 
 \subsubsection{Abschwächung durch den Ni-Filter}
 Es soll die Abschwächung der K$_\beta$-Linie und das Signal-zu-Rausch Verhältniss der K$_{\alpha_{1,2}}$-Linie und deren Energie und Energiebreite bestimmt werden.
-Mit Verwendung des Filters ergibt sich das Diffrakogramm in Abbildung ??.
+Mit Verwendung des Filters ergeben sich die Amplitude in Tabelle \ref{tab:amplitude_ni}.
 
-%Diffraktogramme mit Fits einfügen
+\begin{table}[H]
+\centering
+\caption{Mit Voigt-Verteilung bestimmte Amplituden, bei der Messung mit Ni-Filter}
+\label{tab:amplitude_ni}
+\begin{tabular}{|c|c|c|}
+\hline Linie & Ordung & Amplitude \\ 
+\hline $K_{\alpha_1}$ & 1 & 1500 $\pm$ 41 \\ 
+\hline  & 3 & 313 $\pm$ 2 \\ 
+\hline $K_{\alpha_2}$ & 1 & 837 $\pm$ 40 \\ 
+\hline  & 3 & 157 $\pm$ 2 \\ 
+\hline 
+\end{tabular} 
+\end{table}
 
-Es ergibt sich eine Countrate von ?? mit Ni-Filter und ein Count von ?? ohne Ni-Filter. Daraus ergibt sich ein Verhältnis von ??.
 Das Signal-zu-Rauschverhältnis (SNR) wir in [dB] berechnet:
 
 \begin{align}
 SNR = 10 \cdot lg \left( \frac{I_{max}}{I_{rausch}} \right)
 \end{align}
+
+Mit den bestimmten Werten ergeben sich die SNR in Tabelle \ref{tab:SNR}.
+
+
+\begin{table}[H]
+\centering
+\caption{Mit Voigt-Verteilung bestimmte Amplituden, bei der Messung mit Ni-Filter}
+\label{tab:SNR}
+\begin{tabular}{|c|c|c|}
+\hline Linie & Ordnung & SNR \\ 
+\hline $K_{\alpha_1}$ & 1 & 18 $\pm$ 16 \\ 
+\hline  & 3 & 5,21 $\pm$ 0,07 \\ 
+\hline $K_{\alpha_2}$ & 1 & 16 $\pm$ 10 \\ 
+\hline  & 3 & 5,7 $\pm$ 0,1 \\ 
+\hline 
+\end{tabular} 
+\end{table}
+
+Für die 1. Ordnung liegt das SNR bei 16-18 dB, bei der 3. Ordnung liegt das SNR bei 5,21-5,7 dB. Das zeigt, dass mit zunehmender Ordnung das SNR schlechter wird.
+
+\subsubsection{Energie}
+
+Verwendet man Gl. \ref{fig:Bragg} und Gl. \ref{eqn:energie} ergibt sich die Energie der Röntgenquanten nach Gl. \ref{eqn:energie_bragg}.
+
+\begin{align}
+\label{eqn:energie_bragg}
+E = \frac{n \cdot h \cdot c}{2 \cdot d \cdot sin(\Theta)}
+\end{align}
+
+Die Energie der $K_{\alpha_1}$-, $K_{\alpha_2}$- und $K_\beta$-Linie wird mit den Daten aus Tabelle \ref{tab:30_10_fit} bestimmt. Die erwarteten Energie wurden aus \cite{anleitung} entnommen. Es ergeben sich die Werte in Tabelle \ref{tab:enerige_k}.
+
+\begin{table}[H]
+\centering
+\caption{Energien der K-Linien}
+\label{tab:enerige_k}
+\begin{tabular}{|c|c|c|c|}
+\hline Linie & E$_{exp}$ [eV] & E$_{theo}$ [eV] & Abweichung [\%] \\ 
+\hline $K_\beta$ & 8910,6 $\pm$ 0,5 & 8905,3 & 0,1 \\ 
+\hline $K_{\alpha_1}$ & 8052,0 $\pm$ 0,4 & 8047,8 & 0,1 \\ 
+\hline $K_{\alpha_2}$ & 8032,1 $\pm$ 0,4 & 8027,8 & 0,1 \\ 
+\hline 
+\end{tabular} 
+\end{table}
+
 
 \subsubsection{Netzebenabstand Si(331)}
 Der Si(111)-Einkristall wird nun gegen einen Si(331)-Einkristall ausgetauscht.
