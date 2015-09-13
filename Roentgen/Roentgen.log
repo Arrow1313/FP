@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.11.19)  12 SEP 2015 02:43
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.11.19)  12 SEP 2015 22:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1086,7 +1086,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 135--135
  (./auswertung_pulver.tex) [14
 
 
-]) (./fazit.tex)
+]) (./fazit.tex) (./Roentgen.bbl)
 
 Package natbib Warning: There were undefined citations.
 
@@ -1104,10 +1104,10 @@ Package rerunfilecheck Info: File `Roentgen.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 53.
  ) 
 Here is how much of TeX's memory you used:
- 17252 strings out of 493304
- 326977 string characters out of 6139870
- 368318 words of memory out of 5000000
- 20317 multiletter control sequences out of 15000+600000
+ 17259 strings out of 493304
+ 327068 string characters out of 6139870
+ 368333 words of memory out of 5000000
+ 20319 multiletter control sequences out of 15000+600000
  98997 words of font info for 77 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  39i,13n,38p,10420b,951s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1124,10 +1124,10 @@ re/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm
 /lmr7.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fo
 nts/type1/public/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.p
 fb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb>
-Output written on Roentgen.pdf (16 pages, 1663431 bytes).
+Output written on Roentgen.pdf (16 pages, 1663751 bytes).
 PDF statistics:
- 546 PDF objects out of 1000 (max. 8388607)
- 348 compressed objects within 4 object streams
- 71 named destinations out of 1000 (max. 500000)
+ 551 PDF objects out of 1000 (max. 8388607)
+ 353 compressed objects within 4 object streams
+ 73 named destinations out of 1000 (max. 500000)
  200 words of extra memory for PDF output out of 10000 (max. 10000000)
 
