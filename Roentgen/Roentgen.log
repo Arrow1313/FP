@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.11.19)  13 SEP 2015 20:17
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.11.19)  14 SEP 2015 19:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -792,32 +792,134 @@ Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 337.
 Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 338.
 Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 339.
 Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 340.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/adjustbox/adjustbox.sty
+Package: adjustbox 2012/05/21 v1.0 Adjusting TeX boxes (trim, clip, ...)
+
+(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2012/10/14 v2.6b package option processing (HA)
+
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+\XKV@toks=\toks26
+\XKV@tempa@toks=\toks27
+\XKV@depth=\count166
+File: xkeyval.tex 2012/10/14 v2.6b key=value parser (HA)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/adjustbox/adjcalc.sty
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
+-ends (calc, etex, pgfmath)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/adjustbox/trimclip.sty
+Package: trimclip 2012/05/16 v1.0 Trim and clip general TeX material
+
+(/usr/share/texlive/texmf-dist/tex/latex/collectbox/collectbox.sty
+Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
+\collectedbox=\box52
+)
+\tc@llx=\dimen179
+\tc@lly=\dimen180
+\tc@urx=\dimen181
+\tc@ury=\dimen182
+Package trimclip Info: Using driver 'tc-pdftex.def'.
+
+(/usr/share/texlive/texmf-dist/tex/latex/adjustbox/tc-pdftex.def
+File: tc-pdftex.def 2012/05/13 v1.0 Clipping driver for pdftex
+))
+\adjbox@Width=\dimen183
+\adjbox@Height=\dimen184
+\adjbox@Depth=\dimen185
+\adjbox@Totalheight=\dimen186
+
+(/usr/share/texlive/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
+Package: ifoddpage 2011/09/13 v1.0 Conditionals for odd/even page detection
+\c@checkoddpage=\count167
+)
+(/usr/share/texlive/texmf-dist/tex/latex/varwidth/varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box53
+\sift@deathcycles=\count168
+\@vwid@loff=\dimen187
+\@vwid@roff=\dimen188
+))
+(/usr/share/texlive/texmf-dist/tex/latex/blindtext/blindtext.sty
+Package: blindtext 2012/01/06 V2.0 blindtext-Package
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2009/10/20 v1.13 Space after command names (DPC,MH)
+)
+\c@blindtext=\count169
+\c@Blindtext=\count170
+\c@blind@countparstart=\count171
+\blind@countxx=\count172
+\blindtext@numBlindtext=\count173
+\blind@countyy=\count174
+\c@blindlist=\count175
+\c@blindlistlevel=\count176
+\c@blindlist@level=\count177
+\blind@listitem=\count178
+\c@blind@listcount=\count179
+\c@blind@levelcount=\count180
+\blind@mathformula=\count181
+\blind@Mathformula=\count182
+\c@blind@randomcount=\count183
+\c@blind@randommax=\count184
+\c@blind@pangramcount=\count185
+\c@blind@pangrammax=\count186
+)
+(/usr/share/texlive/texmf-dist/tex/latex/hvfloat/hvfloat.sty
+Package: hvfloat 2012/03/04 rotating of floating objects
+
+`hvfloat' v1.1, 2012/03/04 (Herbert Voss)
+\hvObjectWidth=\skip61
+\hvCapWidth=\skip62
+\hvMaxCapWidth=\skip63
+\hvObjectBox=\box54
+\hvCaptionBox=\box55
+\hvOBox=\box56
+\hvAboveCaptionSkip=\skip64
+\hvBelowCaptionSkip=\skip65
+)
+(/usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.sty
+Package: lipsum 2011/04/14 v1.2 150 paragraphs of Lorem Ipsum dummy text
+\c@lips@count=\count187
+)
+(/usr/share/texlive/texmf-dist/tex/latex/rotating/rotating.sty
+Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@r@tfl@t=\count188
+\rotFPtop=\skip66
+\rotFPbot=\skip67
+\rot@float@box=\box57
+\rot@mess@toks=\toks28
 ) (./Roentgen.aux
 (./deckblatt.aux) (./versuchsdurchfuehrung2.aux) (./auswertung_pulver.aux))
 \openout1 = `Roentgen.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 32.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 32.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 35.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 35.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 32.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 35.
 
 (/usr/share/texmf/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -832,20 +934,21 @@ File: siunitx-abbreviations.cfg 2013/07/31 v2.5s siunitx: Abbreviated units
 )
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
+Package caption Info: rotating package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\AtBeginShipoutBox=\box52
-Package hyperref Info: Link coloring OFF on input line 32.
+\AtBeginShipoutBox=\box58
+Package hyperref Info: Link coloring OFF on input line 35.
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count166
+\c@section@level=\count189
 )
-LaTeX Info: Redefining \ref on input line 32.
-LaTeX Info: Redefining \pageref on input line 32.
-LaTeX Info: Redefining \nameref on input line 32.
+LaTeX Info: Redefining \ref on input line 35.
+LaTeX Info: Redefining \pageref on input line 35.
+LaTeX Info: Redefining \nameref on input line 35.
 
 (./Roentgen.out) (./Roentgen.out)
 \@outlinefile=\write3
@@ -888,17 +991,17 @@ LaTeX Info: Redefining \nameref on input line 32.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count167
-\scratchdimen=\dimen179
-\scratchbox=\box53
-\nofMPsegments=\count168
-\nofMParguments=\count169
-\everyMPshowfont=\toks26
-\MPscratchCnt=\count170
-\MPscratchDim=\dimen180
-\MPnumerator=\count171
-\makeMPintoPDFobject=\count172
-\everyMPtoPDFconversion=\toks27
+\scratchcounter=\count190
+\scratchdimen=\dimen189
+\scratchbox=\box59
+\nofMPsegments=\count191
+\nofMParguments=\count192
+\everyMPshowfont=\toks29
+\MPscratchCnt=\count193
+\MPscratchDim=\dimen190
+\MPnumerator=\count194
+\makeMPintoPDFobject=\count195
+\everyMPtoPDFconversion=\toks30
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
@@ -914,53 +1017,53 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\c__siunitx_mathsf_int=\count173
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 32.
+\c__siunitx_mathsf_int=\count196
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 35.
 
 (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 32.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 35.
 
 (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 32.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 35.
 
 
 (/usr/share/texmf/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 32.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 35.
 
 
 (/usr/share/texmf/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 32.
+(Font)              <12> on input line 35.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 32.
+(Font)              <8> on input line 35.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 32.
-LaTeX Font Info:    Try loading font information for U+msa on input line 32.
+(Font)              <6> on input line 35.
+LaTeX Font Info:    Try loading font information for U+msa on input line 35.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 32.
+LaTeX Font Info:    Try loading font information for U+msb on input line 35.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for OT1+lmss on input line 32.
+LaTeX Font Info:    Try loading font information for OT1+lmss on input line 35.
 
 
 (/usr/share/texmf/tex/latex/lm/ot1lmss.fd
 File: ot1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-\c__siunitx_mathtt_int=\count174
-LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 32.
+\c__siunitx_mathtt_int=\count197
+LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 35.
 
 
 (/usr/share/texmf/tex/latex/lm/ot1lmtt.fd
@@ -969,7 +1072,7 @@ File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 \openout2 = `deckblatt.aux'.
 
  (./deckblatt.tex
-<logo.png, id=84, 2007.5pt x 632.3625pt>
+<logo.png, id=88, 2007.5pt x 632.3625pt>
 File: logo.png Graphic file (type png)
  <use logo.png>
 Package pdftex.def Info: logo.png used on input line 7.
@@ -991,11 +1094,11 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.38 \newpage
+l.41 \newpage
               [1
 
 ] (./einleitung.tex) (./theorie.tex (./Bragg.tex
-<Bragg.pdf, id=122, 597.23125pt x 845.1575pt>
+<Bragg.pdf, id=127, 597.23125pt x 845.1575pt>
 File: Bragg.pdf Graphic file (type pdf)
  <use Bragg.pdf>
 Package pdftex.def Info: Bragg.pdf used on input line 6.
@@ -1008,7 +1111,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 10.
 ) (./moesley.tex
 [2 <./Bragg.pdf>]) (./roehre.tex
-<roehre.pdf, id=163, 597.23125pt x 845.1575pt>
+<roehre.pdf, id=168, 597.23125pt x 845.1575pt>
 File: roehre.pdf Graphic file (type pdf)
  <use roehre.pdf>
 Package pdftex.def Info: roehre.pdf used on input line 8.
@@ -1028,81 +1131,510 @@ LaTeX Font Info:    Try loading font information for TS1+lmr on input line 7.
  (/usr/share/texmf/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-<spektrum_1.pdf, id=213, 1517.67pt x 870.85347pt>
+<spektrum_1.pdf, id=218, 1517.67pt x 870.85347pt>
 File: spektrum_1.pdf Graphic file (type pdf)
  <use spektrum_1.pdf>
-Package pdftex.def Info: spektrum_1.pdf used on input line 18.
-(pdftex.def)             Requested size: 455.30452pt x 261.25806pt.
+Package pdftex.def Info: spektrum_1.pdf used on input line 19.
+(pdftex.def)             Requested size: 758.83315pt x 435.42566pt.
 
-<spektrum_2.pdf, id=215, 1517.67pt x 870.85347pt>
+Overfull \hbox (27.5973pt too wide) in paragraph at lines 19--20
+ [][] 
+ []
+
+<spektrum_2.pdf, id=220, 1517.67pt x 870.85347pt>
 File: spektrum_2.pdf Graphic file (type pdf)
  <use spektrum_2.pdf>
-Package pdftex.def Info: spektrum_2.pdf used on input line 27.
-(pdftex.def)             Requested size: 455.30452pt x 261.25806pt.
- [7 <./spektrum_1.pdf>] <spektrum_3.pdf, id=273, 1517.67pt x 870.85347pt>
+Package pdftex.def Info: spektrum_2.pdf used on input line 28.
+(pdftex.def)             Requested size: 758.83315pt x 435.42566pt.
+
+Overfull \hbox (27.5973pt too wide) in paragraph at lines 28--29
+ [][] 
+ []
+
+<spektrum_3.pdf, id=222, 1517.67pt x 870.85347pt>
 File: spektrum_3.pdf Graphic file (type pdf)
+ <use spektrum_3.pdf>
+Package pdftex.def Info: spektrum_3.pdf used on input line 37.
+(pdftex.def)             Requested size: 758.83315pt x 435.42566pt.
 
-<use spektrum_3.pdf>
-Package pdftex.def Info: spektrum_3.pdf used on input line 36.
-(pdftex.def)             Requested size: 455.30452pt x 261.25806pt.
- [8 <./spektrum_2.pdf> <./spektrum_3.pdf
+Overfull \hbox (27.5973pt too wide) in paragraph at lines 37--38
+ [][] 
+ []
 
-pdfTeX warning: pdflatex (file ./spektrum_3.pdf): PDF inclusion: multiple pdfs 
-with page group included in a single page
->] <30_10_voigt.pdf, id=375, 2312.64pt x 875.37035pt>
+<30_10_voigt.pdf, id=225, 2312.64pt x 875.37035pt>
 File: 30_10_voigt.pdf Graphic file (type pdf)
  <use 30_10_voigt.pdf>
-Package pdftex.def Info: 30_10_voigt.pdf used on input line 46.
-(pdftex.def)             Requested size: 462.5198pt x 175.07097pt.
+Package pdftex.def Info: 30_10_voigt.pdf used on input line 47.
+(pdftex.def)             Requested size: 693.79736pt x 262.61313pt.
 
-Overfull \hbox (2.92546pt too wide) in paragraph at lines 56--63
+Overfull \hbox (2.92546pt too wide) in paragraph at lines 57--64
  [][] 
  []
 
+[7] [8 <./spektrum_1.pdf>] [9 <./spektrum_2.pdf>] [10 <./spektrum_3.pdf>]
+[11 <./30_10_voigt.pdf>] [12] [13]
 
-Overfull \hbox (19.64607pt too wide) in paragraph at lines 72--94
- [][] 
- []
-
-[9 <./30_10_voigt.pdf>] [10]
-Underfull \hbox (badness 10000) in paragraph at lines 135--135
-[]|\T1/lmr/m/n/12 Beschleunigungs-
- []
+Package caption Warning: \label without proper \caption on input line 225.
+See the caption package documentation for explanation.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 135--135
-\T1/lmr/m/n/12 span-nung und
- []
+LaTeX Warning: Reference `tab:si(331)' on page 14 undefined on input line 222.
 
-[11] [12])) (./pulverdiffraktometrie.tex [13]
+[14]
+
+Package caption Warning: \label without proper \caption on input line 249.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `tab:ge(111)' on page 15 undefined on input line 245.
+
+)) (./pulverdiffraktometrie.tex [15]
 \openout2 = `versuchsdurchfuehrung2.aux'.
 
- (./versuchsdurchfuehrung2.tex)
-[14
+ (./versuchsdurchfuehrung2.tex
+
+LaTeX Warning: Reference `' on page 16 undefined on input line 2.
+
+) [16
 
 ]
 \openout2 = `auswertung_pulver.aux'.
 
  (./auswertung_pulver.tex
-<messung_pulver_ges.pdf, id=488, 1445.4pt x 714.56966pt>
+<messung_pulver_ges.pdf, id=510, 1445.4pt x 714.56966pt>
 File: messung_pulver_ges.pdf Graphic file (type pdf)
 
 <use messung_pulver_ges.pdf>
-Package pdftex.def Info: messung_pulver_ges.pdf used on input line 5.
-(pdftex.def)             Requested size: 1445.39648pt x 714.56792pt.
+Package pdftex.def Info: messung_pulver_ges.pdf used on input line 6.
+(pdftex.def)             Requested size: 731.23352pt x 511.86203pt.
 
-Overfull \hbox (24.18541pt too wide) in paragraph at lines 5--6
- [][] 
- []
+<Simulation_Siliciumpulver_ges.pdf, id=511, 1445.4pt x 714.56966pt>
+File: Simulation_Siliciumpulver_ges.pdf Graphic file (type pdf)
 
-[15
+<use Simulation_Siliciumpulver_ges.pdf>
+Package pdftex.def Info: Simulation_Siliciumpulver_ges.pdf used on input line 1
+2.
+(pdftex.def)             Requested size: 731.23352pt x 511.86203pt.
+File: messung_pulver_ges.pdf Graphic file (type pdf)
+ <use messung_pulver_ges.pdf>
+Package pdftex.def Info: messung_pulver_ges.pdf used on input line 18.
+(pdftex.def)             Requested size: 731.23352pt x 511.86203pt.
+) [17
 
 
 ]
-Overfull \vbox (18.50183pt too high) has occurred while \output is active []
+[18 <./messung_pulver_ges.pdf>] [19 <./Simulation_Siliciumpulver_ges.pdf>]
+[20]) (./fazit.tex) (./Anhang.tex
+<messung_pulver_1.pdf, id=633, 1445.4pt x 714.56966pt>
+File: messung_pulver_1.pdf Graphic file (type pdf)
 
+<use messung_pulver_1.pdf>
+Package pdftex.def Info: messung_pulver_1.pdf used on input line 6.
+(pdftex.def)             Requested size: 216.80064pt x 107.18082pt.
 
-[16 <./messung_pulver_ges.pdf>]) [17]) (./fazit.tex) (./Roentgen.bbl
+<messung_pulver_2.pdf, id=634, 1445.4pt x 714.56966pt>
+File: messung_pulver_2.pdf Graphic file (type pdf)
+
+<use messung_pulver_2.pdf>
+Package pdftex.def Info: messung_pulver_2.pdf used on input line 13.
+(pdftex.def)             Requested size: 216.80064pt x 107.18082pt.
+
+Overfull \hbox (19.4485pt too wide) in paragraph at lines 4--17
+[]$[]$   $[]$ 
+ []
+
+<messung_pulver_3.pdf, id=635, 1445.4pt x 714.56966pt>
+File: messung_pulver_3.pdf Graphic file (type pdf)
+
+<use messung_pulver_3.pdf>
+Package pdftex.def Info: messung_pulver_3.pdf used on input line 21.
+(pdftex.def)             Requested size: 216.80064pt x 107.18082pt.
+
+<messung_pulver_4.pdf, id=636, 1445.4pt x 714.56966pt>
+File: messung_pulver_4.pdf Graphic file (type pdf)
+
+<use messung_pulver_4.pdf>
+Package pdftex.def Info: messung_pulver_4.pdf used on input line 28.
+(pdftex.def)             Requested size: 216.80064pt x 107.18082pt.
+
+Overfull \hbox (19.4485pt too wide) in paragraph at lines 19--32
+[]$[]$   $[]$ 
+ []
+
+<messung_pulver_5.pdf, id=637, 1445.4pt x 714.56966pt>
+File: messung_pulver_5.pdf Graphic file (type pdf)
+
+<use messung_pulver_5.pdf>
+Package pdftex.def Info: messung_pulver_5.pdf used on input line 36.
+(pdftex.def)             Requested size: 216.80064pt x 107.18082pt.
+
+<messung_pulver_6.pdf, id=638, 1445.4pt x 714.56966pt>
+File: messung_pulver_6.pdf Graphic file (type pdf)
+
+<use messung_pulver_6.pdf>
+Package pdftex.def Info: messung_pulver_6.pdf used on input line 43.
+(pdftex.def)             Requested size: 216.80064pt x 107.18082pt.
+
+Overfull \hbox (19.4485pt too wide) in paragraph at lines 34--47
+[]$[]$   $[]$ 
+ []
+
+<messung_pulver_7.pdf, id=639, 1445.4pt x 714.56966pt>
+File: messung_pulver_7.pdf Graphic file (type pdf)
+
+<use messung_pulver_7.pdf>
+Package pdftex.def Info: messung_pulver_7.pdf used on input line 51.
+(pdftex.def)             Requested size: 216.80064pt x 107.18082pt.
+
+<messung_pulver_8.pdf, id=640, 1445.4pt x 714.56966pt>
+File: messung_pulver_8.pdf Graphic file (type pdf)
+
+<use messung_pulver_8.pdf>
+Package pdftex.def Info: messung_pulver_8.pdf used on input line 58.
+(pdftex.def)             Requested size: 216.80064pt x 107.18082pt.
+
+Overfull \hbox (19.4485pt too wide) in paragraph at lines 49--62
+[]$[]$   $[]$ 
+ []
+
+<messung_pulver_9.pdf, id=641, 1445.4pt x 714.56966pt>
+File: messung_pulver_9.pdf Graphic file (type pdf)
+
+<use messung_pulver_9.pdf>
+Package pdftex.def Info: messung_pulver_9.pdf used on input line 66.
+(pdftex.def)             Requested size: 216.80064pt x 107.18082pt.
+
+<messung_pulver_10.pdf, id=642, 1445.4pt x 714.56966pt>
+File: messung_pulver_10.pdf Graphic file (type pdf)
+
+<use messung_pulver_10.pdf>
+Package pdftex.def Info: messung_pulver_10.pdf used on input line 73.
+(pdftex.def)             Requested size: 216.80064pt x 107.18082pt.
+
+Overfull \hbox (19.4485pt too wide) in paragraph at lines 64--77
+[]$[]$   $[]$ 
+ []
+
+[21
+
+ <./messung_pulver_1.pdf> <./messung_pulver_2.pdf
+
+pdfTeX warning: pdflatex (file ./messung_pulver_2.pdf): PDF inclusion: multiple
+ pdfs with page group included in a single page
+> <./messung_pulver_3.pdf
+
+pdfTeX warning: pdflatex (file ./messung_pulver_3.pdf): PDF inclusion: multiple
+ pdfs with page group included in a single page
+> <./messung_pulver_4.pdf
+
+pdfTeX warning: pdflatex (file ./messung_pulver_4.pdf): PDF inclusion: multiple
+ pdfs with page group included in a single page
+> <./messung_pulver_5.pdf
+
+pdfTeX warning: pdflatex (file ./messung_pulver_5.pdf): PDF inclusion: multiple
+ pdfs with page group included in a single page
+> <./messung_pulver_6.pdf
+
+pdfTeX warning: pdflatex (file ./messung_pulver_6.pdf): PDF inclusion: multiple
+ pdfs with page group included in a single page
+>] <messung_pulver_11.pdf, id=967, 1445.4pt x 714.56966pt>
+File: messung_pulver_11.pdf Graphic file (type pdf)
+
+<use messung_pulver_11.pdf>
+Package pdftex.def Info: messung_pulver_11.pdf used on input line 81.
+(pdftex.def)             Requested size: 216.80064pt x 107.18082pt.
+
+<Simulation_Siliciumpulver_1.pdf, id=968, 1445.4pt x 714.56966pt>
+File: Simulation_Siliciumpulver_1.pdf Graphic file (type pdf)
+
+<use Simulation_Siliciumpulver_1.pdf>
+Package pdftex.def Info: Simulation_Siliciumpulver_1.pdf used on input line 90.
+
+(pdftex.def)             Requested size: 216.80064pt x 107.18082pt.
+
+<Simulation_Siliciumpulver_2.pdf, id=969, 1445.4pt x 714.56966pt>
+File: Simulation_Siliciumpulver_2.pdf Graphic file (type pdf)
+
+<use Simulation_Siliciumpulver_2.pdf>
+Package pdftex.def Info: Simulation_Siliciumpulver_2.pdf used on input line 97.
+
+(pdftex.def)             Requested size: 216.80064pt x 107.18082pt.
+
+Overfull \hbox (19.4485pt too wide) in paragraph at lines 88--101
+[]$[]$   $[]$ 
+ []
+
+<Simulation_Siliciumpulver_3.pdf, id=970, 1445.4pt x 714.56966pt>
+File: Simulation_Siliciumpulver_3.pdf Graphic file (type pdf)
+
+<use Simulation_Siliciumpulver_3.pdf>
+Package pdftex.def Info: Simulation_Siliciumpulver_3.pdf used on input line 105
+.
+(pdftex.def)             Requested size: 216.80064pt x 107.18082pt.
+
+<Simulation_Siliciumpulver_4.pdf, id=971, 1445.4pt x 714.56966pt>
+File: Simulation_Siliciumpulver_4.pdf Graphic file (type pdf)
+
+<use Simulation_Siliciumpulver_4.pdf>
+Package pdftex.def Info: Simulation_Siliciumpulver_4.pdf used on input line 112
+.
+(pdftex.def)             Requested size: 216.80064pt x 107.18082pt.
+
+Overfull \hbox (19.4485pt too wide) in paragraph at lines 103--116
+[]$[]$   $[]$ 
+ []
+
+<Simulation_Siliciumpulver_5.pdf, id=972, 1445.4pt x 714.56966pt>
+File: Simulation_Siliciumpulver_5.pdf Graphic file (type pdf)
+
+<use Simulation_Siliciumpulver_5.pdf>
+Package pdftex.def Info: Simulation_Siliciumpulver_5.pdf used on input line 120
+.
+(pdftex.def)             Requested size: 216.80064pt x 107.18082pt.
+
+<Simulation_Siliciumpulver_6.pdf, id=973, 1445.4pt x 714.56966pt>
+File: Simulation_Siliciumpulver_6.pdf Graphic file (type pdf)
+
+<use Simulation_Siliciumpulver_6.pdf>
+Package pdftex.def Info: Simulation_Siliciumpulver_6.pdf used on input line 127
+.
+(pdftex.def)             Requested size: 216.80064pt x 107.18082pt.
+
+Overfull \hbox (19.4485pt too wide) in paragraph at lines 118--131
+[]$[]$   $[]$ 
+ []
+
+[22 <./messung_pulver_7.pdf> <./messung_pulver_8.pdf
+
+pdfTeX warning: pdflatex (file ./messung_pulver_8.pdf): PDF inclusion: multiple
+ pdfs with page group included in a single page
+> <./messung_pulver_9.pdf
+
+pdfTeX warning: pdflatex (file ./messung_pulver_9.pdf): PDF inclusion: multiple
+ pdfs with page group included in a single page
+> <./messung_pulver_10.pdf
+
+pdfTeX warning: pdflatex (file ./messung_pulver_10.pdf): PDF inclusion: multipl
+e pdfs with page group included in a single page
+> <./messung_pulver_11.pdf
+
+pdfTeX warning: pdflatex (file ./messung_pulver_11.pdf): PDF inclusion: multipl
+e pdfs with page group included in a single page
+> <./Simulation_Siliciumpulver_1.pdf
+
+pdfTeX warning: pdflatex (file ./Simulation_Siliciumpulver_1.pdf): PDF inclusio
+n: multiple pdfs with page group included in a single page
+> <./Simulation_Siliciumpulver_2.pdf
+
+pdfTeX warning: pdflatex (file ./Simulation_Siliciumpulver_2.pdf): PDF inclusio
+n: multiple pdfs with page group included in a single page
+>] <Simulation_Siliciumpulver_7.pdf, id=1351, 1445.4pt x 714.56966pt>
+File: Simulation_Siliciumpulver_7.pdf Graphic file (type pdf)
+
+<use Simulation_Siliciumpulver_7.pdf>
+Package pdftex.def Info: Simulation_Siliciumpulver_7.pdf used on input line 135
+.
+(pdftex.def)             Requested size: 216.80064pt x 107.18082pt.
+
+<Simulation_Siliciumpulver_8.pdf, id=1352, 1445.4pt x 714.56966pt>
+File: Simulation_Siliciumpulver_8.pdf Graphic file (type pdf)
+
+<use Simulation_Siliciumpulver_8.pdf>
+Package pdftex.def Info: Simulation_Siliciumpulver_8.pdf used on input line 142
+.
+(pdftex.def)             Requested size: 216.80064pt x 107.18082pt.
+
+Overfull \hbox (19.4485pt too wide) in paragraph at lines 133--146
+[]$[]$   $[]$ 
+ []
+
+<Simulation_Siliciumpulver_9.pdf, id=1353, 1445.4pt x 714.56966pt>
+File: Simulation_Siliciumpulver_9.pdf Graphic file (type pdf)
+
+<use Simulation_Siliciumpulver_9.pdf>
+Package pdftex.def Info: Simulation_Siliciumpulver_9.pdf used on input line 150
+.
+(pdftex.def)             Requested size: 216.80064pt x 107.18082pt.
+
+<Simulation_Siliciumpulver_10.pdf, id=1354, 1445.4pt x 714.56966pt>
+File: Simulation_Siliciumpulver_10.pdf Graphic file (type pdf)
+
+<use Simulation_Siliciumpulver_10.pdf>
+Package pdftex.def Info: Simulation_Siliciumpulver_10.pdf used on input line 15
+7.
+(pdftex.def)             Requested size: 216.80064pt x 107.18082pt.
+
+Overfull \hbox (19.4485pt too wide) in paragraph at lines 148--161
+[]$[]$   $[]$ 
+ []
+
+<Simulation_Siliciumpulver_11.pdf, id=1355, 1445.4pt x 714.56966pt>
+File: Simulation_Siliciumpulver_11.pdf Graphic file (type pdf)
+
+<use Simulation_Siliciumpulver_11.pdf>
+Package pdftex.def Info: Simulation_Siliciumpulver_11.pdf used on input line 16
+5.
+(pdftex.def)             Requested size: 216.80064pt x 107.18082pt.
+ [23 <./Simulation_Siliciumpulver_3.pdf> <./Simulation_Siliciumpulver_4.pdf
+
+pdfTeX warning: pdflatex (file ./Simulation_Siliciumpulver_4.pdf): PDF inclusio
+n: multiple pdfs with page group included in a single page
+> <./Simulation_Siliciumpulver_5.pdf
+
+pdfTeX warning: pdflatex (file ./Simulation_Siliciumpulver_5.pdf): PDF inclusio
+n: multiple pdfs with page group included in a single page
+> <./Simulation_Siliciumpulver_6.pdf
+
+pdfTeX warning: pdflatex (file ./Simulation_Siliciumpulver_6.pdf): PDF inclusio
+n: multiple pdfs with page group included in a single page
+> <./Simulation_Siliciumpulver_7.pdf
+
+pdfTeX warning: pdflatex (file ./Simulation_Siliciumpulver_7.pdf): PDF inclusio
+n: multiple pdfs with page group included in a single page
+> <./Simulation_Siliciumpulver_8.pdf
+
+pdfTeX warning: pdflatex (file ./Simulation_Siliciumpulver_8.pdf): PDF inclusio
+n: multiple pdfs with page group included in a single page
+> <./Simulation_Siliciumpulver_9.pdf
+
+pdfTeX warning: pdflatex (file ./Simulation_Siliciumpulver_9.pdf): PDF inclusio
+n: multiple pdfs with page group included in a single page
+> <./Simulation_Siliciumpulver_10.pdf
+
+pdfTeX warning: pdflatex (file ./Simulation_Siliciumpulver_10.pdf): PDF inclusi
+on: multiple pdfs with page group included in a single page
+>] <Simulation_Germaniumpulver_1.pdf, id=1782, 1445.4pt x 714.56966pt>
+File: Simulation_Germaniumpulver_1.pdf Graphic file (type pdf)
+
+<use Simulation_Germaniumpulver_1.pdf>
+Package pdftex.def Info: Simulation_Germaniumpulver_1.pdf used on input line 17
+4.
+(pdftex.def)             Requested size: 216.80064pt x 107.18082pt.
+
+<Simulation_Germaniumpulver_2.pdf, id=1783, 1445.4pt x 714.56966pt>
+File: Simulation_Germaniumpulver_2.pdf Graphic file (type pdf)
+
+<use Simulation_Germaniumpulver_2.pdf>
+Package pdftex.def Info: Simulation_Germaniumpulver_2.pdf used on input line 18
+1.
+(pdftex.def)             Requested size: 216.80064pt x 107.18082pt.
+
+Overfull \hbox (19.4485pt too wide) in paragraph at lines 172--185
+[]$[]$   $[]$ 
+ []
+
+<Simulation_Germaniumpulver_3.pdf, id=1784, 1445.4pt x 714.56966pt>
+File: Simulation_Germaniumpulver_3.pdf Graphic file (type pdf)
+
+<use Simulation_Germaniumpulver_3.pdf>
+Package pdftex.def Info: Simulation_Germaniumpulver_3.pdf used on input line 18
+9.
+(pdftex.def)             Requested size: 216.80064pt x 107.18082pt.
+
+<Simulation_Germaniumpulver_4.pdf, id=1785, 1445.4pt x 714.56966pt>
+File: Simulation_Germaniumpulver_4.pdf Graphic file (type pdf)
+
+<use Simulation_Germaniumpulver_4.pdf>
+Package pdftex.def Info: Simulation_Germaniumpulver_4.pdf used on input line 19
+6.
+(pdftex.def)             Requested size: 216.80064pt x 107.18082pt.
+
+Overfull \hbox (19.4485pt too wide) in paragraph at lines 187--200
+[]$[]$   $[]$ 
+ []
+
+<Simulation_Germaniumpulver_5.pdf, id=1786, 1445.4pt x 714.56966pt>
+File: Simulation_Germaniumpulver_5.pdf Graphic file (type pdf)
+
+<use Simulation_Germaniumpulver_5.pdf>
+Package pdftex.def Info: Simulation_Germaniumpulver_5.pdf used on input line 20
+4.
+(pdftex.def)             Requested size: 216.80064pt x 107.18082pt.
+
+<Simulation_Germaniumpulver_6.pdf, id=1787, 1445.4pt x 714.56966pt>
+File: Simulation_Germaniumpulver_6.pdf Graphic file (type pdf)
+
+<use Simulation_Germaniumpulver_6.pdf>
+Package pdftex.def Info: Simulation_Germaniumpulver_6.pdf used on input line 21
+1.
+(pdftex.def)             Requested size: 216.80064pt x 107.18082pt.
+
+Overfull \hbox (19.4485pt too wide) in paragraph at lines 202--215
+[]$[]$   $[]$ 
+ []
+
+<Simulation_Germaniumpulver_7.pdf, id=1788, 1445.4pt x 714.56966pt>
+File: Simulation_Germaniumpulver_7.pdf Graphic file (type pdf)
+
+<use Simulation_Germaniumpulver_7.pdf>
+Package pdftex.def Info: Simulation_Germaniumpulver_7.pdf used on input line 21
+9.
+(pdftex.def)             Requested size: 216.80064pt x 107.18082pt.
+
+<Simulation_Germaniumpulver_8.pdf, id=1789, 1445.4pt x 714.56966pt>
+File: Simulation_Germaniumpulver_8.pdf Graphic file (type pdf)
+
+<use Simulation_Germaniumpulver_8.pdf>
+Package pdftex.def Info: Simulation_Germaniumpulver_8.pdf used on input line 22
+6.
+(pdftex.def)             Requested size: 216.80064pt x 107.18082pt.
+
+Overfull \hbox (19.4485pt too wide) in paragraph at lines 217--230
+[]$[]$   $[]$ 
+ []
+
+<Simulation_Germaniumpulver_9.pdf, id=1790, 1445.4pt x 714.56966pt>
+File: Simulation_Germaniumpulver_9.pdf Graphic file (type pdf)
+
+<use Simulation_Germaniumpulver_9.pdf>
+Package pdftex.def Info: Simulation_Germaniumpulver_9.pdf used on input line 23
+4.
+(pdftex.def)             Requested size: 216.80064pt x 107.18082pt.
+
+<Simulation_Germaniumpulver_10.pdf, id=1791, 1445.4pt x 714.56966pt>
+File: Simulation_Germaniumpulver_10.pdf Graphic file (type pdf)
+
+<use Simulation_Germaniumpulver_10.pdf>
+Package pdftex.def Info: Simulation_Germaniumpulver_10.pdf used on input line 2
+41.
+(pdftex.def)             Requested size: 216.80064pt x 107.18082pt.
+
+Overfull \hbox (19.4485pt too wide) in paragraph at lines 232--245
+[]$[]$   $[]$ 
+ []
+
+[24 <./Simulation_Siliciumpulver_11.pdf> <./Simulation_Germaniumpulver_1.pdf
+
+pdfTeX warning: pdflatex (file ./Simulation_Germaniumpulver_1.pdf): PDF inclusi
+on: multiple pdfs with page group included in a single page
+> <./Simulation_Germaniumpulver_2.pdf
+
+pdfTeX warning: pdflatex (file ./Simulation_Germaniumpulver_2.pdf): PDF inclusi
+on: multiple pdfs with page group included in a single page
+> <./Simulation_Germaniumpulver_3.pdf
+
+pdfTeX warning: pdflatex (file ./Simulation_Germaniumpulver_3.pdf): PDF inclusi
+on: multiple pdfs with page group included in a single page
+> <./Simulation_Germaniumpulver_4.pdf
+
+pdfTeX warning: pdflatex (file ./Simulation_Germaniumpulver_4.pdf): PDF inclusi
+on: multiple pdfs with page group included in a single page
+> <./Simulation_Germaniumpulver_5.pdf
+
+pdfTeX warning: pdflatex (file ./Simulation_Germaniumpulver_5.pdf): PDF inclusi
+on: multiple pdfs with page group included in a single page
+> <./Simulation_Germaniumpulver_6.pdf
+
+pdfTeX warning: pdflatex (file ./Simulation_Germaniumpulver_6.pdf): PDF inclusi
+on: multiple pdfs with page group included in a single page
+>] <Simulation_Germaniumpulver_11.pdf, id=2170, 1445.4pt x 714.56966pt>
+File: Simulation_Germaniumpulver_11.pdf Graphic file (type pdf)
+
+<use Simulation_Germaniumpulver_11.pdf>
+Package pdftex.def Info: Simulation_Germaniumpulver_11.pdf used on input line 2
+49.
+(pdftex.def)             Requested size: 216.80064pt x 107.18082pt.
+) (./Roentgen.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 4--6
 \T1/lmr/m/n/12 https://moodle2.uni-wuppertal.de/pluginfile.php/223685/mod_resou
 rce/content/1/fpi-
@@ -1112,27 +1644,45 @@ rce/content/1/fpi-
 
 Package natbib Warning: There were undefined citations.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 53.
-[18
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 57.
+[25 <./Simulation_Germaniumpulver_7.pdf> <./Simulation_Germaniumpulver_8.pdf
 
-]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 53.
+pdfTeX warning: pdflatex (file ./Simulation_Germaniumpulver_8.pdf): PDF inclusi
+on: multiple pdfs with page group included in a single page
+> <./Simulation_Germaniumpulver_9.pdf
+
+pdfTeX warning: pdflatex (file ./Simulation_Germaniumpulver_9.pdf): PDF inclusi
+on: multiple pdfs with page group included in a single page
+> <./Simulation_Germaniumpulver_10.pdf
+
+pdfTeX warning: pdflatex (file ./Simulation_Germaniumpulver_10.pdf): PDF inclus
+ion: multiple pdfs with page group included in a single page
+> <./Simulation_Germaniumpulver_11.pdf
+
+pdfTeX warning: pdflatex (file ./Simulation_Germaniumpulver_11.pdf): PDF inclus
+ion: multiple pdfs with page group included in a single page
+>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 57.
  (./Roentgen.aux (./deckblatt.aux) (./versuchsdurchfuehrung2.aux)
 (./auswertung_pulver.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 53.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 53.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 57.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 57.
 Package rerunfilecheck Info: File `Roentgen.out' has not changed.
-(rerunfilecheck)             Checksum: 38ACF2EB79CEAE870040A9EC2071CCCA;1511.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 53.
+(rerunfilecheck)             Checksum: 6B7AA9FD3198DB006E498DC807974CAB;1553.
+
+
+LaTeX Warning: There were undefined references.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 57.
  ) 
 Here is how much of TeX's memory you used:
- 17278 strings out of 493304
- 327401 string characters out of 6139870
- 368630 words of memory out of 5000000
- 20328 multiletter control sequences out of 15000+600000
+ 18813 strings out of 493304
+ 353678 string characters out of 6139870
+ 497081 words of memory out of 5000000
+ 21745 multiletter control sequences out of 15000+600000
  98997 words of font info for 77 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 39i,13n,38p,10420b,951s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,14n,77p,10420b,956s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/share/texmf/fonts/enc/d
 vips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/shar
 e/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/l
@@ -1146,10 +1696,10 @@ re/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm
 /lmr7.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fo
 nts/type1/public/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.p
 fb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb>
-Output written on Roentgen.pdf (19 pages, 1988365 bytes).
+Output written on Roentgen.pdf (26 pages, 8382951 bytes).
 PDF statistics:
- 613 PDF objects out of 1000 (max. 8388607)
- 395 compressed objects within 4 object streams
- 82 named destinations out of 1000 (max. 500000)
- 213 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2520 PDF objects out of 2984 (max. 8388607)
+ 1045 compressed objects within 11 object streams
+ 110 named destinations out of 1000 (max. 500000)
+ 391 words of extra memory for PDF output out of 10000 (max. 10000000)
 
