@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.11.19)  14 SEP 2015 19:29
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.11.19)  15 SEP 2015 05:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -895,7 +895,7 @@ Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 \rot@float@box=\box57
 \rot@mess@toks=\toks28
 ) (./Roentgen.aux
-(./deckblatt.aux) (./versuchsdurchfuehrung2.aux) (./auswertung_pulver.aux))
+(./deckblatt.aux))
 \openout1 = `Roentgen.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
@@ -914,8 +914,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 35.
 LaTeX Font Info:    ... okay on input line 35.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 35.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 35.
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 35.
@@ -1165,14 +1164,19 @@ Overfull \hbox (27.5973pt too wide) in paragraph at lines 37--38
 File: 30_10_voigt.pdf Graphic file (type pdf)
  <use 30_10_voigt.pdf>
 Package pdftex.def Info: 30_10_voigt.pdf used on input line 47.
-(pdftex.def)             Requested size: 693.79736pt x 262.61313pt.
+(pdftex.def)             Requested size: 508.78238pt x 192.58206pt.
+
+Overfull \hbox (25.08551pt too wide) in paragraph at lines 47--48
+ [][] 
+ []
+
 
 Overfull \hbox (2.92546pt too wide) in paragraph at lines 57--64
  [][] 
  []
 
-[7] [8 <./spektrum_1.pdf>] [9 <./spektrum_2.pdf>] [10 <./spektrum_3.pdf>]
-[11 <./30_10_voigt.pdf>] [12] [13]
+[7 <./30_10_voigt.pdf>] [8 <./spektrum_1.pdf>] [9 <./spektrum_2.pdf>] [10 <./sp
+ektrum_3.pdf>] [11] [12] [13]
 
 Package caption Warning: \label without proper \caption on input line 225.
 See the caption package documentation for explanation.
@@ -1180,144 +1184,226 @@ See the caption package documentation for explanation.
 
 LaTeX Warning: Reference `tab:si(331)' on page 14 undefined on input line 222.
 
-[14]
 
 Package caption Warning: \label without proper \caption on input line 249.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `tab:ge(111)' on page 15 undefined on input line 245.
+LaTeX Warning: Reference `tab:ge(111)' on page 14 undefined on input line 245.
 
-)) (./pulverdiffraktometrie.tex [15]
-\openout2 = `versuchsdurchfuehrung2.aux'.
+)) (./pulverdiffraktometrie.tex (./versuchsdurchfuehrung2.tex [14])
+(./auswertung_pulver.tex
+Overfull \hbox (0.9049pt too wide) in paragraph at lines 8--24
+[][] 
+ []
 
- (./versuchsdurchfuehrung2.tex
+[15] <Differenzplot_pulver_Energie.pdf, id=517, 1445.4pt x 714.56966pt>
+File: Differenzplot_pulver_Energie.pdf Graphic file (type pdf)
 
-LaTeX Warning: Reference `' on page 16 undefined on input line 2.
+<use Differenzplot_pulver_Energie.pdf>
+Package pdftex.def Info: Differenzplot_pulver_Energie.pdf used on input line 30
+.
+(pdftex.def)             Requested size: 505.89758pt x 250.10312pt.
 
-) [16
+Overfull \hbox (22.20071pt too wide) in paragraph at lines 30--32
+ [][] 
+ []
 
-]
-\openout2 = `auswertung_pulver.aux'.
+<Differenzplot_pulver_K_alpha_1.pdf, id=518, 578.16pt x 433.62pt>
+File: Differenzplot_pulver_K_alpha_1.pdf Graphic file (type pdf)
 
- (./auswertung_pulver.tex
-<messung_pulver_ges.pdf, id=510, 1445.4pt x 714.56966pt>
+<use Differenzplot_pulver_K_alpha_1.pdf>
+Package pdftex.def Info: Differenzplot_pulver_K_alpha_1.pdf used on input line 
+36.
+(pdftex.def)             Requested size: 265.95682pt x 199.46762pt.
+
+Overfull \hbox (28.9427pt too wide) in paragraph at lines 36--37
+ [][] 
+ []
+
+<Differenzplot_pulver_K_alpha_2.pdf, id=519, 578.16pt x 433.62pt>
+File: Differenzplot_pulver_K_alpha_2.pdf Graphic file (type pdf)
+
+<use Differenzplot_pulver_K_alpha_2.pdf>
+Package pdftex.def Info: Differenzplot_pulver_K_alpha_2.pdf used on input line 
+43.
+(pdftex.def)             Requested size: 260.16959pt x 195.1272pt.
+
+Overfull \hbox (23.15547pt too wide) in paragraph at lines 43--44
+ [][] 
+ []
+
+
+Overfull \hbox (1.24396pt too wide) in paragraph at lines 34--47
+[]$[]$   $[]$ 
+ []
+
+[16] [17 <./Differenzplot_pulver_Energie.pdf> <./Differenzplot_pulver_K_alpha_1
+.pdf
+
+pdfTeX warning: pdflatex (file ./Differenzplot_pulver_K_alpha_1.pdf): PDF inclu
+sion: multiple pdfs with page group included in a single page
+> <./Differenzplot_pulver_K_alpha_2.pdf
+
+pdfTeX warning: pdflatex (file ./Differenzplot_pulver_K_alpha_2.pdf): PDF inclu
+sion: multiple pdfs with page group included in a single page
+>] <messung_pulver_ges.pdf, id=682, 1445.4pt x 714.56966pt>
 File: messung_pulver_ges.pdf Graphic file (type pdf)
 
 <use messung_pulver_ges.pdf>
-Package pdftex.def Info: messung_pulver_ges.pdf used on input line 6.
+Package pdftex.def Info: messung_pulver_ges.pdf used on input line 64.
 (pdftex.def)             Requested size: 731.23352pt x 511.86203pt.
 
-<Simulation_Siliciumpulver_ges.pdf, id=511, 1445.4pt x 714.56966pt>
+<Simulation_Siliciumpulver_ges.pdf, id=683, 1445.4pt x 714.56966pt>
 File: Simulation_Siliciumpulver_ges.pdf Graphic file (type pdf)
 
 <use Simulation_Siliciumpulver_ges.pdf>
-Package pdftex.def Info: Simulation_Siliciumpulver_ges.pdf used on input line 1
-2.
+Package pdftex.def Info: Simulation_Siliciumpulver_ges.pdf used on input line 7
+0.
 (pdftex.def)             Requested size: 731.23352pt x 511.86203pt.
 File: messung_pulver_ges.pdf Graphic file (type pdf)
  <use messung_pulver_ges.pdf>
-Package pdftex.def Info: messung_pulver_ges.pdf used on input line 18.
+Package pdftex.def Info: messung_pulver_ges.pdf used on input line 76.
 (pdftex.def)             Requested size: 731.23352pt x 511.86203pt.
-) [17
-
-
-]
-[18 <./messung_pulver_ges.pdf>] [19 <./Simulation_Siliciumpulver_ges.pdf>]
-[20]) (./fazit.tex) (./Anhang.tex
-<messung_pulver_1.pdf, id=633, 1445.4pt x 714.56966pt>
+))
+(./fazit.tex [18] [19 <./messung_pulver_ges.pdf>] [20 <./Simulation_Siliciumpul
+ver_ges.pdf>] [21]) (./Anhang.tex
+<messung_pulver_1.pdf, id=805, 1445.4pt x 714.56966pt>
 File: messung_pulver_1.pdf Graphic file (type pdf)
 
 <use messung_pulver_1.pdf>
 Package pdftex.def Info: messung_pulver_1.pdf used on input line 6.
-(pdftex.def)             Requested size: 216.80064pt x 107.18082pt.
+(pdftex.def)             Requested size: 260.16077pt x 128.61699pt.
 
-<messung_pulver_2.pdf, id=634, 1445.4pt x 714.56966pt>
+Overfull \hbox (8.63634pt too wide) in paragraph at lines 6--7
+ [][] 
+ []
+
+<messung_pulver_2.pdf, id=806, 1445.4pt x 714.56966pt>
 File: messung_pulver_2.pdf Graphic file (type pdf)
 
 <use messung_pulver_2.pdf>
 Package pdftex.def Info: messung_pulver_2.pdf used on input line 13.
-(pdftex.def)             Requested size: 216.80064pt x 107.18082pt.
+(pdftex.def)             Requested size: 260.16077pt x 128.61699pt.
 
-Overfull \hbox (19.4485pt too wide) in paragraph at lines 4--17
+Overfull \hbox (8.63634pt too wide) in paragraph at lines 13--14
+ [][] 
+ []
+
+
+Overfull \hbox (30.26459pt too wide) in paragraph at lines 4--17
 []$[]$   $[]$ 
  []
 
-<messung_pulver_3.pdf, id=635, 1445.4pt x 714.56966pt>
+<messung_pulver_3.pdf, id=807, 1445.4pt x 714.56966pt>
 File: messung_pulver_3.pdf Graphic file (type pdf)
 
 <use messung_pulver_3.pdf>
 Package pdftex.def Info: messung_pulver_3.pdf used on input line 21.
-(pdftex.def)             Requested size: 216.80064pt x 107.18082pt.
+(pdftex.def)             Requested size: 260.16077pt x 128.61699pt.
 
-<messung_pulver_4.pdf, id=636, 1445.4pt x 714.56966pt>
+Overfull \hbox (8.63634pt too wide) in paragraph at lines 21--22
+ [][] 
+ []
+
+<messung_pulver_4.pdf, id=808, 1445.4pt x 714.56966pt>
 File: messung_pulver_4.pdf Graphic file (type pdf)
 
 <use messung_pulver_4.pdf>
 Package pdftex.def Info: messung_pulver_4.pdf used on input line 28.
-(pdftex.def)             Requested size: 216.80064pt x 107.18082pt.
+(pdftex.def)             Requested size: 260.16077pt x 128.61699pt.
 
-Overfull \hbox (19.4485pt too wide) in paragraph at lines 19--32
+Overfull \hbox (8.63634pt too wide) in paragraph at lines 28--29
+ [][] 
+ []
+
+
+Overfull \hbox (30.26459pt too wide) in paragraph at lines 19--32
 []$[]$   $[]$ 
  []
 
-<messung_pulver_5.pdf, id=637, 1445.4pt x 714.56966pt>
+<messung_pulver_5.pdf, id=809, 1445.4pt x 714.56966pt>
 File: messung_pulver_5.pdf Graphic file (type pdf)
 
 <use messung_pulver_5.pdf>
 Package pdftex.def Info: messung_pulver_5.pdf used on input line 36.
-(pdftex.def)             Requested size: 216.80064pt x 107.18082pt.
+(pdftex.def)             Requested size: 260.16077pt x 128.61699pt.
 
-<messung_pulver_6.pdf, id=638, 1445.4pt x 714.56966pt>
+Overfull \hbox (8.63634pt too wide) in paragraph at lines 36--37
+ [][] 
+ []
+
+<messung_pulver_6.pdf, id=810, 1445.4pt x 714.56966pt>
 File: messung_pulver_6.pdf Graphic file (type pdf)
 
 <use messung_pulver_6.pdf>
 Package pdftex.def Info: messung_pulver_6.pdf used on input line 43.
-(pdftex.def)             Requested size: 216.80064pt x 107.18082pt.
+(pdftex.def)             Requested size: 260.16077pt x 128.61699pt.
 
-Overfull \hbox (19.4485pt too wide) in paragraph at lines 34--47
+Overfull \hbox (8.63634pt too wide) in paragraph at lines 43--44
+ [][] 
+ []
+
+
+Overfull \hbox (30.26459pt too wide) in paragraph at lines 34--47
 []$[]$   $[]$ 
  []
 
-<messung_pulver_7.pdf, id=639, 1445.4pt x 714.56966pt>
+<messung_pulver_7.pdf, id=811, 1445.4pt x 714.56966pt>
 File: messung_pulver_7.pdf Graphic file (type pdf)
 
 <use messung_pulver_7.pdf>
 Package pdftex.def Info: messung_pulver_7.pdf used on input line 51.
-(pdftex.def)             Requested size: 216.80064pt x 107.18082pt.
+(pdftex.def)             Requested size: 260.16077pt x 128.61699pt.
 
-<messung_pulver_8.pdf, id=640, 1445.4pt x 714.56966pt>
+Overfull \hbox (8.63634pt too wide) in paragraph at lines 51--52
+ [][] 
+ []
+
+<messung_pulver_8.pdf, id=812, 1445.4pt x 714.56966pt>
 File: messung_pulver_8.pdf Graphic file (type pdf)
 
 <use messung_pulver_8.pdf>
 Package pdftex.def Info: messung_pulver_8.pdf used on input line 58.
-(pdftex.def)             Requested size: 216.80064pt x 107.18082pt.
+(pdftex.def)             Requested size: 260.16077pt x 128.61699pt.
 
-Overfull \hbox (19.4485pt too wide) in paragraph at lines 49--62
+Overfull \hbox (8.63634pt too wide) in paragraph at lines 58--59
+ [][] 
+ []
+
+
+Overfull \hbox (30.26459pt too wide) in paragraph at lines 49--62
 []$[]$   $[]$ 
  []
 
-<messung_pulver_9.pdf, id=641, 1445.4pt x 714.56966pt>
+<messung_pulver_9.pdf, id=813, 1445.4pt x 714.56966pt>
 File: messung_pulver_9.pdf Graphic file (type pdf)
 
 <use messung_pulver_9.pdf>
 Package pdftex.def Info: messung_pulver_9.pdf used on input line 66.
-(pdftex.def)             Requested size: 216.80064pt x 107.18082pt.
+(pdftex.def)             Requested size: 260.16077pt x 128.61699pt.
 
-<messung_pulver_10.pdf, id=642, 1445.4pt x 714.56966pt>
+Overfull \hbox (8.63634pt too wide) in paragraph at lines 66--67
+ [][] 
+ []
+
+<messung_pulver_10.pdf, id=814, 1445.4pt x 714.56966pt>
 File: messung_pulver_10.pdf Graphic file (type pdf)
 
 <use messung_pulver_10.pdf>
 Package pdftex.def Info: messung_pulver_10.pdf used on input line 73.
-(pdftex.def)             Requested size: 216.80064pt x 107.18082pt.
+(pdftex.def)             Requested size: 260.16077pt x 128.61699pt.
 
-Overfull \hbox (19.4485pt too wide) in paragraph at lines 64--77
+Overfull \hbox (8.63634pt too wide) in paragraph at lines 73--74
+ [][] 
+ []
+
+
+Overfull \hbox (30.26459pt too wide) in paragraph at lines 64--77
 []$[]$   $[]$ 
  []
 
-[21
-
- <./messung_pulver_1.pdf> <./messung_pulver_2.pdf
+[22 <./messung_pulver_1.pdf> <./messung_pulver_2.pdf
 
 pdfTeX warning: pdflatex (file ./messung_pulver_2.pdf): PDF inclusion: multiple
  pdfs with page group included in a single page
@@ -1337,74 +1423,76 @@ pdfTeX warning: pdflatex (file ./messung_pulver_5.pdf): PDF inclusion: multiple
 
 pdfTeX warning: pdflatex (file ./messung_pulver_6.pdf): PDF inclusion: multiple
  pdfs with page group included in a single page
->] <messung_pulver_11.pdf, id=967, 1445.4pt x 714.56966pt>
+>] <messung_pulver_11.pdf, id=1139, 1445.4pt x 714.56966pt>
 File: messung_pulver_11.pdf Graphic file (type pdf)
 
 <use messung_pulver_11.pdf>
 Package pdftex.def Info: messung_pulver_11.pdf used on input line 81.
-(pdftex.def)             Requested size: 216.80064pt x 107.18082pt.
+(pdftex.def)             Requested size: 260.16077pt x 128.61699pt.
 
-<Simulation_Siliciumpulver_1.pdf, id=968, 1445.4pt x 714.56966pt>
+Overfull \hbox (8.63634pt too wide) in paragraph at lines 81--82
+ [][] 
+ []
+
+<Simulation_Siliciumpulver_1.pdf, id=1140, 1445.4pt x 714.56966pt>
 File: Simulation_Siliciumpulver_1.pdf Graphic file (type pdf)
 
 <use Simulation_Siliciumpulver_1.pdf>
 Package pdftex.def Info: Simulation_Siliciumpulver_1.pdf used on input line 90.
 
-(pdftex.def)             Requested size: 216.80064pt x 107.18082pt.
+(pdftex.def)             Requested size: 260.16077pt x 128.61699pt.
 
-<Simulation_Siliciumpulver_2.pdf, id=969, 1445.4pt x 714.56966pt>
+Overfull \hbox (8.63634pt too wide) in paragraph at lines 90--91
+ [][] 
+ []
+
+<Simulation_Siliciumpulver_2.pdf, id=1141, 1445.4pt x 714.56966pt>
 File: Simulation_Siliciumpulver_2.pdf Graphic file (type pdf)
 
 <use Simulation_Siliciumpulver_2.pdf>
 Package pdftex.def Info: Simulation_Siliciumpulver_2.pdf used on input line 97.
 
-(pdftex.def)             Requested size: 216.80064pt x 107.18082pt.
+(pdftex.def)             Requested size: 260.16077pt x 128.61699pt.
 
-Overfull \hbox (19.4485pt too wide) in paragraph at lines 88--101
+Overfull \hbox (18.31233pt too wide) in paragraph at lines 97--98
+ [][] 
+ []
+
+
+Overfull \hbox (20.5886pt too wide) in paragraph at lines 88--101
 []$[]$   $[]$ 
  []
 
-<Simulation_Siliciumpulver_3.pdf, id=970, 1445.4pt x 714.56966pt>
+<Simulation_Siliciumpulver_3.pdf, id=1142, 1445.4pt x 714.56966pt>
 File: Simulation_Siliciumpulver_3.pdf Graphic file (type pdf)
 
 <use Simulation_Siliciumpulver_3.pdf>
 Package pdftex.def Info: Simulation_Siliciumpulver_3.pdf used on input line 105
 .
-(pdftex.def)             Requested size: 216.80064pt x 107.18082pt.
+(pdftex.def)             Requested size: 260.16077pt x 128.61699pt.
 
-<Simulation_Siliciumpulver_4.pdf, id=971, 1445.4pt x 714.56966pt>
+Overfull \hbox (8.63634pt too wide) in paragraph at lines 105--106
+ [][] 
+ []
+
+<Simulation_Siliciumpulver_4.pdf, id=1143, 1445.4pt x 714.56966pt>
 File: Simulation_Siliciumpulver_4.pdf Graphic file (type pdf)
 
 <use Simulation_Siliciumpulver_4.pdf>
 Package pdftex.def Info: Simulation_Siliciumpulver_4.pdf used on input line 112
 .
-(pdftex.def)             Requested size: 216.80064pt x 107.18082pt.
+(pdftex.def)             Requested size: 260.16077pt x 128.61699pt.
 
-Overfull \hbox (19.4485pt too wide) in paragraph at lines 103--116
+Overfull \hbox (18.31233pt too wide) in paragraph at lines 112--113
+ [][] 
+ []
+
+
+Overfull \hbox (20.5886pt too wide) in paragraph at lines 103--116
 []$[]$   $[]$ 
  []
 
-<Simulation_Siliciumpulver_5.pdf, id=972, 1445.4pt x 714.56966pt>
-File: Simulation_Siliciumpulver_5.pdf Graphic file (type pdf)
-
-<use Simulation_Siliciumpulver_5.pdf>
-Package pdftex.def Info: Simulation_Siliciumpulver_5.pdf used on input line 120
-.
-(pdftex.def)             Requested size: 216.80064pt x 107.18082pt.
-
-<Simulation_Siliciumpulver_6.pdf, id=973, 1445.4pt x 714.56966pt>
-File: Simulation_Siliciumpulver_6.pdf Graphic file (type pdf)
-
-<use Simulation_Siliciumpulver_6.pdf>
-Package pdftex.def Info: Simulation_Siliciumpulver_6.pdf used on input line 127
-.
-(pdftex.def)             Requested size: 216.80064pt x 107.18082pt.
-
-Overfull \hbox (19.4485pt too wide) in paragraph at lines 118--131
-[]$[]$   $[]$ 
- []
-
-[22 <./messung_pulver_7.pdf> <./messung_pulver_8.pdf
+[23 <./messung_pulver_7.pdf> <./messung_pulver_8.pdf
 
 pdfTeX warning: pdflatex (file ./messung_pulver_8.pdf): PDF inclusion: multiple
  pdfs with page group included in a single page
@@ -1420,62 +1508,114 @@ e pdfs with page group included in a single page
 
 pdfTeX warning: pdflatex (file ./messung_pulver_11.pdf): PDF inclusion: multipl
 e pdfs with page group included in a single page
-> <./Simulation_Siliciumpulver_1.pdf
+>] <Simulation_Siliciumpulver_5.pdf, id=1414, 1445.4pt x 714.56966pt>
+File: Simulation_Siliciumpulver_5.pdf Graphic file (type pdf)
 
-pdfTeX warning: pdflatex (file ./Simulation_Siliciumpulver_1.pdf): PDF inclusio
-n: multiple pdfs with page group included in a single page
-> <./Simulation_Siliciumpulver_2.pdf
+<use Simulation_Siliciumpulver_5.pdf>
+Package pdftex.def Info: Simulation_Siliciumpulver_5.pdf used on input line 120
+.
+(pdftex.def)             Requested size: 260.16077pt x 128.61699pt.
 
-pdfTeX warning: pdflatex (file ./Simulation_Siliciumpulver_2.pdf): PDF inclusio
-n: multiple pdfs with page group included in a single page
->] <Simulation_Siliciumpulver_7.pdf, id=1351, 1445.4pt x 714.56966pt>
+Overfull \hbox (8.63634pt too wide) in paragraph at lines 120--121
+ [][] 
+ []
+
+<Simulation_Siliciumpulver_6.pdf, id=1415, 1445.4pt x 714.56966pt>
+File: Simulation_Siliciumpulver_6.pdf Graphic file (type pdf)
+
+<use Simulation_Siliciumpulver_6.pdf>
+Package pdftex.def Info: Simulation_Siliciumpulver_6.pdf used on input line 127
+.
+(pdftex.def)             Requested size: 260.16077pt x 128.61699pt.
+
+Overfull \hbox (8.63634pt too wide) in paragraph at lines 127--128
+ [][] 
+ []
+
+
+Overfull \hbox (30.26459pt too wide) in paragraph at lines 118--131
+[]$[]$   $[]$ 
+ []
+
+<Simulation_Siliciumpulver_7.pdf, id=1416, 1445.4pt x 714.56966pt>
 File: Simulation_Siliciumpulver_7.pdf Graphic file (type pdf)
 
 <use Simulation_Siliciumpulver_7.pdf>
 Package pdftex.def Info: Simulation_Siliciumpulver_7.pdf used on input line 135
 .
-(pdftex.def)             Requested size: 216.80064pt x 107.18082pt.
+(pdftex.def)             Requested size: 260.16077pt x 128.61699pt.
 
-<Simulation_Siliciumpulver_8.pdf, id=1352, 1445.4pt x 714.56966pt>
+Overfull \hbox (8.63634pt too wide) in paragraph at lines 135--136
+ [][] 
+ []
+
+<Simulation_Siliciumpulver_8.pdf, id=1417, 1445.4pt x 714.56966pt>
 File: Simulation_Siliciumpulver_8.pdf Graphic file (type pdf)
 
 <use Simulation_Siliciumpulver_8.pdf>
 Package pdftex.def Info: Simulation_Siliciumpulver_8.pdf used on input line 142
 .
-(pdftex.def)             Requested size: 216.80064pt x 107.18082pt.
+(pdftex.def)             Requested size: 260.16077pt x 128.61699pt.
 
-Overfull \hbox (19.4485pt too wide) in paragraph at lines 133--146
+Overfull \hbox (8.63634pt too wide) in paragraph at lines 142--143
+ [][] 
+ []
+
+
+Overfull \hbox (30.26459pt too wide) in paragraph at lines 133--146
 []$[]$   $[]$ 
  []
 
-<Simulation_Siliciumpulver_9.pdf, id=1353, 1445.4pt x 714.56966pt>
+<Simulation_Siliciumpulver_9.pdf, id=1418, 1445.4pt x 714.56966pt>
 File: Simulation_Siliciumpulver_9.pdf Graphic file (type pdf)
 
 <use Simulation_Siliciumpulver_9.pdf>
 Package pdftex.def Info: Simulation_Siliciumpulver_9.pdf used on input line 150
 .
-(pdftex.def)             Requested size: 216.80064pt x 107.18082pt.
+(pdftex.def)             Requested size: 260.16077pt x 128.61699pt.
 
-<Simulation_Siliciumpulver_10.pdf, id=1354, 1445.4pt x 714.56966pt>
+Overfull \hbox (8.63634pt too wide) in paragraph at lines 150--151
+ [][] 
+ []
+
+<Simulation_Siliciumpulver_10.pdf, id=1419, 1445.4pt x 714.56966pt>
 File: Simulation_Siliciumpulver_10.pdf Graphic file (type pdf)
 
 <use Simulation_Siliciumpulver_10.pdf>
 Package pdftex.def Info: Simulation_Siliciumpulver_10.pdf used on input line 15
 7.
-(pdftex.def)             Requested size: 216.80064pt x 107.18082pt.
+(pdftex.def)             Requested size: 260.16077pt x 128.61699pt.
 
-Overfull \hbox (19.4485pt too wide) in paragraph at lines 148--161
+Overfull \hbox (8.63634pt too wide) in paragraph at lines 157--158
+ [][] 
+ []
+
+
+Overfull \hbox (30.26459pt too wide) in paragraph at lines 148--161
 []$[]$   $[]$ 
  []
 
-<Simulation_Siliciumpulver_11.pdf, id=1355, 1445.4pt x 714.56966pt>
+<Simulation_Siliciumpulver_11.pdf, id=1420, 1445.4pt x 714.56966pt>
 File: Simulation_Siliciumpulver_11.pdf Graphic file (type pdf)
 
 <use Simulation_Siliciumpulver_11.pdf>
 Package pdftex.def Info: Simulation_Siliciumpulver_11.pdf used on input line 16
 5.
-(pdftex.def)             Requested size: 216.80064pt x 107.18082pt.
- [23 <./Simulation_Siliciumpulver_3.pdf> <./Simulation_Siliciumpulver_4.pdf
+(pdftex.def)             Requested size: 260.16077pt x 128.61699pt.
+
+Overfull \hbox (8.63634pt too wide) in paragraph at lines 165--166
+ [][] 
+ []
+
+[24 <./Simulation_Siliciumpulver_1.pdf> <./Simulation_Siliciumpulver_2.pdf
+
+pdfTeX warning: pdflatex (file ./Simulation_Siliciumpulver_2.pdf): PDF inclusio
+n: multiple pdfs with page group included in a single page
+> <./Simulation_Siliciumpulver_3.pdf
+
+pdfTeX warning: pdflatex (file ./Simulation_Siliciumpulver_3.pdf): PDF inclusio
+n: multiple pdfs with page group included in a single page
+> <./Simulation_Siliciumpulver_4.pdf
 
 pdfTeX warning: pdflatex (file ./Simulation_Siliciumpulver_4.pdf): PDF inclusio
 n: multiple pdfs with page group included in a single page
@@ -1495,115 +1635,102 @@ n: multiple pdfs with page group included in a single page
 
 pdfTeX warning: pdflatex (file ./Simulation_Siliciumpulver_8.pdf): PDF inclusio
 n: multiple pdfs with page group included in a single page
-> <./Simulation_Siliciumpulver_9.pdf
-
-pdfTeX warning: pdflatex (file ./Simulation_Siliciumpulver_9.pdf): PDF inclusio
-n: multiple pdfs with page group included in a single page
-> <./Simulation_Siliciumpulver_10.pdf
-
-pdfTeX warning: pdflatex (file ./Simulation_Siliciumpulver_10.pdf): PDF inclusi
-on: multiple pdfs with page group included in a single page
->] <Simulation_Germaniumpulver_1.pdf, id=1782, 1445.4pt x 714.56966pt>
+>] <Simulation_Germaniumpulver_1.pdf, id=1851, 1445.4pt x 714.56966pt>
 File: Simulation_Germaniumpulver_1.pdf Graphic file (type pdf)
 
 <use Simulation_Germaniumpulver_1.pdf>
 Package pdftex.def Info: Simulation_Germaniumpulver_1.pdf used on input line 17
 4.
-(pdftex.def)             Requested size: 216.80064pt x 107.18082pt.
+(pdftex.def)             Requested size: 260.16077pt x 128.61699pt.
 
-<Simulation_Germaniumpulver_2.pdf, id=1783, 1445.4pt x 714.56966pt>
+Overfull \hbox (8.63634pt too wide) in paragraph at lines 174--175
+ [][] 
+ []
+
+<Simulation_Germaniumpulver_2.pdf, id=1852, 1445.4pt x 714.56966pt>
 File: Simulation_Germaniumpulver_2.pdf Graphic file (type pdf)
 
 <use Simulation_Germaniumpulver_2.pdf>
 Package pdftex.def Info: Simulation_Germaniumpulver_2.pdf used on input line 18
 1.
-(pdftex.def)             Requested size: 216.80064pt x 107.18082pt.
+(pdftex.def)             Requested size: 260.16077pt x 128.61699pt.
 
-Overfull \hbox (19.4485pt too wide) in paragraph at lines 172--185
+Overfull \hbox (8.63634pt too wide) in paragraph at lines 181--182
+ [][] 
+ []
+
+
+Overfull \hbox (30.26459pt too wide) in paragraph at lines 172--185
 []$[]$   $[]$ 
  []
 
-<Simulation_Germaniumpulver_3.pdf, id=1784, 1445.4pt x 714.56966pt>
+<Simulation_Germaniumpulver_3.pdf, id=1853, 1445.4pt x 714.56966pt>
 File: Simulation_Germaniumpulver_3.pdf Graphic file (type pdf)
 
 <use Simulation_Germaniumpulver_3.pdf>
 Package pdftex.def Info: Simulation_Germaniumpulver_3.pdf used on input line 18
 9.
-(pdftex.def)             Requested size: 216.80064pt x 107.18082pt.
+(pdftex.def)             Requested size: 260.16077pt x 128.61699pt.
 
-<Simulation_Germaniumpulver_4.pdf, id=1785, 1445.4pt x 714.56966pt>
+Overfull \hbox (8.63634pt too wide) in paragraph at lines 189--190
+ [][] 
+ []
+
+<Simulation_Germaniumpulver_4.pdf, id=1854, 1445.4pt x 714.56966pt>
 File: Simulation_Germaniumpulver_4.pdf Graphic file (type pdf)
 
 <use Simulation_Germaniumpulver_4.pdf>
 Package pdftex.def Info: Simulation_Germaniumpulver_4.pdf used on input line 19
 6.
-(pdftex.def)             Requested size: 216.80064pt x 107.18082pt.
+(pdftex.def)             Requested size: 260.16077pt x 128.61699pt.
 
-Overfull \hbox (19.4485pt too wide) in paragraph at lines 187--200
+Overfull \hbox (8.63634pt too wide) in paragraph at lines 196--197
+ [][] 
+ []
+
+
+Overfull \hbox (30.26459pt too wide) in paragraph at lines 187--200
 []$[]$   $[]$ 
  []
 
-<Simulation_Germaniumpulver_5.pdf, id=1786, 1445.4pt x 714.56966pt>
+<Simulation_Germaniumpulver_5.pdf, id=1855, 1445.4pt x 714.56966pt>
 File: Simulation_Germaniumpulver_5.pdf Graphic file (type pdf)
 
 <use Simulation_Germaniumpulver_5.pdf>
 Package pdftex.def Info: Simulation_Germaniumpulver_5.pdf used on input line 20
 4.
-(pdftex.def)             Requested size: 216.80064pt x 107.18082pt.
+(pdftex.def)             Requested size: 260.16077pt x 128.61699pt.
 
-<Simulation_Germaniumpulver_6.pdf, id=1787, 1445.4pt x 714.56966pt>
+Overfull \hbox (8.63634pt too wide) in paragraph at lines 204--205
+ [][] 
+ []
+
+<Simulation_Germaniumpulver_6.pdf, id=1856, 1445.4pt x 714.56966pt>
 File: Simulation_Germaniumpulver_6.pdf Graphic file (type pdf)
 
 <use Simulation_Germaniumpulver_6.pdf>
 Package pdftex.def Info: Simulation_Germaniumpulver_6.pdf used on input line 21
 1.
-(pdftex.def)             Requested size: 216.80064pt x 107.18082pt.
+(pdftex.def)             Requested size: 260.16077pt x 128.61699pt.
 
-Overfull \hbox (19.4485pt too wide) in paragraph at lines 202--215
+Overfull \hbox (8.63634pt too wide) in paragraph at lines 211--212
+ [][] 
+ []
+
+
+Overfull \hbox (30.26459pt too wide) in paragraph at lines 202--215
 []$[]$   $[]$ 
  []
 
-<Simulation_Germaniumpulver_7.pdf, id=1788, 1445.4pt x 714.56966pt>
-File: Simulation_Germaniumpulver_7.pdf Graphic file (type pdf)
+[25 <./Simulation_Siliciumpulver_9.pdf> <./Simulation_Siliciumpulver_10.pdf
 
-<use Simulation_Germaniumpulver_7.pdf>
-Package pdftex.def Info: Simulation_Germaniumpulver_7.pdf used on input line 21
-9.
-(pdftex.def)             Requested size: 216.80064pt x 107.18082pt.
+pdfTeX warning: pdflatex (file ./Simulation_Siliciumpulver_10.pdf): PDF inclusi
+on: multiple pdfs with page group included in a single page
+> <./Simulation_Siliciumpulver_11.pdf
 
-<Simulation_Germaniumpulver_8.pdf, id=1789, 1445.4pt x 714.56966pt>
-File: Simulation_Germaniumpulver_8.pdf Graphic file (type pdf)
-
-<use Simulation_Germaniumpulver_8.pdf>
-Package pdftex.def Info: Simulation_Germaniumpulver_8.pdf used on input line 22
-6.
-(pdftex.def)             Requested size: 216.80064pt x 107.18082pt.
-
-Overfull \hbox (19.4485pt too wide) in paragraph at lines 217--230
-[]$[]$   $[]$ 
- []
-
-<Simulation_Germaniumpulver_9.pdf, id=1790, 1445.4pt x 714.56966pt>
-File: Simulation_Germaniumpulver_9.pdf Graphic file (type pdf)
-
-<use Simulation_Germaniumpulver_9.pdf>
-Package pdftex.def Info: Simulation_Germaniumpulver_9.pdf used on input line 23
-4.
-(pdftex.def)             Requested size: 216.80064pt x 107.18082pt.
-
-<Simulation_Germaniumpulver_10.pdf, id=1791, 1445.4pt x 714.56966pt>
-File: Simulation_Germaniumpulver_10.pdf Graphic file (type pdf)
-
-<use Simulation_Germaniumpulver_10.pdf>
-Package pdftex.def Info: Simulation_Germaniumpulver_10.pdf used on input line 2
-41.
-(pdftex.def)             Requested size: 216.80064pt x 107.18082pt.
-
-Overfull \hbox (19.4485pt too wide) in paragraph at lines 232--245
-[]$[]$   $[]$ 
- []
-
-[24 <./Simulation_Siliciumpulver_11.pdf> <./Simulation_Germaniumpulver_1.pdf
+pdfTeX warning: pdflatex (file ./Simulation_Siliciumpulver_11.pdf): PDF inclusi
+on: multiple pdfs with page group included in a single page
+> <./Simulation_Germaniumpulver_1.pdf
 
 pdfTeX warning: pdflatex (file ./Simulation_Germaniumpulver_1.pdf): PDF inclusi
 on: multiple pdfs with page group included in a single page
@@ -1611,11 +1738,77 @@ on: multiple pdfs with page group included in a single page
 
 pdfTeX warning: pdflatex (file ./Simulation_Germaniumpulver_2.pdf): PDF inclusi
 on: multiple pdfs with page group included in a single page
-> <./Simulation_Germaniumpulver_3.pdf
+>] <Simulation_Germaniumpulver_7.pdf, id=2124, 1445.4pt x 714.56966pt>
+File: Simulation_Germaniumpulver_7.pdf Graphic file (type pdf)
 
-pdfTeX warning: pdflatex (file ./Simulation_Germaniumpulver_3.pdf): PDF inclusi
-on: multiple pdfs with page group included in a single page
-> <./Simulation_Germaniumpulver_4.pdf
+<use Simulation_Germaniumpulver_7.pdf>
+Package pdftex.def Info: Simulation_Germaniumpulver_7.pdf used on input line 21
+9.
+(pdftex.def)             Requested size: 260.16077pt x 128.61699pt.
+
+Overfull \hbox (8.63634pt too wide) in paragraph at lines 219--220
+ [][] 
+ []
+
+<Simulation_Germaniumpulver_8.pdf, id=2125, 1445.4pt x 714.56966pt>
+File: Simulation_Germaniumpulver_8.pdf Graphic file (type pdf)
+
+<use Simulation_Germaniumpulver_8.pdf>
+Package pdftex.def Info: Simulation_Germaniumpulver_8.pdf used on input line 22
+6.
+(pdftex.def)             Requested size: 260.16077pt x 128.61699pt.
+
+Overfull \hbox (8.63634pt too wide) in paragraph at lines 226--227
+ [][] 
+ []
+
+
+Overfull \hbox (30.26459pt too wide) in paragraph at lines 217--230
+[]$[]$   $[]$ 
+ []
+
+<Simulation_Germaniumpulver_9.pdf, id=2126, 1445.4pt x 714.56966pt>
+File: Simulation_Germaniumpulver_9.pdf Graphic file (type pdf)
+
+<use Simulation_Germaniumpulver_9.pdf>
+Package pdftex.def Info: Simulation_Germaniumpulver_9.pdf used on input line 23
+4.
+(pdftex.def)             Requested size: 260.16077pt x 128.61699pt.
+
+Overfull \hbox (8.63634pt too wide) in paragraph at lines 234--235
+ [][] 
+ []
+
+<Simulation_Germaniumpulver_10.pdf, id=2127, 1445.4pt x 714.56966pt>
+File: Simulation_Germaniumpulver_10.pdf Graphic file (type pdf)
+
+<use Simulation_Germaniumpulver_10.pdf>
+Package pdftex.def Info: Simulation_Germaniumpulver_10.pdf used on input line 2
+41.
+(pdftex.def)             Requested size: 260.16077pt x 128.61699pt.
+
+Overfull \hbox (8.63634pt too wide) in paragraph at lines 241--242
+ [][] 
+ []
+
+
+Overfull \hbox (30.26459pt too wide) in paragraph at lines 232--245
+[]$[]$   $[]$ 
+ []
+
+<Simulation_Germaniumpulver_11.pdf, id=2128, 1445.4pt x 714.56966pt>
+File: Simulation_Germaniumpulver_11.pdf Graphic file (type pdf)
+
+<use Simulation_Germaniumpulver_11.pdf>
+Package pdftex.def Info: Simulation_Germaniumpulver_11.pdf used on input line 2
+49.
+(pdftex.def)             Requested size: 260.16077pt x 128.61699pt.
+
+Overfull \hbox (8.63634pt too wide) in paragraph at lines 249--250
+ [][] 
+ []
+
+) [26 <./Simulation_Germaniumpulver_3.pdf> <./Simulation_Germaniumpulver_4.pdf
 
 pdfTeX warning: pdflatex (file ./Simulation_Germaniumpulver_4.pdf): PDF inclusi
 on: multiple pdfs with page group included in a single page
@@ -1627,25 +1820,11 @@ on: multiple pdfs with page group included in a single page
 
 pdfTeX warning: pdflatex (file ./Simulation_Germaniumpulver_6.pdf): PDF inclusi
 on: multiple pdfs with page group included in a single page
->] <Simulation_Germaniumpulver_11.pdf, id=2170, 1445.4pt x 714.56966pt>
-File: Simulation_Germaniumpulver_11.pdf Graphic file (type pdf)
+> <./Simulation_Germaniumpulver_7.pdf
 
-<use Simulation_Germaniumpulver_11.pdf>
-Package pdftex.def Info: Simulation_Germaniumpulver_11.pdf used on input line 2
-49.
-(pdftex.def)             Requested size: 216.80064pt x 107.18082pt.
-) (./Roentgen.bbl
-Underfull \hbox (badness 10000) in paragraph at lines 4--6
-\T1/lmr/m/n/12 https://moodle2.uni-wuppertal.de/pluginfile.php/223685/mod_resou
-rce/content/1/fpi-
- []
-
-)
-
-Package natbib Warning: There were undefined citations.
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 57.
-[25 <./Simulation_Germaniumpulver_7.pdf> <./Simulation_Germaniumpulver_8.pdf
+pdfTeX warning: pdflatex (file ./Simulation_Germaniumpulver_7.pdf): PDF inclusi
+on: multiple pdfs with page group included in a single page
+> <./Simulation_Germaniumpulver_8.pdf
 
 pdfTeX warning: pdflatex (file ./Simulation_Germaniumpulver_8.pdf): PDF inclusi
 on: multiple pdfs with page group included in a single page
@@ -1657,14 +1836,20 @@ on: multiple pdfs with page group included in a single page
 
 pdfTeX warning: pdflatex (file ./Simulation_Germaniumpulver_10.pdf): PDF inclus
 ion: multiple pdfs with page group included in a single page
-> <./Simulation_Germaniumpulver_11.pdf
+>] (./Roentgen.bbl
+Underfull \hbox (badness 10000) in paragraph at lines 4--6
+\T1/lmr/m/n/12 https://moodle2.uni-wuppertal.de/pluginfile.php/223685/mod_resou
+rce/content/1/fpi-
+ []
 
-pdfTeX warning: pdflatex (file ./Simulation_Germaniumpulver_11.pdf): PDF inclus
-ion: multiple pdfs with page group included in a single page
->]
+)
+
+Package natbib Warning: There were undefined citations.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 57.
+[27 <./Simulation_Germaniumpulver_11.pdf>]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 57.
- (./Roentgen.aux (./deckblatt.aux) (./versuchsdurchfuehrung2.aux)
-(./auswertung_pulver.aux))
+ (./Roentgen.aux (./deckblatt.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 57.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 57.
 Package rerunfilecheck Info: File `Roentgen.out' has not changed.
@@ -1676,13 +1861,13 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 57.
  ) 
 Here is how much of TeX's memory you used:
- 18813 strings out of 493304
- 353678 string characters out of 6139870
- 497081 words of memory out of 5000000
- 21745 multiletter control sequences out of 15000+600000
+ 18830 strings out of 493304
+ 354256 string characters out of 6139870
+ 495079 words of memory out of 5000000
+ 21759 multiletter control sequences out of 15000+600000
  98997 words of font info for 77 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 41i,14n,77p,10420b,956s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 39i,14n,75p,10420b,956s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/share/texmf/fonts/enc/d
 vips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/shar
 e/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/l
@@ -1696,10 +1881,10 @@ re/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm
 /lmr7.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fo
 nts/type1/public/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.p
 fb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb>
-Output written on Roentgen.pdf (26 pages, 8382951 bytes).
+Output written on Roentgen.pdf (28 pages, 8423325 bytes).
 PDF statistics:
- 2520 PDF objects out of 2984 (max. 8388607)
- 1045 compressed objects within 11 object streams
- 110 named destinations out of 1000 (max. 500000)
- 391 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2698 PDF objects out of 2984 (max. 8388607)
+ 1122 compressed objects within 12 object streams
+ 118 named destinations out of 1000 (max. 500000)
+ 406 words of extra memory for PDF output out of 10000 (max. 10000000)
 
