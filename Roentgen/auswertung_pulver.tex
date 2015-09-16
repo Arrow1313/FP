@@ -4,6 +4,7 @@ Zum Vergleich sind Diffraktogramme von Silicium und Germanium (Abb. \ref{fig:dif
 Die Lage der Maxima sind in Tabelle \ref{table:mu_vergleich_pul_si_ger} dargestellt, wobei der Fehler überall bei $\pm$1 auf der letzten angegebenen Nachkommastelle liegt. Die Fehler ergaben sich aus dem Fit, und wurden nach oben abgeschätzt.
 \begin{table}[H]
 \caption{Braggreflexe vom Pulver, verglichen mit den simulierten Daten}
+\centering
 \label{table:mu_vergleich_pul_si_ger}
 \begin{tabular}{|c|c|c|c|c|c|}
 \hline  Pulver K$_{\alpha_1}$ & Pulver K$_{\alpha_2}$ & Silicium K$_{\alpha_1}$ & Silicium K$_{\alpha_2}$ & Germanium K$_{\alpha_1}$ & Germanium K$_{\alpha_2}$ \\ 
@@ -58,7 +59,61 @@ bildet, findet man den Offset
 \begin{align}
 \Delta\theta \approx \sin(\theta_{Messung})-\sin(\theta_{Theorie}) \approx \frac{(-1)hc}{2d_{[nh,nk,nl]}E^2_{Literatur}}(E_{Messung}-E_{Literatur})
 \end{align}
-welcher abhängig von $d_{[nh,nk,nl]}$ ist. Bei großen Netzebenenabständen (kleinen Winkeln $\theta$) ergibt sich ein kleinerer negativer Offset, sowie bei kleinen Netzebenenabständen (größeren Winkeln $\theta$) ein größerer negativer Offset. Die Steigung des Offsets ist gering, da die Unterschiede zwischen den Netzebenenabständen gering sind.  Ein konstanter Offset ist deshalb für die qualitative Betrachtung ausreichend.
+welcher abhängig von d$_{[nh,nk,nl]}$ ist. Bei großen Netzebenenabständen (kleinen Winkeln $\theta$) ergibt sich ein kleinerer negativer Offset, sowie bei kleinen Netzebenenabständen (größeren Winkeln $\theta$) ein größerer negativer Offset. Die Steigung des Offsets ist gering, da die Unterschiede zwischen den Netzebenenabständen gering sind.  Ein konstanter Offset ist deshalb für die qualitative Betrachtung ausreichend. Die Netzebenenabstände lassen sich aus Formel \ref{eqn:netzebenen} und den in Tabelle \ref{tab:enerige_k} bestimmten Energien bestimmen. Zuvor werden die Ordnung und die Werte h,k,l in der Form [nh,nk,nl] bestimmt, indem man Formel \ref{eqn:d_nh,nk,nl}
+\begin{align}
+d_{[nh,nk,nl]} = \frac{a}{\sqrt{(nh)^2+(nk)^2+(nl)^2}}
+\label{eqn:d_nh,nk,nl}
+\end{align}
+in Formel \ref{eqn:bragg_kurze_fassung} einsetzt und nach $(nh)^2+(nk)^2+(nl)^2$ umstellt.($a = \SI{5,431020504}{\angstrom}$ ist die Gitterkonstante von Silicium.) Dabei wird auf eine Fehlerrechnung verzichtet.
+Es ergibt sich Formel \ref{eqn:(nh)^2+(nk)^2+(nl)^2}.
+\begin{align}
+(nh)^2+(nk)^2+(nl)^2 = \frac{4E^2a^2}{h^2c^2}\sin^2(\theta)
+\label{eqn:(nh)^2+(nk)^2+(nl)^2}
+\end{align}
+Ob man für E die theoretischen Energien oder die experimentell bestimmten Energien aus Tabelle \ref{tab:enerige_k} nimmt, ändert nichts an den Werten $nh$,$nk$,$nl$. (Aus Symmetriegründen $h>k>l$.)
+In Tabelle \ref{table:Auswertung_K_alpha_1} und \ref{table:Auswertung_K_alpha_1} werden die so bestimmten Werte $[nh,nk,nl]$, sowie die sich aus Formel \ref{eqn:bragg_kurze_fassung} ergebenden Netzebenenabstände d$_{[nh,nk,nl] exp}$ dargestellt und mit den theoretischen Netzebenenabständen d$_{[nh,nk,nl] theo}$ aus Formel \ref{eqn:d_nh,nk,nl} verglichen. Die Auswahlregeln für Diamantgitter werden dabei beachtet ($h$,$k$,$l$ alle ungerade, oder $h$,$k$,$l$ alle gerade und $h+k+l$ durch 4 teilbar).
+\begin{table}[H]
+\caption{Auswertung der K$_{\alpha_1}$ Linie}
+\centering
+\label{table:Auswertung_K_alpha_1}
+\begin{tabular}{|c|c|c|c|c|}
+\hline  2$\theta_{exp}/^{\circ}$  & d$_{[nh,nk,nl] theo}$ & d$_{[nh,nk,nl] exp}$ & Relative Abweichung/\% & [nh,nk,nl] \\
+\hline 28,287 & \SI{3,135601}{\angstrom} & \SI{3,150855}{\angstrom} & 0.486 & [1,1,1]\\
+\hline 47,146 & \SI{1,920156}{\angstrom} & \SI{1,925180}{\angstrom} & 0.262 & [2,2,0]\\
+\hline 55,963 & \SI{1,637514}{\angstrom} & \SI{1,640995}{\angstrom} & 0.213 & [3,1,1]\\
+\hline 68,969 & \SI{1,357755}{\angstrom} & \SI{1,359786}{\angstrom} & 0.150 & [4,0,0]\\
+\hline 76,223 & \SI{1,245962}{\angstrom} & \SI{1,247479}{\angstrom} & 0.122 & [3,3,1]\\
+\hline 87,875 & \SI{1,108602}{\angstrom} & \SI{1,109590}{\angstrom} & 0.089 & [4,2,2]\\
+\hline 94,802 & \SI{1,045200}{\angstrom} & \SI{1,045871}{\angstrom} & 0.064 & [3,3,3]/[5,1,1]\\
+\hline 106,565 & \SI{0,960078}{\angstrom} & \SI{0,960458}{\angstrom} & 0.040 & [220]\\
+\hline 113,949 & \SI{0,918010}{\angstrom} & \SI{0,918297}{\angstrom} & 0.031 & [531]\\
+\hline 127,406 & \SI{0,858720}{\angstrom} & \SI{0,858757}{\angstrom} & 0.004 & [6,2,0]\\
+\hline 136,766 & \SI{0,828223}{\angstrom} & \SI{0,828156}{\angstrom} & 0.008 & [5,3,3]\\
+\hline 
+\end{tabular}
+\end{table}
+\begin{table}[H]
+\caption{Auswertung der K$_{\alpha_2}$ Linie}
+\centering
+\label{table:Auswertung_K_alpha_2}
+\begin{tabular}{|c|c|c|c|c|}
+\hline  2$\theta_{exp}/^{\circ}$  & d$_{[nh,nk,nl] theo}$ & d$_{[nh,nk,nl] exp}$ & Relative Abweichung/\% & [nh,nk,nl] \\
+\hline 28,363 & \SI{3,135601}{\angstrom} & \SI{3,150912}{\angstrom} & 0.488 & [1,1,1]\\
+\hline 47,271 & \SI{1,920156}{\angstrom} & \SI{1,925286}{\angstrom} & 0.267 & [2,2,0]\\
+\hline 56,116 & \SI{1,637514}{\angstrom} & \SI{1,640896}{\angstrom} & 0.207 & [3,1,1]\\
+\hline 69,167 & \SI{1,357755}{\angstrom} & \SI{1,359801}{\angstrom} & 0.151 & [4,0,0]\\
+\hline 76,454 & \SI{1,245962}{\angstrom} & \SI{1,247354}{\angstrom} & 0.112 & [3,3,1]\\
+\hline 88,155 & \SI{1,108602}{\angstrom} & \SI{1,109467}{\angstrom} & 0.078 & [4,2,2]\\
+\hline 95,111 & \SI{1,045200}{\angstrom} & \SI{1,045871}{\angstrom} & 0.064 & [3,3,3]/[5,1,1]\\
+\hline 106,949 & \SI{0,960078}{\angstrom} & \SI{0,960467}{\angstrom} & 0.041 & [220]\\
+\hline 114,388 & \SI{0,918010}{\angstrom} & \SI{0,918211}{\angstrom} & 0.022 & [531]\\
+\hline 127,985 & \SI{0,858720}{\angstrom} & \SI{0,858763}{\angstrom} &  0.005 & [6,2,0]\\
+\hline 137,505 & \SI{0,828223}{\angstrom} & \SI{0,828160}{\angstrom} &  0.008 & [5,3,3]\\
+\hline 
+\end{tabular}
+\end{table}
+Man sieht, dass die Abweichungen von den theoretischen Netzebenenabständen bei unter einem halben Prozent liegen. Die Resultate bestätigen, dass es sich um Siliciumpulver handelt.
+Zuletzt sollen die Korngrößen mithilfe der Scherrer-Gleichung abgeschätzt werden.
 \begin{sidewaysfigure}
 \centering
 \includegraphics[width = 1.0\textwidth, height = 0.7\textwidth]{messung_pulver_ges}

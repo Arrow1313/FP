@@ -4,11 +4,12 @@ Um die Zusammensetzung einer unbekannten Pulverprobe zu bestimmen, werden mit de
 \delta(2\Theta)_{Korn} = \frac{K \lambda }{B cos{\Theta_0}}
 \end{align}
 Dabei ist $\delta(2\Theta)$ die volle Halbwertsbreite (FWHM) des Reflexes im Bogenmaß, $\Theta_0$ das Maximum des Reflexes, $K$ der Scherrer Formfaktor mit $K \approx 0.89$ und B die gesuchte Korngröße.
-Es ergibt sich also Für die Korngröße B, wenn man beachtet, dass $\delta(2\Theta)_{Korn} = \delta(2\Theta)_{Pulver} - \delta(2\Theta)_{Einkristall}$ und $E = \frac{hc}{\lambda}$ gilt:
+Es ergibt sich für die Korngröße B, wenn man beachtet, dass $E = \frac{hc}{\lambda}$ gilt:
 \begin{align}
-B = \frac{0.89 hc}{(\delta(2\Theta)_{Pulver} - \delta(2\Theta)_{Einkristall})Ecos{\Theta_0}}
+\label{eqn:scherrer_korngröße}
+B = \frac{0.89 hc}{\delta(2\Theta)_{Korn}Ecos{\Theta_0}}
 \end{align}
 Es ergibt sich ein Fehler von:
 \begin{align}
-\Delta B = B\sqrt{\left(\frac{\Delta (\delta(2\Theta)_{Pulver} - \delta(2\Theta)_{Einkristall})}{\delta(2\Theta)_{Pulver} - \delta(2\Theta)_{Einkristall}}\right)^2+\left(\frac{\Delta E}{E}\right)^2+\left(\frac{\Delta \Theta_0}{\cot{\Theta_0}}\right)^2}
+\Delta B = B\sqrt{\left(\frac{\Delta(\delta(2\Theta)_{Korn})}{\delta(2\Theta)_{Korn}}\right)^2+\left(\frac{\Delta E}{E}\right)^2+\left(\frac{\Delta \Theta_0}{\cot{\Theta_0}}\right)^2}
 \end{align}
