@@ -1,6 +1,6 @@
 %Auswertung des Emissionsspektrums
 \subsection{Auswertung}
-Es soll das Röntgenspektrum der Kupferanode bei drei unterschiedlichen Beschleunigungsspannungen und mit einem Ni-Filter, bei möglichst hoher Röntgenspannung untersucht werden.
+Es soll das Röntgenspektrum der Kupferanode bei drei unterschiedlichen Beschleunigungsspannungen und mit einem Ni-Filter, für die letzte Einstellung wiederholt werden.
 Zum beugen der Röntgenstrahlen wird ein Si(111)-Einkristall verwendet, der Netzebenabstand liegt bei \SI{3,1356}{\angstrom}, entnommen von \cite{anleitung}.
 Gescannt wird ein Winkelbereich von 15$^\circ$ bis 130$^\circ$, dabei wurden für die Beschleunigungsspannung Werte von
 \begin{itemize}
@@ -9,8 +9,10 @@ Gescannt wird ein Winkelbereich von 15$^\circ$ bis 130$^\circ$, dabei wurden für
 \item U = 40kV und A = 30mA
 \end{itemize}
  verwendet. Dabei ergeben sich die folgenden Plots.
+ \vspace{1cm}
  
  % Plots der Messunge f\"ur die Kupferanode mit unterschiedlichen Beschleunigungsspannungen
+\noindent
 In Abb. \ref{fig:spektrum_1} ist das Diffraktogramm für U = 30kV und A = 10mA zu sehen.
 
 
@@ -21,6 +23,8 @@ In Abb. \ref{fig:spektrum_1} ist das Diffraktogramm für U = 30kV und A = 10mA zu
 	\label{fig:spektrum_1}
 \end{sidewaysfigure}
 
+
+\noindent
 In Abb. \ref{fig:spektrum_2} ist das Diffraktogramm für U = 40kV und A = 10mA.
  
 \begin{sidewaysfigure}
@@ -30,6 +34,8 @@ In Abb. \ref{fig:spektrum_2} ist das Diffraktogramm für U = 40kV und A = 10mA.
 	\label{fig:spektrum_2}
 \end{sidewaysfigure}
 
+
+\noindent
 In Abb. \ref{fig:spektrum_3} ist das Diffraktogramm für U = 40kV und A = 30mA.
 
 \begin{sidewaysfigure}
@@ -40,12 +46,24 @@ In Abb. \ref{fig:spektrum_3} ist das Diffraktogramm für U = 40kV und A = 30mA.
 \end{sidewaysfigure}
  
 
+\noindent
+In Abb. \ref{fig:spektrum_4} ist das Diffraktogramm für U = 40kV und A = 30mA, mit eingesetztem Ni-Filter zu sehen.
+
+\begin{sidewaysfigure}
+	\centering
+  \includegraphics[scale=0.50]{spektrum_4.pdf}
+	\caption{Diffraktogramm bei 40kV Beschleunigungsspannung und einem Anodenstrom von 30mA, mit eingesetztem Ni-Filter}
+	\label{fig:spektrum_4}
+\end{sidewaysfigure}
+
+ \vspace{1cm}
+
 Es ist deutlich zu erkennen, das bei steigender Beschleunigungsspannung und Strom die Anzahl der Counts größer werden und so die Peaks deutlich von dem Untergrund zu unterscheiden sind. Um Informationen über den Winkel und die Intensität zu erhalten, werden die Peaks mit der Voigtverteilung gefittet. Aus den Fitparametern kann die Intensität der einzelnen Peaks bestimmt und verglichen werden. Der Fit für U=30kV und A=10mA ist in Abb. \ref{fig:30_10_fit} zu sehen. Für die Fitparameter ergaben sich die Werte in Tabelle \ref{tab:30_10_fit}. Alle weiteren Peaks wurden nach dem selben Verfahren bestimmt.
 
 \begin{figure}[H]
 	\centering
   \includegraphics[scale=0.22]{30_10_voigt.pdf}
-	\caption{Diffraktogramm bei 40kV Beschleunigungsspannung und einem Anodenstrom von 30mA}
+	\caption{Diffraktogramm bei 30kV Beschleunigungsspannung und einem Anodenstrom von 10mA}
 	\label{fig:30_10_fit}
 \end{figure}
 
@@ -59,6 +77,78 @@ Es ist deutlich zu erkennen, das bei steigender Beschleunigungsspannung und Stro
 \hline 1 & Wert & 25,6390 $\pm$ 0,0001 & 260 $\pm$ 5 & 0,0124 $\pm$ 0,0007 & 0,008 $\pm$ 0,001 & 1,08 \\ 
 \hline 2 & Wert & 28,4278 $\pm$ 0,0007  & 790 $\pm$ 96 & 0,0187 $\pm$ 0,003 & -0,003 $\pm$ 0,006 & 16,11 \\ 
 \hline 3 & Wert & 28,4996 $\pm$ 0,0007 & 425 $\pm$ 128 & 0,021 $\pm$ 0,006 & -0,01 $\pm$ 0,01 & 16,11 \\ 
+\hline 
+\end{tabular} 
+\end{table}
+
+
+Der Fit für U=40kV und A=10mA ist in Abb. \ref{fig:40_10_fit} zu sehen. Für die Fitparameter ergaben sich die Werte in Tabelle \ref{tab:40_10_fit}. Alle weiteren Peaks wurden nach dem selben Verfahren bestimmt.
+
+\begin{figure}[H]
+	\centering
+  \includegraphics[scale=0.22]{40_10_voigt.pdf}
+	\caption{Diffraktogramm bei 40kV Beschleunigungsspannung und einem Anodenstrom von 10mA}
+	\label{fig:40_10_fit}
+\end{figure}
+
+
+\begin{table}[H]
+\centering
+\caption{Fitparameter für eine Beschleunigungsspannung von 40kV und einem Anodenstrom von 10mV}
+\label{tab:40_10_fit}
+\begin{tabular}{|c|c|c|c|c|c|c|}
+\hline Peak & Paramter & 2$\theta_0/^{\circ}$ & Amplitude & Sigma/$^{\circ}$ & Gamma/$^{\circ}$ & $\chi_{red}^2$ \\ 
+\hline 1 & Wert & 25,6398 $\pm$ 0,0002 & 432 $\pm$ 4 & 0,0112 $\pm$ 0,0005 & 0,0098 $\pm$ 0,0005 & 4,21 \\ 
+\hline 2 & Wert & 28,4275 $\pm$ 0,0002  & 1114 $\pm$ 46 & 0,018 $\pm$ 0,001 & -0,001 $\pm$ 0,002 & 14,53 \\ 
+\hline 3 & Wert & 28,5008 $\pm$ 0,0003 & 621 $\pm$ 75 & 0,019 $\pm$ 0,003 & -0,006 $\pm$ 0,006 & 14,53 \\ 
+\hline 
+\end{tabular} 
+\end{table}
+
+Der Fit für U=40kV und A=30mA ist in Abb. \ref{fig:40_30_fit} zu sehen. Für die Fitparameter ergaben sich die Werte in Tabelle \ref{tab:40_30_fit}. Alle weiteren Peaks wurden nach dem selben Verfahren bestimmt.
+
+\begin{figure}[H]
+	\centering
+  \includegraphics[scale=0.22]{40_30_voigt.pdf}
+	\caption{Diffraktogramm bei 40kV Beschleunigungsspannung und einem Anodenstrom von 30mA}
+	\label{fig:40_30_fit}
+\end{figure}
+
+
+\begin{table}[H]
+\centering
+\caption{Fitparameter für eine Beschleunigungsspannung von 40kV und einem Anodenstrom von 30mV}
+\label{tab:40_30_fit}
+\begin{tabular}{|c|c|c|c|c|c|c|}
+\hline Peak & Paramter & 2$\theta_0/^{\circ}$ & Amplitude & Sigma/$^{\circ}$ & Gamma/$^{\circ}$ & $\chi_{red}^2$ \\ 
+\hline 1 & Wert & 25,6454 $\pm$ 0,0001 & 1081 $\pm$ 13 & 0,01512 $\pm$ 0,0005 & 0,0072 $\pm$ 0,0008 & 5,83 \\ 
+\hline 2 & Wert & 28,4346 $\pm$ 0,0016  & 2225 $\pm$ 342 & 0,0256 $\pm$ 0,004 & -0,004 $\pm$ 0,008 & 74,91 \\ 
+\hline 3 & Wert & 28,5085 $\pm$ 0,0009 & 1113 $\pm$ 522 & 0,025 $\pm$ 0,008 & -0,02 $\pm$ 0,02 & 74,91 \\ 
+\hline 
+\end{tabular} 
+\end{table}
+
+
+
+Der Fit für U=40kV und A=30mA, mit Ni-Filter ist in Abb. \ref{fig:40_30_ni_fit} zu sehen. Für die Fitparameter ergaben sich die Werte in Tabelle \ref{tab:40_30_ni_fit}. Alle weiteren Peaks wurden nach dem selben Verfahren bestimmt.
+
+\begin{figure}[H]
+	\centering
+  \includegraphics[scale=0.22]{40_30_ni_voigt.pdf}
+	\caption{Diffraktogramm bei 40kV Beschleunigungsspannung und einem Anodenstrom von 30mA, mit Ni-Filter}
+	\label{fig:40_30_ni_fit}
+\end{figure}
+
+
+\begin{table}[H]
+\centering
+\caption{Fitparameter für eine Beschleunigungsspannung von 40kV und einem Anodenstrom von 30mV, mit Ni-Filter}
+\label{tab:40_30_ni_fit}
+\begin{tabular}{|c|c|c|c|c|c|c|}
+\hline Peak & Paramter & 2$\theta_0/^{\circ}$ & Amplitude & Sigma/$^{\circ}$ & Gamma/$^{\circ}$ & $\chi_{red}^2$ \\ 
+\hline 1 & Wert & 25.,453 $\pm$ 0,0007 & 8,0 $\pm$ 0,5 & 0,010 $\pm$ 0,003 & 0,010 $\pm$ 0,003 & 2,04 \\ 
+\hline 2 & Wert & 28,4354 $\pm$ 0,0009  & 1577 $\pm$ 92 & 0,018 $\pm$ 0,001 & 0,004 $\pm$ 0,002 & 33,66 \\ 
+\hline 3 & Wert & 28,5081 $\pm$ 0,0004 & 516 $\pm$ 180 & 0,026 $\pm$ 0,006 & -0,023 $\pm$ 0,02 & 33,66  \\ 
 \hline 
 \end{tabular} 
 \end{table}
