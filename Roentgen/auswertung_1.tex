@@ -55,7 +55,7 @@ Es ist deutlich zu erkennen, das bei steigender Beschleunigungsspannung und Stro
 \caption{Fitparameter für eine Beschleunigungsspannung von 30kV und einem Anodenstrom von 10mV}
 \label{tab:30_10_fit}
 \begin{tabular}{|c|c|c|c|c|c|c|}
-\hline Peak & Paramter & Center & Amplitude & Sigma & Gamma & $\chi_{red}^2$ \\ 
+\hline Peak & Paramter & 2$\theta_0/^{\circ}$ & Amplitude & Sigma/$^{\circ}$ & Gamma/$^{\circ}$ & $\chi_{red}^2$ \\ 
 \hline 1 & Wert & 25,6390 $\pm$ 0,0001 & 260 $\pm$ 5 & 0,0124 $\pm$ 0,0007 & 0,008 $\pm$ 0,001 & 1,08 \\ 
 \hline 2 & Wert & 28,4278 $\pm$ 0,0007  & 790 $\pm$ 96 & 0,0187 $\pm$ 0,003 & -0,003 $\pm$ 0,006 & 16,11 \\ 
 \hline 3 & Wert & 28,4996 $\pm$ 0,0007 & 425 $\pm$ 128 & 0,021 $\pm$ 0,006 & -0,01 $\pm$ 0,01 & 16,11 \\ 
@@ -64,32 +64,32 @@ Es ist deutlich zu erkennen, das bei steigender Beschleunigungsspannung und Stro
 \end{table}
 
 \subsubsection{Verhältnisse}
-Aus den bestimmten Peaks sollen die Verhältnisse der Cu-Linien und der Ordnungen unter einander. Für den Voigt-Fit die eingebaute Funktion des Pythonpackages lmfit (cite) verwendet. Die Voigtverteilung wird über ein normiertes Intergral bestimmt, worduch der Fit Parameter für die Amplitude für die Verhältnisbestimmung verwendet werden. Die mit den Fits bestimmten Amplituden sind in Tabelle \ref{tab:wichtige_parameter} zu sehen.
+Aus den bestimmten Peaks sollen die Verhältnisse der Cu-Linien und der Ordnungen untereinander bestimmt werden. Für den Voigt-Fit wird das Pythonpackage lmfit verwendet. Die Voigtverteilung wird über ein normiertes Intergral bestimmt, worduch der Fitparameter 'Amplitude' für die Verhältnisbestimmung verwendet werden kann. Die mit den Fits bestimmten Amplituden sind in Tabelle \ref{tab:wichtige_parameter} zu sehen.
 
 \begin{table}[H]
 \centering
 \caption{Bestimmte Winkel und Amplituden für die verschiedenen Beschleunigungsspannungen (B) und Anodenströme (A)}
 \label{tab:wichtige_parameter}
 \begin{tabular}{|c|c|c|c|c|}
-\hline B und A & Ordnung & Linie & Winkel & Amplitude \\ 
-\hline U = 30 kV, A = 10mA & 1 & $K_{\alpha_1}$ & 28,4278 $\pm$ 0,0007 & 790 $\pm$ 96 \\ 
-\hline  &  & $K_{\alpha_2}$ & 28,4996 $\pm$ 0,0007 & 425 $\pm$ 128 \\ 
-\hline  &  & $K_\beta$ & 25,639 $\pm$ 0,001 & 260 $\pm$ 5 \\ 
-\hline  & 3 & $K_{\alpha_1}$ & 94,933 $\pm$ 0,004 & 155 $\pm$ 2 \\ 
-\hline  &  & $K_{\alpha_2}$ & 94,2453 $\pm$ 0,0006 & 76 $\pm$ 2 \\ 
-\hline  &  & $K_\beta$ & 83,5022 $\pm$ 0,0008 & 37 $\pm$ 1 \\ 
-\hline U = 40 kV, A = 10 mA & 1 & $K_{\alpha_1}$ & 28,4282 $\pm$ 0,0003 & 1149 $\pm$ 52 \\ 
-\hline  &  & $K_{\alpha_2}$ & 28,5008 $\pm$ 0,0003 & 654 $\pm$ 75 \\ 
-\hline  &  & $K_\beta$ & 25,5400 $\pm$ 0.0001 & 425 $\pm$ 6 \\ 
-\hline  & 3 & $K_{\alpha_1}$ & 94,9336 $\pm$ 0,0003 & 245 $\pm$ 2 \\ 
-\hline  &  & $K_{\alpha_2}$ & 95,2448 $\pm$ 0,0004 & 122 $\pm$ 2 \\ 
-\hline  &  & $K_\beta$ & 83,5043 $\pm$ 0,0006 & 57 $\pm$ 2 \\ 
-\hline U = 40 kV, a = 30 mA & 1 & $K_{\alpha_1}$ & 28,433 $\pm$ 0,001 & 1814 $\pm$ 613 \\ 
-\hline  &  & $K_{\alpha_2}$ & 28,507 $\pm$ 0,001 & 1046 $\pm$ 873 \\ 
-\hline  &  & $K_\beta$ & 25,6452 $\pm$ 0,0001 & 498 $\pm$ 158 \\ 
-\hline  & 3 & $K_{\alpha_1}$ & 94,9398 $\pm$ 0,0002 & 771 $\pm$ 6 \\ 
-\hline  &  & $K_{\alpha_2}$ & 95,2518 $\pm$ 0,0003 & 362 $\pm$ 4 \\ 
-\hline  &  & $K_\beta$ & 83,5110 $\pm$ 0,0004 & 184 $\pm$ 4 \\ 
+\hline B/kV, A/mA & Ordnung & Linie & 2$\theta_0/^{\circ}$ & Amplitude \\ 
+\hline 30, 10 & 1 & $K_{\alpha_1}$ & 28,4278 $\pm$ 0,0007 & 790 $\pm$ 96 \\ 
+\hline " & " & $K_{\alpha_2}$ & 28,4996 $\pm$ 0,0007 & 425 $\pm$ 128 \\ 
+\hline " & " & $K_\beta$ & 25,639 $\pm$ 0,001 & 260 $\pm$ 5 \\ 
+\hline " & 3 & $K_{\alpha_1}$ & 94,933 $\pm$ 0,004 & 155 $\pm$ 2 \\ 
+\hline " & " & $K_{\alpha_2}$ & 94,2453 $\pm$ 0,0006 & 76 $\pm$ 2 \\ 
+\hline " & " & $K_\beta$ & 83,5022 $\pm$ 0,0008 & 37 $\pm$ 1 \\ 
+\hline 40, 10 & 1 & $K_{\alpha_1}$ & 28,4282 $\pm$ 0,0003 & 1149 $\pm$ 52 \\ 
+\hline " & " & $K_{\alpha_2}$ & 28,5008 $\pm$ 0,0003 & 654 $\pm$ 75 \\ 
+\hline " & " & $K_\beta$ & 25,5400 $\pm$ 0.0001 & 425 $\pm$ 6 \\ 
+\hline " & 3 & $K_{\alpha_1}$ & 94,9336 $\pm$ 0,0003 & 245 $\pm$ 2 \\ 
+\hline " & " & $K_{\alpha_2}$ & 95,2448 $\pm$ 0,0004 & 122 $\pm$ 2 \\ 
+\hline " & " & $K_\beta$ & 83,5043 $\pm$ 0,0006 & 57 $\pm$ 2 \\ 
+\hline 40, 30 & 1 & $K_{\alpha_1}$ & 28,433 $\pm$ 0,001 & 1814 $\pm$ 613 \\ 
+\hline " & " & $K_{\alpha_2}$ & 28,507 $\pm$ 0,001 & 1046 $\pm$ 873 \\ 
+\hline " & " & $K_\beta$ & 25,6452 $\pm$ 0,0001 & 498 $\pm$ 158 \\ 
+\hline " & 3 & $K_{\alpha_1}$ & 94,9398 $\pm$ 0,0002 & 771 $\pm$ 6 \\ 
+\hline " & " & $K_{\alpha_2}$ & 95,2518 $\pm$ 0,0003 & 362 $\pm$ 4 \\ 
+\hline " & " & $K_\beta$ & 83,5110 $\pm$ 0,0004 & 184 $\pm$ 4 \\ 
 \hline 
 \end{tabular} 
 \end{table}
@@ -106,51 +106,51 @@ V = \frac{A_1}{A_2}
 \Delta V = \sqrt{\left( \frac{\Delta A_1}{A_2} \right)^2 + \left( \frac{\Delta A_2 A_1}{A_2^2} \right)^2}
 \end{align}
 
- Aus den Amplituden in Tabelle \ref{tab:wichtige_parameter} ergeben sich die Verhältnisse unter den Ordnungen in Tabelle \ref{tab:verhältniss_ordnung}. Die Verhältnisse bei unterschiedlichen Beschleunigungsspannungen und Anodenströmen sind in Tabelle \ref{tab:verhältniss_messung} aufgetragen.
-
+ Aus den Amplituden in Tabelle \ref{tab:wichtige_parameter} ergeben sich die Verhältnisse in Tabelle \ref{tab:verhältniss_ordnung}. Die Verhältnisse bei unterschiedlichen Beschleunigungsspannungen und Anodenströmen sind in Tabelle \ref{tab:verhältniss_messung} aufgetragen.
+ In Tabelle \ref{tab:verhältniss_ordnung} ist das Verhältnis der Peaks unterschiedlicher Ordnung zu sehen. Die Amplitude des Peaks erster Ordnung wird durch die Amplitude der dritten Ordnung geteilt. Die Beschleunigungsspannung wird mit B und der Anodenstrom mit A bezeichnet.
 \begin{table}[H]
 \centering
-\caption{Verhältniss der Peaks bei unterschiedlicher Ordnung, dabei wird die Amplitude des Peaks erster Ordnung durch den der dritten geteilt. Die Beschleunigung wird mit B und der Anodenstrom A}
+\caption{}
 \label{tab:verhältniss_ordnung}
 \begin{tabular}{|c|c|c|}
-\hline B und A & Linie  & Verhältnis \\ 
-\hline U = 30 kV, A = 10 mA & $K_\beta$ & 7,027 $\pm$ 0,2 \\ 
-\hline  & $K_{\alpha_1}$ &  5,1 $\pm$ 0,6 \\ 
-\hline  & $K_{\alpha_2}$ & 6 $\pm$ 2 \\ 
-\hline U = 40 kV, A = 10 mA & $K_\beta$ & 7,4 $\pm$ 0,3 \\ 
-\hline  & $K_{\alpha_2}$ & 4,7 $\pm$ 0,2 \\ 
-\hline  & $K_{\alpha_2}$ & 5,4 $\pm$ 0,6 \\ 
-\hline U = 40 kV, A = 30 mA & $K_\beta$ & 2,7 $\pm$ 0,8 \\ 
-\hline  & $K_{\alpha_2}$ & 1 $\pm$ 1 \\ 
-\hline  & $K_{\alpha_2}$ & 5 $\pm$ 2 \\ 
+\hline B/kV, A/mA & Linie  & Verhältnis \\ 
+\hline 30, 10 & $K_\beta$ & 7,027 $\pm$ 0,2 \\ 
+\hline " & $K_{\alpha_1}$ &  5,1 $\pm$ 0,6 \\ 
+\hline " & $K_{\alpha_2}$ & 6 $\pm$ 2 \\ 
+\hline 40, 10 & $K_\beta$ & 7,4 $\pm$ 0,3 \\ 
+\hline " & $K_{\alpha_2}$ & 4,7 $\pm$ 0,2 \\ 
+\hline " & $K_{\alpha_2}$ & 5,4 $\pm$ 0,6 \\ 
+\hline 40, 30 & $K_\beta$ & 2,7 $\pm$ 0,8 \\ 
+\hline " & $K_{\alpha_2}$ & 1 $\pm$ 1 \\ 
+\hline " & $K_{\alpha_2}$ & 5 $\pm$ 2 \\ 
 \hline 
 \end{tabular} 
 \end{table}
 
-
+In Tabelle \ref{tab:verhältniss_messung} ist das Verhältnis der Peaks bei unterschiedlichen Beschleunigungsspannungen und Anodenströmen dargestellt. Die Amplitude des Peaks erster Ordnung wird durch die Amplitude der dritten Ordnung geteilt.
 \begin{table}[H]
 \centering
-\caption{Verhältniss der Peaks bei unterschiedlichen Beschleunigungsspannungen und Anodenströmen, dabei wird die Amplitude des Peaks erster Ordnung durch den der dritten geteilt. Die Beschleunigungsspannung ist in kV und der Anodenstrom in mA angegeben.}
+\caption{}
 \label{tab:verhältniss_messung}
-\begin{tabular}{|p{5cm}|c|c|c|c|}
-\hline B$_1$ und A$_1$ / B$_2$ und A$_2$  &  Ordnung & $K_\beta$ & $K_{\alpha_2}$ & $K_{\alpha_2}$ \\ 
-\hline 30 10 / 40 10 & 1 & 0,61 $\pm$ 0,01 & 0,69 $\pm$ 0,09 & 0,6 $\pm$ 0,2 \\ 
-\hline  & 3 & 0,650 $\pm$ 0,003 & 0,63 $\pm$ 0,01 & 0,62 $\pm$ 0,02 \\ 
-\hline 30 10 / 40 30 & 1 & 0,5 $\pm$ 0,2 & 0,8 $\pm$ 0,6 & 0,2 $\pm$ 0,1 \\ 
-\hline  & 3 & 0,201 $\pm$ 0,007 & 0,218 $\pm$ 0,003 & 0,210 $\pm$ 0,006 \\ 
-\hline 40 10 / 40 30 & 1 & 0,9 $\pm$ 0,3 & 1,1 $\pm$ 0,9 & 0,36 $\pm$ 0,01 \\ 
-\hline  & 3 & 0,31 $\pm$ 0,01 & 0,3446 $\pm$ 0,0004 & 0,337 $\pm$ 0,007 \\ 
+\begin{tabular}{|c|c|c|c|c|}
+\hline B$_1$/B$_2$, A$_1$/A$_2$ & Ordnung & Verhältnis $K_\beta$ & Verhältnis $K_{\alpha_2}$ & Verhältnis $K_{\alpha_2}$ \\ 
+\hline 30/40, 10/10 & 1 & 0,61 $\pm$ 0,01 & 0,69 $\pm$ 0,09 & 0,6 $\pm$ 0,2 \\ 
+\hline "  & 3 & 0,650 $\pm$ 0,003 & 0,63 $\pm$ 0,01 & 0,62 $\pm$ 0,02 \\ 
+\hline 30/40, 10/30 & 1 & 0,5 $\pm$ 0,2 & 0,8 $\pm$ 0,6 & 0,2 $\pm$ 0,1 \\ 
+\hline "  & 3 & 0,201 $\pm$ 0,007 & 0,218 $\pm$ 0,003 & 0,210 $\pm$ 0,006 \\ 
+\hline 40/40, 10/30 & 1 & 0,9 $\pm$ 0,3 & 1,1 $\pm$ 0,9 & 0,36 $\pm$ 0,01 \\ 
+\hline " & 3 & 0,31 $\pm$ 0,01 & 0,3446 $\pm$ 0,0004 & 0,337 $\pm$ 0,007 \\ 
 \hline 
 \end{tabular} 
 \end{table}
 
 \subsubsection{Abschwächung durch den Ni-Filter}
-Es soll die Abschwächung der K$_\beta$-Linie und das Signal-zu-Rausch Verhältniss der K$_{\alpha_{1,2}}$-Linie und deren Energie und Energiebreite bestimmt werden.
-Mit Verwendung des Filters ergeben sich die Amplitude in Tabelle \ref{tab:amplitude_ni}.
+Es soll die Abschwächung der K$_\beta$-Linie und das Signal-zu-Rausch Verhältnis der K$_{\alpha_{1,2}}$-Linie und deren Energie und Energiebreite bestimmt werden.
+Mit Verwendung des Filters ergeben sich die Amplituden in Tabelle \ref{tab:amplitude_ni}.
 
 \begin{table}[H]
 \centering
-\caption{Mit Voigt-Verteilung bestimmte Amplituden, bei der Messung mit Ni-Filter}
+\caption{Mit Voigt-Verteilung bestimmte Amplituden bei der Messung mit Ni-Filter}
 \label{tab:amplitude_ni}
 \begin{tabular}{|c|c|c|}
 \hline Linie & Ordung & Amplitude \\ 
@@ -162,7 +162,7 @@ Mit Verwendung des Filters ergeben sich die Amplitude in Tabelle \ref{tab:amplit
 \end{tabular} 
 \end{table}
 
-Das Signal-zu-Rauschverhältnis (SNR) wir in [dB] berechnet:
+Das Signal-zu-Rauschverhältnis (SNR) wird in [dB] berechnet:
 
 \begin{align}
 SNR = 10 \cdot lg \left( \frac{I_{max}}{I_{rausch}} \right)
@@ -176,7 +176,7 @@ Mit den bestimmten Werten ergeben sich die SNR in Tabelle \ref{tab:SNR}.
 \caption{Mit Voigt-Verteilung bestimmte Amplituden, bei der Messung mit Ni-Filter}
 \label{tab:SNR}
 \begin{tabular}{|c|c|c|}
-\hline Linie & Ordnung & SNR \\ 
+\hline Linie & Ordnung & SNR/dB \\ 
 \hline $K_{\alpha_1}$ & 1 & 18 $\pm$ 16 \\ 
 \hline  & 3 & 5,21 $\pm$ 0,07 \\ 
 \hline $K_{\alpha_2}$ & 1 & 16 $\pm$ 10 \\ 
@@ -203,7 +203,7 @@ Die Energie der $K_{\alpha_1}$-, $K_{\alpha_2}$- und $K_\beta$-Linie wird mit de
 \caption{Energien der K-Linien}
 \label{tab:enerige_k}
 \begin{tabular}{|c|c|c|c|}
-\hline Linie & E$_{exp}$ [eV] & E$_{theo}$ [eV] & Abweichung [\%] \\ 
+\hline Linie & E$_{exp}$ /eV & E$_{theo}$ /eV & Abweichung /\% \\ 
 \hline $K_\beta$ & 8910,6 $\pm$ 0,5 & 8905,3 & 0,1 \\ 
 \hline $K_{\alpha_1}$ & 8052,0 $\pm$ 0,4 & 8047,8 & 0,1 \\ 
 \hline $K_{\alpha_2}$ & 8032,1 $\pm$ 0,4 & 8027,8 & 0,1 \\ 
@@ -228,10 +228,10 @@ Aus den Messdaten ergeben sich die Werte in Tabelle \ref{tab:si(331)}.
 \label{tab:si(331)}
 \begin{tabular}{|c|c|c|}
 \hline Werte & K$_{\alpha_1}$ & K$_{\alpha_2}$ \\ 
-\hline 2$\theta [^\circ]$ & 76.3694 $\pm$ 0.0002 & 76.5951 $\pm$ 0.0003 \\ 
-\hline E[eV] & 8052,0 $\pm$ 0,4 & 8032,1 $\pm$ 0,4 \\ 
-\hline d$[\SI{}{\angstrom}]$ & 1.24603 $\pm$ 0,00006 & 1.24602 $\pm$ 0,00008 \\ 
-\hline $d_{theo}$ & 1,2459 & 1,2459 \\
+\hline 2$\theta /^\circ$ & 76.3694 $\pm$ 0.0002 & 76.5951 $\pm$ 0.0003 \\ 
+\hline E/eV & 8052,0 $\pm$ 0,4 & 8032,1 $\pm$ 0,4 \\ 
+\hline d$/\SI{}{\angstrom}$ & 1.24603 $\pm$ 0,00006 & 1.24602 $\pm$ 0,00008 \\ 
+\hline $d_{theo}/\SI{}{\angstrom}$ & 1,2459 & 1,2459 \\
 \hline Abweichung in \% & 0,01 & 0,01 \\
 \hline
 \end{tabular} 
@@ -248,15 +248,15 @@ Aus den Messdaten ergeben sich die Werte in Tabelle \ref{tab:ge(111)}.
 
 \begin{table}[H]
 
-\caption{In der Tabelle sind die Ergebnisse zur Bestimmung des Netzebenabstandes von Ge(111)}
+\caption{In der Tabelle sind die Ergebnisse zur Bestimmung des Netzebenabstandes von Ge(111) zu sehen}
 \label{tab:ge(111)}
 \centering
 \begin{tabular}{|c|c|c|}
 \hline Werte & K$_{\alpha_1}$ & K$_{\alpha_2}$ \\ 
-\hline 2$\theta [^\circ]$ & 27.2096 $\pm$ 0.0004 & 27.2811 $\pm$ 0.0005 \\ 
-\hline E[eV] & 8052,0 $\pm$ 0,4 & 8032,1 $\pm$ 0,4  \\ 
-\hline d$[\SI{}{\angstrom}]$ & 3.27474 $\pm$ 0,00005 & 3.27446 $\pm$ 0,00008  \\ 
-\hline $d_{theo}$ & 3,2660 & 3,2660  \\
+\hline 2$\theta /^\circ$ & 27.2096 $\pm$ 0.0004 & 27.2811 $\pm$ 0.0005 \\ 
+\hline E/eV & 8052,0 $\pm$ 0,4 & 8032,1 $\pm$ 0,4  \\ 
+\hline d$/\SI{}{\angstrom}$ & 3.27474 $\pm$ 0,00005 & 3.27446 $\pm$ 0,00008  \\ 
+\hline $d_{theo}/\SI{}{\angstrom}$ & 3,2660 & 3,2660  \\
 \hline Abweichung in \% & 0,27 & 0,26  \\
 \hline
 \end{tabular} 
