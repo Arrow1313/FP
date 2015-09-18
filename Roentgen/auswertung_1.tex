@@ -10,8 +10,8 @@ Gescannt wird ein Winkelbereich von 15$^\circ$ bis 130$^\circ$, dabei wurden für
 \end{itemize}
  verwendet. Dabei ergeben sich die folgenden Plots.
  \vspace{1cm}
- 
- % Plots der Messunge f\"ur die Kupferanode mit unterschiedlichen Beschleunigungsspannungen
+
+% Plots der Messunge f\"ur die Kupferanode mit unterschiedlichen Beschleunigungsspannungen
 \noindent
 In Abb. \ref{fig:spektrum_1} ist das Diffraktogramm für U = 30kV und A = 10mA zu sehen.
 
@@ -152,6 +152,15 @@ Der Fit für U=40kV und A=30mA, mit Ni-Filter ist in Abb. \ref{fig:40_30_ni_fit} 
 \hline 
 \end{tabular} 
 \end{table}
+
+Bei den Fits der Doppelpeaks liegt das $\chi_{red}^2$ zwischen 14 und 74. Betrachtet man die Plots der Fits, fällt auf, dass die Fitkurve bei dem ersten Peak stärker abweicht, als bei dem zweiten. In Abb. \ref{fig:chi_problem} ist links vom ersten Peak eine Erhöhung zu sehen. Die Herkunft des ist nicht bekannt, somit lässt sich das Fitmodell nicht erweitern, erklärt jedoch die stärkere Abweichung des ersten Peaks vom Fit.
+
+\begin{figure}[H]
+	\centering
+  \includegraphics[scale=0.3]{chi_problem.pdf}
+	\caption{Diffraktogramm bei 40kV Beschleunigungsspannung und einem Anodenstrom von 30mA, im Winkelbereich von 28,2$^\circ$ bis 28,7$^\circ$}
+	\label{fig:chi_problem}
+\end{figure}
 
 \subsubsection{Verhältnisse}
 Aus den bestimmten Peaks sollen die Verhältnisse der Cu-Linien und der Ordnungen untereinander bestimmt werden. Für den Voigt-Fit wird das Pythonpackage lmfit verwendet. Die Voigtverteilung wird über ein normiertes Intergral bestimmt, worduch der Fitparameter 'Amplitude' für die Verhältnisbestimmung verwendet werden kann. Die mit den Fits bestimmten Amplituden sind in Tabelle \ref{tab:wichtige_parameter} zu sehen.
