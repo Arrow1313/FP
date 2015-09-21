@@ -4,7 +4,7 @@
 In diesem Versuchsabschnitt soll die Streuung von $\alpha$-Strahlung an Goldfolie untersucht werden.
 
 \subsection{Versuchsdurchführung}
-Die Streuung von $\alpha$-Teilchen an einer Goldfolie wird in einem Winkelbereich von -30$^\circ$ bis 30$^\circ$ in 5$^\circ$-Schritten untersucht. Neben der Goldfolie wird der Kollimator mit einer Spaltbreite von 1mm (\cite{anleitung}) eingesetzt. Die Streukammer wird auf 35 $\pm$ 3 mbar evakuiert. Die Messdaten werden mit dem Computer aufgenommen. Für jeden Winkel wurde für einen Zeitraum von 180 $\pm$ 1 s gemessen. Die aufgenommen Histogramme werden mit der Poissonverteilung gefittet (Beispiel im Anhang). Der Fehler des Winkels wurde mit 2$^\circ$ angenommen. Die so bestimmten Zählraten werden mit Gleichung \ref{eqn:ruth} gefittet. Da das Winkelmaß einen Offset besitzt, wird dies durch eine additive Konstante als Fitparameter berücksichtigt.
+Die Streuung von $\alpha$-Teilchen an einer Goldfolie wird in einem Winkelbereich von -30$^\circ$ bis 30$^\circ$ in 5$^\circ$-Schritten untersucht. Neben der Goldfolie wird der Kollimator mit einer Spaltbreite von 1mm (\cite{anleitung}) eingesetzt. Die Streukammer wird auf 35 $\pm$ 3 mbar evakuiert. Die Messdaten werden mit dem Computer aufgenommen. Für jeden Winkel wurde für einen Zeitraum von 180 $\pm$ 1 s gemessen. Die aufgenommen Histogramme werden mit der Poissonverteilung gefittet, da Zufallsvariablen, die die Anzahl von Ereignissen, die in einem gegebenen Zeitintervall Auftreten, darstellen, poissonverteilt sind (Beispiel im Anhang). Der Fehler des Winkels wurde mit 2$^\circ$ angenommen. Die so bestimmten Zählraten werden mit Gleichung \ref{eqn:ruth} gefittet. Da das Winkelmaß einen Offset besitzt, wird dies durch eine additive Konstante als Fitparameter berücksichtigt.
 
 \begin{align}
 \label{eqn:ruth}
@@ -12,7 +12,7 @@ f(x) = \frac{A}{sin^4 \left[ \frac{(x-B)}{2} \right]}
 \end{align}
 
 \subsection{Auswertung}
-In Abb. \ref{fig:rutherford_gold} sind die Messdaten mit dem Fit der Rutherfordstreuformel zu sehen. Die Rutherfordstreuuformel wurde nach GL. \ref{eqn:ruth} gefittet. Dabei ergaben sich für den Fit die Werte in Tabelle \ref{tab:fit_gold_ruth}.
+In Abbildung \ref{fig:rutherford_gold} sind die Messdaten mit dem Fit der Rutherfordstreuformel zu sehen. Die Rutherfordstreuuformel wurde nach Gleichung \ref{eqn:ruth} gefittet. Dabei ergaben sich für den Fit die Werte in Tabelle \ref{tab:fit_gold_ruth}.
 
 \begin{figure}[H]
 	\centering
