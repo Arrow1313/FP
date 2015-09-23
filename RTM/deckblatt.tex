@@ -1,0 +1,76 @@
+%deckblatt erstellen.
+
+\begin{titlepage}
+
+\begin{center}
+% Oberer Teil der Titelseite:
+\includegraphics[width=0.75\textwidth]{logo.png}\\[1cm]    	%Logo 
+
+\textsc{\LARGE Bergische Universit\"at Wuppertal}\\[1.5cm]	%Institution
+
+\textsc{\Large Fortgeschrittenen Praktikum}\\[0.5cm]				%Projekt
+
+
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\HRule \\[0.4cm]
+{ \huge \bfseries Titel}\\[0.4cm]				%Titel
+
+\HRule \\[1.5cm]
+
+% Author und Tutor
+\begin{minipage}{0.4\textwidth}
+\begin{flushleft} \large
+\emph{Verfasser:}\\
+Henrik \textsc{Jürgens} \\
+Frederik \textsc{Strothmann} \\
+\end{flushleft}
+\end{minipage}
+\hfill
+\begin{minipage}{0.4\textwidth}
+\begin{flushright} \large
+\emph{Tutoren:} \\
+Max \textsc{Mustermann} \\
+Max \textsc{Mustermann} \\
+\end{flushright}
+\end{minipage}
+
+\vspace{1cm}
+
+\begin{table}[H]
+\centering
+\begin{tabular}{|l|}
+\hline \textbf{Abstract: } \\
+Kurze Umschreibung\\
+\hline 
+\end{tabular}
+\end{table} 
+
+\vspace{1cm}
+
+{
+%  \fbox{
+%    \begin{turn}{-90}
+    \begin{tabular}{|l|c|l|c|}
+    \hline
+    Bereich               & max. \% & +/0/- &  erreicht  \% \\  \hline \hline
+    Einleitung \& Theorie & 15     &       & \\                \hline
+    Durchf\"uhrung        &        &       & \\
+    Auswertung		      & 70     &       & \\ 
+    phys. Diskussion      &        &       & \\ 
+    Zusammenfassung       &        &       & \\ \hline
+    Formales              & 15     &       & \\ \hline \hline
+    Note			      & \multicolumn{3}{|c|}{\quad} \\ \hline
+    \end{tabular}
+    
+%    \end{turn}
+%  }
+}
+
+\vfill
+
+% Unterer Teil der Seite/Datum
+{\large \today}
+
+\end{center}
+
+\end{titlepage}
