@@ -4,21 +4,21 @@
 Es soll die Reichweite von $\alpha$-Strahlung bei Normaldruck untersucht werden.
 
 \subsection{Versuchsdurchführung}
-Es werden keine Metallfolien oder Kollimationsspalte verwendet. Der Schwenkarm wird auf 0$^\circ$ eingestellt. Da der Abstand zwischen dem $^{241}$Am-Präparat und der Quelle nicht veränderbar ist (5 cm), kann die Abstandsabhängigkeit nicht direkt bestimmt werden. Stattdessen wird die Zählrate in Abhängigkeit des Luftdrucks aufgenommen. Da die Reichweite linear mit Anzahl der Stöße mit den Luftmolekülen abhängt, hängt die Reichweite unter Annahme des idealen Gassesetztes auch linear von Druck ab. Daraus lässt sich für die Reichweite unter Normaldruck Gl. \ref{eqn:reich_normal} folgern.
+Es werden keine Metallfolien oder Kollimationsspalte verwendet. Der Schwenkarm wird auf 0$^\circ$ eingestellt. Da der Abstand zwischen dem $^{241}$Am-Präparat und der Quelle nicht veränderbar ist (5,0 $\pm$ 0,5 cm), kann die Abstandsabhängigkeit nicht direkt bestimmt werden. Stattdessen wird die Zählrate in Abhängigkeit des Luftdrucks aufgenommen. Da die Reichweite linear mit Anzahl der Stöße mit den Luftmolekülen abhängt, hängt die Reichweite unter Annahme des idealen Gassesetztes auch linear von Druck ab. Daraus lässt sich für die Reichweite unter Normaldruck Gleichung \ref{eqn:reich_normal} folgern.
 
 \begin{align}
 \label{eqn:reich_normal}
 x_{Messung} = x_{Normal} \frac{p_{Messung}}{p_{Normal}} 
 \end{align}
 
-Der Fehler ergibt sich nach Gl. 
+Der Fehler ergibt sich nach Gleichung 
 
 \begin{align}
 \label{eqn:delta_reich_normal}
 \Delta x_{Messung} = x_{Normal} \frac{\Delta p_{Messung}}{p_{Normal}} 
 \end{align}
 
-Der Druck wird solange erhöht, bis die Countrate auf 0 abfällt. Da der Abfall der Zählrate jedoch gaußverschmiert ist, muss der Nullpunkt mit einer logistischen Regression bestimmt werden. Für die logistische Regression wird Gl. \ref{eqn:logi} verwendet. Mit dem Zusammenhang, aus Gl. \ref{eqn:reich_normal} kann die Reichweite von $\alpha$-Strahlung in Luft bestimmt werden.
+Der Druck wird solange erhöht, bis die Countrate auf 0 abfällt. Da der Abfall der Zählrate jedoch gaußverschmiert ist, muss der Nullpunkt mit einer logistischen Regression bestimmt werden. Für die logistische Regression wird Gleichung \ref{eqn:logi} verwendet. Mit dem Zusammenhang, aus Gleichung \ref{eqn:reich_normal} kann die Reichweite von $\alpha$-Strahlung in Luft bestimmt werden.
 
 \begin{align}
 \label{eqn:logi}
@@ -31,26 +31,26 @@ Die Messwerte mit dem Fit sind in Abb. \ref{fig:reichweite} zu sehen, für den Fi
 \begin{figure}[H]
 	\centering
   \includegraphics[scale=0.33]{reichweite.pdf}
-	\caption{Es sind die Messdaten aus der Streuung von $\alpha$-Strahlung an Gold, bei unterschiedlichem Druck zu sehen. Die Messdaten wurden mit  Gl. \ref{eqn:logi} gefittet, dabei ergab sich ein $\chi_{red}^2$ von 0,45.}
+	\caption{Es sind die Messdaten aus der Streuung von $\alpha$-Strahlung an Gold, bei unterschiedlichem Druck zu sehen. Die Messdaten wurden mit  Gleichung \ref{eqn:logi} gefittet, dabei ergab sich ein $\chi_{red}^2$ von 0,45.}
 	\label{fig:reichweite}
 \end{figure}
 
 \begin{table}
 \centering
-\caption{Parameter des Fits zur Bestimmung der Reichweite von $\alpha$-Strahlung in Luft. Für den Fit wurde Gl. \ref{eqn:logi} verwendet.}
+\caption{Parameter des Fits zur Bestimmung der Reichweite von $\alpha$-Strahlung in Luft. Für den Fit wurde Gleichung \ref{eqn:logi} verwendet.}
 \label{tab:fit_logi}
 \begin{tabular}{|c|c|}
 \hline Parameter & Wert \\ 
-\hline A & 25 $\pm$ 1 \\ 
-\hline B & 458,2 $\pm$ 0.8 \\ 
-\hline C & 53,3 $\pm$ 0.3 \\ 
+\hline A & 25,0 $\pm$ 1,0 \\ 
+\hline B & 458,2 $\pm$ 0,8 \\ 
+\hline C & 53,3 $\pm$ 0,3 \\ 
 \hline D & -0,5 $\pm$ 0,3 \\ 
 \hline $\chi_{red}^2$ & 0,45 \\ 
 \hline 
 \end{tabular} 
 \end{table}
 
-Die Daten werden gut durch die logistische Regression beschrieben, aus den Fitparametern kann mit Gl. \ref{eqn:p_0} der Druck bestimmt werden, bei dem die Zählrate auf 0 abgefallen ist.
+Die Daten werden gut durch die logistische Regression beschrieben, aus den Fitparametern kann mit Gleichung \ref{eqn:p_0} der Druck bestimmt werden, bei dem die Zählrate auf 0 abgefallen ist.
 
 \begin{align}
 \label{eqn:p_0}
@@ -59,7 +59,7 @@ p_0 = D \sqrt[C]{\frac{A}{B}}
 
 
 
-Mit den bestimmten Parametern aus Tabelle \ref{tab:fit_logi} ergibt sich ein Druck von 504 $\pm$ 34 mbar. Bei einem Normaldruck von p$_{normal}$ = 1013,25 mbar und einem Abstand von x$_0$ = 5 $\pm$ 0.5 cm kann mit Gl. \ref{eqn:reich_normal} die Reichweite der $\alpha$-Strahlung in Luft bestimmt werden. Es ergibt sich eine Reichweite von 2,5 $\pm$ 0.3 cm.  Dieser Wert muss jedoch korrigiert werden, da durch die 3$\mu$m dicke Goldfolie die Energie der $\alpha$-Strahlung von 5,5 MeV auf 4,5 MeV abgeschwächt wird. Es ergibt sich damit ein Korrekturfaktor nach Gl. \ref{eqn:korrekur} welcher multiplikativ in Gl. \ref{eqn:reich_normal} eingeht. Damit ergibt sich ein korregierter Wert von 3,04 $\pm$ 0,37. Erwartet wurde ein Wert von 2,96 cm, dieser Wert wurde mit der empirischen Reichweite nach Geiger bestimmt (siehe \cite{wiki_geiger}). Der Korrigierte Wert weicht um 2,7\% ab, was ein gutes Ergebnis ist, wobei der Erwartete Wert innerhalb der Fehler des gemessenen liegt.
+Mit den bestimmten Parametern aus Tabelle \ref{tab:fit_logi} ergibt sich ein Druck von 504 $\pm$ 34 mbar. Bei einem Normaldruck von p$_{normal}$ = 1013,25 mbar und einem Abstand von x$_0$ = 5 $\pm$ 0,5 cm kann mit Gleichung \ref{eqn:reich_normal} die Reichweite der $\alpha$-Strahlung in Luft bestimmt werden. Es ergibt sich eine Reichweite von 2,5 $\pm$ 0,3 cm.  Dieser Wert muss jedoch korrigiert werden, da durch die 3$\mu$m dicke Goldfolie die Energie der $\alpha$-Strahlung von 5,5 MeV auf 4,5 MeV abgeschwächt wird. Es ergibt sich damit ein Korrekturfaktor nach Gleichung \ref{eqn:korrekur} welcher multiplikativ in Gleichung \ref{eqn:reich_normal} eingeht. Damit ergibt sich ein korregierter Wert von 3,04 $\pm$ 0,37. Erwartet wurde ein Wert von 2,96 cm, dieser Wert wurde mit der empirischen Reichweite nach Geiger bestimmt (siehe \cite{wiki_geiger}). Der Korrigierte Wert weicht um 2,7\% ab, was ein gutes Ergebnis ist, wobei der Erwartete Wert innerhalb der Fehler des gemessenen liegt.
 
 
 

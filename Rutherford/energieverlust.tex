@@ -4,10 +4,9 @@
 \label{sec:energieverlust}
 In diesem Versuchsabschnitt soll der Energieverlust von $\alpha$-Strahlung in Luft, bei Normaldruck, untersucht werden.
 
-\subsection{Versuchsdurchführung}
-Da wie zuvor der Abstand zwischen dem Präparat und dem Detektor nicht variierbar ist, wird der Druck variiert. Die Spektroskopiekammer wird evakuiert. Dann werden der Verstärker und der ADC so eingestellt, dass das $^{226}$Ra-Spektrum deutlich zu erkennen ist. Da im Bereich von niedrigen Energien ein starker Untergrund vorhanden ist, muss die Einstellschraube LLD am ADC so eingestellt werden, dass der Untergrund möglichst gut herausgefiltert wird.
+
 \subsection{Kanal-Energie-Eichung}
-Dann wird eine Kanal-Zeit-Eichung mit der Zerfallsreihe von $^{266}$Ra durchgeführt. Die Zerfallsreihe ist in Abb. \ref{fig:zerfall} zu sehen. Die Peaks werden über einen Multi-Gauss-Fit bestimmt. Dieser besteht aus einer Summe von 4 Gaussverteilungen. Den so bestimmten Kanälen kann mit der Zerfallskette (Abb. \ref{fig:zerfall}) eine Energie zugeordnet werden. Die Werte werden mit einer linearen Funktion gefittet (Gl. \ref{eqn:lin}).
+Dann wird eine Kanal-Zeit-Eichung mit der Zerfallsreihe von $^{266}$Ra durchgeführt. Die Zerfallsreihe ist in Abb. \ref{fig:zerfall} zu sehen. Die Peaks werden über einen Multi-Gauss-Fit bestimmt. Der 5,49 MeV und der 5,30 MeV Peak liegen so nah bei einander, dass er von dem Detektor nicht aufgelöst werden kann, deshalb, werde bei dem als ein Peak interpretiert. Dieser besteht aus einer Summe von 4 Gaussverteilungen. Den so bestimmten Kanälen kann mit der Zerfallskette (Abb. \ref{fig:zerfall}) eine Energie zugeordnet werden. Die Werte werden mit einer linearen Funktion gefittet (Gleichung \ref{eqn:lin}).
 
 
 \begin{figure}[H]
@@ -23,14 +22,14 @@ Dann wird eine Kanal-Zeit-Eichung mit der Zerfallsreihe von $^{266}$Ra durchgefü
 E(k) = A \cdot k + B
 \end{align}
 
-Der Fehler von E(k) ergibt sich dabei nach Gl. \ref{eqn:delta_energie_kanal}.
+Da nur Fehler auf den Kanal vorhanden sind, wird Gleichung \ref{eqn:lin} zu Gleichung \ref{eqn:lin_neu} umgeformt und damit die Fehler im Fit zu berücksichtigen.
 
 \begin{align}
-\label{eqn:delta_energie_kanal}
-\Delta E = \Delta k \cdot A
+\label{eqn:lin_neu}
+k = \frac{E-B}{A}
 \end{align}
 
-Der Multi-Gauss-Fit ist in Abbilung \ref{fig:multi_fit} zu sehen. Dabei ergaben sich die Fitparameter in Tabelle \ref{tab:multi-fit}. Die Kurve passt optisch gut zu den Messdaten, was durch ein reduziertes Chiquadrat $\chi_{red}^2$ von 1.717 bestätigt wird.
+Der Multi-Gauss-Fit ist in Abbilung \ref{fig:multi_fit} zu sehen. Dabei ergaben sich die Fitparameter in Tabelle \ref{tab:multi-fit}. Die Kurve passt optisch gut zu den Messdaten, was durch ein reduziertes Chiquadrat $\chi_{red}^2$ von 1,717 bestätigt wird.
 
 \begin{figure}[H]
 	\centering
@@ -42,32 +41,24 @@ Der Multi-Gauss-Fit ist in Abbilung \ref{fig:multi_fit} zu sehen. Dabei ergaben 
 
 \begin{table}[H]
 \centering
-\caption{Parameter des Multi-Gauss-Fits}
+\caption{$\mu$-Parameter des Multi-Gauss-Fits}
 \label{tab:multi-fit}
-\begin{tabular}{|c|c|c|c|}
-\hline Gausskurve & Parameter & Wert & Fehler \\ \hline
-\hline 1 & $\sigma$ & 22.0 & 0.3 \\ 
-\hline  & $\mu$ & 255 & 1 \\ 
-\hline  & Amplitude & 8700 & 308 \\ \hline
-\hline 2 & $\sigma$ & 19.5 & 0.8 \\ 
-\hline  & $\mu$ & 315.5 & 0.6 \\ 
-\hline  & Amplitude & 12483 & 459 \\ \hline
-\hline 3 & $\sigma$ & 18.5 & 0.5 \\ 
-\hline  & $\mu$ & 372.5 & 0.8 \\ 
-\hline  & Amplitude & 7156 & 243 \\ \hline
-\hline 4 & $\sigma$ & 18.9 & 0.2 \\ 
-\hline  & $\mu$ & 548.6 & 0.3 \\ 
-\hline  & Amplitude & 7170 & 110 \\ 
+\begin{tabular}{|c|c|c|}
+\hline Gausskurve & Wert & Fehler \\ \hline
+\hline 1  & 255,0 & 1,0 \\ 
+\hline 2  & 315,5 & 0,6 \\ 
+\hline 3  & 372,5 & 0,8 \\ 
+\hline 4  & 548,6 & 0,3 \\ 
 \hline 
 \end{tabular} 
 \end{table}
 
-Mit den bestimmten Kanälen und den Energien ergibt sich der Plot in Abb. \ref{fig:linear_fit}. Die Ergebnisse des Fits sind in Tabelle \ref{tab:linear-fit} aufgetragen. Das reduzierte Chiquadrat $\chi_{red}^2$ hat einen Wert von 0.367. Die Energie eines Kanals ist durch Gl. \ref{eqn:energie-kanal} gegeben.
+Mit den bestimmten Kanälen und den Energien ergibt sich der Plot in Abb. \ref{fig:linear_fit}. Die Ergebnisse des Fits sind in Tabelle \ref{tab:linear-fit} aufgetragen. Das reduzierte Chiquadrat $\chi_{red}^2$ hat einen Wert von 3.01. Die Energie eines Kanals ist durch Gleichung \ref{eqn:energie-kanal} gegeben.
 
 \begin{figure}[H]
 	\centering
   \includegraphics[scale=0.33]{linear_fit.pdf}
-	\caption{Zerfallsenergien gegen die bestimmten Kanäle mit linearem Fit}
+	\caption{Die bestimmten Kanäle gegen Zerfallsenergien mit linearem Fit}
 	\label{fig:linear_fit}
 \end{figure}
 
@@ -78,37 +69,37 @@ Mit den bestimmten Kanälen und den Energien ergibt sich der Plot in Abb. \ref{fi
 \label{tab:linear-fit}
 \begin{tabular}{|c|c|c|}
 \hline Parameter & Wert & Fehler \\ 
-\hline A [MeV] & 0.0095 & 0.0001 \\ 
-\hline B [MeV]& 2.46 & 0.04 \\ 
+\hline A [MeV] & 0,00949 & 0,00007 \\ 
+\hline B [MeV]& 2,48 & 0,03 \\ 
 \hline 
 \end{tabular} 
 \end{table}
 
 \begin{align}
 \label{eqn:energie-kanal}
-E(k) = (0.0095 \pm 0.0001) \cdot k + (2.46 \pm 0.04)
+E(k) = (0,00949 \pm 0,00007) \cdot k + (2,48 \pm 0,03)
 \end{align}
 
 
 \subsection{Druckmessung}
-Die Kammer wird langsam belüftet und Spektren im Bereich von 100 Torr bis 800 Torr in 25 Torr Schritten aufgenommen, wobei der Druck während der Messung konstant gehalten wird. Ein Bar entspricht 750.061683 Torr. Nach Gl. \ref{eqn:reich_normal} kann die Strecke mit erhöhtem Druck in die Strecke unter Normaldruck umgerechnet werden. Aus den Countrates in Abhängigkeit des Drucks kann der absolute Energieverlust und der Energieverlust pro Wegstück bei Normaldruck bestimmt werden. Für den Energieverlust pro Wegstück wird ein Verhalten nach Gl. \ref{eqn:reich_normal} erwartet. Die Peaks der Spektren werden wie zuvor mit einem Mulit-Gauss gefittet. Eine Messung wurde über einen Zeitraum von 180s durchgeführt.
+Die Kammer wird langsam belüftet und Spektren im Bereich von 100 Torr bis 800 Torr in 25 Torr Schritten aufgenommen, wobei der Druck während der Messung konstant gehalten wird. Ein Bar entspricht 750 Torr. Nach Gleichung \ref{eqn:reich_normal} kann die Strecke mit erhöhtem Druck in die Strecke unter Normaldruck umgerechnet werden. Aus den Countrates in Abhängigkeit des Drucks kann der absolute Energieverlust und der Energieverlust pro Wegstück bei Normaldruck bestimmt werden. Für den Energieverlust pro Wegstück wird ein Verhalten nach Gleichung \ref{eqn:reich_normal} erwartet. Die Peaks der Spektren werden wie zuvor mit einem Mulit-Gauss gefittet. Eine Messung wurde über einen Zeitraum von 180s durchgeführt.
 
 \subsection{Energieverlust}
-Der Energieverlust pro Strecke wird nach Gl. \ref{eqn:verlust} berechnet.
+Der Energieverlust pro Strecke wird nach Gleichung \ref{eqn:verlust} berechnet.
 
 \begin{align}
 \label{eqn:verlust}
 \frac{dE}{dx} = \frac{E_1 - E_2}{x_1 - x_2}
 \end{align}
 
-Dabei ergibt sich der Fehler nach Gl. \ref{eqn:delta_verlust}.
+Dabei ergibt sich der Fehler nach Gleichung \ref{eqn:delta_verlust}.
 
 \begin{align}
 \label{eqn:delta_verlust}
 \Delta \frac{dE}{dx} = \sqrt{\left( \frac{\Delta dE}{dx} \right)^2 + \left( \frac{\Delta dx \cdot dE}{dx^2} \right)^2 }
 \end{align}
 
-Die Wegdifferenz wurde mit Gleichung \ref{eqn:reich_normal} bestimmt, dabei ist P$_{normal}$ = 760 Torr und x$_{normal}$ = 6 cm. Die Energie wurde mit Gl. \ref{eqn:energie-kanal} bestimmt. Die Energie wurde über den Mittelwert Gl. \ref{eqn:e_mittel} bestimmt.  Der Fehler ist in Gl. \ref{eqn:delta_e_mittel} angegeben.
+Die Wegdifferenz wurde mit Gleichung \ref{eqn:reich_normal} bestimmt, dabei ist P$_{normal}$ = 760 Torr und \mbox{x$_{normal}$ = 6 cm}. Die Energie wurde mit Gleichung \ref{eqn:energie-kanal} bestimmt. Die Energie wurde über den Mittelwert Gleichung \ref{eqn:e_mittel} bestimmt.  Der Fehler ist in Gleichung \ref{eqn:delta_e_mittel} angegeben.
 
 \begin{align}
 \label{eqn:e_mittel}
@@ -120,7 +111,7 @@ Die Wegdifferenz wurde mit Gleichung \ref{eqn:reich_normal} bestimmt, dabei ist 
 \Delta \bar{E} = \sqrt{ \left( \frac{\Delta E_1}{2} \right)^2 + \left( \frac{\Delta E_2}{2} \right)^2}
 \end{align}
 
-Die bestimmten Peakpositonen in Abhängigkeit vom Druck sind in Tabelle \ref{tab:multi-fit-erg} aufgetragen. Trägt man nun $\frac{dE}{dx}$ gegen $dE$ auf, erwartet man das von der Bethe-Bloch-Formel beschriebene Verhalten. Die Bethe-Bloch-Formel ist in Gleichung \ref{eqn:bethe-bloch} zu sehen. Da nur der Verlauf der Daten von intresse ist und nicht die Werte der einzelnen Parameter, können die Messdaten mit einem vereinfachten Modell, Gl. \ref{eqn:bethe-bloch-einfach} gefittet werden. Dabei wird ein linearer Zusammenhang zwischen der Energie und dem Geschwindigkeitsquadrat der Teilchen angenommen ($E_{kin} \sim v^2$).
+Die bestimmten Peakpositonen in Abhängigkeit vom Druck sind in Tabelle \ref{tab:multi-fit-erg} aufgetragen. Trägt man nun $\frac{dE}{dx}$ gegen $dE$ auf, erwartet man das von der Bethe-Bloch-Formel beschriebene Verhalten. Die Bethe-Bloch-Formel ist in Gleichung \ref{eqn:bethe-bloch} zu sehen. Da nur der Verlauf der Daten von intresse ist und nicht die Werte der einzelnen Parameter, können die Messdaten mit einem vereinfachten Modell, Gleichung \ref{eqn:bethe-bloch-einfach} gefittet werden. Dabei wird ein linearer Zusammenhang zwischen der Energie und dem Geschwindigkeitsquadrat der Teilchen angenommen ($E_{kin} \sim v^2$).
 
 \begin{align}
 \label{eqn:bethe-bloch-einfach}
@@ -131,7 +122,7 @@ In Abb. \ref{fig:bethe_1} ist $\frac{dE}{dx}$ gegen $dE$ für den 4,871 MeV Peak 
 
 \begin{table}[H]
 \centering
-\caption{Fitwerte für den 4,871 MeV Peak nach Gl. \ref{eqn:bethe-bloch-einfach}}
+\caption{Fitwerte für den 4,871 MeV Peak nach Gleichung \ref{eqn:bethe-bloch-einfach}}
 \label{tab:bethe_fit_1}
 \begin{tabular}{|c|c|}
 \hline Parameter & Wert \\ 
@@ -145,7 +136,7 @@ In Abb. \ref{fig:bethe_1} ist $\frac{dE}{dx}$ gegen $dE$ für den 4,871 MeV Peak 
 \begin{figure}[H]
 	\centering
   \includegraphics[scale=0.33]{bethebloch_1.pdf}
-	\caption{Es ist $\frac{dE}{dx}$ gegen $dE$ aufgetragen, es wird ein Verlauf nach der Bethe-Bloch-Formel (Gl. \ref{eqn:bethe-bloch}) erwartet. Aus dem Fit mit Gl. \ref{eqn:bethe-bloch-einfach} ergibt sich ein reduziertes Chiquadrat $\chi_{red}^2$ von 8,4.}
+	\caption{Es ist $\frac{dE}{dx}$ gegen $dE$ aufgetragen, es wird ein Verlauf nach der Bethe-Bloch-Formel (Gleichung \ref{eqn:bethe-bloch}) erwartet. Aus dem Fit mit Gleichung \ref{eqn:bethe-bloch-einfach} ergibt sich ein reduziertes Chiquadrat $\chi_{red}^2$ von 8,4.}
 	\label{fig:bethe_1}
 \end{figure}
 
@@ -154,7 +145,7 @@ In Abb. \ref{fig:bethe_2} ist $\frac{dE}{dx}$ gegen $dE$ für den 5,49 MeV Peak a
 
 \begin{table}[H]
 \centering
-\caption{Fitwerte für den 5,49 MeV Peak nach Gl. \ref{eqn:bethe-bloch-einfach}}
+\caption{Fitwerte für den 5,49 MeV Peak nach Gleichung \ref{eqn:bethe-bloch-einfach}}
 \label{tab:bethe_fit_2}
 \begin{tabular}{|c|c|}
 \hline Parameter & Wert \\ 
@@ -168,7 +159,7 @@ In Abb. \ref{fig:bethe_2} ist $\frac{dE}{dx}$ gegen $dE$ für den 5,49 MeV Peak a
 \begin{figure}[H]
 	\centering
   \includegraphics[scale=0.33]{bethebloch_2.pdf}
-	\caption{Es ist $\frac{dE}{dx}$ gegen $dE$ für den 5,49 MeV Peak aufgetragen, es wird ein Verlauf nach der Bethe-Bloch-Formel (Gl. \ref{eqn:bethe-bloch}) erwartet. Aus dem Fit mit Gl. \ref{eqn:bethe-bloch-einfach} ergibt sich ein $\chi_{red}^2$ von 13,4.}
+	\caption{Es ist $\frac{dE}{dx}$ gegen $dE$ für den 5,49 MeV Peak aufgetragen, es wird ein Verlauf nach der Bethe-Bloch-Formel (Gleichung \ref{eqn:bethe-bloch}) erwartet. Aus dem Fit mit Gleichung \ref{eqn:bethe-bloch-einfach} ergibt sich ein $\chi_{red}^2$ von 13,4.}
 	\label{fig:bethe_2}
 \end{figure}
 
@@ -179,7 +170,7 @@ In Abb. \ref{fig:bethe_3} ist $\frac{dE}{dx}$ gegen $dE$ für den 6 MeV Peak aufg
 
 \begin{table}[H]
 \centering
-\caption{Fitwerte für den 6 MeV Peak nach Gl. \ref{eqn:bethe-bloch-einfach}}
+\caption{Fitwerte für den 6 MeV Peak nach Gleichung \ref{eqn:bethe-bloch-einfach}}
 \label{tab:bethe_fit_3}
 \begin{tabular}{|c|c|}
 \hline Parameter & Wert \\ 
@@ -193,7 +184,7 @@ In Abb. \ref{fig:bethe_3} ist $\frac{dE}{dx}$ gegen $dE$ für den 6 MeV Peak aufg
 \begin{figure}[H]
 	\centering
   \includegraphics[scale=0.33]{bethebloch_3.pdf}
-	\caption{Es ist $\frac{dE}{dx}$ gegen $dE$, für den 6 MeV Peak aufgetragen, es wird ein Verlauf nach der Bethe-Bloch-Formel (Gl. \ref{eqn:bethe-bloch}) erwartet. Aus dem Fit mit Gl. \ref{eqn:bethe-bloch-einfach} ergibt sich ein $\chi_{red}^2$ von 17,5.}
+	\caption{Es ist $\frac{dE}{dx}$ gegen $dE$, für den 6 MeV Peak aufgetragen, es wird ein Verlauf nach der Bethe-Bloch-Formel (Gleichung \ref{eqn:bethe-bloch}) erwartet. Aus dem Fit mit Gleichung \ref{eqn:bethe-bloch-einfach} ergibt sich ein $\chi_{red}^2$ von 17,5.}
 	\label{fig:bethe_3}
 \end{figure}
 
@@ -203,7 +194,7 @@ In Abb. \ref{fig:bethe_4} ist $\frac{dE}{dx}$ gegen $dE$ für den 7,69 MeV Peak a
 
 \begin{table}[H]
 \centering
-\caption{Fitwerte für den 7,69 MeV Peak nach Gl. \ref{eqn:bethe-bloch-einfach}}
+\caption{Fitwerte für den 7,69 MeV Peak nach Gleichung \ref{eqn:bethe-bloch-einfach}}
 \label{tab:bethe_fit_4}
 \begin{tabular}{|c|c|}
 \hline Parameter & Wert \\ 
@@ -217,7 +208,7 @@ In Abb. \ref{fig:bethe_4} ist $\frac{dE}{dx}$ gegen $dE$ für den 7,69 MeV Peak a
 \begin{figure}[H]
 	\centering
   \includegraphics[scale=0.33]{bethebloch_4.pdf}
-	\caption{Es ist $\frac{dE}{dx}$ gegen $dE$ für den 7,69 MeV Peak aufgetragen, es wird ein Verlauf nach der Bethe-Bloch-Formel (Gl. \ref{eqn:bethe-bloch}) erwartet. Aus dem Fit mit Gl. \ref{eqn:bethe-bloch-einfach} ergibt sich ein reduziertes Chiquadrat $\chi_{red}^2$ von 30,9.}
+	\caption{Es ist $\frac{dE}{dx}$ gegen $dE$ für den 7,69 MeV Peak aufgetragen, es wird ein Verlauf nach der Bethe-Bloch-Formel (Gleichung \ref{eqn:bethe-bloch}) erwartet. Aus dem Fit mit Gleichung \ref{eqn:bethe-bloch-einfach} ergibt sich ein reduziertes Chiquadrat $\chi_{red}^2$ von 30,9.}
 	\label{fig:bethe_4}
 \end{figure}
 
