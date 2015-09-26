@@ -1,2 +1,16 @@
 \subsection{Oberflächenrauheit}
 Die Oberflächenrauheit oder kurz Rauheit ist in der Oberflächenphysik eine Größe zur Charakterisierung der Unebenheit der Oberflächenhöhe.
+Beschrieben wird sie mit der mittleren betragsmäßigen Abweichung von der mittleren Oberflächenhöhe, oder mit der mittleren quadratischen Abweichung von der Oberflächenhöhe. Die Formeln sind im Zweidimensionalen, wie auch im Dreidimensionalen, auf Hyperflächen anwendbar. Für die Berechung der Rauheit wird Formel \ref{eqn:R_a} und Formel \ref{eqn:R_q} für das arithmetische Mittel $R_a$ und für das quadratische Mittel $R_q$ verwendet.
+\begin{align}
+R_a = \frac{1}{N}\sum_{i=1}^{N}|z_i-\bar{z}|
+\label{eqn:R_a}
+\\
+R_q = \frac{1}{N}\sqrt{\sum_{i=1}^{N}(z_i-\bar{z})^2}
+\label{eqn:R_q}
+\end{align}
+Das quadratische Mittel gewichtet größere Abweichungen stärker als das arithmetische Mittel.
+Der Mittelwert $\bar{z}$ wird über Formel \ref{eqn:bar_z} bestimmt.
+\begin{align}
+\bar{z} = \frac{1}{N}\sum_{i=1}^{N}z_i
+\label{eqn:bar_z}
+\end{align}
