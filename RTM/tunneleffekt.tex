@@ -14,7 +14,12 @@ $|\psi|^2$ gibt dabei die Aufenthaltswarscheinlichkeit des Teilchens im Volumene
 \caption{Eindimensionale Schrödigergleichung mit Potentialwall in der Mitte. Zu sehen ist der exponentielle Abfall der Amplitude der Wellenfunktion, wodurch die Aufenthaltswarscheinlichkeit hinter dem Potentialwall $D^2$ kleiner als $A^2$ ist. (vgl. \cite{tunnel_pic})}
 \label{fig:kastenpot_schroe}
 \end{figure}
-Der Rechenweg kann ohne Probleme auf der Seite \cite{wiki_tunnel} nachvollzogen werden. Die Lösung der Schrödingergleichung innerhalb der Potentialbarriere ergibt einen exponentiellen Abfall der Aufenthaltswarscheinlichkeit mit zunehmender Eindringtiefe, wobei die Wellenlänge gleich bleibt. Damit die Elektronen während des Versuches nicht in beide Richtungen gleich stark tunneln, wird eine Potentialdifferenz zwischen Bereich (I) und Bereich (III) erzeugt, woduch die Elektronen eine Vorzugsrichtung bekommen. Der Tunnelstrom $I_{Tunnel}$, die entscheidende Messgröße, ist proportional zur Tunnelwarscheinlichkeit multipliziert mit der angelegten Spannung $V_{bias}$ und der Zustandsdichte $\rho_s$ bei der Fermienergie $E_f$:
+Die Herleitung kann ohne Probleme auf der Seite \cite{wiki_tunnel} nachvollzogen werden. Die Lösung der Schrödingergleichung innerhalb der Potentialbarriere ergibt einen exponentiellen Abfall der Aufenthaltswarscheinlichkeit mit zunehmender Eindringtiefe, wobei die Wellenlänge gleich bleibt. Damit die Elektronen während des Versuches nicht in beide Richtungen gleich stark tunneln, wird eine Potentialdifferenz zwischen Bereich (I) und Bereich (III) erzeugt, woduch die Elektronen eine Vorzugsrichtung bekommen. Der Tunnelstrom $I_{Tunnel}$, die entscheidende Messgröße, ist proportional zur Tunnelwarscheinlichkeit multipliziert mit der angelegten Spannung $V_{bias}$ und der Zustandsdichte $\rho_s$ bei der Fermienergie $E_f$. Die Differenz der Austrittsarbeiten der Materialien wird mit $\Phi$ bezeichnet, wobei z der Abstand der Sonde zum Material ist:
 \begin{align}
-I_{Tunnel} \propto V_{bias}\rho_s(E_f)\exp[-2] \propto
+I_{Tunnel} \propto V_{bias}\rho_s(E_f)\exp\left[-2\frac{\sqrt{2m(\Phi-E)}z}{\hbar}\right] \approx V_{bias}\rho_s(E_f)\exp\left[-1,025\sqrt{\Phi}z\right]
 \end{align}
+Die zweite Näherung gilt, falls die Potentialbarriere $\Phi \gg E$ ist und die erste Proportionalität gilt. Die erste Proportionalität ist dabei selber eine Näherung für $2\frac{\sqrt{2m(\Phi-E)}z}{\hbar} \gg 1$, da die nicht genäherte Tunnelwarscheinlichkeit 
+\begin{align}
+W_{Tunnel} = \frac{1}{1+\frac{\Phi^2}{4E(\Phi-E)}\sinh^2\left(\frac{\sqrt{2m(\phi-E)}}{\hbar}z\right)}
+\end{align}
+entspricht. Die starke z-Abhängigkeit wird in diesem Versuch ausgenutzt.
