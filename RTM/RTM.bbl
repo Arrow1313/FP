@@ -1,9 +1,55 @@
-\begin{thebibliography}{1}
+% $ biblatex auxiliary file $
+% $ biblatex version 2.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
 
-\bibitem{wiki_tunnel}
-https://de.wikipedia.org/wiki/tunneleffekt.
+\entry{iridium}{online}{}
+  \field{sortinit}{I}
+  \field{title}{Iridium}
+  \verb{url}
+  \verb https://de.wikipedia.org/wiki/Iridium
+  \endverb
+  \field{urlday}{24}
+  \field{urlmonth}{09}
+  \field{urlyear}{2015}
+\endentry
 
-\bibitem{tunnel_pic}
-http://www.semibyte.de/wp/graphicslibrary/gl-physics/tunneleffekt.
+\entry{wiki_tunnel}{online}{}
+  \field{sortinit}{T}
+  \field{title}{Tenneleffekt}
+  \verb{url}
+  \verb https://de.wikipedia.org/wiki/Tunneleffekt
+  \endverb
+  \field{urlday}{23}
+  \field{urlmonth}{09}
+  \field{urlyear}{2015}
+\endentry
 
-\end{thebibliography}
+\entry{tunnel_pic}{online}{}
+  \field{sortinit}{T}
+  \field{title}{Tunneleffekt - Wellenfunktion und Potential (1)}
+  \verb{url}
+  \verb http://www.semibyte.de/wp/graphicslibrary/gl-physics/tunneleffekt
+  \endverb
+  \field{urlday}{23}
+  \field{urlmonth}{09}
+  \field{urlyear}{2015}
+\endentry
+
+\lossort
+\endlossort
+
+\endinput
