@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.11.19)  26 SEP 2015 21:18
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.11.19)  27 SEP 2015 20:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1148,7 +1148,13 @@ Package biblatex Warning: Data encoding is 'latin9'.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'RTM.bbl' found.
-(./RTM.bbl)
+(./RTM.bbl
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'PhysRev.25.753':
+(biblatex)                - Invalid format of field 'month'.
+
+)
 Package biblatex Info: Reference section=0 on input line 34.
 Package biblatex Info: Reference segment=0 on input line 34.
 \c__siunitx_mathsf_int=\count368
@@ -1205,7 +1211,7 @@ File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 \openout2 = `deckblatt.aux'.
 
  (./deckblatt.tex
-<logo.png, id=56, 2007.5pt x 632.3625pt>
+<logo.png, id=96, 2007.5pt x 632.3625pt>
 File: logo.png Graphic file (type png)
  <use logo.png>
 Package pdftex.def Info: logo.png used on input line 7.
@@ -1230,8 +1236,8 @@ l.40 \newpage
               [1
 
 ] (./einleitung.tex) (./theorie.tex (./tunneleffekt.tex
-<tunneleffekt_wellenfunktion_und_potential_1.pdf, id=87, 399.34195pt x 208.7097
-3pt>
+<tunneleffekt_wellenfunktion_und_potential_1.pdf, id=137, 399.34195pt x 208.709
+73pt>
 File: tunneleffekt_wellenfunktion_und_potential_1.pdf Graphic file (type pdf)
  <use tunneleffekt_wellenfunktion_und_potential_1.pdf>
 Package pdftex.def Info: tunneleffekt_wellenfunktion_und_potential_1.pdf used o
@@ -1239,59 +1245,72 @@ n input line 13.
 (pdftex.def)             Requested size: 399.34097pt x 208.70921pt.
  [2])
 (./Oberflaechenrauheit.tex [3 <./tunneleffekt_wellenfunktion_und_potential_1.pd
-f>]) (./probenstruktur.tex <graphit.png, id=130, 373.14919pt x 393.79776pt>
-File: graphit.png Graphic file (type png)
+f>]) (./probenstruktur.tex <graphit.pdf, id=182, 597.23125pt x 845.1575pt>
+File: graphit.pdf Graphic file (type pdf)
 
-<use graphit.png>
-Package pdftex.def Info: graphit.png used on input line 11.
-(pdftex.def)             Requested size: 298.51974pt x 315.03862pt.
-) [4]) (./aufbau.tex
-<aufbau.pdf, id=139, 597.23125pt x 845.1575pt>
+<use graphit.pdf>
+Package pdftex.def Info: graphit.pdf used on input line 11.
+(pdftex.def)             Requested size: 386.73672pt x 380.21788pt.
+ [4])) (./aufbau.tex [5 <./graphit.pdf>]
+<aufbau.pdf, id=219, 597.23125pt x 845.1575pt>
 File: aufbau.pdf Graphic file (type pdf)
  <use aufbau.pdf>
 Package pdftex.def Info: aufbau.pdf used on input line 12.
 (pdftex.def)             Requested size: 386.73672pt x 266.4067pt.
- [5 <./graphit.png>] [6 <./aufbau.pdf>] <CCM.png, id=174, 940.51375pt x 540.017
-5pt>
+ [6 <./aufbau.pdf>] <CCM.png, id=246, 940.51375pt x 540.0175pt>
 File: CCM.png Graphic file (type png)
-
-<use CCM.png>
+ <use CCM.png>
 Package pdftex.def Info: CCM.png used on input line 43.
 (pdftex.def)             Requested size: 423.22728pt x 243.00562pt.
- <CHM.png, id=175, 703.62875pt x 548.0475pt>
+ [7]
+<CHM.png, id=255, 703.62875pt x 548.0475pt>
 File: CHM.png Graphic file (type png)
  <use CHM.png>
 Package pdftex.def Info: CHM.png used on input line 53.
 (pdftex.def)             Requested size: 316.63pt x 246.6191pt.
 )
-(./versuchsdurchfuehrung.tex [7 <./CCM.png>]) (./auswertung.tex)
-(./diskussion.tex) (./fazit.tex)
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 51.
- (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
+(./versuchsdurchfuehrung.tex (./Graphit.tex [8 <./CCM.png> <./CHM.png>])
+(./Gold.tex) (./Unbekannte_Probe.tex)) (./diskussion.tex) (./fazit.tex)
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 50.
+
+(/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 53.
+Overfull \hbox (1.54391pt too wide) in paragraph at lines 51--51
+\T1/lmr/m/it/12 ADO-LE-SCENCE\T1/lmr/m/n/12 . 8. Dez. 1986. \T1/lmr/m/sc/12 url
+\T1/lmr/m/n/12 : []$\T1/lmtt/m/n/12 https : / / moodle2 . uni -[] wuppertal . d
+e / pluginfile .
+ []
 
-[8 <./CHM.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 53.
+
+Overfull \hbox (25.62251pt too wide) in paragraph at lines 51--51
+[]\T1/lmr/m/it/12 Graphit\T1/lmr/m/n/12 . \T1/lmr/m/sc/12 url\T1/lmr/m/n/12 : [
+]$\T1/lmtt/m/n/12 https : / / upload . wikimedia . org / wikipedia / commons / 
+5 / 54 / GraphitGitter4 .
+ []
+
+[9]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 52.
+ [10]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 52.
  (./RTM.aux (./deckblatt.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 53.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 53.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 52.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 52.
 Package rerunfilecheck Info: File `RTM.out' has not changed.
-(rerunfilecheck)             Checksum: 1FD2E81A9CA4BFCC1691E1F1ACC63599;786.
+(rerunfilecheck)             Checksum: CE72198C5E04C54E12E9D729B3CFD74C;1535.
 Package logreq Info: Writing requests to 'RTM.run.xml'.
 \openout1 = `RTM.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 53.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 52.
  ) 
 Here is how much of TeX's memory you used:
- 22213 strings out of 493304
- 413344 string characters out of 6139870
+ 22252 strings out of 493304
+ 414022 string characters out of 6139870
  566671 words of memory out of 5000000
- 25276 multiletter control sequences out of 15000+600000
+ 25293 multiletter control sequences out of 15000+600000
  82078 words of font info for 57 fonts, out of 8000000 for 9000
  961 hyphenation exceptions out of 8191
- 39i,11n,48p,10415b,1369s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 39i,11n,48p,10415b,1530s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
 ips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share
 /texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm
@@ -1305,10 +1324,10 @@ are/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public
 /lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb></usr/share/te
 xlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/tex
 live/texmf-dist/fonts/type1/public/pxfonts/rpxmi.pfb>
-Output written on RTM.pdf (9 pages, 544085 bytes).
+Output written on RTM.pdf (11 pages, 565103 bytes).
 PDF statistics:
- 254 PDF objects out of 1000 (max. 8388607)
- 209 compressed objects within 3 object streams
- 41 named destinations out of 1000 (max. 500000)
- 141 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 351 PDF objects out of 1000 (max. 8388607)
+ 296 compressed objects within 3 object streams
+ 57 named destinations out of 1000 (max. 500000)
+ 227 words of extra memory for PDF output out of 10000 (max. 10000000)
 
