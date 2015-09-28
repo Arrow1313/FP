@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.11.19)  28 SEP 2015 21:25
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.11.19)  28 SEP 2015 22:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1211,7 +1211,7 @@ File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 \openout2 = `deckblatt.aux'.
 
  (./deckblatt.tex
-<logo.png, id=96, 2007.5pt x 632.3625pt>
+<logo.png, id=88, 2007.5pt x 632.3625pt>
 File: logo.png Graphic file (type png)
  <use logo.png>
 Package pdftex.def Info: logo.png used on input line 7.
@@ -1236,7 +1236,7 @@ l.40 \newpage
               [1
 
 ] (./einleitung.tex) (./theorie.tex (./tunneleffekt.tex
-<tunneleffekt_wellenfunktion_und_potential_1.pdf, id=137, 399.34195pt x 208.709
+<tunneleffekt_wellenfunktion_und_potential_1.pdf, id=127, 399.34195pt x 208.709
 73pt>
 File: tunneleffekt_wellenfunktion_und_potential_1.pdf Graphic file (type pdf)
  <use tunneleffekt_wellenfunktion_und_potential_1.pdf>
@@ -1245,35 +1245,39 @@ n input line 13.
 (pdftex.def)             Requested size: 399.34097pt x 208.70921pt.
  [2])
 (./Oberflaechenrauheit.tex [3 <./tunneleffekt_wellenfunktion_und_potential_1.pd
-f>]) (./probenstruktur.tex <graphit.pdf, id=182, 597.23125pt x 845.1575pt>
+f>]) (./probenstruktur.tex <graphit.pdf, id=171, 597.23125pt x 845.1575pt>
 File: graphit.pdf Graphic file (type pdf)
 
 <use graphit.pdf>
 Package pdftex.def Info: graphit.pdf used on input line 11.
 (pdftex.def)             Requested size: 386.73672pt x 380.21788pt.
  [4])) (./aufbau.tex [5 <./graphit.pdf>]
-<aufbau.pdf, id=219, 597.23125pt x 845.1575pt>
+<aufbau.pdf, id=209, 597.23125pt x 845.1575pt>
 File: aufbau.pdf Graphic file (type pdf)
  <use aufbau.pdf>
 Package pdftex.def Info: aufbau.pdf used on input line 12.
 (pdftex.def)             Requested size: 386.73672pt x 266.4067pt.
- [6 <./aufbau.pdf>] <CCM.png, id=246, 940.51375pt x 540.0175pt>
+ [6 <./aufbau.pdf>] <CCM.png, id=236, 940.51375pt x 540.0175pt>
 File: CCM.png Graphic file (type png)
  <use CCM.png>
 Package pdftex.def Info: CCM.png used on input line 43.
 (pdftex.def)             Requested size: 423.22728pt x 243.00562pt.
  [7]
-<CHM.png, id=255, 703.62875pt x 548.0475pt>
+<CHM.png, id=245, 703.62875pt x 548.0475pt>
 File: CHM.png Graphic file (type png)
  <use CHM.png>
 Package pdftex.def Info: CHM.png used on input line 53.
 (pdftex.def)             Requested size: 316.63pt x 246.6191pt.
 )
 (./versuchsdurchfuehrung.tex (./Graphit.tex [8 <./CCM.png> <./CHM.png>])
-(./Gold.tex)) (./diskussion.tex) (./fazit.tex)
+(./Gold.tex
+LaTeX Font Info:    Try loading font information for TS1+lmr on input line 2.
+ (/usr/share/texmf/tex/latex/lm/ts1lmr.fd
+File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+))) (./diskussion.tex)
+(./fazit.tex)
 LaTeX Font Info:    Try loading font information for T1+lmtt on input line 50.
-
-(/usr/share/texmf/tex/latex/lm/t1lmtt.fd
+ (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 Overfull \hbox (1.54391pt too wide) in paragraph at lines 51--51
@@ -1282,7 +1286,7 @@ Overfull \hbox (1.54391pt too wide) in paragraph at lines 51--51
 e / pluginfile .
  []
 
-
+[9]
 Overfull \hbox (25.62251pt too wide) in paragraph at lines 51--51
 []\T1/lmr/m/it/12 Graphit\T1/lmr/m/n/12 . \T1/lmr/m/sc/12 url\T1/lmr/m/n/12 : [
 ]$\T1/lmtt/m/n/12 https : / / upload . wikimedia . org / wikipedia / commons / 
@@ -1290,56 +1294,44 @@ Overfull \hbox (25.62251pt too wide) in paragraph at lines 51--51
  []
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 52.
-[9]
+[10]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 52.
  (./RTM.aux (./deckblatt.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 52.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 52.
-
-
-Package rerunfilecheck Warning: File `RTM.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `RTM.out':
-(rerunfilecheck)             Before: CE72198C5E04C54E12E9D729B3CFD74C;1535
-(rerunfilecheck)             After:  B2D8D88F3A6D22802CAB60F133DF5723;1402.
+Package rerunfilecheck Info: File `RTM.out' has not changed.
+(rerunfilecheck)             Checksum: B2D8D88F3A6D22802CAB60F133DF5723;1402.
 Package logreq Info: Writing requests to 'RTM.run.xml'.
 \openout1 = `RTM.run.xml'.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 52.
  ) 
 Here is how much of TeX's memory you used:
- 22248 strings out of 493304
- 413957 string characters out of 6139870
+ 22276 strings out of 493304
+ 414688 string characters out of 6139870
  566671 words of memory out of 5000000
- 25293 multiletter control sequences out of 15000+600000
- 82078 words of font info for 57 fonts, out of 8000000 for 9000
+ 25318 multiletter control sequences out of 15000+600000
+ 82453 words of font info for 58 fonts, out of 8000000 for 9000
  961 hyphenation exceptions out of 8191
- 39i,11n,48p,10415b,1369s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{subsection.4.4} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsubsection.4.3.1} has been referenced but does n
-ot exist, replaced by a fixed one
-
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvip
-s/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/t
-exmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-m
-athex.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/
-fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lmex1
-0.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/font
-s/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb><
-/usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/p
-ublic/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/shar
-e/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/l
-m/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/pxfonts/rpxmi.pfb>
-Output written on RTM.pdf (10 pages, 564368 bytes).
+ 39i,11n,48p,10415b,1530s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
+ips/lm/lm-ts1.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/te
+xmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ma
+thit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}</usr/share/texmf/f
+onts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10
+.pfb></usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts
+/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb><
+/usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/
+public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share
+/texmf/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm
+/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf
+/fonts/type1/public/lm/lmtt12.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/pxfonts/rpxmi.pfb>
+Output written on RTM.pdf (11 pages, 566148 bytes).
 PDF statistics:
- 347 PDF objects out of 1000 (max. 8388607)
- 293 compressed objects within 3 object streams
- 56 named destinations out of 1000 (max. 500000)
- 227 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 344 PDF objects out of 1000 (max. 8388607)
+ 289 compressed objects within 3 object streams
+ 55 named destinations out of 1000 (max. 500000)
+ 211 words of extra memory for PDF output out of 10000 (max. 10000000)
 
