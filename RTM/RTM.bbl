@@ -16,6 +16,82 @@
   {}
 \endgroup
 
+\entry{PhysRev.25.753}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Davey}{D.}%
+     {Wheeler~P.}{W.~P.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {American Physical Society}%
+  }
+  \strng{namehash}{DWP1}
+  \strng{fullhash}{DWP1}
+  \field{sortinit}{D}
+  \verb{doi}
+  \verb 10.1103/PhysRev.25.753
+  \endverb
+  \field{issue}{6}
+  \field{pages}{753\bibrangedash 761}
+  \field{title}{Precision Measurements of the Lattice Constants of Twelve
+  Common Metals}
+  \verb{url}
+  \verb http://link.aps.org/doi/10.1103/PhysRev.25.753
+  \endverb
+  \field{volume}{25}
+  \field{journaltitle}{Phys. Rev.}
+  \field{year}{1925}
+  \warn{\item Invalid format of field 'month'}
+\endentry
+
+\entry{rtm-anleitung}{online}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Gerd~Binnig}{G.~B.}%
+     {Heinrich~Rohrer}{H.~R.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{GBHR1}
+  \strng{fullhash}{GBHR1}
+  \field{sortinit}{G}
+  \field{title}{SCANNING TUNNELING MICROSCOPY - FROM BIRTH TO ADOLESCENCE}
+  \verb{url}
+  \verb https://moodle2.uni-wuppertal.de/pluginfile.php/223710/mod_resource/con
+  \verb tent/1/STM.pdf
+  \endverb
+  \field{day}{08}
+  \field{month}{12}
+  \field{year}{1986}
+  \field{urlday}{23}
+  \field{urlmonth}{09}
+  \field{urlyear}{2015}
+\endentry
+
+\entry{graphit-bild}{online}{}
+  \field{sortinit}{G}
+  \field{title}{Graphit}
+  \verb{url}
+  \verb https://upload.wikimedia.org/wikipedia/commons/5/54/GraphitGitter4.png
+  \endverb
+  \field{urlday}{23}
+  \field{urlmonth}{09}
+  \field{urlyear}{2015}
+\endentry
+
+\entry{graphit}{online}{}
+  \field{sortinit}{G}
+  \field{title}{Graphit}
+  \verb{url}
+  \verb https://de.wikipedia.org/wiki/Graphit
+  \endverb
+  \field{urlday}{23}
+  \field{urlmonth}{09}
+  \field{urlyear}{2015}
+\endentry
+
 \entry{iridium}{online}{}
   \field{sortinit}{I}
   \field{title}{Iridium}
@@ -29,7 +105,7 @@
 
 \entry{wiki_tunnel}{online}{}
   \field{sortinit}{T}
-  \field{title}{Tenneleffekt}
+  \field{title}{Tunneleffekt}
   \verb{url}
   \verb https://de.wikipedia.org/wiki/Tunneleffekt
   \endverb
