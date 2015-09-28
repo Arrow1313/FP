@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.11.19)  28 SEP 2015 23:06
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.11.19)  28 SEP 2015 23:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1270,56 +1270,56 @@ Package pdftex.def Info: CHM.png used on input line 53.
 (pdftex.def)             Requested size: 316.63pt x 246.6191pt.
 )
 (./versuchsdurchfuehrung.tex (./Graphit.tex [8 <./CCM.png> <./CHM.png>]
-<snipping_122_linienrauheit.PNG, id=255, 529.98pt x 469.755pt>
+<snipping_122_linienrauheit.PNG, id=256, 529.98pt x 469.755pt>
 File: snipping_122_linienrauheit.PNG Graphic file (type png)
 
 <use snipping_122_linienrauheit.PNG>
-Package pdftex.def Info: snipping_122_linienrauheit.PNG used on input line 6.
+Package pdftex.def Info: snipping_122_linienrauheit.PNG used on input line 7.
 (pdftex.def)             Requested size: 397.48401pt x 352.31538pt.
-
-<snipping_122_flaechenrauheit.PNG, id=256, 529.22719pt x 448.67625pt>
+ [9]
+<snipping_122_flaechenrauheit.PNG, id=263, 529.22719pt x 448.67625pt>
 File: snipping_122_flaechenrauheit.PNG Graphic file (type png)
 
 <use snipping_122_flaechenrauheit.PNG>
-Package pdftex.def Info: snipping_122_flaechenrauheit.PNG used on input line 11
+Package pdftex.def Info: snipping_122_flaechenrauheit.PNG used on input line 14
 .
 (pdftex.def)             Requested size: 396.91942pt x 336.50636pt.
- [9 <./snipping_122_linienrauheit.PNG>])
-(./Gold.tex <Gold_linienrauheit_202nm.PNG, id=263, 525.46312pt x 467.49657pt>
+ [10 <./snipping_122_linienrauheit.PNG>]) (./Gold.tex <Gold_linienrauheit_202nm
+.PNG, id=270, 525.46312pt x 467.49657pt>
 File: Gold_linienrauheit_202nm.PNG Graphic file (type png)
 
 <use Gold_linienrauheit_202nm.PNG>
-Package pdftex.def Info: Gold_linienrauheit_202nm.PNG used on input line 6.
+Package pdftex.def Info: Gold_linienrauheit_202nm.PNG used on input line 7.
 (pdftex.def)             Requested size: 394.09637pt x 350.62157pt.
 
-<Gold_flaechenrauheit_202nm_2.PNG, id=264, 525.46312pt x 441.90094pt>
+<Gold_flaechenrauheit_202nm_2.PNG, id=271, 525.46312pt x 441.90094pt>
 File: Gold_flaechenrauheit_202nm_2.PNG Graphic file (type png)
 
 <use Gold_flaechenrauheit_202nm_2.PNG>
-Package pdftex.def Info: Gold_flaechenrauheit_202nm_2.PNG used on input line 11
+Package pdftex.def Info: Gold_flaechenrauheit_202nm_2.PNG used on input line 12
 .
 (pdftex.def)             Requested size: 236.45622pt x 198.85358pt.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 12.
+(Font)              <10.95> on input line 13.
 
-<Gold_flaechenrauheit_202nm_1.PNG, id=265, 526.21594pt x 444.91219pt>
+<Gold_flaechenrauheit_202nm_1.PNG, id=272, 526.21594pt x 444.91219pt>
 File: Gold_flaechenrauheit_202nm_1.PNG Graphic file (type png)
 
 <use Gold_flaechenrauheit_202nm_1.PNG>
-Package pdftex.def Info: Gold_flaechenrauheit_202nm_1.PNG used on input line 16
+Package pdftex.def Info: Gold_flaechenrauheit_202nm_1.PNG used on input line 17
 .
 (pdftex.def)             Requested size: 236.79498pt x 200.20862pt.
 
-Overfull \hbox (5.22949pt too wide) in paragraph at lines 10--19
+Overfull \hbox (5.22949pt too wide) in paragraph at lines 11--20
 [][]   [] 
  []
 
-[10 <./snipping_122_flaechenrauheit.PNG>])) (./diskussion.tex) (./fazit.tex)
+[11 <./snipping_122_flaechenrauheit.PNG>])) (./diskussion.tex) (./fazit.tex)
 LaTeX Font Info:    Try loading font information for T1+lmtt on input line 50.
 
 (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [11 <./Gold_linienrauheit_202nm.PNG> <./Gold_flaechenrauheit_202nm_2.PNG> <./
+) [12 <./Gold_linienrauheit_202nm.PNG> <./Gold_flaechenrauheit_202nm_2.PNG> <./
 Gold_flaechenrauheit_202nm_1.PNG>]
 Overfull \hbox (1.54391pt too wide) in paragraph at lines 51--51
 \T1/lmr/m/it/12 ADO-LE-SCENCE\T1/lmr/m/n/12 . 8. Dez. 1986. \T1/lmr/m/sc/12 url
@@ -1335,7 +1335,7 @@ Overfull \hbox (25.62251pt too wide) in paragraph at lines 51--51
  []
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 52.
-[12]
+[13]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 52.
  (./RTM.aux (./deckblatt.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 52.
@@ -1348,10 +1348,10 @@ Package logreq Info: Writing requests to 'RTM.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 52.
  ) 
 Here is how much of TeX's memory you used:
- 22315 strings out of 493304
- 415314 string characters out of 6139870
+ 22318 strings out of 493304
+ 415360 string characters out of 6139870
  566671 words of memory out of 5000000
- 25334 multiletter control sequences out of 15000+600000
+ 25336 multiletter control sequences out of 15000+600000
  99144 words of font info for 72 fonts, out of 8000000 for 9000
  961 hyphenation exceptions out of 8191
  41i,12n,48p,10415b,1543s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1369,10 +1369,10 @@ lm/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/te
 xmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmt
 t12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm
 10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/pxfonts/rpxmi.pfb>
-Output written on RTM.pdf (13 pages, 853379 bytes).
+Output written on RTM.pdf (14 pages, 854418 bytes).
 PDF statistics:
- 376 PDF objects out of 1000 (max. 8388607)
- 306 compressed objects within 4 object streams
- 61 named destinations out of 1000 (max. 500000)
+ 382 PDF objects out of 1000 (max. 8388607)
+ 311 compressed objects within 4 object streams
+ 62 named destinations out of 1000 (max. 500000)
  236 words of extra memory for PDF output out of 10000 (max. 10000000)
 
