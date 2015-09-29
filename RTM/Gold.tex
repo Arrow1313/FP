@@ -32,9 +32,10 @@ Für die Untersuchung der Oberflächen- und Linien Rauheit wurde ein Bereich von 2
 \begin{subfigure}[t]{0.49\textwidth}
 \includegraphics[scale = 0.45]{Gold_flaechenrauheit_202nm_1}
 \caption{Mittelung eine kleinere möglichst glatte Fläche. Die Verkippung wurde bei allen Messungen korrigiert. ($S_a = \SI{182,67}{pm}$ und $S_q = \SI{261,55}{pm}$)}
+\label{subfig:gold_oberflaeche_2}
 \end{subfigure}
 \caption{ Mittlere Flächenrauheit der (111)-Goldschicht}
-\label{subfig:gold_oberflaeche_2}
+\label{fig:rauheit}
 \end{figure}
 
 
@@ -55,12 +56,60 @@ Lokalisation & S$_a$ & S$_q$ \\ \hline
 
 Die bestimmten Werte zeigen das an der glatten Stelle die Oberflächenrauheit mit S$_a$ 182,67pm um 20\% abweicht. Die Oberflächenrauheit auf der gesamten Flächen beträgt S$_a$ = 220,09pm. Die Aufnahme der Linienrauheit ist in Abbildung \ref{fig:gold_linie} zu sehen. Es wurde eine Linienrauheit von R$_a$ = 57,353pm bestimmt, die quadratische Linienrauheit liegt bei R$_q$ = 77,239pm. Die bestimmte Linienrauheit, ist ca. 3 mal so groß wie die bestimmte Flächenrauheit.
 
-
-
-
 \subsubsection{Monoatomare Stufen und Gitterdefekte}
+In diesem Abschnitt soll die atomare Struktur der Goldprobe untersucht werden. Da Gold eine homogene Elektronendichteverteilung hat kann man die Struktur nicht wie beim Graphit bestimmten. Für die Bestimmung der werden mono atomaren Stufen gesucht, diese Stufen entsprechen dem Netzebenenabstand der Gold(111)-Probe. Da Gold eine fcc-Struktur besitzt kann mit Gleichung \ref{eqn:gold_atom} und einer Gitterkonstante von a=\SI{4,08}{\angstrom}, kann der atomare Abstand bestimmt werden.
 
-In diesem Abschnitt soll die atomare Struktur der Goldprobe untersucht werden.
+\begin{align}
+\label{eqn:gold_atom}
+d_{111} = \frac{a}{\sqrt{3}} = 236\text{pm}
+\end{align}
+
+Da nicht hinreichend mono atomare Stufen gefunden vorhanden waren, wurden auch Stufen höherer Ordnung hinzugenommen. Beispielhaft ist eine Stufen in Abbildung \ref{subfig:gold_stufen_c} zu sehen, alle weiteren Aufnahmen sind im Anhang zu finden.
 
 
+\begin{figure}[H] 
+\begin{subfigure}[c]{0.49\textwidth}
+\includegraphics[scale = 0.65]{Kante_5_oberflaeche.png}
+\caption{Abschnitt, auf dem die Stufe aufgenommen wurde}
+\label{subfig:gold_stufen_a}
+\end{subfigure}
+\hspace{0.02\textwidth}
+\begin{subfigure}[c]{0.49\textwidth}
+\centering
+\includegraphics[scale = 0.65]{Kante_5_2d.png}
+\caption{Topographischer Verlauf entlang des gewählten Weges. Die Höhe der Stufe beträgt 237,8 $\pm$ 11,89 pm}
+\label{subfig:gold_stufen_b}
+\end{subfigure}
+\caption{Beispielhafte Darstellung einer mono atomaren Stufe}
+\label{subfig:gold_stufen_c}
+\end{figure}
 
+Um ein gutes Ergebnis zu erhalten, wurden mehre Messungen gemacht. Da nicht genügend einatomige Stufen vorhanden waren, wurden noch Stufen höherer Ordnungen hinzugenommen. Dabei wurde die Ordnung der Stufe jeweils geschätzt, die Fehler wurde je nach Rauschen mit 5\% bis 10\% abgeschätzt. Die gemessenen Werte sind in Tabelle ?? zu sehen.
+
+
+\begin{table}[H]
+\centering
+\caption{Gemessene Stufen für die Bestimmung des Netzebenenabstandes von Goldatomen. Die Fehler wurden dabei mit 5\% bis 10\% abgeschätzt. n gibt die Ordnung der Stufe an, diese wurden jeweils geschätzt}
+\label{tab:gold_stufen}
+\begin{tabular}{c|c|c}
+Stufenhöhe/pm & n & Netzebeneabstand/pm \\ \hline
+\hline 236 $\pm$ 12 & 1 & 236 $\pm$ 12 \\ 
+\hline 236 $\pm$ 12 & 1 & 236 $\pm$ 12 \\ 
+\hline 243 $\pm$ 12 & 1 & 243 $\pm$ 12 \\ 
+\hline 234 $\pm$ 12 & 1 & 234 $\pm$ 12 \\ 
+\hline 238 $\pm$ 12 & 1 & 238 $\pm$ 12 \\ 
+\hline 959 $\pm$ 48 & 4 & 239 $\pm$ 12 \\ 
+\hline 714 $\pm$ 36 & 3 & 238 $\pm$ 12 \\ 
+\hline 935 $\pm$ 47 & 4 & 234 $\pm$ 12 \\
+\end{tabular} 
+\end{table}
+
+Aus den Messdaten ergibt sich ein Mittelwert von $\bar{d}$=(237$\pm$)4pm dieser Weicht relativ um 0,42\% vom Erwartungswert 236pm ab. Das Ergebnis entspricht einer guten Messung. Es sei jedoch gesagt, dass speziell nach ``guten'' Kanten gesucht wurde, wodurch nicht sichergestellt ist, dass der bestimmte Wert die Gesamtheit der Kanten repräsentiert. Durch das aussuchen der Kanten wurde jedoch verhindert, dass Kanten, die von Gitterschäden kommen ausgewertet wurden. In Abbildung \ref{fig:gold_defekt} ist ist auf der rechten Seite eventuell ein Gitterdefekt zu sehen.
+
+
+\begin{figure}[H]
+	\centering
+  \includegraphics[scale=0.6]{defekt.png}
+	\caption{Der Peak an der rechten Seite könnte ein Gitterdefekt sein, seine Höhe entspricht ca. dem halbem Netzebenenabstand von Gold.}
+	\label{fig:gold_defekt}
+\end{figure}
