@@ -1,5 +1,26 @@
 \subsection{Graphit}
-Die Graphitschicht konnte magnetisch auf der Probenhalterung angebracht werden. Die Vorbereitungen für die Graphitmessung dauerten nicht lange, da nach wenigen Versuchen eine funktionsfähige Pt-Ir-Spitze angefertigt werden konnte. Für die Anfertigung der Pt-Ir-Spitze standen Isopropanol, Reinigungstücher, eine Pinzette und geeignete Zangen zum anspitzen und halten des Pt-Ir-Drahtes zu Verfügung.
+Die Graphitschicht konnte magnetisch auf der Probenhalterung angebracht werden. Die Vorbereitungen für die Graphitmessung dauerten nicht lange, da nach wenigen Versuchen eine funktionsfähige Pt-Ir-Spitze angefertigt werden konnte. Für die Anfertigung der Pt-Ir-Spitze standen Isopropanol, Reinigungstücher, eine Pinzette und eine Zange zu halten des Drahtes. Um den Pt-Ir-Draht anzuspitzen, stand uns ein Seitenschneider zur Verfügung, mit dem der Draht angeschnitten wurde, sodass durch darauffolgendes kräftiges Ziehen eine (idealerweise) einatomige Spitze erzeugt werden konnte.
+Nachdem eine passende Pt-Ir-Spitze hergestellt werden konnte, wurde mit dem RTM ein Bereich von 600nm im "`Topographie"'-Modus (CC) abgerastert.
+Die dazu benötigten Einstellungen konnten mit dem Programm für das RTM eingestellt werden und sind in Tabelle \ref{tab:para_topo_graph} dargestellt.
+\begin{table}[H]
+\centering
+\caption{Parameter zur Topographiemessung (CC-Mode)}
+\begin{tabular}{c|c}
+Variable & Wert\\
+\hline Set point & \SI{1}{nA}\\
+P-gain & 1000\\
+I-gain & 1700\\
+Tip-voltage & \SI{50}{mV}\\
+\end{tabular}
+\label{tab:para_topo_graph}
+\end{table}
+Die Topographiemessung über \SI{600}{nm} ist in Abbildung \ref{fig:topo_graph_600nm} dargestellt.
+\begin{figure}[H]
+\centering
+\includegraphics[scale = 0.75,clip = true, trim = 0cm 6.2cm 0cm 0cm]{ausschnitt_600}
+\caption{ \SI{600}{nm} Bild im Topographie/CC-Modus }
+\label{fig:topo_graph_600nm}
+\end{figure}
 \subsubsection{Rauheit}
 Die Rauheit der Graphitschicht konnte mit der Software für das RTM bestimmt werden, nachdem die Graphitschicht im CC-Modus mit der Spitze des RTM abgerastert wurde. Die Verkippung wurde bestimmt und korrigiert. Das Fenster Topography-Scan ist für die Messung nicht wichtig, da es die Oberflächenbeschaffenheit ausschließlich auf Höhe des schwarzen Pfeils angibt. In Abbildung \ref{fig:lin_rau_graph} ist die Messung zur Bestimmung der mittleren Linienrauheit dargestellt.
 \begin{figure}[H]
