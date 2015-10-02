@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.11.19)  1 OCT 2015 18:27
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.11.19)  2 OCT 2015 14:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1384,23 +1384,24 @@ Overfull \hbox (71.35577pt too wide) in paragraph at lines 5--6
  [][] 
  []
 
-[13 <./graphit_1,1nm_CHM_struktur.jpg>])) (./Gold.tex
-<gold_600nm_topographie_oberflaeche.png, id=318, 399.4925pt x 373.395pt>
+[13 <./graphit_1,1nm_CHM_struktur.jpg>] [14 <./ausschnitt_3_nanostruktur_2_bear
+beitet.jpg>])) (./Gold.tex [15]
+<gold_600nm_topographie_oberflaeche.png, id=335, 399.4925pt x 373.395pt>
 File: gold_600nm_topographie_oberflaeche.png Graphic file (type png)
 
 <use gold_600nm_topographie_oberflaeche.png>
 Package pdftex.def Info: gold_600nm_topographie_oberflaeche.png used on input l
 ine 7.
 (pdftex.def)             Requested size: 239.69734pt x 224.03873pt.
- [14 <./ausschnitt_3_nanostruktur_2_bearbeitet.jpg>]
-<Gold_linienrauheit_202nm.PNG, id=329, 525.46312pt x 467.49657pt>
+ [16 <./gold_600nm_topographie_oberflaeche.png>]
+<Gold_linienrauheit_202nm.PNG, id=344, 525.46312pt x 467.49657pt>
 File: Gold_linienrauheit_202nm.PNG Graphic file (type png)
 
 <use Gold_linienrauheit_202nm.PNG>
 Package pdftex.def Info: Gold_linienrauheit_202nm.PNG used on input line 20.
 (pdftex.def)             Requested size: 394.09637pt x 350.62157pt.
- [15 <./gold_600nm_topographie_oberflaeche.png>] <Gold_flaechenrauheit_202nm_2.
-PNG, id=335, 525.46312pt x 441.90094pt>
+
+<Gold_flaechenrauheit_202nm_2.PNG, id=345, 525.46312pt x 441.90094pt>
 File: Gold_flaechenrauheit_202nm_2.PNG Graphic file (type png)
 
 <use Gold_flaechenrauheit_202nm_2.PNG>
@@ -1410,7 +1411,7 @@ Package pdftex.def Info: Gold_flaechenrauheit_202nm_2.PNG used on input line 27
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10.95> on input line 28.
 
-<Gold_flaechenrauheit_202nm_1.PNG, id=336, 526.21594pt x 444.91219pt>
+<Gold_flaechenrauheit_202nm_1.PNG, id=346, 526.21594pt x 444.91219pt>
 File: Gold_flaechenrauheit_202nm_1.PNG Graphic file (type png)
 
 <use Gold_flaechenrauheit_202nm_1.PNG>
@@ -1422,16 +1423,16 @@ Overfull \hbox (5.22949pt too wide) in paragraph at lines 26--37
 [][]   [] 
  []
 
-[16 <./Gold_linienrauheit_202nm.PNG> <./Gold_flaechenrauheit_202nm_2.PNG> <./Go
-ld_flaechenrauheit_202nm_1.PNG>]
-<Kante_5_oberflaeche.png, id=355, 329.23pt x 306.14375pt>
+[17 <./Gold_linienrauheit_202nm.PNG>] [18 <./Gold_flaechenrauheit_202nm_2.PNG> 
+<./Gold_flaechenrauheit_202nm_1.PNG>]
+<Kante_5_oberflaeche.png, id=373, 329.23pt x 306.14375pt>
 File: Kante_5_oberflaeche.png Graphic file (type png)
 
 <use Kante_5_oberflaeche.png>
 Package pdftex.def Info: Kante_5_oberflaeche.png used on input line 72.
 (pdftex.def)             Requested size: 213.99695pt x 198.99107pt.
 
-<Kante_5_2d.png, id=356, 328.22626pt x 220.825pt>
+<Kante_5_2d.png, id=374, 328.22626pt x 220.825pt>
 File: Kante_5_2d.png Graphic file (type png)
  <use Kante_5_2d.png>
 Package pdftex.def Info: Kante_5_2d.png used on input line 79.
@@ -1441,51 +1442,51 @@ Overfull \hbox (5.22949pt too wide) in paragraph at lines 71--83
 []$[]$   $[]$ 
  []
 
-[17] <defekt.png, id=366, 332.24126pt x 222.8325pt>
+[19 <./Kante_5_oberflaeche.png> <./Kante_5_2d.png>]
+<defekt.png, id=384, 332.24126pt x 222.8325pt>
 File: defekt.png Graphic file (type png)
  <use defekt.png>
 Package pdftex.def Info: defekt.png used on input line 112.
 (pdftex.def)             Requested size: 199.34628pt x 133.70053pt.
 ))
-(./diskussion.tex [18 <./Kante_5_oberflaeche.png> <./Kante_5_2d.png>])
-(./fazit.tex) (./anhang.tex [19 <./defekt.png>]
-<kante_1.png, id=379, 334.24875pt x 220.825pt>
+(./diskussion.tex) (./fazit.tex) (./anhang.tex [20 <./defekt.png>]
+<kante_1.png, id=391, 334.24875pt x 220.825pt>
 File: kante_1.png Graphic file (type png)
  <use kante_1.png>
 Package pdftex.def Info: kante_1.png used on input line 5.
 (pdftex.def)             Requested size: 217.25911pt x 143.53453pt.
 
-<kante_2.png, id=380, 332.24126pt x 222.8325pt>
+<kante_2.png, id=392, 332.24126pt x 222.8325pt>
 File: kante_2.png Graphic file (type png)
  <use kante_2.png>
 Package pdftex.def Info: kante_2.png used on input line 12.
 (pdftex.def)             Requested size: 215.95424pt x 144.8394pt.
 
-<kante_3.png, id=381, 332.24126pt x 222.8325pt>
+<kante_3.png, id=393, 332.24126pt x 222.8325pt>
 File: kante_3.png Graphic file (type png)
  <use kante_3.png>
 Package pdftex.def Info: kante_3.png used on input line 18.
 (pdftex.def)             Requested size: 215.95424pt x 144.8394pt.
 
-<kante_4.png, id=382, 334.24875pt x 223.83624pt>
+<kante_4.png, id=394, 334.24875pt x 223.83624pt>
 File: kante_4.png Graphic file (type png)
  <use kante_4.png>
 Package pdftex.def Info: kante_4.png used on input line 25.
 (pdftex.def)             Requested size: 217.25911pt x 145.49182pt.
 
-<kante_8.png, id=383, 333.245pt x 224.84pt>
+<kante_8.png, id=395, 333.245pt x 224.84pt>
 File: kante_8.png Graphic file (type png)
  <use kante_8.png>
 Package pdftex.def Info: kante_8.png used on input line 31.
 (pdftex.def)             Requested size: 216.60667pt x 146.14426pt.
 
-<kante_10.png, id=384, 331.2375pt x 220.825pt>
+<kante_10.png, id=396, 331.2375pt x 220.825pt>
 File: kante_10.png Graphic file (type png)
  <use kante_10.png>
 Package pdftex.def Info: kante_10.png used on input line 38.
 (pdftex.def)             Requested size: 215.30182pt x 143.53453pt.
 
-<kante_11.png, id=385, 334.24875pt x 224.84pt>
+<kante_11.png, id=397, 334.24875pt x 224.84pt>
 File: kante_11.png Graphic file (type png)
  <use kante_11.png>
 Package pdftex.def Info: kante_11.png used on input line 44.
@@ -1509,7 +1510,7 @@ Overfull \hbox (5.22949pt too wide) in paragraph at lines 4--48
 LaTeX Font Info:    Try loading font information for T1+lmtt on input line 51.
  (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [20 <./kante_1.png> <./kante_2.png> <./kante_3.png> <./kante_4.png> <./kante_
+) [21 <./kante_1.png> <./kante_2.png> <./kante_3.png> <./kante_4.png> <./kante_
 8.png> <./kante_10.png> <./kante_11.png>]
 Overfull \hbox (1.54391pt too wide) in paragraph at lines 52--52
 \T1/lmr/m/it/12 ADO-LE-SCENCE\T1/lmr/m/n/12 . 8. Dez. 1986. \T1/lmr/m/sc/12 url
@@ -1525,7 +1526,7 @@ Overfull \hbox (25.62251pt too wide) in paragraph at lines 52--52
  []
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 53.
-[21]
+[22]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 53.
  (./RTM.aux (./deckblatt.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 53.
@@ -1542,13 +1543,13 @@ Package logreq Info: Writing requests to 'RTM.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 53.
  ) 
 Here is how much of TeX's memory you used:
- 22494 strings out of 493304
- 419279 string characters out of 6139870
- 566671 words of memory out of 5000000
- 25458 multiletter control sequences out of 15000+600000
- 102500 words of font info for 74 fonts, out of 8000000 for 9000
+ 22504 strings out of 493304
+ 419399 string characters out of 6139870
+ 572671 words of memory out of 5000000
+ 25461 multiletter control sequences out of 15000+600000
+ 103241 words of font info for 76 fonts, out of 8000000 for 9000
  961 hyphenation exceptions out of 8191
- 43i,12n,48p,10415b,1545s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 43i,13n,48p,10415b,1543s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
 ips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share
 /texmf/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ma
@@ -1563,12 +1564,13 @@ lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/
 fonts/type1/public/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10
 .pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/
 type1/public/lm/lmtt12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
-sfonts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/pxf
-onts/rpxmi.pfb>
-Output written on RTM.pdf (22 pages, 1454093 bytes).
+sfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
+fonts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/pxfo
+nts/rpxmi.pfb>
+Output written on RTM.pdf (23 pages, 1471441 bytes).
 PDF statistics:
- 490 PDF objects out of 1000 (max. 8388607)
- 388 compressed objects within 4 object streams
- 83 named destinations out of 1000 (max. 500000)
+ 507 PDF objects out of 1000 (max. 8388607)
+ 402 compressed objects within 5 object streams
+ 88 named destinations out of 1000 (max. 500000)
  342 words of extra memory for PDF output out of 10000 (max. 10000000)
 

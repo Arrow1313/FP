@@ -1,9 +1,55 @@
 \subsubsection{Mittlerer Atomabstand}
-Der mittlere Atomabstand wird aus den Messdaten mithilfe eines Bildbearbeitungsprogramms bestimmt. Die Abbildung ist durch die Messung verzerrt, da die Piezoelemente nicht in allen Richtungen die gleiche Kalibrierung haben. Insgesamt kann dadurch auch eine Abweichung vom wirklichen Atomabstand entstanden sein.
+Der mittlere Atomabstand wird aus den Messdaten mithilfe eines Bildbearbeitungsprogramms bestimmt. Die Abbildung ist durch die Messung verzerrt, da die Piezoelemente nicht in allen Richtungen die gleiche Kalibrierung haben. Man erkennt dies insbesondere an den Winkeln zwischen den eingezeichneten Linien, welche nicht wie erwartet durch die sp-2-Hybridorbitale von [HOP]-Graphit und der dadurch resultierenden Hexagonalstruktur \SI{60}{\degree} betragen. Die Winkel zwischen den eingezeichneten Linien betragen $\alpha = \sphericalangle (B,C) = \SI{59,99(1)}{\degree}$, $\beta = \sphericalangle (A,C) = \SI{72,33(1)}{\degree}$ und $\gamma = \sphericalangle (A,B) = \SI{47,68(1)}{\degree}$. Insgesamt kann dadurch eine Abweichung vom wirklichen Atomabstand entstanden sein.
 \begin{figure}[H]
 \centering
 \includegraphics[trim = 10mm 120mm 10mm 125mm, clip=true, scale = 0.75]{ausschnitt_3_nanostruktur_2_bearbeitet.jpg}
 \caption{ Bestimmung des mittleren Atomabstandes }
 \label{fig:mittlerer_Atomabstand}
 \end{figure}
-Um den Atomabstand aus Abbildung \ref{fig:mittlerer_Atomabstand} zu bestimmen, werden die Längen von Linien parallel zu den eingezeichneten Linien gemessen und durch die Anzahl der Verbindungen von hellen Stellen geteilt.
+Um den Atomabstand aus Abbildung \ref{fig:mittlerer_Atomabstand} zu bestimmen, werden die Längen von Linien parallel zu den eingezeichneten Linien gemessen und durch die Anzahl der Verbindungen von hellen Stellen geteilt. In Tabelle \ref{tab:Atomabstand} sind die Messwerte für alle drei Richtungen eingetragen.
+\begin{table}[H]
+\centering
+\caption{Atomabstände der Graphitprobe. Der Fehler auf die Länge der Linien beträgt an jedem Ende ein Drittel der Atomgröße, sodass der Gesamtfehler auf die Länge der Linie zwei Drittel der Atomgröße $\cong \SI{73,8}{pm}$ beträgt. In der Tabelle ist die Länge der Linie, die Anzahl der Atomabstände und der daraus resultierende Atomabstand mit Fehler auf der letzten Stelle eingetragen.}
+\label{tab:Atomabstand}
+\begin{tabular}{|c|c|c|c|}
+\hline Parallel zu  & Gesamtlänge L/nm & n & Atomabstand a/pm \\ 
+\hline A & 3,53 & 16 & 221(5) \\ 
+  & 3,29 & 15 & 220(5) \\ 
+  & 3,49 & 16 & 218(5) \\ 
+  & 3,33 & 15 & 222(5) \\ 
+\hline B & 3,73 & 15 & 249(5) \\ 
+  & 3,75 & 15 & 250(5) \\ 
+  & 4,00 & 16 & 250(5) \\ 
+  & 3,71 & 15 & 248(5) \\ 
+\hline C & 3,86 & 20 & 193(4) \\ 
+  & 4,00 & 21 & 190(4) \\ 
+  & 3,89 & 20 & 195(4) \\ 
+  & 3,86 & 20 & 193(4) \\ 
+\hline 
+\end{tabular}
+\end{table}
+Der Mittelwert der Atomabstände 'A' beträgt $\overline{a_A}$ = \SI{220}{pm}, mit einem Gaußfehler von \SI{2,5}{pm} und einem statistischen Fehler von \SI{0,9}{pm}. Der Mittelwert der Atomabstände 'B' beträgt $\overline{a_B}$ = \SI{249}{pm}, mit einem Gaußfehler von \SI{2,5}{pm} und einem statistischen Fehler von \SI{0,6}{pm}. Der Mittelwert der Atomabstände 'C' beträgt $\overline{a_C}$ = \SI{193}{pm}, mit einem Gaußfehler von \SI{2}{pm} und einem statistischen Fehler von \SI{1}{pm}. Man sieht, dass der statistische Fehler unterdem Gaußfehler liegt, sodass die Atommitte anscheinend besser abgeschätzt werden konnte als vermutet. Die Abweichung vom Literaturwert von \SI{246}{pm} ist bei allen Mittelwerten verschieden groß. Insgesamt ergibt sich aus dem arithmetischen Mittel über alle Werte ein Atomabstand von $\bar{a} = \SI{221(1)}{pm}$, welcher vom Literaturwert um \SI{10}{\%} nach unten abweicht. Wahrscheinlich ist diese Abweichung zum Großteil durch die Einstellung der Piezoelemente entstanden. Der Atomabstand $d_{Atom}$ zum nächsten Nachbaratom kann aus dem Cosinussatz gewonnen werden.
+\begin{align}
+a^2 &= 2d_{Atom}^2(1-\cos(\SI{120}{\degree}))\\
+d_{Atom} &= \frac{a}{\sqrt{3}}
+\end{align}
+Es ergibt sich ein mittlerer Atomabstand von $d_{Atom} = \SI{127,4(8)}{pm}$, welcher vom Literaturwert \SI{142}{pm} nach wie vor um ca. 10\% nach unten abweicht. Da die Abstände in verschiedenen Richtungen wie bereits erwähnt systematisch voneinander abweichen, wäre es möglich Korrekturen mittels einer Scherung und Streckung im $\mathbb{R}^2 = <\textbf{e}_1,\textbf{e}_2> $ durch die Matrix
+\begin{align}
+M_{scher,streck} =
+\left(\hspace{0.1cm}
+\begin{matrix}
+ 1 & a/b \\
+ 0 & 1 
+\end{matrix}\hspace{0.1cm}\right)\cdot
+\left(\hspace{0.1cm}
+\begin{matrix}
+ 1 & 0 \\
+ 0 & b 
+\end{matrix}\hspace{0.1cm}\right) = 
+\left(\hspace{0.1cm}
+\begin{matrix}
+ 1 & a \\
+ 0 & b 
+\end{matrix}\hspace{0.1cm}\right)
+\end{align}
+mit dem Scherfaktor $a/b$ (in Richtung $\textbf{e}_1$) und dem Streckfaktor $b$ (in Richtung $\textbf{e}_2$) in Abbildung \ref{fig:mittlerer_Atomabstand} herbeizuführen. Falls man nun die Längenmaße mittransformiert, wird sich an den Messwerten nichts ändern. Deshalb kann eine Korrektur ausschließlich durch die Benutzung der alten Längenmaße für das gescherstreckte Bild herbeigeführt werden. Allerdings müsste man sich für eine Richtung $\textbf{e}_1$ entscheiden, deren Länge bei der Scherstreckung konstant bleibt. Die 'Atomabstände' in dieser Richtung erzeugen damit den neuen mittleren Atomabstand, sodass je nachdem, wie man $\textbf{e}_1$ wählt, das gewünschte Ergebnis für den mittleren Atomabstand erzielt werden kann. Da die Richtung von $\textbf{e}_1$ nur geraten werden kann, kann der Fehler durch die Verzerrung aus den Messwerten nicht zurückverfolgt werden. Der Fehler bleibt also als systematischer Fehler bestehen, wobei man die Messdaten durch geeignete Wahl von $\textbf{e}_1$ perfekt manipulieren könnte, da sowohl Werte unter dem Literaturwert, als auch Werte über dem Literaturwert gemessen wurden. Damit kann die Abweichung von 10 \% zum Großteil durch systematische Fehler erklärt werden.
