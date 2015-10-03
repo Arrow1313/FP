@@ -1,21 +1,21 @@
 \section{Versuchsaufbau}
 %skizze zum versuchsaufbau (oder foto) einfügen,   es muss erklärt werden wie das ganze funktioniert und welche speziellen einstellungen verwendet wurden (z.b. welche knöpfe an den geräten für die messung verdreht wurden)
 \label{sec:versuchsdurchführung}
-In diesem Abschnitt wird der Aufbau des Rastertunnelmikroskops beschrieben. Das Rastertunnelmikroskop basiert auf dem in Abschnitt 2.1 beschriebenen Tunneleffekt. Die leitende Spitze des Rastertunnelmikroskops wird hinreichend nah an die Oberfläche des zu untersuchendes Material geführt, berührt diese jedoch nicht. Wird eine Spannung angelegt, so kann ein ``Tunnelstrom'' fließen. Bewegt man nun die Spitze nun Parallel zur Oberfläche, so erhält über den Tunnelstroms ortaufgelöste Informationen über die Oberfläche.
+In diesem Abschnitt wird der Aufbau des Rastertunnelmikroskops beschrieben. Das Rastertunnelmikroskop basiert auf dem in Abschnitt 2.1 beschriebenen Tunneleffekt. Die leitende Spitze des Rastertunnelmikroskops wird hinreichend nah an die Oberfläche des zu untersuchenden Material geführt, soll diese jedoch nicht berühren. Wird eine Spannung angelegt, so fließt Abhängig vom Abstand zu 'elektronischen Oberfläche' ein ``Tunnelstrom''. Bewegt man die Spitze parallel zur Oberfläche, so erhält man über die Stärke des Tunnelstroms oder den Abstand der Spitze des RTM ortsaufgelöste Informationen über die Oberfläche.
 
-Grundlegend ist das Rastertunnelmikroskop aus drei Elementen aufgebaut, einem Tastkopf, einem Piezosteuerelement und einer Probe. Der Tastkopf besteht aus einem Draht, mit einer Spitze, die möglichst einatomig sein soll. Durch die Dicke der Spitze wird das Auflösungsvermögen des Mikroskops festgelegt. In diesem Versuch wird ein Platin-Iridium-Draht als Tastkopf verwendet. Das Piezosteuerelement dient zur Positionierung der Spitze. Dabei kann der Tastkopf im nm-Bereich verschoben werden. Für die Untersuchung einer Oberfläche mit einem Rastertunnelmikroskops muss die Probe bestimmte Eigenschaften erfüllen. Die Probe muss ein Leiter oder ein Halbleiter sein. Das beschichten der Oberfläche mit einem leitendem Material ist nicht möglich, da die Oberflächenstrucktur durch die Beschichtung verdeckt wird. 
+Grundlegend ist das Rastertunnelmikroskop aus drei Elementen aufgebaut, einem Tastkopf, einem Piezosteuerelement und einer Probe. Der Tastkopf besteht aus einem Draht mit einer Spitze, die möglichst einatomig sein soll. Durch die Dicke der Spitze wird das Auflösungsvermögen des Mikroskops festgelegt. In diesem Versuch wird ein Platin-Iridium-Draht als Tastkopf verwendet. Das Piezosteuerelement dient zur Positionierung der Spitze. Dabei kann der Tastkopf im nm-Bereich verschoben werden. Für die Untersuchung einer Oberfläche mit einem Rastertunnelmikroskop muss die Probe bestimmte Eigenschaften erfüllen. Die Probe muss ein Leiter oder ein Halbleiter sein. 
 
 Ein schematischer Versuchsaufbau ist in Abbildung \ref{fig:aufbau} zu sehen.
 
 \begin{figure}[H]
 	\centering
   \includegraphics[trim = 10mm 90mm 30mm 90mm, clip, scale=0.8]{aufbau.pdf}
-	\caption{Schematische Skizze des Versuchsaufbaus. Die Positionierung der Platin-Iridium-Tastkopes wird über die Piezoelemente im nm-Bereich gesteuert. Die Rückkopplung dient zur Steuerung der Höhe des Tastkopfes.}
+	\caption{Schematische Skizze des Versuchsaufbaus. Die Positionierung des Platin-Iridium-Tastkopfes wird über die Piezoelemente im nm-Bereich gesteuert. Die Rückkopplung dient zur Steuerung der Höhe des Tastkopfes.}
 	\label{fig:aufbau}
 \end{figure}
 
 Da eine Spannung angelegt wird, sind die Fermi-Energien der beiden Materialien nicht mehr auf dem selben Niveau. Ist der Abstand zwischen der Spitze und dem Material hinreichend klein, so kann die Potenzialbarriere durchtunnelt werden und es fließt ein Tunnelstrom. Der Tunnelstrom wird durch den Verstärker in eine Spannung umgewandelt und kann so gemessen werden. Dabei ist die Spannung proportional zum Tunnelstrom, welcher in Abhängigkeit des Abstandes zwischen der Spitze und der Probe mit Gleichung \ref{eqn:I_Tunnel} bestimmt werden kann.
-Die Feldstärke E, des E-Feldes zwischen der Spitze und der Probe kann mit $E = \frac{U}{d}$ bestimmt werden. Die Stromdichte j erhält man durch $j = \frac{I}{A}$. Für die Oberfläche der Spitze wird angenommen, dass sie aus nur einem Atom besteht. Die Oberfläche lässt sich mit $A = \pi \cdot R_{Atom}^2$ bestimmt. Für den Radius wurde ein Wert von \SI{1,35}{\angstrom} \cite{iridium} angenommen, es ergibt sich eine Oberfläche von \SI{5,73}{\angstrom}$^2$. Die Parameter und die erwarteten Werte sind in Tabelle \ref{tab:parameter_1} beschrieben.
+Die Feldstärke E, des E-Feldes zwischen der Spitze und der Probe, kann mit $E = \frac{U}{d}$ bestimmt werden. Die Stromdichte j erhält man durch $j = \frac{I}{A}$. Für die Oberfläche der Spitze wird angenommen, dass sie aus nur einem Atom besteht. Die Oberfläche lässt sich mit $A = \pi \cdot R_{Atom}^2$ bestimmen. Für den Radius wurde ein Wert von \SI{1,35}{\angstrom} \cite{iridium} angenommen. Es ergibt sich eine Oberfläche von \SI{5,73}{\angstrom}$^2$. Die Parameter und die erwarteten Werte sind in Tabelle \ref{tab:parameter_1} beschrieben.
 
 \begin{table}[H]
 \centering
@@ -24,19 +24,19 @@ Die Feldstärke E, des E-Feldes zwischen der Spitze und der Probe kann mit $E = \
 \begin{tabular}{c|c|c}
 Parameter & Gold & Graphit \\ \hline
 \hline tip voltage U & 50mV & 500mV \\ 
-unnelstrom U & 1nA & 1nA \\ 
+Tunnelstrom U & 1nA & 1nA \\ 
 Feldstärke E & 50kV/mm & 500kV/mm \\ 
 Stromdichte j & 17,5kA/mm$^2$ & 17,5kA/mm$^2$ \\ 
 \end{tabular} 
 \end{table}
 
-Anhand der Werte in Tabelle \ref{tab:parameter_1} kann man sehen, dass die Feldstärke und die Stromdichte sehr große Werte annehmen, dies liegt an der geringen räumlichen Ausdehnung.
+Anhand der Werte in Tabelle \ref{tab:parameter_1} kann man sehen, dass die Feldstärke und die Stromdichte sehr große Werte annehmen. Dies liegt an der geringen räumlichen Ausdehnung.
 
 \subsection{Betriebsmodi}
 Das Rastertunnelmikroskop kann in zwei Modi betrieben werden, Constant Current Mode (``Topogrphie'') und Constant Hight Mode (``Elektronendichte'').
 
 \subsubsection{Constant Current Mode}
-Im Constant Current Mode wird der Abstand zwischen der Probe und dem Tastkopf konstant gehalten. Dafür wird ein über ein PID-Regler der Abstand so geregelt, dass der Tunnelstrom konstant bleibt. Die Information über die Oberflächenstruktur kann aus der Veränderung der z-Position entnommen werden. Ein schematische Skizze der Funktionsweise ist in Abbildung ?? zu sehen.
+Im Constant Current Mode wird der Abstand zwischen der Probe und dem Tastkopf konstant gehalten. Dafür wird über einen PID-Regler der Abstand so geregelt, dass der Tunnelstrom konstant bleibt. Die Information über die Oberflächenstruktur kann aus der Veränderung der z-Position entnommen werden. Eine schematische Skizze der Funktionsweise ist in Abbildung \ref{fig:CCM} zu sehen.
 
 \begin{figure}[H]
 	\centering
@@ -46,7 +46,7 @@ Im Constant Current Mode wird der Abstand zwischen der Probe und dem Tastkopf ko
 \end{figure}
 
 \subsubsection{Constant Hight Mode}
-Im Constant Hight Mode wird der Abstand zwischen Probe und Tastkopf einmal eingestellt und nicht mehr verändert. Bei Unebenheiten in der Oberfläche kann es jedoch zu Kollisionen kommen, wodurch der Tastkopf zerstört werden kann. Der Vorteil der Messmethode ist, dass der gemessenen Tunnelstrom proportional zur Elektronendichte bei der Fermi-Energie ist.
+Im Constant Hight Mode wird der (makroskopische) Abstand zwischen Probe und Tastkopf einmal eingestellt und danach nicht verändert. Bei Unebenheiten der Oberfläche kann es jedoch zu Kollisionen kommen, wodurch der Tastkopf zerstört werden kann. Der Vorteil der Messmethode ist, dass der gemessene Tunnelstrom exponentiell vom Abstand zur elektronischen Obefläche abhängt. Eine schematische Skizze ist in Abbildung \ref{fig:CHM} dargestellt.
 
 \begin{figure}[H]
 	\centering
