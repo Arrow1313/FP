@@ -1,0 +1,34 @@
+\section{Eichung und Bestimmung der Wellenlänge des Lasers}
+In diesem Abschnitt soll das Übersetzungsverhältnis zwischen Schraube und Spiegel und die Wellenlänge des Lasers bestimmt werden. Zuvor muss noch die x-Position in Lab-View und der Millimeterschraube geeicht werden.
+
+\subsection{Eichung}
+Die x-Werte in Lab-View müssen den realen Positionen der Millimeterschraube zugeordnet werden. Bei der Bestimmung wird von einem linearem Zusammenhang ausgegangen. Für die Eichung wird die Schraube ??mm gedreht, dabei wird alle $\frac{1}{10}$mm die Position im Interferogramm mit Lab-View aufgenommen. Der Fehler der Schraubenposition wird mit 0,5$\mu$m angenommen (eine halbe Skaleneinheit). Für den Fit wurde Gleichung \ref{eqn:lin_fit} verwendet, A beschreibt dabei die Steigung und B das Offset.
+
+\begin{align}
+\label{eqn:lin_fit}
+f(x) = A \cdot x + B
+\end{align}
+
+%Fit einfügen
+
+Aus dem Fit ergebe sich die Parameter in Tabelle ??.
+
+\subsection{Bestimmund der Wellenlänge des Lasers}
+Mit der zuvor durchgeführten Eichung kann nun die Wellenlänge $\lambda$ des Lasers bestimmt werden. Die Wellenlänge wird aus dem Gangunterschied s, der Anzahl der Interferenzmaxima n und dem Übersetzungsverhältnis k bestimmt. Für das Übersetzungsverhältnis wird ein Wert von k=5 angenommen. Die Wellenlänge ergibt sich nach Gleichung ??.
+
+\begin{align}
+\lambda = \frac{2s}{5n}
+\end{align}
+
+Das aufgenommen Interferogramm ist in Abbildung ?? zu sehen.
+
+%Interferogramm einfügen
+
+Für den Gangunterschied wird \framebox{Auswahl der Maxima/Minima begründen} . Mit der zuvor durchgeführten Eichung wird der Gangunterschied der x-Position in eine reelle Wegdifferenz umgerechnet, der Fehler ergibt sich nach Fehlerfortpflanzung auf die Geradengleichung. Die Anzahl der Maxima wurde als Fehlerlos angenommen. Um ein besseres Ergebnis zu erhalten, wird das eigentliche Übersetzungsverhältnis $k_e$ mit Gleichung \ref{eqn:uebersetzungsverhaeltniss} bestimmt. Dabei wurde für $\lambda$ der Literaturwert von 3,39$\mu$m verwendet (vlg ??).
+
+\begin{align}
+\label{eqn:uebersetzungsverhaeltniss}
+k_e = \frac{2s}{n\lambda}
+\end{align}
+
+Die Ergebnisse für ersten 10 \framebox{Minima/Maxima} sind in Tabelle ?? zu sehen. Dabei ergab sich ein Mittelwert von ?? für die Wellenlänge des Lasers. \framebox{Auswertung und Diskussion}
