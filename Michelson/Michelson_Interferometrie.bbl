@@ -1,0 +1,46 @@
+% $ biblatex auxiliary file $
+% $ biblatex version 2.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\entry{Schematischer_Aufbau}{online}{}
+  \field{sortinit}{A}
+  \field{title}{Aufbau des Experimentes}
+  \verb{url}
+  \verb https://moodle2.uni-wuppertal.de/pluginfile.php/231744/mod_resource/con
+  \verb tent/1/Michelson-Anleitung_2015-7.pdf
+  \endverb
+  \field{urlday}{06}
+  \field{urlmonth}{10}
+  \field{urlyear}{2015}
+\endentry
+
+\entry{Staatsex_Michels}{online}{}
+  \field{sortinit}{A}
+  \field{title}{Aufbau eines Michelson-Interferometer-Versuchs}
+  \verb{url}
+  \verb https://moodle2.uni-wuppertal.de/pluginfile.php/223735/mod_resource/con
+  \verb tent/1/fpII_6_se.pdf
+  \endverb
+  \field{urlday}{06}
+  \field{urlmonth}{10}
+  \field{urlyear}{2015}
+\endentry
+
+\lossort
+\endlossort
+
+\endinput
