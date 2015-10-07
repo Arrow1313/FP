@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.11.19)  6 OCT 2015 19:10
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.11.19)  7 OCT 2015 00:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1206,7 +1206,7 @@ File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 \openout2 = `deckblatt.aux'.
 
  (./deckblatt.tex
-<logo.png, id=48, 2007.5pt x 632.3625pt>
+<logo.png, id=60, 2007.5pt x 632.3625pt>
 File: logo.png Graphic file (type png)
  <use logo.png>
 Package pdftex.def Info: logo.png used on input line 7.
@@ -1232,7 +1232,7 @@ l.40 \newpage
               [1
 
 ] (./einleitung.tex) (./theorie.tex
-<Schematischer_Aufbau_Michelson.pdf, id=77, 599.84097pt x 360.54701pt>
+<Schematischer_Aufbau_Michelson.pdf, id=93, 599.84097pt x 360.54701pt>
 File: Schematischer_Aufbau_Michelson.pdf Graphic file (type pdf)
 
 <use Schematischer_Aufbau_Michelson.pdf>
@@ -1240,64 +1240,72 @@ Package pdftex.def Info: Schematischer_Aufbau_Michelson.pdf used on input line
 8.
 (pdftex.def)             Requested size: 429.1234pt x 360.54611pt.
 
-<Strahlengang_Michelson.pdf, id=81, 585.38701pt x 456.90701pt>
+<Strahlengang_Michelson.pdf, id=97, 585.38701pt x 456.90701pt>
 File: Strahlengang_Michelson.pdf Graphic file (type pdf)
 
 <use Strahlengang_Michelson.pdf>
 Package pdftex.def Info: Strahlengang_Michelson.pdf used on input line 15.
 (pdftex.def)             Requested size: 331.73685pt x 365.5261pt.
  [2 <./Schematischer_Aufbau_Michelson.pdf>]
-[3 <./Strahlengang_Michelson.pdf>]) (./aufbau.tex) (./versuchsdurchfuehrung.tex
-[4]) (./auswertung.tex) (./diskussion.tex) (./fazit.tex)
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 51.
+[3 <./Strahlengang_Michelson.pdf>] [4]
+Overfull \hbox (18.05586pt too wide) in paragraph at lines 67--69
+\T1/lmr/m/n/12 Die Spek-tral-ver-tei-lung $\OML/lmm/m/it/12 B\OT1/lmr/m/n/12 (1
+\OML/lmm/m/it/12 =^^U\OT1/lmr/m/n/12 )$ \T1/lmr/m/n/12 er-hält man wie-der aus 
+der An-nah-me ei-ner (schwebungs-)modulierten
+ []
 
-(/usr/share/texmf/tex/latex/lm/t1lmtt.fd
+) (./aufbau.tex) (./detetktorspannung_zu_chopperfrequenz.tex [5])
+(./eichung.tex [6]) (./weisslichtposition.tex) (./schmalbandinterferogramm.tex)
+(./fazit.tex [7])
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 52.
+ (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-Overfull \hbox (4.80453pt too wide) in paragraph at lines 52--52
+Overfull \hbox (4.80453pt too wide) in paragraph at lines 53--53
 []\T1/lmr/m/it/12 Aufbau ei-nes Michelson-Interferometer-Versuchs\T1/lmr/m/n/12
  . \T1/lmr/m/sc/12 url\T1/lmr/m/n/12 : []$\T1/lmtt/m/n/12 https : / / moodle2 .
  uni -[] wuppertal .
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 53.
-[5]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 53.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 54.
+[8]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 54.
  (./Michelson_Interferometrie.aux (./deckblatt.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 53.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 53.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 54.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 54.
 Package rerunfilecheck Info: File `Michelson_Interferometrie.out' has not chang
 ed.
-(rerunfilecheck)             Checksum: 4DACAD2FD7EBF05842000172328D56EF;635.
+(rerunfilecheck)             Checksum: 7B8752F90B859D73C47F62D9B8FA560A;960.
 Package logreq Info: Writing requests to 'Michelson_Interferometrie.run.xml'.
 \openout1 = `Michelson_Interferometrie.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 53.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 54.
  ) 
 Here is how much of TeX's memory you used:
- 22171 strings out of 493304
- 413271 string characters out of 6139870
- 571759 words of memory out of 5000000
- 25259 multiletter control sequences out of 15000+600000
+ 22197 strings out of 493304
+ 413702 string characters out of 6139870
+ 570759 words of memory out of 5000000
+ 25268 multiletter control sequences out of 15000+600000
  70112 words of font info for 53 fonts, out of 8000000 for 9000
  961 hyphenation exceptions out of 8191
- 39i,10n,48p,10437b,1369s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 39i,11n,48p,10437b,1369s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
-ips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/s
-hare/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm
+ips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share
+/texmf/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm
 -mathit.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texm
 f/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lme
 x10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fo
 nts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb
-></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1
-/public/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/
-share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/publi
-c/lm/lmtt12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symb
-ols/msbm10.pfb>
-Output written on Michelson_Interferometrie.pdf (6 pages, 311611 bytes).
+></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1
+/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/sh
+are/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public
+/lm/lmsy6.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/tex
+mf/fonts/type1/public/lm/lmtt12.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/symbols/msbm10.pfb>
+Output written on Michelson_Interferometrie.pdf (9 pages, 332145 bytes).
 PDF statistics:
- 196 PDF objects out of 1000 (max. 8388607)
- 166 compressed objects within 2 object streams
- 31 named destinations out of 1000 (max. 500000)
- 104 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 254 PDF objects out of 1000 (max. 8388607)
+ 218 compressed objects within 3 object streams
+ 45 named destinations out of 1000 (max. 500000)
+ 128 words of extra memory for PDF output out of 10000 (max. 10000000)
 

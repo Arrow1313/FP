@@ -42,13 +42,32 @@ Nach Integration über alle Wellenzahlen (1/$\lambda$) (Gleichung \ref{eqn:polych
 I(\delta_l)_{poly} = \int_0^\infty d(1/\lambda) B(1/\lambda)\cos\left(\frac{2\pi \delta_l}{\lambda}\right)
 \label{eqn:polychr}
 \end{align}
-Aus der Fourierrücktransformation kann dann $B(\lambda)$ nach Gleichung \ref{eqn:poly_rück} bestimmt werden.
+Aus der Fourierrücktransformation kann die Spektralverteilung $B(1/\lambda)$ nach Gleichung \ref{eqn:poly_rück} bestimmt werden.
 \begin{align}
 B(1/\lambda) = 2 \int_0^\infty d\delta_l I(\delta_l)_{poly}\cos\left(\frac{2\pi \delta_l}{\lambda}\right)
 \label{eqn:poly_rück}
 \end{align}
-Als Ansatz für die spätere Analyse des Interferogramms mit Schmalbandfilter kann für $B(1/\lambda)$ eine Gaussfunktion verwendet werden. Für I wird dabei eine modulierte Gaussfunktion angenommen. Es ergibt sich die in Gleichung \ref{eqn:B_schmalband} beschriebene Beziehung, wobei $b = 1/\lambda_{max}$ die Wellenzahl maximaler Transmission ist und $4/a$ die $1/e$-Breite des Filters ist.
+Als Ansatz für die spätere Analyse des Interferogramms mit Schmalbandfilter kann für $B(1/\lambda)$ eine Gaussfunktion verwendet werden. Für I wird dabei eine modulierte Gaussfunktion angenommen. Es ergibt sich die in Gleichung \ref{eqn:B_schmalband} beschriebene Beziehung, wobei $b = 1/\lambda_{max}$ die Wellenzahl ( bis hierhin immer in Einheiten von $2\pi$ ) maximaler Transmission ist und $4/a$ die $1/e$-Breite des Filters ist.
 \begin{align}
 B(1/\lambda) = \frac{a}{2\sqrt{\pi}}\exp\left(-\frac{(a2\pi(b-1/\lambda))^2}{4}\right)
 \label{eqn:B_schmalband}
 \end{align}
+\subsection{Schwebung}
+Der Begriff 'Schwebung' bezeichnet die Überlagerung zweier Schwingungen, sodass eine einhüllende niedrigfrequente Schwingung der Wellenlänge $\lambda_+$ und eine hochfrequente Schwingung der Wellenlänge $\lambda_-$ sich herausbilden. Besonders gut kann dies an Schwingungen beobachtet werden, deren Wellenlängen nahe beieinander liegen und deren Amplitude gleich groß ist. Als Schwebungsfrequenz wird die Frequenz der einhüllenden Schwingung bezeichnet. Allgemein ist dies eine Charakterisierung der Additionstheoreme für Sinus und Cosinus. Der Zusammenhang ist in Gleichung \ref{eqn:schweb_additions} dargestellt, wobei $k_i$ in diesem Fall die Wellenzahl $2\pi/\lambda_i$ bezeichnet.
+\begin{align}
+\cos(k_1x+a)+cos(k_2x+b) = 2\cos\left(\frac{k_1+k_2}{2}x+\frac{a+b}{2}\right)\cos\left(\frac{k_1-k_2}{2}x+\frac{a-b}{2}\right)
+\label{eqn:schweb_additions}
+\end{align}
+Die beiden Wellenlängen $\lambda_+$ und $\lambda_-$, die sich daraus ergeben, sind in Gleichung \ref{eqn:lambda+} und \ref{eqn:lambda-} angegeben.
+\begin{align}
+\lambda_+ = \frac{2\lambda_1\lambda_2}{\lambda_1+\lambda_2}
+\label{eqn:lambda+}\\
+\lambda_- = \frac{2\lambda_1\lambda_2}{\lambda_1-\lambda_2}
+\label{eqn:lambda-}
+\end{align}
+Die Spektralverteilung $B(1/\lambda)$ erhält man wieder aus der Annahme einer (schwebungs-)modulierten Gaussfunktion für I. Es ergeben sich zwei Gaußfunktionen, welche in Gleichung \ref{eqn:schwebung_spektr_vert} angegeben sind. (vgl. \cite{Staatsex_Michels})
+\begin{align}
+B(1/\lambda) = \frac{a}{4\sqrt{\pi}}\left[\exp\left(-\frac{[a2\pi(\frac{1}{\lambda}-\frac{1}{\lambda_+}-\frac{1}{\lambda_-})]^2}{4}\right) + \exp\left(-\frac{[a2\pi(\frac{1}{\lambda}+\frac{1}{\lambda_+}-\frac{1}{\lambda_-})]^2}{4}\right) \right]
+\label{eqn:schwebung_spektr_vert}
+\end{align}
+\subsection{Pyroelektrischer Detektor}
