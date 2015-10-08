@@ -1,9 +1,39 @@
 \section{Detektorspannung in Abhängigkeit der Chopperfrequenz}
 
-Zuerst soll die der Zusammenhang zwischen der Detektorspannung U und der Chopperfrequenz f untersucht werden. Die Chopperfrequenz wird im Bereich von 20Hz bis 50Hz variiert. Bei Werten unter 20Hz ist die Schwankung der Werte zu groß, so dass die Signale nicht vom Untergrund unterschieden werden können. Die Detektorspannung wird am Lock-In-Verstärker abgelesen. Es wurde ein Fehler von ?? V angenommen, da die Anzeige in diesem Bereich schwankte. Der Plot der Messdaten mit linearen Achsen ist in Abbildung ?? zu sehen. In Abbildung ?? sind die Messdaten mit doppelt logarithmischen Achsen geplotted. Da ein linearer Zusammenhang zwischen log(U) und log(f) zu sehen ist, werden die Messdaten mit  Gleichung ?? gefitted.
+Zuerst soll die der Zusammenhang zwischen der Detektorspannung U und der Chopperfrequenz f untersucht werden. Die Chopperfrequenz wird im Bereich von 20Hz bis 50Hz variiert. Bei Werten unter 20Hz ist die Schwankung der Werte zu groß, so dass die Signale nicht vom Untergrund unterschieden werden können. Die Detektorspannung wird am Lock-In-Verstärker abgelesen. Es wurde ein Fehler von 40-10 nV angenommen, je nach Schwankung der Nadel. Der Plot der Messdaten mit linearen Achsen ist in Abbildung \ref{fig:chopper_lin} zu sehen. In Abbildung \ref{fig:chopper_log} sind die Messdaten mit doppelt logarithmischen Achsen geplotted. Da ein linearer Zusammenhang zwischen log(U) und log(f) zu sehen ist, werden die Messdaten mit  Gleichung ?? gefitted.
 
 \begin{align}
+\label{eqn:chopperfit}
 U(f) = \exp[A \cdot \log(f) + B]
 \end{align}
 
 Dabei sind A und B freie Parameter, die durch den Fit bestimmt werden. Das Ergebnis des Fits ist in Tabelle ?? zu sehen.
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale = 0.33]{chopper_lin.png}
+\caption{Spannung in Abhängigkeit der Chopperfrequenz mit linearen Achsen}
+\label{fig:chopper_lin}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale = 0.33]{chopper_log.png}
+\caption{Spannung in Abhängigkeit der Chopperfrequenz mit logarithmischen Achsen}
+\label{fig:chopper_log}
+\end{figure}
+
+\begin{table}[H]
+\caption{Fitparameter für den Fit der Spannung in Abhängigkeit der Chopperfrequenz nach Gleichung \ref{eqn:chopperfit}}
+\label{tab:chopperfit}
+\centering
+\begin{tabular}{|c|c|}
+\hline Parameter & Wert \\ 
+\hline A & -1,03(3) \\ 
+\hline B & 8,89(8) \\ 
+\hline $\chi_{red}^2$ & 1,22 \\ 
+\hline 
+\end{tabular} 
+\end{table}
+
+Das $chi_{red}^2$ von 1,22 spricht dafür, das der Zusammenhang zwischen der Chopperfrequenz und der Spannung gut durch das Modell beschrieben wird. Bei kleine Frequenzen erreicht der Detektor eine Sättigung und bei großen dominiert Trägheit des pyroelektrischen Detektor. Deshalb wird eine Chopperfrequenz von 30Hz gewählt, um möglichst einen linearen Zusammenhang zu bekommen.
