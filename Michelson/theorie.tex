@@ -26,6 +26,13 @@ n\lambda = 2\delta_l \hspace{0.1cm},\hspace{0.2cm} n \in \mathbb{N}_0
 \label{eqn:destr_interfer}
 \end{align}
 Bei der Bestimmung von $\delta_l$ muss die Übersetzung der Mikrometerschraube beachtet werden.
+Wenn man für $\delta_l$ den Abstand $\Delta S$, der auf der Mikrometerschraube abgelesen werden kann, verwendet, muss also ein Übersetzungsfaktor $k$ berücksichtigt werden. Die sich daraus ergebenden Formeln zur Bestimmung der Wellenlänge bei konstruktiver und bei destruktiver Interferenz ergeben sich mit Gleichung \ref{eqn:lambda_konstr} und \ref{eqn:lambda_destr}.
+\begin{align}
+\lambda = \frac{2\delta_l}{nk}
+\label{eqn:lambda_konstr}\\
+\lambda = \frac{2\delta_l}{(n+\frac{1}{2})k}
+\label{eqn:lambda_destr}
+\end{align}
 \subsection{Strahlungsintensität}
 Der Zusammenhang zwischen der Intensität $I$ und $\delta_l$ kann \cite{Staatsex_Michels} entnommen werden. Für monochromatische Strahlung ergibt sich Gleichung \ref{eqn:monochr}.
 \begin{align}
@@ -71,3 +78,10 @@ B(1/\lambda) = \frac{a}{4\sqrt{\pi}}\left[\exp\left(-\frac{[a2\pi(\frac{1}{\lamb
 \label{eqn:schwebung_spektr_vert}
 \end{align}
 \subsection{Pyroelektrischer Detektor}
+Pyroelektrische Detektoren (vgl. \cite{pyroel_detek}) bestehen aus ferroelektrischen Kristallen oder Keramiken mit unsymmetrischer Gitterstruktur, deren Gitterabstände sich bei Erwärmung durch IR-Stahlung verändern. Das Meterial hat dadurch temperaturabhängige Dipolmomente, welche es polarisieren. Die Änderung der Polarisation resultiert in einem elektrischen Signal, welches für Temperaturen im Bereich der Raumtemperatur näherungsweise proportional zur Änderung der Strahlungsleistung ist. Der schematische Aufbau ist in Abb. \ref{fig:pyro_detek} dargestellt. In diesem Versuch ist die Detektorspannung abhängig von der Chopperfrequenz, welche die einfallende Strahlung periodisch unterbricht. Bei hoher Chopperfrequenz wird die Spannung kleiner.
+\begin{figure}[H]
+\centering
+\includegraphics{pyro_m35bi0101.pdf}
+\caption{Aufbau eines pyroelektrischen Detektors \cite{pyroel_detek}}
+\label{fig:pyro_detek}
+\end{figure}
