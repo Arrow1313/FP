@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.11.19)  8 OCT 2015 15:02
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.11.19)  8 OCT 2015 16:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1262,40 +1262,47 @@ Package pdftex.def Info: pyro_m35bi0101.pdf used on input line 84.
 )
 (./aufbau.tex [5]) (./detetktorspannung_zu_chopperfrequenz.tex [6 <./pyro_m35bi
 0101.pdf>]) (./eichung.tex [7]) (./weisslichtposition.tex)
-(./schmalbandinterferogramm.tex) (./fazit.tex)
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 52.
+(./schmalbandinterferogramm.tex) (./Schwebung.tex) (./fazit.tex [8])
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 53.
 
 (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [8]
-Overfull \hbox (4.80453pt too wide) in paragraph at lines 53--53
+)
+Overfull \hbox (4.80453pt too wide) in paragraph at lines 54--54
 []\T1/lmr/m/it/12 Aufbau ei-nes Michelson-Interferometer-Versuchs\T1/lmr/m/n/12
  . \T1/lmr/m/sc/12 url\T1/lmr/m/n/12 : []$\T1/lmtt/m/n/12 https : / / moodle2 .
  uni -[] wuppertal .
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 54.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 55.
 [9]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 54.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 55.
  (./Michelson_Interferometrie.aux (./deckblatt.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 54.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 54.
-Package rerunfilecheck Info: File `Michelson_Interferometrie.out' has not chang
-ed.
-(rerunfilecheck)             Checksum: 7B8752F90B859D73C47F62D9B8FA560A;960.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 55.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 55.
+
+
+Package rerunfilecheck Warning: File `Michelson_Interferometrie.out' has change
+d.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Michelson_Interferometrie.out':
+(rerunfilecheck)             Before: 7B8752F90B859D73C47F62D9B8FA560A;960
+(rerunfilecheck)             After:  597344CE608A2B59603FABB40E7D6D3F;1033.
 Package logreq Info: Writing requests to 'Michelson_Interferometrie.run.xml'.
 \openout1 = `Michelson_Interferometrie.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 54.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 55.
  ) 
 Here is how much of TeX's memory you used:
- 22211 strings out of 493304
- 413954 string characters out of 6139870
+ 22215 strings out of 493304
+ 414000 string characters out of 6139870
  569759 words of memory out of 5000000
  25276 multiletter control sequences out of 15000+600000
  70112 words of font info for 53 fonts, out of 8000000 for 9000
  961 hyphenation exceptions out of 8191
- 39i,11n,48p,10437b,1530s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 39i,11n,48p,10437b,1369s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
 ips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share
 /texmf/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm
@@ -1309,10 +1316,10 @@ are/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public
 /lm/lmsy6.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/tex
 mf/fonts/type1/public/lm/lmtt12.pfb></usr/share/texlive/texmf-dist/fonts/type1/
 public/amsfonts/symbols/msbm10.pfb>
-Output written on Michelson_Interferometrie.pdf (10 pages, 350530 bytes).
+Output written on Michelson_Interferometrie.pdf (10 pages, 350704 bytes).
 PDF statistics:
- 279 PDF objects out of 1000 (max. 8388607)
- 238 compressed objects within 3 object streams
- 50 named destinations out of 1000 (max. 500000)
+ 280 PDF objects out of 1000 (max. 8388607)
+ 239 compressed objects within 3 object streams
+ 51 named destinations out of 1000 (max. 500000)
  133 words of extra memory for PDF output out of 10000 (max. 10000000)
 
