@@ -40,6 +40,19 @@
   \field{urlyear}{2015}
 \endentry
 
+\entry{pyroel_detek}{online}{}
+  \field{sortinit}{P}
+  \field{title}{Pyroelektrische Detektoren}
+  \verb{url}
+  \verb http://www.chemgapedia.de/vsengine/vlu/vsc/de/ch/3/anc/ir_spek/ir_gerae
+  \verb te.vlu/Page/vsc/de/ch/3/anc/ir_spek/ir_spektroskopie/ir_geraetetechnik/
+  \verb ir_8_2_4/pyro_m35ht0101.vscml.html
+  \endverb
+  \field{urlday}{08}
+  \field{urlmonth}{10}
+  \field{urlyear}{2015}
+\endentry
+
 \lossort
 \endlossort
 
