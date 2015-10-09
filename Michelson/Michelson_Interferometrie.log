@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.11.19)  8 OCT 2015 16:56
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.11.19)  8 OCT 2015 22:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1206,7 +1206,7 @@ File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 \openout2 = `deckblatt.aux'.
 
  (./deckblatt.tex
-<logo.png, id=60, 2007.5pt x 632.3625pt>
+<logo.png, id=72, 2007.5pt x 632.3625pt>
 File: logo.png Graphic file (type png)
  <use logo.png>
 Package pdftex.def Info: logo.png used on input line 7.
@@ -1232,7 +1232,7 @@ l.40 \newpage
               [1
 
 ] (./einleitung.tex) (./theorie.tex
-<Schematischer_Aufbau_Michelson.pdf, id=93, 599.84097pt x 360.54701pt>
+<Schematischer_Aufbau_Michelson.pdf, id=108, 599.84097pt x 360.54701pt>
 File: Schematischer_Aufbau_Michelson.pdf Graphic file (type pdf)
 
 <use Schematischer_Aufbau_Michelson.pdf>
@@ -1240,7 +1240,7 @@ Package pdftex.def Info: Schematischer_Aufbau_Michelson.pdf used on input line
 8.
 (pdftex.def)             Requested size: 429.1234pt x 360.54611pt.
 
-<Strahlengang_Michelson.pdf, id=97, 585.38701pt x 456.90701pt>
+<Strahlengang_Michelson.pdf, id=112, 585.38701pt x 456.90701pt>
 File: Strahlengang_Michelson.pdf Graphic file (type pdf)
 
 <use Strahlengang_Michelson.pdf>
@@ -1254,52 +1254,87 @@ Overfull \hbox (18.05586pt too wide) in paragraph at lines 74--76
 der An-nah-me ei-ner (schwebungs-)modulierten
  []
 
-<pyro_m35bi0101.pdf, id=159, 217.613pt x 199.144pt>
+<pyro_m35bi0101.pdf, id=175, 217.613pt x 199.144pt>
 File: pyro_m35bi0101.pdf Graphic file (type pdf)
  <use pyro_m35bi0101.pdf>
 Package pdftex.def Info: pyro_m35bi0101.pdf used on input line 84.
 (pdftex.def)             Requested size: 217.61246pt x 199.1435pt.
 )
 (./aufbau.tex [5]) (./detetktorspannung_zu_chopperfrequenz.tex [6 <./pyro_m35bi
-0101.pdf>]) (./eichung.tex [7]) (./weisslichtposition.tex)
-(./schmalbandinterferogramm.tex) (./Schwebung.tex) (./fazit.tex [8])
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 53.
+0101.pdf>] <chopper_lin.png, id=203, 1445.4pt x 712.5822pt>
+File: chopper_lin.png Graphic file (type png)
 
-(/usr/share/texmf/tex/latex/lm/t1lmtt.fd
+<use chopper_lin.png>
+Package pdftex.def Info: chopper_lin.png used on input line 14.
+(pdftex.def)             Requested size: 476.98347pt x 235.15285pt.
+ <chopper_log.png, id=204, 1445.4pt x 712.5822pt>
+File: chopper_log.png Graphic file (type png)
+
+<use chopper_log.png>
+Package pdftex.def Info: chopper_log.png used on input line 21.
+(pdftex.def)             Requested size: 476.98347pt x 235.15285pt.
+ [7 <./chopper_lin.png>]) (./eichung.tex [8 <./chopper_log.png>]) (./weisslicht
+position.tex [9]
+<weisslichtpunkt_4,77.png, id=232, 1445.4pt x 712.5822pt>
+File: weisslichtpunkt_4,77.png Graphic file (type png)
+
+<use weisslichtpunkt_4,77.png>
+Package pdftex.def Info: weisslichtpunkt_4,77.png used on input line 8.
+(pdftex.def)             Requested size: 476.98347pt x 235.15285pt.
+
+<weisslichtpunkt_5,8.png, id=233, 1445.4pt x 712.5822pt>
+File: weisslichtpunkt_5,8.png Graphic file (type png)
+
+<use weisslichtpunkt_5,8.png>
+Package pdftex.def Info: weisslichtpunkt_5,8.png used on input line 15.
+(pdftex.def)             Requested size: 476.98347pt x 235.15285pt.
+) (./schmalbandinterferogramm.tex)
+(./Schwebung.tex [10 <./weisslichtpunkt_4,77.png> <./weisslichtpunkt_5,8.png>])
+(./fazit.tex) (./anhang.tex
+<eichung_weisslicht_4,75.png, id=245, 1445.4pt x 712.5822pt>
+File: eichung_weisslicht_4,75.png Graphic file (type png)
+
+<use eichung_weisslicht_4,75.png>
+Package pdftex.def Info: eichung_weisslicht_4,75.png used on input line 9.
+(pdftex.def)             Requested size: 476.98347pt x 235.15285pt.
+ [11 <./eichung_weisslicht_4,75.png>]
+<eichung_weisslicht_5,77.png, id=255, 1445.4pt x 712.5822pt>
+File: eichung_weisslicht_5,77.png Graphic file (type png)
+
+<use eichung_weisslicht_5,77.png>
+Package pdftex.def Info: eichung_weisslicht_5,77.png used on input line 30.
+(pdftex.def)             Requested size: 476.98347pt x 235.15285pt.
+)
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 54.
+ (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-Overfull \hbox (4.80453pt too wide) in paragraph at lines 54--54
+Overfull \hbox (4.80453pt too wide) in paragraph at lines 55--55
 []\T1/lmr/m/it/12 Aufbau ei-nes Michelson-Interferometer-Versuchs\T1/lmr/m/n/12
  . \T1/lmr/m/sc/12 url\T1/lmr/m/n/12 : []$\T1/lmtt/m/n/12 https : / / moodle2 .
  uni -[] wuppertal .
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 55.
-[9]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 55.
- (./Michelson_Interferometrie.aux (./deckblatt.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 55.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 55.
-
-
-Package rerunfilecheck Warning: File `Michelson_Interferometrie.out' has change
-d.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Michelson_Interferometrie.out':
-(rerunfilecheck)             Before: 7B8752F90B859D73C47F62D9B8FA560A;960
-(rerunfilecheck)             After:  597344CE608A2B59603FABB40E7D6D3F;1033.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 56.
+[12 <./eichung_weisslicht_5,77.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 56.
+ (./Michelson_Interferometrie.aux
+(./deckblatt.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 56.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 56.
+Package rerunfilecheck Info: File `Michelson_Interferometrie.out' has not chang
+ed.
+(rerunfilecheck)             Checksum: 51176800D30C6D70CF0FB8F84A90D791;1145.
 Package logreq Info: Writing requests to 'Michelson_Interferometrie.run.xml'.
 \openout1 = `Michelson_Interferometrie.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 55.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 56.
  ) 
 Here is how much of TeX's memory you used:
- 22215 strings out of 493304
- 414000 string characters out of 6139870
+ 22276 strings out of 493304
+ 415285 string characters out of 6139870
  569759 words of memory out of 5000000
- 25276 multiletter control sequences out of 15000+600000
+ 25314 multiletter control sequences out of 15000+600000
  70112 words of font info for 53 fonts, out of 8000000 for 9000
  961 hyphenation exceptions out of 8191
  39i,11n,48p,10437b,1369s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1316,10 +1351,10 @@ are/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public
 /lm/lmsy6.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/tex
 mf/fonts/type1/public/lm/lmtt12.pfb></usr/share/texlive/texmf-dist/fonts/type1/
 public/amsfonts/symbols/msbm10.pfb>
-Output written on Michelson_Interferometrie.pdf (10 pages, 350704 bytes).
+Output written on Michelson_Interferometrie.pdf (13 pages, 844296 bytes).
 PDF statistics:
- 280 PDF objects out of 1000 (max. 8388607)
- 239 compressed objects within 3 object streams
- 51 named destinations out of 1000 (max. 500000)
- 133 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 341 PDF objects out of 1000 (max. 8388607)
+ 284 compressed objects within 3 object streams
+ 65 named destinations out of 1000 (max. 500000)
+ 187 words of extra memory for PDF output out of 10000 (max. 10000000)
 

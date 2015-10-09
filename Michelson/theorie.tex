@@ -56,7 +56,7 @@ B(1/\lambda) = 2 \int_0^\infty d\delta_l I(\delta_l)_{poly}\cos\left(\frac{2\pi 
 \end{align}
 Als Ansatz für die spätere Analyse des Interferogramms mit Schmalbandfilter kann für $B(1/\lambda)$ eine Gaussfunktion verwendet werden. Für I wird dabei eine modulierte Gaussfunktion angenommen. Es ergibt sich die in Gleichung \ref{eqn:B_schmalband} beschriebene Beziehung, wobei $b = 1/\lambda_{max}$ die Wellenzahl ( bis hierhin immer in Einheiten von $2\pi$ ) maximaler Transmission ist und $4/a$ die $1/e$-Breite des Filters ist.
 \begin{align}
-B(1/\lambda) = \frac{a}{2\sqrt{\pi}}\exp\left(-\frac{(a2\pi(b-1/\lambda))^2}{4}\right)
+B(1/\lambda) = \frac{a\sqrt{\pi}}{2}\exp\left(-\frac{(a2\pi(b-1/\lambda))^2}{4}\right)
 \label{eqn:B_schmalband}
 \end{align}
 \subsection{Schwebung}
@@ -74,7 +74,7 @@ Die beiden Wellenlängen $\lambda_+$ und $\lambda_-$, die sich daraus ergeben, si
 \end{align}
 Die Spektralverteilung $B(1/\lambda)$ erhält man wieder aus der Annahme einer (schwebungs-)modulierten Gaussfunktion für I. Es ergeben sich zwei Gaußfunktionen, welche in Gleichung \ref{eqn:schwebung_spektr_vert} angegeben sind. (vgl. \cite{Staatsex_Michels})
 \begin{align}
-B(1/\lambda) = \frac{a}{4\sqrt{\pi}}\left[\exp\left(-\frac{[a2\pi(\frac{1}{\lambda}-\frac{1}{\lambda_+}-\frac{1}{\lambda_-})]^2}{4}\right) + \exp\left(-\frac{[a2\pi(\frac{1}{\lambda}+\frac{1}{\lambda_+}-\frac{1}{\lambda_-})]^2}{4}\right) \right]
+B(1/\lambda) = \frac{a\sqrt{\pi}}{4}\left[\exp\left(-\frac{[a2\pi(\frac{1}{\lambda}-\frac{1}{\lambda_+}-\frac{1}{\lambda_-})]^2}{4}\right) + \exp\left(-\frac{[a2\pi(\frac{1}{\lambda}+\frac{1}{\lambda_+}-\frac{1}{\lambda_-})]^2}{4}\right) \right]
 \label{eqn:schwebung_spektr_vert}
 \end{align}
 \subsection{Pyroelektrischer Detektor}

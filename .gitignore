@@ -19,3 +19,13 @@
 /roentgen/*.aux
 /roentgen/roentgen.loc
 /roentgen/roentgen.pdf
+
+/**/*.toc
+/**/*.loc
+/**/*.out
+/**/*.bll
+/**/*.blg
+/**/*.xml
+/**/*.gz
+/**/*.*~
+/**/*.aux
