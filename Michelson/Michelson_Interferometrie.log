@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.11.19)  9 OCT 2015 18:57
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.11.19)  11 OCT 2015 02:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1296,30 +1296,33 @@ File: filter_weiss.png Graphic file (type png)
 Package pdftex.def Info: filter_weiss.png used on input line 7.
 (pdftex.def)             Requested size: 476.98347pt x 235.15285pt.
 )
-(./Schwebung.tex
-LaTeX Font Info:    Try loading font information for TS1+lmr on input line 2.
- (/usr/share/texmf/tex/latex/lm/ts1lmr.fd
-File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)) (./fazit.tex)
-(./anhang.tex <eichung_weisslicht_4,75.png, id=254, 1445.4pt x 712.5822pt>
+(./Schwebung.tex) (./fazit.tex) (./anhang.tex
+<eichung_weisslicht_4,75.png, id=254, 1445.4pt x 712.5822pt>
 File: eichung_weisslicht_4,75.png Graphic file (type png)
 
 <use eichung_weisslicht_4,75.png>
 Package pdftex.def Info: eichung_weisslicht_4,75.png used on input line 9.
 (pdftex.def)             Requested size: 476.98347pt x 235.15285pt.
  [11 <./filter_weiss.png>]
-<eichung_weisslicht_5,77.png, id=265, 1445.4pt x 712.5822pt>
+<eichung_weisslicht_5,77.png, id=264, 1445.4pt x 712.5822pt>
 File: eichung_weisslicht_5,77.png Graphic file (type png)
 
 <use eichung_weisslicht_5,77.png>
 Package pdftex.def Info: eichung_weisslicht_5,77.png used on input line 30.
 (pdftex.def)             Requested size: 476.98347pt x 235.15285pt.
- [12 <./eichung_weisslicht_4,75.png>])
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 54.
+ [12 <./eichung_weisslicht_4,75.png>]
+<Eichdaten_Schwebung.pdf, id=275, 1445.4pt x 714.56966pt>
+File: Eichdaten_Schwebung.pdf Graphic file (type pdf)
 
-(/usr/share/texmf/tex/latex/lm/t1lmtt.fd
+<use Eichdaten_Schwebung.pdf>
+Package pdftex.def Info: Eichdaten_Schwebung.pdf used on input line 50.
+(pdftex.def)             Requested size: 476.98347pt x 235.80872pt.
+)
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 54.
+ (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
+[13 <./eichung_weisslicht_5,77.png> <./Eichdaten_Schwebung.pdf>]
 Overfull \hbox (4.80453pt too wide) in paragraph at lines 55--55
 []\T1/lmr/m/it/12 Aufbau ei-nes Michelson-Interferometer-Versuchs\T1/lmr/m/n/12
  . \T1/lmr/m/sc/12 url\T1/lmr/m/n/12 : []$\T1/lmtt/m/n/12 https : / / moodle2 .
@@ -1327,10 +1330,9 @@ Overfull \hbox (4.80453pt too wide) in paragraph at lines 55--55
  []
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 56.
-[13 <./eichung_weisslicht_5,77.png>]
+[14]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 56.
- (./Michelson_Interferometrie.aux
-(./deckblatt.aux))
+ (./Michelson_Interferometrie.aux (./deckblatt.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 56.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 56.
 Package rerunfilecheck Info: File `Michelson_Interferometrie.out' has not chang
@@ -1342,31 +1344,30 @@ Package logreq Info: Writing requests to 'Michelson_Interferometrie.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 56.
  ) 
 Here is how much of TeX's memory you used:
- 22321 strings out of 493304
- 416310 string characters out of 6139870
+ 22298 strings out of 493304
+ 415697 string characters out of 6139870
  569759 words of memory out of 5000000
- 25350 multiletter control sequences out of 15000+600000
- 70487 words of font info for 54 fonts, out of 8000000 for 9000
+ 25328 multiletter control sequences out of 15000+600000
+ 70112 words of font info for 53 fonts, out of 8000000 for 9000
  961 hyphenation exceptions out of 8191
- 39i,11n,48p,10437b,1369s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 39i,11n,48p,10437b,1532s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
-ips/lm/lm-ts1.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/shar
-e/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ma
-thex.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}</usr/share/texmf/f
-onts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10
-.pfb></usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts
-/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb><
-/usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/
-public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share
-/texmf/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm
-/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy6.pfb></usr/share/texmf
-/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.
-pfb>
-Output written on Michelson_Interferometrie.pdf (14 pages, 1058437 bytes).
+ips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share
+/texmf/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm
+-mathit.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texm
+f/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lme
+x10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fo
+nts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb
+></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1
+/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/sh
+are/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public
+/lm/lmsy6.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/tex
+mf/fonts/type1/public/lm/lmtt12.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/symbols/msbm10.pfb>
+Output written on Michelson_Interferometrie.pdf (15 pages, 1072869 bytes).
 PDF statistics:
- 362 PDF objects out of 1000 (max. 8388607)
- 301 compressed objects within 4 object streams
- 69 named destinations out of 1000 (max. 500000)
- 200 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 414 PDF objects out of 1000 (max. 8388607)
+ 316 compressed objects within 4 object streams
+ 71 named destinations out of 1000 (max. 500000)
+ 205 words of extra memory for PDF output out of 10000 (max. 10000000)
 
