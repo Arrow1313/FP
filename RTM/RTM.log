@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.11.19)  4 OCT 2015 17:57
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.11.19)  12 OCT 2015 13:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1372,14 +1372,14 @@ Overfull \hbox (70.60298pt too wide) in paragraph at lines 40--41
  []
 
 [12 <./graphit_3nm_nanostruktur_oberflaeche.png> <./graphit_3nm_nanostruktur_to
-pographie.png>] <1,1x1,1_3d_plot.PNG, id=318, 246.9225pt x 231.11343pt>
+pographie.png>] <1,1x1,1_3d_plot.PNG, id=319, 246.9225pt x 231.11343pt>
 File: 1,1x1,1_3d_plot.PNG Graphic file (type png)
 
 <use 1,1x1,1_3d_plot.PNG>
 Package pdftex.def Info: 1,1x1,1_3d_plot.PNG used on input line 49.
 (pdftex.def)             Requested size: 185.1914pt x 173.33464pt.
 ) (./Mittlerer_Atomabstand.tex
-<ausschnitt_3_nanostruktur_2_bearbeitet.jpg, id=319, 796.9775pt x 1127.21124pt>
+<ausschnitt_3_nanostruktur_2_bearbeitet.jpg, id=320, 796.9775pt x 1127.21124pt>
 File: ausschnitt_3_nanostruktur_2_bearbeitet.jpg Graphic file (type jpg)
 <use ausschnitt_3_nanostruktur_2_bearbeitet.jpg>
 Package pdftex.def Info: ausschnitt_3_nanostruktur_2_bearbeitet.jpg used on inp
@@ -1392,7 +1392,7 @@ Overfull \hbox (71.35577pt too wide) in paragraph at lines 5--6
 
 [13 <./graphit_1,1nm_CHM_struktur.jpg> <./1,1x1,1_3d_plot.PNG>] [14 <./ausschni
 tt_3_nanostruktur_2_bearbeitet.jpg>] [15])) (./Gold.tex [16]
-<gold_600nm_topographie_oberflaeche.png, id=352, 399.4925pt x 373.395pt>
+<gold_600nm_topographie_oberflaeche.png, id=353, 399.4925pt x 373.395pt>
 File: gold_600nm_topographie_oberflaeche.png Graphic file (type png)
 
 <use gold_600nm_topographie_oberflaeche.png>
@@ -1400,14 +1400,14 @@ Package pdftex.def Info: gold_600nm_topographie_oberflaeche.png used on input l
 ine 7.
 (pdftex.def)             Requested size: 239.69734pt x 224.03873pt.
  [17 <./gold_600nm_topographie_oberflaeche.png>]
-<Gold_linienrauheit_202nm.PNG, id=361, 525.46312pt x 467.49657pt>
+<Gold_linienrauheit_202nm.PNG, id=362, 525.46312pt x 467.49657pt>
 File: Gold_linienrauheit_202nm.PNG Graphic file (type png)
 
 <use Gold_linienrauheit_202nm.PNG>
 Package pdftex.def Info: Gold_linienrauheit_202nm.PNG used on input line 20.
 (pdftex.def)             Requested size: 289.0056pt x 257.1239pt.
 
-<Gold_flaechenrauheit_202nm_2.PNG, id=362, 525.46312pt x 441.90094pt>
+<Gold_flaechenrauheit_202nm_2.PNG, id=363, 525.46312pt x 441.90094pt>
 File: Gold_flaechenrauheit_202nm_2.PNG Graphic file (type png)
 
 <use Gold_flaechenrauheit_202nm_2.PNG>
@@ -1417,7 +1417,7 @@ Package pdftex.def Info: Gold_flaechenrauheit_202nm_2.PNG used on input line 27
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10.95> on input line 28.
 
-<Gold_flaechenrauheit_202nm_1.PNG, id=363, 526.21594pt x 444.91219pt>
+<Gold_flaechenrauheit_202nm_1.PNG, id=364, 526.21594pt x 444.91219pt>
 File: Gold_flaechenrauheit_202nm_1.PNG Graphic file (type png)
 
 <use Gold_flaechenrauheit_202nm_1.PNG>
@@ -1431,14 +1431,14 @@ Overfull \hbox (5.22949pt too wide) in paragraph at lines 26--37
 
 [18 <./Gold_linienrauheit_202nm.PNG> <./Gold_flaechenrauheit_202nm_2.PNG> <./Go
 ld_flaechenrauheit_202nm_1.PNG>]
-<Kante_5_oberflaeche.png, id=384, 329.23pt x 306.14375pt>
+<Kante_5_oberflaeche.png, id=385, 329.23pt x 306.14375pt>
 File: Kante_5_oberflaeche.png Graphic file (type png)
 
 <use Kante_5_oberflaeche.png>
 Package pdftex.def Info: Kante_5_oberflaeche.png used on input line 72.
 (pdftex.def)             Requested size: 213.99695pt x 198.99107pt.
 
-<Kante_5_2d.png, id=385, 328.22626pt x 220.825pt>
+<Kante_5_2d.png, id=386, 328.22626pt x 220.825pt>
 File: Kante_5_2d.png Graphic file (type png)
  <use Kante_5_2d.png>
 Package pdftex.def Info: Kante_5_2d.png used on input line 79.
@@ -1448,7 +1448,7 @@ Overfull \hbox (5.22949pt too wide) in paragraph at lines 71--83
 []$[]$   $[]$ 
  []
 
-[19] <defekt.png, id=395, 332.24126pt x 222.8325pt>
+[19] <defekt.png, id=396, 332.24126pt x 222.8325pt>
 File: defekt.png Graphic file (type png)
  <use defekt.png>
 Package pdftex.def Info: defekt.png used on input line 112.
@@ -1460,43 +1460,43 @@ Overfull \hbox (14.5442pt too wide) in paragraph at lines 118--1
  []
 
 ) (./anhang.tex [21 <./defekt.png>]
-<kante_1.png, id=408, 334.24875pt x 220.825pt>
+<kante_1.png, id=409, 334.24875pt x 220.825pt>
 File: kante_1.png Graphic file (type png)
  <use kante_1.png>
 Package pdftex.def Info: kante_1.png used on input line 5.
 (pdftex.def)             Requested size: 217.25911pt x 143.53453pt.
 
-<kante_2.png, id=409, 332.24126pt x 222.8325pt>
+<kante_2.png, id=410, 332.24126pt x 222.8325pt>
 File: kante_2.png Graphic file (type png)
  <use kante_2.png>
 Package pdftex.def Info: kante_2.png used on input line 12.
 (pdftex.def)             Requested size: 215.95424pt x 144.8394pt.
 
-<kante_3.png, id=410, 332.24126pt x 222.8325pt>
+<kante_3.png, id=411, 332.24126pt x 222.8325pt>
 File: kante_3.png Graphic file (type png)
  <use kante_3.png>
 Package pdftex.def Info: kante_3.png used on input line 18.
 (pdftex.def)             Requested size: 215.95424pt x 144.8394pt.
 
-<kante_4.png, id=411, 334.24875pt x 223.83624pt>
+<kante_4.png, id=412, 334.24875pt x 223.83624pt>
 File: kante_4.png Graphic file (type png)
  <use kante_4.png>
 Package pdftex.def Info: kante_4.png used on input line 25.
 (pdftex.def)             Requested size: 217.25911pt x 145.49182pt.
 
-<kante_8.png, id=412, 333.245pt x 224.84pt>
+<kante_8.png, id=413, 333.245pt x 224.84pt>
 File: kante_8.png Graphic file (type png)
  <use kante_8.png>
 Package pdftex.def Info: kante_8.png used on input line 31.
 (pdftex.def)             Requested size: 216.60667pt x 146.14426pt.
 
-<kante_10.png, id=413, 331.2375pt x 220.825pt>
+<kante_10.png, id=414, 331.2375pt x 220.825pt>
 File: kante_10.png Graphic file (type png)
  <use kante_10.png>
 Package pdftex.def Info: kante_10.png used on input line 38.
 (pdftex.def)             Requested size: 215.30182pt x 143.53453pt.
 
-<kante_11.png, id=414, 334.24875pt x 224.84pt>
+<kante_11.png, id=415, 334.24875pt x 224.84pt>
 File: kante_11.png Graphic file (type png)
  <use kante_11.png>
 Package pdftex.def Info: kante_11.png used on input line 44.
@@ -1577,10 +1577,10 @@ type1/public/lm/lmtt12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
 sfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
 fonts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/pxfo
 nts/rpxmi.pfb>
-Output written on RTM.pdf (24 pages, 1529390 bytes).
+Output written on RTM.pdf (24 pages, 1529234 bytes).
 PDF statistics:
- 525 PDF objects out of 1000 (max. 8388607)
- 417 compressed objects within 5 object streams
+ 526 PDF objects out of 1000 (max. 8388607)
+ 418 compressed objects within 5 object streams
  92 named destinations out of 1000 (max. 500000)
  355 words of extra memory for PDF output out of 10000 (max. 10000000)
 

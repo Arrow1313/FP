@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.11.19)  11 OCT 2015 02:51
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.11.19)  12 OCT 2015 15:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1273,56 +1273,160 @@ File: chopper_log.png Graphic file (type png)
 <use chopper_log.png>
 Package pdftex.def Info: chopper_log.png used on input line 21.
 (pdftex.def)             Requested size: 476.98347pt x 235.15285pt.
- [7 <./chopper_lin.png>]) (./eichung.tex [8 <./chopper_log.png>]) (./weisslicht
-position.tex [9]
-<weisslichtpunkt_4,77.png, id=237, 1445.4pt x 712.5822pt>
+ [7 <./chopper_lin.png>]) (./eichung.tex [8 <./chopper_log.png>] <eichung_laser
+.png, id=229, 1445.4pt x 712.5822pt>
+File: eichung_laser.png Graphic file (type png)
+
+<use eichung_laser.png>
+Package pdftex.def Info: eichung_laser.png used on input line 14.
+(pdftex.def)             Requested size: 476.98347pt x 235.15285pt.
+
+<laser_interferogram.png, id=232, 1445.4pt x 712.5822pt>
+File: laser_interferogram.png Graphic file (type png)
+
+<use laser_interferogram.png>
+Package pdftex.def Info: laser_interferogram.png used on input line 44.
+(pdftex.def)             Requested size: 476.98347pt x 235.15285pt.
+ [9 <./eichung_laser.png>])
+(./weisslichtposition.tex [10 <./laser_interferogram.png>]
+<weisslichtpunkt_4,77.png, id=255, 1445.4pt x 712.5822pt>
 File: weisslichtpunkt_4,77.png Graphic file (type png)
 
 <use weisslichtpunkt_4,77.png>
 Package pdftex.def Info: weisslichtpunkt_4,77.png used on input line 8.
 (pdftex.def)             Requested size: 476.98347pt x 235.15285pt.
 
-<weisslichtpunkt_5,8.png, id=238, 1445.4pt x 712.5822pt>
+<weisslichtpunkt_5,8.png, id=256, 1445.4pt x 712.5822pt>
 File: weisslichtpunkt_5,8.png Graphic file (type png)
 
 <use weisslichtpunkt_5,8.png>
 Package pdftex.def Info: weisslichtpunkt_5,8.png used on input line 15.
 (pdftex.def)             Requested size: 476.98347pt x 235.15285pt.
-) (./schmalbandinterferogramm.tex [10 <./weisslichtpunkt_4,77.png> <./weisslich
-tpunkt_5,8.png>]
-<filter_weiss.png, id=249, 1445.4pt x 712.5822pt>
+ [11 <./weisslichtpunkt_4,77.png>])
+(./schmalbandinterferogramm.tex
+<filter_weiss.png, id=266, 1445.4pt x 712.5822pt>
 File: filter_weiss.png Graphic file (type png)
  <use filter_weiss.png>
 Package pdftex.def Info: filter_weiss.png used on input line 7.
 (pdftex.def)             Requested size: 476.98347pt x 235.15285pt.
-)
-(./Schwebung.tex) (./fazit.tex) (./anhang.tex
-<eichung_weisslicht_4,75.png, id=254, 1445.4pt x 712.5822pt>
+
+[12 <./weisslichtpunkt_5,8.png>]) (./Schwebung.tex
+<Schwebung_Daten.pdf, id=277, 1445.4pt x 714.56966pt>
+File: Schwebung_Daten.pdf Graphic file (type pdf)
+
+<use Schwebung_Daten.pdf>
+Package pdftex.def Info: Schwebung_Daten.pdf used on input line 5.
+(pdftex.def)             Requested size: 484.38477pt x 271.53929pt.
+
+Overfull \hbox (0.6879pt too wide) in paragraph at lines 5--6
+ [][] 
+ []
+
+[13 <./filter_weiss.png>]
+<Wellenzahlen50-350SchwebungohneFenster.pdf, id=287, 1445.4pt x 714.56966pt>
+File: Wellenzahlen50-350SchwebungohneFenster.pdf Graphic file (type pdf)
+
+<use Wellenzahlen50-350SchwebungohneFenster.pdf>
+Package pdftex.def Info: Wellenzahlen50-350SchwebungohneFenster.pdf used on inp
+ut line 12.
+(pdftex.def)             Requested size: 484.38477pt x 271.53929pt.
+
+Overfull \hbox (0.6879pt too wide) in paragraph at lines 12--13
+ [][] 
+ []
+
+[14 <./Schwebung_Daten.pdf>]
+<Wellenzahlen260-340SchwebungohneFenster.pdf, id=339, 1445.4pt x 714.56966pt>
+File: Wellenzahlen260-340SchwebungohneFenster.pdf Graphic file (type pdf)
+
+<use Wellenzahlen260-340SchwebungohneFenster.pdf>
+Package pdftex.def Info: Wellenzahlen260-340SchwebungohneFenster.pdf used on in
+put line 19.
+(pdftex.def)             Requested size: 484.38477pt x 271.53929pt.
+
+Overfull \hbox (0.6879pt too wide) in paragraph at lines 19--20
+ [][] 
+ []
+
+
+<Wellenzahlen50-350SchwebungmitFenster(0,5*(1-cos)).pdf, id=344, 1445.4pt x 714
+.56966pt>
+File: Wellenzahlen50-350SchwebungmitFenster(0,5*(1-cos)).pdf Graphic file (type
+ pdf)
+ <use Wellenzahlen50-350SchwebungmitFenster(0,5*(1-cos)).pdf>
+Package pdftex.def Info: Wellenzahlen50-350SchwebungmitFenster(0,5*(1-cos)).pdf
+ used on input line 27.
+(pdftex.def)             Requested size: 484.38477pt x 271.53929pt.
+
+Overfull \hbox (0.6879pt too wide) in paragraph at lines 27--28
+ [][] 
+ []
+
+[15 <./Wellenzahlen50-350SchwebungohneFenster.pdf> <./Wellenzahlen260-340Schweb
+ungohneFenster.pdf>]
+<Wellenzahlen50-350SchwebungmitFenster(0,5*(1-cos))**4.pdf, id=447, 1445.4pt x 
+714.56966pt>
+File: Wellenzahlen50-350SchwebungmitFenster(0,5*(1-cos))**4.pdf Graphic file (t
+ype pdf)
+ <use Wellenzahlen50-350SchwebungmitFenster(0,5*(1-cos))**4.pdf>
+Package pdftex.def Info: Wellenzahlen50-350SchwebungmitFenster(0,5*(1-cos))**4.
+pdf used on input line 33.
+(pdftex.def)             Requested size: 242.19238pt x 135.76964pt.
+
+Overfull \hbox (5.17827pt too wide) in paragraph at lines 33--34
+[][] 
+ []
+
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10.95> on input line 34.
+
+<Wellenzahlen50-350SchwebungmitFenster(0,5*(1-cos))**10.pdf, id=449, 1445.4pt x
+ 714.56966pt>
+File: Wellenzahlen50-350SchwebungmitFenster(0,5*(1-cos))**10.pdf Graphic file (
+type pdf)
+ <use Wellenzahlen50-350SchwebungmitFenster(0,5*(1-cos))**10.pdf>
+Package pdftex.def Info: Wellenzahlen50-350SchwebungmitFenster(0,5*(1-cos))**10
+.pdf used on input line 39.
+(pdftex.def)             Requested size: 242.19238pt x 135.76964pt.
+
+Overfull \hbox (5.17827pt too wide) in paragraph at lines 39--40
+[][] 
+ []
+
+
+Overfull \hbox (5.22949pt too wide) in paragraph at lines 32--43
+[][]   [] 
+ []
+
+) (./fazit.tex [16 <./Wellenzahlen50-350SchwebungmitFenster(0,5*(1-cos)).pdf> <
+./Wellenzahlen50-350SchwebungmitFenster(0,5*(1-cos))**4.pdf> <./Wellenzahlen50-
+350SchwebungmitFenster(0,5*(1-cos))**10.pdf>]) (./anhang.tex
+<eichung_weisslicht_4,75.png, id=607, 1445.4pt x 712.5822pt>
 File: eichung_weisslicht_4,75.png Graphic file (type png)
 
 <use eichung_weisslicht_4,75.png>
 Package pdftex.def Info: eichung_weisslicht_4,75.png used on input line 9.
 (pdftex.def)             Requested size: 476.98347pt x 235.15285pt.
- [11 <./filter_weiss.png>]
-<eichung_weisslicht_5,77.png, id=264, 1445.4pt x 712.5822pt>
+
+<eichung_weisslicht_5,77.png, id=610, 1445.4pt x 712.5822pt>
 File: eichung_weisslicht_5,77.png Graphic file (type png)
 
 <use eichung_weisslicht_5,77.png>
 Package pdftex.def Info: eichung_weisslicht_5,77.png used on input line 30.
 (pdftex.def)             Requested size: 476.98347pt x 235.15285pt.
- [12 <./eichung_weisslicht_4,75.png>]
-<Eichdaten_Schwebung.pdf, id=275, 1445.4pt x 714.56966pt>
+ [17 <./eichung_weisslicht_4,75.png>]
+<Eichdaten_Schwebung.pdf, id=618, 1445.4pt x 714.56966pt>
 File: Eichdaten_Schwebung.pdf Graphic file (type pdf)
 
 <use Eichdaten_Schwebung.pdf>
 Package pdftex.def Info: Eichdaten_Schwebung.pdf used on input line 50.
 (pdftex.def)             Requested size: 476.98347pt x 235.80872pt.
-)
+) [18 <./eichung_weisslicht_5,77.png>]
 LaTeX Font Info:    Try loading font information for T1+lmtt on input line 54.
- (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
+
+(/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-[13 <./eichung_weisslicht_5,77.png> <./Eichdaten_Schwebung.pdf>]
 Overfull \hbox (4.80453pt too wide) in paragraph at lines 55--55
 []\T1/lmr/m/it/12 Aufbau ei-nes Michelson-Interferometer-Versuchs\T1/lmr/m/n/12
  . \T1/lmr/m/sc/12 url\T1/lmr/m/n/12 : []$\T1/lmtt/m/n/12 https : / / moodle2 .
@@ -1330,9 +1434,10 @@ Overfull \hbox (4.80453pt too wide) in paragraph at lines 55--55
  []
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 56.
-[14]
+[19 <./Eichdaten_Schwebung.pdf>]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 56.
- (./Michelson_Interferometrie.aux (./deckblatt.aux))
+ (./Michelson_Interferometrie.aux
+(./deckblatt.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 56.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 56.
 Package rerunfilecheck Info: File `Michelson_Interferometrie.out' has not chang
@@ -1344,30 +1449,32 @@ Package logreq Info: Writing requests to 'Michelson_Interferometrie.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 56.
  ) 
 Here is how much of TeX's memory you used:
- 22298 strings out of 493304
- 415697 string characters out of 6139870
+ 22385 strings out of 493304
+ 418303 string characters out of 6139870
  569759 words of memory out of 5000000
- 25328 multiletter control sequences out of 15000+600000
- 70112 words of font info for 53 fonts, out of 8000000 for 9000
+ 25388 multiletter control sequences out of 15000+600000
+ 80146 words of font info for 61 fonts, out of 8000000 for 9000
  961 hyphenation exceptions out of 8191
- 39i,11n,48p,10437b,1532s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 39i,11n,48p,10437b,1369s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
-ips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share
-/texmf/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm
--mathit.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texm
+ips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share
+/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm
+-mathex.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texm
 f/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lme
-x10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fo
-nts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb
-></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1
-/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/sh
-are/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public
-/lm/lmsy6.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/tex
-mf/fonts/type1/public/lm/lmtt12.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/symbols/msbm10.pfb>
-Output written on Michelson_Interferometrie.pdf (15 pages, 1072869 bytes).
+x10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fo
+nts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi6.pf
+b></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/typ
+e1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/
+share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public
+/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/share/tex
+mf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lms
+y6.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/font
+s/type1/public/lm/lmtt12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/symbols/msbm10.pfb>
+Output written on Michelson_Interferometrie.pdf (20 pages, 2005561 bytes).
 PDF statistics:
- 414 PDF objects out of 1000 (max. 8388607)
- 316 compressed objects within 4 object streams
- 71 named destinations out of 1000 (max. 500000)
- 205 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 775 PDF objects out of 1000 (max. 8388607)
+ 434 compressed objects within 5 object streams
+ 85 named destinations out of 1000 (max. 500000)
+ 281 words of extra memory for PDF output out of 10000 (max. 10000000)
 
