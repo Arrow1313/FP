@@ -4,15 +4,48 @@ Das Interferogramm ist in Abbildung \ref{fig:filter_weiss} zu sehen.
 
 \begin{figure}[H]
 \centering
-\includegraphics[scale = 0.33]{filter_weiss.png}
+\includegraphics[scale = 0.32]{filter_weiss.png}
 \caption{Interferogramm für den Muffelofen mit Schmalbandfilter. Die grünen Linien markieren den Bereich für die Bestimmung der Wellenlänge, die rote Linie markiert die Nulllage}
 \label{fig:filter_weiss}
 \end{figure}
 
-Aus den Interferrogramm ergeben sich die Werte in Tabelle ??. Es wurde ein kleines Intervall um den Weißlichtpunkt gewählt, da in diesem Bereich die Abstände zwischen den Peaks regelmäßig sind.
+Aus den Interferrogramm ergeben sich die Werte in Tabelle \ref{tab:parameter_filter}. Es wurde ein kleines Intervall um den Weißlichtpunkt gewählt, da in diesem Bereich die Abstände zwischen den Peaks regelmäßig sind. Aus den Werten ergibt sich eine Wellenlänge von 2.91(5)$\mu$m, dieser Wert weicht um 39,82\% vom Literaturwert von 3,31$\mu$m ab (Quelle:\cite{Staatsex_Michels}). Mit diesem Wert lässt sich der Parameter b aus Gleichung \ref{eqn:B_schmalband} bestimmten.
 
-\begin{table}
+\begin{align}
+b = \frac{2 \pi}{\lambda} = 1.988(3) \frac{1}{\mu m}
+\end{align}
+
+\begin{table}[H]
 \centering
 \caption{Messwerte für die Bestimmung der Wellenlänge des Weißlichtpunkts}
 \label{tab:parameter_filter}
+\begin{tabular}{|c|c|c|c|}
+\hline x$_1$ / mm & x$_2$ / mm & s / mm & n \\ 
+\hline 5,7485(3) & 5,7881(3) & 0,0396(4) & 5 \\ 
+\hline 
+\end{tabular} 
 \end{table}
+
+Für die Bestimmung des 1/e-Abfalls wird die Position des Weißlichtpunkts verwendet. Die Amplitude am Weißlichtpunkt beträgt ca. 0,57 V. Das Minimum des Interferogramms liegt bei ca. 0,4. Der 1/e-Abfall ergibt sich bei einer Position von 5.805(3) $\mu$m mit einer Amplitude von 0,208 V erreicht. Dadurch ergibt sich eine Breite des 1/e-Abfalls von 0,35(2) mm. Aus den Werten lässt sich die spektrale Verteilung des Ofens bestimmen. Die Wellenzahlen ergeben sich mit: 
+
+\begin{align}
+\bar{\nu_1} = b - \frac{2}{a} = 1,93(4) \mu m\\
+\bar{\nu_2} = b - \frac{2}{a} = 2,04(4) \mu m
+\end{align}
+
+Aus den beiden Werten lässt sich nach \cite{Staatsex_Michels} die e$^{-1}$-Breite $\Delta \lambda$ des Schmalbandfilters bestimmen.
+
+\begin{align}
+\Delta \lambda = \frac{1}{\bar{\nu_1}} - \frac{1}{\bar{\nu_2}}= 0,289(8) \mu m
+\end{align}
+
+Erwartet wurde ein Wert von 0,060 $\mu$m \cite{Staatsex_Michels}. Der Bestimmte Wert liegt ca. eine Größenordnung über halb des theoretischen Wertes, dies kommt wahrscheinlich von dem ungenau bestimmten a. 
+
+Aus den beiden Parametern a und b ergibt sich die spektrale Verteilung des Muffelofen in Abbildung \ref{fig:spektrum_filter}.
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale = 0.33]{verteilung_filter.png}
+\caption{Spektrale Verteilung des Schmalbandfilters}
+\label{fig:spektrum_filter}
+\end{figure}
