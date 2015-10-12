@@ -49,3 +49,26 @@ Aus den beiden Parametern a und b ergibt sich die spektrale Verteilung des Muffe
 \caption{Spektrale Verteilung des Schmalbandfilters}
 \label{fig:spektrum_filter}
 \end{figure}
+
+Zum Schluss soll erwähnt werden, dass bei Anwendung einer FFT, eines Algorithmusses für die diskrete Fouriertransformation, ein ähnliches Ergebnis zustande kommt. Da die FFT für periodische Signale geeignet ist, kann zur Rauschunterdrückung eine sogenannte Fensterfunktion verwendet werden, welche das Signal 'sanft' ein und ausblendet. Das FFT-Spektrum ohne Fensterfunktion ist in Abbildung \ref{fig:fftfilterinterferogramm_ohne_fenster} dargestellt.
+\begin{figure}[H]
+\centering
+\includegraphics[scale = 0.38, clip = true, trim = 3cm 0cm 3cm 0cm]{Wellenzahlen200-400FilterohneFenster}
+\caption{Diskrete Fouriertransformation des Filterinterferogramms für Wellenzahlen ($1/\lambda$) von \SI{200}{$\frac{1}{mm}$} bis \SI{400}{$\frac{1}{mm}$}  ohne Fensterfunktion (verrauscht)}
+\label{fig:fftfilterinterferogramm_ohne_fenster}
+\end{figure}
+Man sieht, dass die Wellenzahl \SI{300(2)}{$\frac{1}{mm}$} im Spektrum vertreten ist, welche einer Wellenlänge von \SI{3,33(2)}{$\mu$m} entspricht. Beim ein und Ausblenden des Signals mit den Funktionen $f(x)=(\frac{1-\cos(\frac{2 \pi x}{L})}{2})$ und $f(x)=(\frac{1-\cos(\frac{2 \pi x}{L})}{2})^4$, um das Rauschen durch die Nichtperiodizität zu unterdrücken, wird diese Wellenzahl jedoch herausgefiltert. Die beiden Spektren, welche durch Anwendung der beiden Filterfunktionen entstehen, sind in den Abbildungen \ref{fig:fftfilterinterferogramm_k_1} und \ref{fig:fftfilterinterferogramm_k_4} dargestellt.
+\begin{figure}[H]
+\begin{subfigure}[t]{0.49\textwidth}
+\includegraphics[scale = 0.19, clip = true, trim = 3cm 0cm 3cm 0cm]{Wellenzahlen200-400FiltermitFenster(0,5*(1-cos))}
+\caption{Diskrete Fouriertransformation des Filterinterferogramms für Wellenzahlen ($1/\lambda$) von \SI{200}{$\frac{1}{mm}$} bis \SI{400}{$\frac{1}{mm}$} mit Fensterfunktion\\$f(x)=(\frac{1-\cos(\frac{2 \pi x}{L})}{2})$}
+\label{fig:fftfilterinterferogramm_k_1}
+\end{subfigure}
+\hspace{0.02\textwidth}
+\begin{subfigure}[t]{0.49\textwidth}
+\includegraphics[scale = 0.19, clip = true, trim = 3cm 0cm 3cm 0cm]{Wellenzahlen200-400FiltermitFenster(0,5*(1-cos))**4}
+\caption{Diskrete Fouriertransformation des Filterinterferogramms für Wellenzahlen ($1/\lambda$) von \SI{200}{$\frac{1}{mm}$} bis \SI{400}{$\frac{1}{mm}$} mit Fensterfunktion\\$f(x)=(\frac{1-\cos(\frac{2 \pi x}{L})}{2})^4$}
+\label{fig:fftfilterinterferogramm_k_4}
+\end{subfigure}
+\end{figure}
+Man sieht, dass der größte Peak, mit der Fensterfunktion $f(x)=(\frac{1-\cos(\frac{2 \pi x}{L})}{2})^k$ ($k=1,4$) bei einer Wellenzahl von \SI{345(2)}{$\frac{1}{mm}$} liegt, was einer Wellenlänge von \SI{2,90(2)}{$\mu$m} entspricht. Diese stimmt mit der manuell bestimmten Wellenlänge von \SI{2,91(5)}{$\mu$m} zu \SI{99,7}{\percent} überein. Dieses Ergebnis spricht für die Konsistenz der manuellen Messung.
