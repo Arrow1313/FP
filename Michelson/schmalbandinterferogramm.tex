@@ -1,6 +1,6 @@
 \section{Analyse des Schmalbandinterferogramms}
 \label{sec:filter}
-Der Wellenlängenbereich des Muffelofen wird mit einem Schmalbandfilter reduziert. Da durch die Filterung auch die Intensität verringert wird, muss die Verstärkung des Log-In-Verstärkers korrigiert werden. Aufgrund des Filters wird eine gedämpfte Cosinus-Schwingung symmetrisch um den Weißlichtpunkt des Muffelofen erwartet. Aus dem aufgenommen Interferogramm soll die Wellenlänge der maximalen Transmission und die Breite des 1/e-Abfalls der Einhüllenden bestimmt werden. Mit diesen beiden Werten kann die Breite des Schmalbandfilters bestimmt werden.
+Der Wellenlängenbereich des Muffelofen wird mit einem Schmalbandfilter reduziert. Da durch die Filterung auch die Intensität verringert wird, muss die Verstärkung des Lock-In-Verstärkers korrigiert werden. Aufgrund des Filters wird eine gedämpfte Cosinus-Schwingung symmetrisch um den Weißlichtpunkt des Muffelofen erwartet. Aus dem aufgenommen Interferogramm soll die Wellenlänge der maximalen Transmission und die Breite des 1/e-Abfalls der Einhüllenden bestimmt werden. Mit diesen beiden Werten kann die Breite des Schmalbandfilters bestimmt werden.
 Das Interferogramm ist in Abbildung \ref{fig:filter_weiss} zu sehen. 
 
 \begin{figure}[H]
@@ -10,10 +10,10 @@ Das Interferogramm ist in Abbildung \ref{fig:filter_weiss} zu sehen.
 \label{fig:filter_weiss}
 \end{figure}
 
-Aus den Interferrogramm ergeben sich die Werte in Tabelle \ref{tab:parameter_filter}. Es wurde ein kleines Intervall um den Weißlichtpunkt gewählt, da in diesem Bereich die Abstände zwischen den Peaks regelmäßig sind. Aus den Werten ergibt sich eine Wellenlänge von 2.91(5)$\mu$m, dieser Wert weicht um 39,82\% vom Literaturwert von 3,31$\mu$m ab (Quelle:\cite{Staatsex_Michels}). Mit diesem Wert lässt sich der Parameter b aus Gleichung \ref{eqn:B_schmalband} bestimmten.
+Aus den Interferrogramm ergeben sich die Werte in Tabelle \ref{tab:parameter_filter}. Es wurde ein kleines Intervall um den Weißlichtpunkt gewählt, da in diesem Bereich die Abstände zwischen den Peaks regelmäßig sind. Aus den Werten ergibt sich eine Wellenlänge von 2.91(5)$\mu$m, welche um ca. 12\% vom Literaturwert von 3,31$\mu$m abweicht (Quelle:\cite{Staatsex_Michels}). Mit diesem Wert lässt sich der Parameter $2\pi b$ aus Gleichung \ref{eqn:B_schmalband} bestimmen.
 
 \begin{align}
-b = \frac{2 \pi}{\lambda} = 1.988(3) \frac{1}{\mu m}
+2\pi b = \frac{2 \pi}{\lambda} = \SI{2,159(4)}{$\frac{1}{\mu m}$}
 \end{align}
 
 \begin{table}[H]
@@ -27,21 +27,20 @@ b = \frac{2 \pi}{\lambda} = 1.988(3) \frac{1}{\mu m}
 \end{tabular} 
 \end{table}
 
-Für die Bestimmung des 1/e-Abfalls wird die Position des Weißlichtpunkts verwendet. Die Amplitude am Weißlichtpunkt beträgt ca. 0,57 V. Das Minimum des Interferogramms liegt bei ca. 0,4. Der 1/e-Abfall ergibt sich bei einer Position von 5.805(3) $\mu$m mit einer Amplitude von 0,208 V erreicht. Dadurch ergibt sich eine Breite des 1/e-Abfalls von 0,35(2) mm. Aus den Werten lässt sich die spektrale Verteilung des Ofens bestimmen. Die Wellenzahlen ergeben sich mit: 
-
+Für die Bestimmung des 1/e-Abfalls wird die Position des Weißlichtpunkts verwendet. Die Amplitude am Weißlichtpunkt beträgt ca. \SI{0,57}{V}. Das Minimum des Interferogramms liegt bei ca. \SI{0,4}{V}. Der 1/e-Abfall ergibt sich bei einer Position von \SI{5,805(3)}{mm} mit einer Amplitude von \SI{0,208}{V}. Dadurch ergibt sich eine halbe Breite des 1/e-Abfalls von \SI{0,035(2)}{mm}. Der Parameter a hat somit den Wert
 \begin{align}
-\bar{\nu_1} = b - \frac{2}{a} = 1,93(4) \mu m^{-1}\\
-\bar{\nu_2} = b - \frac{2}{a} = 2,04(4) \mu m^{-1}
+a  = \SI{0,0129(1)}{mm}
 \end{align}
-
+Aus den Werten lässt sich die spektrale Verteilung des Ofens bestimmen. Die Wellenzahlen ($\bar{\nu_i} = 2\pi/\lambda_i$) ergeben sich mit: 
+\begin{align}
+\bar{\nu_1} = 2\pi b - \frac{2}{a} = 2.003(4) \mu m^{-1}\\
+\bar{\nu_2} = 2\pi b + \frac{2}{a} = 2,314(4) \mu m^{-1}
+\end{align}
 Aus den beiden Werten lässt sich nach \cite{Staatsex_Michels} die e$^{-1}$-Breite $\Delta \lambda$ des Schmalbandfilters bestimmen.
-
 \begin{align}
-\Delta \lambda = \frac{1}{\bar{\nu_1}} - \frac{1}{\bar{\nu_2}}= 0,289(8) \mu m
+\Delta \lambda = \frac{1}{\bar{\nu_1}} - \frac{1}{\bar{\nu_2}}= 0,067(8) \mu m
 \end{align}
-
-Erwartet wurde ein Wert von 0,060 $\mu$m \cite{Staatsex_Michels}. Der Bestimmte Wert liegt ca. eine Größenordnung über halb des theoretischen Wertes, dies kommt wahrscheinlich von dem ungenau bestimmten a. 
-
+Erwartet wurde ein Wert von 0,060 $\mu$m \cite{Staatsex_Michels}. Der Bestimmte Wert weicht nur um ca. 12\% vom erwarteten Wert ab, sodass diese Messung als gut angesehen werden kann.
 Aus den beiden Parametern a und b ergibt sich die spektrale Verteilung des Muffelofen in Abbildung \ref{fig:spektrum_filter}.
 
 \begin{figure}[H]
