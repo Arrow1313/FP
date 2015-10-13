@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.11.19)  13 OCT 2015 22:05
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.11.19)  13 OCT 2015 22:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1304,11 +1304,11 @@ Package pdftex.def Info: weisslichtpunkt_5,8.png used on input line 15.
 (pdftex.def)             Requested size: 476.98347pt x 235.62984pt.
  [11 <./weisslichtpunkt_4,77.png>])
 (./schmalbandinterferogramm.tex
-<filter_weiss.png, id=280, 1445.4pt x 714.0276pt>
+<filter_weiss.png, id=280, 1445.4pt x 712.5822pt>
 File: filter_weiss.png Graphic file (type png)
  <use filter_weiss.png>
 Package pdftex.def Info: filter_weiss.png used on input line 8.
-(pdftex.def)             Requested size: 462.53746pt x 228.4935pt.
+(pdftex.def)             Requested size: 462.53746pt x 228.03096pt.
 
 [12 <./weisslichtpunkt_5,8.png>] [13 <./filter_weiss.png>]
 <verteilung_filter.png, id=303, 1445.4pt x 714.0276pt>
@@ -1539,7 +1539,7 @@ mf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lms
 y6.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/font
 s/type1/public/lm/lmtt12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
 amsfonts/symbols/msbm10.pfb>
-Output written on Michelson_Interferometrie.pdf (24 pages, 2245435 bytes).
+Output written on Michelson_Interferometrie.pdf (24 pages, 2217629 bytes).
 PDF statistics:
  986 PDF objects out of 1000 (max. 8388607)
  525 compressed objects within 6 object streams
