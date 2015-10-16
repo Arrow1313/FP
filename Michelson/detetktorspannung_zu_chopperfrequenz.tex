@@ -1,6 +1,6 @@
-\section{Detektorspannung in Abhängigkeit der Chopperfrequenz}
+\subsection{Detektorspannung in Abhängigkeit der Chopperfrequenz}
 \label{sec:chopper}
-Zuerst soll der Zusammenhang zwischen der Detektorspannung U und der Chopperfrequenz f untersucht werden. Die Chopperfrequenz wird im Bereich von 20Hz bis 50Hz variiert. Bei Werten unter 20Hz ist die Schwankung der Werte zu groß, so dass die Signale nicht vom Untergrund unterschieden werden können. Die Detektorspannung wird am Lock-In-Verstärker abgelesen. Es wurde ein Fehler von 40-10 nV angenommen, je nach Schwankung der Nadel. Der Plot der Messdaten mit linearen Achsen ist in Abbildung \ref{fig:chopper_lin} zu sehen. In Abbildung \ref{fig:chopper_log} sind die Messdaten mit doppelt logarithmischen Achsen geplotted. Da ein linearer Zusammenhang zwischen log(U) und log(f) zu sehen ist, werden die Messdaten mit  Gleichung \ref{eqn:chopperfit} gefitted.
+Zuerst soll der Zusammenhang zwischen der Detektorspannung U und der Chopperfrequenz f untersucht werden. Die Chopperfrequenz wird im Bereich von 10Hz bis 50Hz variiert. Bei Werten unter 10Hz ist die Schwankung der Werte zu groß, so dass die Signale nicht vom Untergrund unterschieden werden können. Die Detektorspannung wird am Lock-In-Verstärker abgelesen. Es wurde ein Fehler von 40-10 mV angenommen, je nach Schwankung der Nadel. Der Plot der Messdaten mit linearen Achsen ist in Abbildung \ref{fig:chopper_lin} zu sehen. In Abbildung \ref{fig:chopper_log} sind die Messdaten mit doppelt logarithmischen Achsen geplottet. Da ein linearer Zusammenhang zwischen log(U) und log(f) zu sehen ist, werden die Messdaten mit  Gleichung \ref{eqn:chopperfit} gefittet.
 
 \begin{align}
 \label{eqn:chopperfit}
@@ -36,4 +36,4 @@ Dabei sind A und B freie Parameter, die durch den Fit bestimmt werden. Das Ergeb
 \end{tabular} 
 \end{table}
 
-Das $\chi_{red}^2$ von 1,22 spricht dafür, das der Zusammenhang zwischen der Chopperfrequenz und der Spannung gut durch das Modell beschrieben wird. Bei kleine Frequenzen erreicht der Detektor eine Sättigung und bei großen dominiert Trägheit des pyroelektrischen Detektor. Deshalb wird eine Chopperfrequenz von 30Hz gewählt, um möglichst einen linearen Zusammenhang zu bekommen.
+Das $\chi_{red}^2$ von 1,22 spricht dafür, das der Zusammenhang zwischen der Chopperfrequenz und der Spannung gut durch das Modell beschrieben wird. Bei kleine Frequenzen erreicht der Detektor eine Sättigung. Aus der bestimmten Parameter A folgt, dass die Spannung proportional zu 1/f ist. Für die folgenden Versuchsteil wird eine Chopperfrequenz von 30Hz verwendet.

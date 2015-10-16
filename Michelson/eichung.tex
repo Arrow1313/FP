@@ -1,12 +1,12 @@
-\section{Eichung und Bestimmung der Wellenlänge des Lasers}
+\subsection{Kalibrierung und Bestimmung der Wellenlänge des Lasers}
 In diesem Abschnitt soll das Übersetzungsverhältnis zwischen Schraube und Spiegel und die Wellenlänge des Lasers bestimmt werden. Zuvor muss noch die x-Position in Lab-View und der Millimeterschraube geeicht werden.
 
-\subsection{Eichung}
+\subsubsection{Kalibrierung}
 \label{Eichung}
-Die x-Werte in Lab-View müssen den realen Positionen der Millimeterschraube zugeordnet werden. Bei der Bestimmung wird von einem linearem Zusammenhang ausgegangen. Für die Eichung wird die Schraube gedreht, dabei wird in regelmäßigen Abständen die Position im Interferogramm mit Lab-View aufgenommen. Der Fehler der Schraubenposition wird mit 0,5$\mu$m angenommen (eine halbe Skaleneinheit). Für den Fit wurde Gleichung \ref{eqn:lin_fit} verwendet, A beschreibt dabei die Steigung und B das Offset. Der ist in Abbildung \ref{fig:eichung_laser} zu sehen. Aus dem Fit ergebe sich die Parameter in Tabelle \ref{tab:eichung_laser}.
+Die x-Werte in Lab-View müssen den realen Positionen der Millimeterschraube zugeordnet werden. Bei der Bestimmung wird von einem linearem Zusammenhang ausgegangen. Für die Kalibrierung wird die Schraube gedreht, dabei wird in regelmäßigen Abständen die Position im Interferogramm mit Lab-View aufgenommen. Der Fehler der Schraubenposition wird mit 5$\mu$m angenommen (eine halbe Skaleneinheit). Für den Fit wurde Gleichung \ref{eqn:lin_fit} verwendet, A beschreibt dabei die Steigung und B das Offset. Der ist in Abbildung \ref{fig:eichung_laser} zu sehen. Aus dem Fit ergebe sich die Parameter in Tabelle \ref{tab:eichung_laser}.
 \begin{align}
 \label{eqn:lin_fit}
-f(x) = A \cdot x + B
+S(x) = A \cdot x + B
 \end{align}
 
 \begin{figure}[H]
@@ -30,11 +30,11 @@ f(x) = A \cdot x + B
 \end{table}
 
 \subsection{Bestimmung der Wellenlänge des Lasers}
-Mit der zuvor durchgeführten Eichung kann nun die Wellenlänge $\lambda$ des Lasers bestimmt werden. Die Wellenlänge wird aus dem Gangunterschied s, der Anzahl der Interferenzmaxima n und dem Übersetzungsverhältnis k bestimmt. Für das Übersetzungsverhältnis wird ein Wert von k=5 angenommen. Die Wellenlänge ergibt sich nach Gleichung \ref{eqn:wellenlaenge}.
+Mit der zuvor durchgeführten Kalibrierung kann nun die Wellenlänge $\lambda$ des Lasers bestimmt werden. Die Wellenlänge wird aus dem Gangunterschied s, der Anzahl der Interferenzmaxima n und dem Übersetzungsverhältnis k bestimmt. Für das Übersetzungsverhältnis wird ein Wert von k=5 angenommen. Die Wellenlänge ergibt sich nach Gleichung \ref{eqn:wellenlaenge}.
 
 \begin{align}
 \label{eqn:wellenlaenge}
-\lambda = \frac{2s}{5n}
+\lambda = \frac{2s}{kn}
 \end{align}
 
 Das aufgenommen Interferogramm ist in Abbildung \ref{fig:laser} zu sehen.
@@ -46,7 +46,7 @@ Das aufgenommen Interferogramm ist in Abbildung \ref{fig:laser} zu sehen.
 \label{fig:laser}
 \end{figure}
 
-Mit der zuvor durchgeführten Eichung wird der Gangunterschied der x-Position in eine reelle Wegdifferenz umgerechnet, der Fehler ergibt sich nach Fehlerfortpflanzung auf die Geradengleichung. Die Anzahl der Maxima wurde als Fehlerlos angenommen. Die Messdaten sind in Tabelle \ref{tab:wellenlaenge} eingetragen. Aus den bestimmten Wellenlängen ergibt sich ein Mittelwert von 3.732(9) $\mu$m. 
+Mit der zuvor durchgeführten Kalibrierung wird der Gangunterschied der x-Position in eine reelle Wegdifferenz umgerechnet, der Fehler ergibt sich nach Fehlerfortpflanzung auf die Geradengleichung. Die Anzahl der Maxima wurde als Fehlerlos angenommen. Die Messdaten sind in Tabelle \ref{tab:wellenlaenge} eingetragen. Aus den bestimmten Wellenlängen ergibt sich ein Mittelwert von 3.732(9) $\mu$m. 
 
 \begin{table}
 \centering
@@ -69,7 +69,7 @@ Mit der zuvor durchgeführten Eichung wird der Gangunterschied der x-Position in 
 \end{table}
 
 
-Um ein besseres Ergebnis zu erhalten, wird das eigentliche Übersetzungsverhältnis $k_e$ mit Gleichung \ref{eqn:uebersetzungsverhaeltniss} bestimmt. Dabei wurde für $\lambda$ der Literaturwert von 3,39$\mu$m verwendet (vgl. \ref{eqn:uebersetzungsverhaeltniss}). Der korrigierte Übersetzungsfaktor ergibt sich mit 5.42(1).
+Um ein besseres Ergebnis zu erhalten, wird das eigentliche Übersetzungsverhältnis $k_e$ mit Gleichung \ref{eqn:uebersetzungsverhaeltniss} bestimmt. Dabei wurde für $\lambda$ der Literaturwert von 3,39$\mu$m verwendet (vgl. \ref{eqn:uebersetzungsverhaeltniss}). Der korrigierte Übersetzungsfaktor ergibt sich mit 5.42(1). In den nachfolgenden Versuchsteilen wird das korrigierte Übersetzungsverhältnis verwendet.
 
 \begin{align}
 \label{eqn:uebersetzungsverhaeltniss}
