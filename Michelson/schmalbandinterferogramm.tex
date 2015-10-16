@@ -10,7 +10,7 @@ Das Interferogramm ist in Abbildung \ref{fig:filter_weiss} zu sehen.
 \label{fig:filter_weiss}
 \end{figure}
 
-Aus den Interferogramm ergeben sich die Werte in Tabelle \ref{tab:parameter_filter}. Es wurde ein kleines Intervall um den Weißlichtpunkt gewählt (grüne Striche), da in diesem Bereich die Abstände zwischen den Peaks regelmäßig sind. Aus den Werten ergibt sich eine Wellenlänge von 2.91(5)$\mu$m, welche um ca. 12\% vom Literaturwert von 3,31$\mu$m abweicht (Quelle:\cite{Staatsex_Michels}). Mit diesem Wert lässt sich der Parameter $2\pi b$ aus Gleichung \ref{eqn:B_schmalband} bestimmen.
+Aus den Interferogramm ergeben sich die Werte in Tabelle \ref{tab:parameter_filter}. Es wurde ein kleines Intervall um den Weißlichtpunkt gewählt (grüne Striche), da in diesem Bereich die Abstände zwischen den Peaks regelmäßig sind. Aus den Werten ergibt sich eine Wellenlänge von 2.91(5)$\mu$m, welche um ca. 12\% vom Literaturwert von 3,31$\mu$m abweicht (Quelle:\cite{Staatsex_Michels}). Mit diesem Wert lässt sich der Parameter $2\pi b$ aus Gleichung \ref{eqn:B_schmalband} bestimmen .
 
 \begin{align}
 2\pi b = \frac{2 \pi}{\lambda} = \SI{2,159(4)}{$\frac{1}{\mu m}$}
@@ -21,27 +21,27 @@ Aus den Interferogramm ergeben sich die Werte in Tabelle \ref{tab:parameter_filt
 \caption{Messwerte für die Bestimmung der Wellenlänge}
 \label{tab:parameter_filter}
 \begin{tabular}{|c|c|c|c|}
-\hline x$_1$ / mm & x$_2$ / mm & s / mm & n \\ 
+\hline x$_1$ / mm & x$_2$ / mm & S / mm & n \\ 
 \hline 5,7485(3) & 5,7881(3) & 0,0396(4) & 5 \\ 
 \hline 
 \end{tabular} 
 \end{table}
 
-Für die Bestimmung des 1/e-Abfalls wird die Position des Weißlichtpunkts verwendet. Die Amplitude am Weißlichtpunkt beträgt ca. \SI{0,57}{V}. Als zweiter Punkt für die Bestimmung des 1/e-Abfalls wurde der Peak bei \SI{5.7881(3)}{$\mu$m} genommen. Die Amplitude liegt bei ca. \SI{0,4}{V}. Der 1/e-Abfall ergibt sich bei einer Position von \SI{5,805(3)}{mm} mit einer Amplitude von \SI{0,208}{V}. Dadurch ergibt sich eine halbe Breite des 1/e-Abfalls von \SI{0,035(2)}{mm}. Der Parameter a hat somit den Wert
+Für die Bestimmung des 1/e-Abfalls wird die Position des Weißlichtpunkts verwendet. Die Amplitude am Weißlichtpunkt beträgt ca. 0.57. Aus der Amplitude ergibt sich der 1/e-Abfall bei einer Position von \SI{5,805(3)}{mm} mit einer Amplitude von 0.208.Es ergibt sich eine halbe Breite des 1/e-Abfalls von \SI{0,035(2)}{mm}. Der Parameter a hat somit den Wert
 \begin{align}
 a  = \SI{0,0129(1)}{mm}
 \end{align}
-Aus den Werten lässt sich die spektrale Verteilung des Ofens bestimmen. Die Wellenzahlen ($\bar{\nu_i} = 2\pi/\lambda_i$) ergeben sich mit: 
+Aus den Werten lässt sich die Spektralverteilung des Filters bestimmen. Die Wellenzahlen ($\bar{\nu_i} = 2\pi/\lambda_i$) ergeben sich mit: 
 \begin{align}
 \bar{\nu_1} = 2\pi b - \frac{2}{a} = 2.003(4) \mu m^{-1}\\
 \bar{\nu_2} = 2\pi b + \frac{2}{a} = 2,314(4) \mu m^{-1}
 \end{align}
-Aus den beiden Werten lässt sich nach \cite{Staatsex_Michels} die e$^{-1}$-Breite $\Delta \lambda$ des Schmalbandfilters bestimmen.
-\begin{align}
-\Delta \lambda = \frac{1}{\bar{\nu_1}} - \frac{1}{\bar{\nu_2}}= \SI{0,067(8)}{$\mu$m}
-\end{align}
+Aus den beiden Werten $\bar{\nu_1} $ und $\bar{\nu_2}$ lässt sich nach \cite{Staatsex_Michels} die e$^{-1}$-Breite $\Delta \lambda$ des Schmalbandfilters bestimmen. $\Delta \lambda$ wurde mit 0.067(8) bestimmt.
+%\begin{align}
+%\Delta \lambda = \frac{1}{\bar{\nu_1}} - \frac{1}{\bar{\nu_2}}= \SI{0,067(8)}{\mu m}
+%\end{align}
 Erwartet wurde ein Wert von \SI{0,060}{$\mu$m} \cite{Staatsex_Michels}. Der Bestimmte Wert weicht nur um ca. 12\% vom erwarteten Wert ab, sodass diese Messung als gut angesehen werden kann.
-Aus den beiden Parametern a und b ergibt sich die spektrale Verteilung des Muffelofen in Abbildung \ref{fig:spektrum_filter}.
+Aus den beiden Parametern a und b ergibt sich die Spektralverteilung des Filters in Abbildung \ref{fig:spektrum_filter}.
 
 \begin{figure}[H]
 \centering
