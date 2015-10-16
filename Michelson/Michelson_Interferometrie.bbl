@@ -29,13 +29,25 @@
 \endentry
 
 \entry{Staatsex_Michels}{online}{}
-  \field{sortinit}{A}
-  \field{title}{Aufbau eines Michelson-Interferometer-Versuchs}
+  \name{author}{1}{}{%
+    {{}%
+     {Grupert}{G.}%
+     {Ulrich}{U.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{GU1}
+  \strng{fullhash}{GU1}
+  \field{sortinit}{G}
+  \field{pubstate}{Wuppertal}
+  \field{title}{Staatsexamensarbeit: Aufbau eines
+  Michelson-Interferometer-Versuchs}
   \verb{url}
   \verb https://moodle2.uni-wuppertal.de/pluginfile.php/223735/mod_resource/con
-  \verb tent/1/fpII_6_se.pdf
+  \verb tent/2/Michelson-Staatsexamensarbeit_Grubert-neu.pdf
   \endverb
-  \field{urlday}{06}
+  \field{year}{1980}
+  \field{urlday}{16}
   \field{urlmonth}{10}
   \field{urlyear}{2015}
 \endentry
