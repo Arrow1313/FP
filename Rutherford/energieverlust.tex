@@ -92,23 +92,11 @@ Der Energieverlust pro Strecke wird nach Gleichung \ref{eqn:verlust} berechnet.
 \frac{dE}{dx} = \frac{E_1 - E_2}{x_1 - x_2}
 \end{align}
 
-Dabei ergibt sich der Fehler nach Gleichung \ref{eqn:delta_verlust}.
-
-\begin{align}
-\label{eqn:delta_verlust}
-\Delta \frac{dE}{dx} = \sqrt{\left( \frac{\Delta dE}{dx} \right)^2 + \left( \frac{\Delta dx \cdot dE}{dx^2} \right)^2 }
-\end{align}
-
-Die Wegdifferenz wurde mit Gleichung \ref{eqn:reich_normal} bestimmt, dabei ist P$_{normal}$ = 760 Torr und \mbox{x$_{normal}$ = 6 cm}. Die Energie wurde mit Gleichung \ref{eqn:energie-kanal} bestimmt. Die Energie wurde über den Mittelwert Gleichung \ref{eqn:e_mittel} bestimmt.  Der Fehler ist in Gleichung \ref{eqn:delta_e_mittel} angegeben.
+Die Wegdifferenz wurde mit Gleichung \ref{eqn:reich_normal} bestimmt, dabei ist P$_{normal}$ = 760 Torr und \mbox{x$_{normal}$ = 6 cm}. Die Energie wurde mit Gleichung \ref{eqn:energie-kanal} bestimmt. Die Energie wurde über den Mittelwert Gleichung \ref{eqn:e_mittel} bestimmt.
 
 \begin{align}
 \label{eqn:e_mittel}
 \bar{E} = \frac{E_1 + E_2}{2}
-\end{align}
-
-\begin{align}
-\label{eqn:delta_e_mittel}
-\Delta \bar{E} = \sqrt{ \left( \frac{\Delta E_1}{2} \right)^2 + \left( \frac{\Delta E_2}{2} \right)^2}
 \end{align}
 
 Die bestimmten Peakpositonen in Abhängigkeit vom Druck sind in Tabelle \ref{tab:multi-fit-erg} aufgetragen. Trägt man nun $\frac{dE}{dx}$ gegen $dE$ auf, erwartet man das von der Bethe-Bloch-Formel beschriebene Verhalten. Die Bethe-Bloch-Formel ist in Gleichung \ref{eqn:bethe-bloch} zu sehen. Da nur der Verlauf der Daten von intresse ist und nicht die Werte der einzelnen Parameter, können die Messdaten mit einem vereinfachten Modell, Gleichung \ref{eqn:bethe-bloch-einfach} gefittet werden. Dabei wird ein linearer Zusammenhang zwischen der Energie und dem Geschwindigkeitsquadrat der Teilchen angenommen ($E_{kin} \sim v^2$).
