@@ -1,20 +1,35 @@
 \subsubsection{Manuelle Auswertung der Schwebung}
 Eine Manuelle Auswertung des Schwebungsinterferogramms wird trotz Schwierigkeiten so weit wie möglich durchgeführt.
-Die beiden Wellenlängen $\lambda_-$ und $\lambda_+$ werden wie zuvor bestimmt (vgl. \ref{sec:chopper}). Für $\lambda_+$ ein Werte von 275,6(3) $\mu$m bestimmt, indem über eine 1/4-Periode gezählt wurde. Für $\lambda_-$ wurde ein Wert von 3,15(3) $\mu$m bestimmt. Mit den zuvor bestimmten Wellenlängen des Muffelofen und des Lasers ergeben sich die Werte in Tabelle \ref{tab:wellenlaengen}.
+Die beiden Wellenlängen $\lambda_-$ und $\lambda_+$ werden wie zuvor bestimmt (vgl. \ref{sec:chopper}). Für $\lambda_+$ ein Werte von 275,6(3) $\mu$m bestimmt, indem über eine 1/2-Periode gezählt wurde. Für $\lambda_-$ wurde ein Wert von 3,15(3) $\mu$m bestimmt (vgl. Tabelle \ref{tab:wellenlaengen_messung}). 
+
+\begin{table}[H]
+\centering
+\caption{Bestimmte Wellenlängen $\lambda_{+,-}$, vlg. Abbildung ??}
+\label{tab:wellenlaengen_messung}
+\begin{tabular}{|c|c|c|c|c|c|}
+\hline  & n & s$_1$ /mm & s$_2$ / mm & $\Delta$s / mm & $\lambda$ / $\mu$m \\ 
+\hline $\lambda_{+}$ & 1/2 & 4.7911(2) & 4.6535(2) & 0.1376(3) & 275.6(3) \\ 
+\hline $\lambda_{-}$ & 4 & 4.7911(2) & 4.9177(2) & 0.1266(3) & 3.15(3) \\ 
+\hline 
+\end{tabular} 
+\end{table}
+
+Mit den Wellenlängen $\lambda_{+,-}$ können mit Gleichung \ref{eqn:lambda+} und \ref{eqn:lambda-} die Wellenlängen des Schmalbandfilters und des Lasers bestimmt werden. Alle bestimmten Wellenlängen sind in Tabelle \ref{tab:wellenlaengen} eingetragen.
 
 \begin{table}[H]
 \centering
 \caption{Bestimmte Wellenlängen $\lambda_{Laser,Muffelofen,+,-}$}
 \label{tab:wellenlaengen}
 \begin{tabular}{|c|c|}
-\hline $\lambda_{Laser}$ & \SI{3,372(9)}{$\mu$m} \\ 
-\hline $\lambda_{SBF}$ & \SI{2,91(5)}{$\mu$m} \\ 
+\hline $\lambda_{Laser}$ & \SI{3,11(4)}{$\mu$m} \\ 
+\hline $\lambda_{SBF}$ & \SI{3.18(4)}{$\mu$m} \\ 
 \hline $\lambda_{+}$ & \SI{275,6(3)}{$\mu$m} \\ 
 \hline $\lambda_{-}$ & \SI{3,15(3)}{$\mu$m} \\ 
 \hline 
 \end{tabular} 
 \end{table}
-Die Parameter $2\pi b_{Laser}$ und $2\pi b_{Ofen}$ werden wie in Abschnitt \ref{sec:filter} bestimmt, der Parameter $a$ wird übernommen. Es ergeben sich die Werte in Tabelle \ref{tab:parameter_2}.
+
+Die Parameter $2\pi b_{Laser}$ und $2\pi b_{SBF}$ werden wie in Abschnitt \ref{sec:filter} bestimmt, der Parameter $a$ wird übernommen. Es ergeben sich die Werte in Tabelle \ref{tab:parameter_2}.
 
 \begin{table}[H]
 \centering
