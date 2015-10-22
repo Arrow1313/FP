@@ -18,7 +18,7 @@ Aus den Interferogramm ergeben sich die Werte in Tabelle \ref{tab:parameter_filt
 
 \begin{table}[H]
 \centering
-\caption{Messwerte für die Bestimmung der Wellenlänge}
+\caption{Messwerte für die Bestimmung der mittleren Wellenlänge}
 \label{tab:parameter_filter}
 \begin{tabular}{|c|c|c|c|}
 \hline x$_1$ / mm & x$_2$ / mm & S / mm & n \\ 
@@ -50,7 +50,7 @@ Aus den beiden Parametern a und b ergibt sich die Spektralverteilung des Filters
 \label{fig:spektrum_filter}
 \end{figure}
 
-Zum Schluss soll erwähnt werden, dass bei Anwendung einer FFT, eines Algorithmusses für die diskrete Fouriertransformation, ein ähnliches Ergebnis zustande kommt. Da die FFT für periodische Signale geeignet ist, kann zur Rauschunterdrückung eine sogenannte Fensterfunktion verwendet werden, welche das Signal 'sanft' ein und ausblendet. Das FFT-Spektrum ohne Fensterfunktion ist in Abbildung \ref{fig:fftfilterinterferogramm_ohne_fenster} dargestellt.
+Zum Schluss soll erwähnt werden, dass bei Anwendung einer FFT, eines Algorithmus für die diskrete Fouriertransformation, ein ähnliches Ergebnis zustande kommt. Da die FFT für periodische Signale geeignet ist, kann zur Rauschunterdrückung eine sogenannte Fensterfunktion verwendet werden, welche das Signal 'sanft' ein und ausblendet. Das FFT-Spektrum ohne Fensterfunktion ist in Abbildung \ref{fig:fftfilterinterferogramm_ohne_fenster} dargestellt. Zu beachten ist, dass in den folgenden Plots $1/\lambda$ auf der x-Achse und nicht $2\pi/\lambda$ aufgetragen ist.
 \begin{figure}[H]
 \centering
 \includegraphics[scale = 0.38, clip = true, trim = 3cm 0cm 3cm 0cm]{Wellenzahlen200-400FilterohneFenster}

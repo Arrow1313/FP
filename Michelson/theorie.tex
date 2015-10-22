@@ -48,13 +48,18 @@ Aus der Fourierrücktransformation kann die Spektralverteilung $B(1/\lambda)$ nac
 B(1/\lambda) = 2 \int_0^\infty d\delta_l I(\delta_l)_{poly}\cos\left(\frac{2\pi \delta_l}{\lambda}\right)
 \label{eqn:poly_rück}
 \end{align}
-Als Ansatz für die spätere Analyse des Interferogramms mit Schmalbandfilter kann für $B(1/\lambda)$ eine Gaussfunktion verwendet werden. Für I wird dabei eine modulierte Gaussfunktion angenommen. Es ergibt sich die in Gleichung \ref{eqn:B_schmalband} beschriebene Beziehung, wobei $b = 1/\lambda_{max}$ die Wellenzahl ( bis hierhin immer in Einheiten von $2\pi$ ) maximaler Transmission ist und $2a$ die $1/e$-Breite des Filters ist.
+Als Ansatz für die spätere Analyse des Interferogramms mit Schmalbandfilter kann für $B(1/\lambda)$ eine Gaussfunktion verwendet werden. Für I wird dabei eine modulierte Gaussfunktion angenommen. Es ergibt sich die in Gleichung \ref{eqn:B_schmalband} beschriebene Beziehung, wobei $b = 1/\lambda_{max}$ die Wellenzahl ( bis hierhin immer in Einheiten von $2\pi$ ) maximaler Transmission ist und $2a$ die $1/e$-Breite des Filters ist. Dabei ist $\frac{4}{2\pi a}$ die $\frac{1}{e}$-Breite des Filterspektrums $B(1/\lambda)$.
 \begin{align}
 B(1/\lambda) = \frac{a\sqrt{\pi}}{2}\exp\left(-\frac{(a2\pi(b-1/\lambda))^2}{4}\right)
 \label{eqn:B_schmalband}
 \end{align}
+Die Positionen des $1/e$-Abfalls im Spektrum $B(1/\lambda)$ ergeben sich also mit 
+\begin{align}
+1/\lambda_1 = b - \frac{2}{2\pi a}\\
+1/\lambda_2 = b + \frac{2}{2\pi a}
+\end{align}
 \subsection{Schwebung}
-Der Begriff 'Schwebung' bezeichnet die Überlagerung zweier Schwingungen, sodass eine einhüllende niedrigfrequente Schwingung der Wellenlänge $\lambda_+$ und eine hochfrequente Schwingung der Wellenlänge $\lambda_-$ sich herausbilden. Besonders gut kann dies an Schwingungen beobachtet werden, deren Wellenlängen nahe beieinander liegen und deren Amplitude gleich groß ist. Als Schwebungsfrequenz wird die Frequenz der einhüllenden Schwingung bezeichnet. Allgemein ist dies eine Charakterisierung der Additionstheoreme für Sinus und Cosinus. Der Zusammenhang ist in Gleichung \ref{eqn:schweb_additions} dargestellt, wobei $k_i$ in diesem Fall die Wellenzahl $2\pi/\lambda_i$ bezeichnet.
+Der Begriff 'Schwebung' bezeichnet die Überlagerung zweier Schwingungen, sodass eine einhüllende niedrigfrequente Schwingung der Wellenlänge $\lambda_+$ und eine hochfrequente Schwingung der Wellenlänge $\lambda_-$ sich herausbilden. Besonders gut kann dies an Schwingungen beobachtet werden, deren Wellenlängen nahe beieinander liegen und deren Amplitude gleich groß ist. Als Schwebungswellenzahl wird die Wellenzahl der einhüllenden Schwingung bezeichnet. Allgemein ist dies eine Charakterisierung der Additionstheoreme für Sinus und Cosinus. Der Zusammenhang ist in Gleichung \ref{eqn:schweb_additions} dargestellt, wobei $k_i$ in diesem Fall die Wellenzahl $2\pi/\lambda_i$ bezeichnet.
 \begin{align}
 \cos(k_1x+a)+cos(k_2x+b) = 2\cos\left(\frac{k_1+k_2}{2}x+\frac{a+b}{2}\right)\cos\left(\frac{k_1-k_2}{2}x+\frac{a-b}{2}\right)
 \label{eqn:schweb_additions}
