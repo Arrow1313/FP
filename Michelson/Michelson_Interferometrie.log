@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.11.19)  23 OCT 2015 00:45
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.11.19)  24 OCT 2015 14:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1366,21 +1366,16 @@ Overfull \hbox (5.22949pt too wide) in paragraph at lines 62--73
 [][]   [] 
  []
 
-) (./Schwebung.tex <Schwebung_Daten.pdf, id=336, 1445.4pt x 714.56966pt>
-File: Schwebung_Daten.pdf Graphic file (type pdf)
+) (./Schwebung.tex <schwebung_pre.png, id=336, 1445.4pt x 712.5822pt>
+File: schwebung_pre.png Graphic file (type png)
 
-<use Schwebung_Daten.pdf>
-Package pdftex.def Info: Schwebung_Daten.pdf used on input line 5.
-(pdftex.def)             Requested size: 484.38477pt x 271.53929pt.
-
-Overfull \hbox (0.6879pt too wide) in paragraph at lines 5--6
- [][] 
- []
-
-[15 <./Wellenzahlen200-400FilterohneFenster.pdf> <./Wellenzahlen200-400Filtermi
-tFenster(0,5*(1-cos)).pdf> <./Wellenzahlen200-400FiltermitFenster(0,5*(1-cos))*
-*4.pdf>]
-<Wellenzahlen50-350SchwebungohneFenster.pdf, id=486, 1445.4pt x 714.56966pt>
+<use schwebung_pre.png>
+Package pdftex.def Info: schwebung_pre.png used on input line 5.
+(pdftex.def)             Requested size: 476.98347pt x 235.15285pt.
+ [15 <./Wellenzahlen200-400FilterohneFenster.pdf> <./Wellenzahlen200-400Filterm
+itFenster(0,5*(1-cos)).pdf> <./Wellenzahlen200-400FiltermitFenster(0,5*(1-cos))
+**4.pdf>]
+<Wellenzahlen50-350SchwebungohneFenster.pdf, id=485, 1445.4pt x 714.56966pt>
 File: Wellenzahlen50-350SchwebungohneFenster.pdf Graphic file (type pdf)
 
 <use Wellenzahlen50-350SchwebungohneFenster.pdf>
@@ -1392,8 +1387,8 @@ Overfull \hbox (0.6879pt too wide) in paragraph at lines 12--13
  [][] 
  []
 
-[16 <./Schwebung_Daten.pdf>]
-<Wellenzahlen260-340SchwebungohneFenster.pdf, id=540, 1445.4pt x 714.56966pt>
+[16 <./schwebung_pre.png>]
+<Wellenzahlen260-340SchwebungohneFenster.pdf, id=495, 1445.4pt x 714.56966pt>
 File: Wellenzahlen260-340SchwebungohneFenster.pdf Graphic file (type pdf)
 
 <use Wellenzahlen260-340SchwebungohneFenster.pdf>
@@ -1406,7 +1401,7 @@ Overfull \hbox (0.6879pt too wide) in paragraph at lines 19--20
  []
 
 
-<Wellenzahlen50-350SchwebungmitFenster(0,5*(1-cos)).pdf, id=545, 1445.4pt x 714
+<Wellenzahlen50-350SchwebungmitFenster(0,5*(1-cos)).pdf, id=500, 1445.4pt x 714
 .56966pt>
 File: Wellenzahlen50-350SchwebungmitFenster(0,5*(1-cos)).pdf Graphic file (type
  pdf)
@@ -1421,7 +1416,7 @@ Overfull \hbox (0.6879pt too wide) in paragraph at lines 27--28
 
 [17 <./Wellenzahlen50-350SchwebungohneFenster.pdf> <./Wellenzahlen260-340Schweb
 ungohneFenster.pdf>]
-<Wellenzahlen50-350SchwebungmitFenster(0,5*(1-cos))**4.pdf, id=648, 1445.4pt x 
+<Wellenzahlen50-350SchwebungmitFenster(0,5*(1-cos))**4.pdf, id=603, 1445.4pt x 
 714.56966pt>
 File: Wellenzahlen50-350SchwebungmitFenster(0,5*(1-cos))**4.pdf Graphic file (t
 ype pdf)
@@ -1435,7 +1430,7 @@ Overfull \hbox (5.17827pt too wide) in paragraph at lines 33--34
  []
 
 
-<Wellenzahlen50-350SchwebungmitFenster(0,5*(1-cos))**10.pdf, id=650, 1445.4pt x
+<Wellenzahlen50-350SchwebungmitFenster(0,5*(1-cos))**10.pdf, id=605, 1445.4pt x
  714.56966pt>
 File: Wellenzahlen50-350SchwebungmitFenster(0,5*(1-cos))**10.pdf Graphic file (
 type pdf)
@@ -1456,28 +1451,28 @@ Overfull \hbox (5.22949pt too wide) in paragraph at lines 32--43
 [18 <./Wellenzahlen50-350SchwebungmitFenster(0,5*(1-cos)).pdf> <./Wellenzahlen5
 0-350SchwebungmitFenster(0,5*(1-cos))**4.pdf> <./Wellenzahlen50-350Schwebungmit
 Fenster(0,5*(1-cos))**10.pdf>] (./schwebung_hand.tex [19]
-<verteilung_schwebung.png, id=820, 1445.4pt x 714.0276pt>
+<verteilung_schwebung.png, id=777, 1445.4pt x 714.0276pt>
 File: verteilung_schwebung.png Graphic file (type png)
 
 <use verteilung_schwebung.png>
 Package pdftex.def Info: verteilung_schwebung.png used on input line 50.
 (pdftex.def)             Requested size: 476.98347pt x 235.62984pt.
 )) (./fazit.tex) (./anhang.tex [20 <./verteilung_schwebung.png>] <eichung_weiss
-licht_4,75.png, id=830, 1445.4pt x 714.0276pt>
+licht_4,75.png, id=787, 1445.4pt x 714.0276pt>
 File: eichung_weisslicht_4,75.png Graphic file (type png)
 
 <use eichung_weisslicht_4,75.png>
 Package pdftex.def Info: eichung_weisslicht_4,75.png used on input line 9.
 (pdftex.def)             Requested size: 476.98347pt x 235.62984pt.
 
-<eichung_weisslicht_5,77.png, id=833, 1445.4pt x 714.0276pt>
+<eichung_weisslicht_5,77.png, id=790, 1445.4pt x 714.0276pt>
 File: eichung_weisslicht_5,77.png Graphic file (type png)
 
 <use eichung_weisslicht_5,77.png>
 Package pdftex.def Info: eichung_weisslicht_5,77.png used on input line 30.
 (pdftex.def)             Requested size: 476.98347pt x 235.62984pt.
  [21 <./eichung_weisslicht_4,75.png>]
-<eichung_weisslicht_filter_4,75.png, id=841, 1445.4pt x 714.0276pt>
+<eichung_weisslicht_filter_4,75.png, id=798, 1445.4pt x 714.0276pt>
 File: eichung_weisslicht_filter_4,75.png Graphic file (type png)
 
 <use eichung_weisslicht_filter_4,75.png>
@@ -1485,7 +1480,7 @@ Package pdftex.def Info: eichung_weisslicht_filter_4,75.png used on input line
 50.
 (pdftex.def)             Requested size: 476.98347pt x 235.62984pt.
  [22 <./eichung_weisslicht_5,77.png>]
-<Eichdaten_Schwebung.pdf, id=849, 1445.4pt x 714.56966pt>
+<Eichdaten_Schwebung.pdf, id=806, 1445.4pt x 714.56966pt>
 File: Eichdaten_Schwebung.pdf Graphic file (type pdf)
 
 <use Eichdaten_Schwebung.pdf>
@@ -1518,7 +1513,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 57.
  ) 
 Here is how much of TeX's memory you used:
  22477 strings out of 493304
- 420617 string characters out of 6139870
+ 420607 string characters out of 6139870
  570759 words of memory out of 5000000
  25438 multiletter control sequences out of 15000+600000
  93158 words of font info for 70 fonts, out of 8000000 for 9000
@@ -1539,10 +1534,10 @@ mf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lms
 y6.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/font
 s/type1/public/lm/lmtt12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
 amsfonts/symbols/msbm10.pfb>
-Output written on Michelson_Interferometrie.pdf (25 pages, 2243204 bytes).
+Output written on Michelson_Interferometrie.pdf (25 pages, 2513921 bytes).
 PDF statistics:
- 1005 PDF objects out of 1200 (max. 8388607)
- 541 compressed objects within 6 object streams
+ 962 PDF objects out of 1000 (max. 8388607)
+ 531 compressed objects within 6 object streams
  111 named destinations out of 1000 (max. 500000)
- 353 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 347 words of extra memory for PDF output out of 10000 (max. 10000000)
 
