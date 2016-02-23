@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: fig2dev Version 3.2 Patchlevel 5-alpha7 -->
+<!-- CreationDate: Sat Nov 11 15:53:39 2006 -->
+<!-- Magnification: 1.000 -->
+<svg xmlns="http://www.w3.org/2000/svg" width="9.3in" height="4.3in" viewBox="588 738 11199 5199">
+<g style="stroke-width:.025in; stroke:black; fill:none">
+<!-- Line: box -->
+<rect x="600" y="750" width="4575" height="5175" rx="0" style="stroke:#000000;stroke-width:7; stroke-linejoin:miter; stroke-linecap:butt; fill:#e7e7e7; "/>
+<!-- Line: box -->
+<rect x="5325" y="750" width="6450" height="5175" rx="0" style="stroke:#000000;stroke-width:7; stroke-linejoin:miter; stroke-linecap:butt; fill:#e7e7e7; "/>
+<!-- Line: box -->
+<rect x="1200" y="900" width="3825" height="4200" rx="0" style="stroke:#000000;stroke-width:0; stroke-linejoin:miter; stroke-linecap:butt; fill:#ffffff; "/>
+<!-- Line: box -->
+<rect x="6000" y="900" width="5700" height="4200" rx="0" style="stroke:#000000;stroke-width:0; stroke-linejoin:miter; stroke-linecap:butt; fill:#ffffff; "/>
+<!-- Line -->
+<polyline points="6000,950 6000,5100 11650,5100 " style="stroke:#000000;stroke-width:30; stroke-linejoin:miter; stroke-linecap:butt; "/>
+<!-- Arrowhead on XXXpoint 6000 5100 - 11745 5100-->
+<polyline points="11286 5190 11646 5100 11286 5010 " style="stroke:#000000;stroke-width:30;stroke-miterlimit:8; "/>
+<!-- Arrowhead on XXXpoint 6000 5100 - 6000 855-->
+<polyline points="6090 1314 6000 954 5910 1314 " style="stroke:#000000;stroke-width:30;stroke-miterlimit:8; "/>
+<!-- Line -->
+<polyline points="6000,2100 6150,2100 " style="stroke:#000000;stroke-width:30; stroke-linejoin:miter; stroke-linecap:butt; "/>
+<!-- Line -->
+<polyline points="9000,4950 9000,5100 " style="stroke:#000000;stroke-width:30; stroke-linejoin:miter; stroke-linecap:butt; "/>
+<!-- Line -->
+<polyline points="1200,950 1200,5100 5050,5100 " style="stroke:#000000;stroke-width:30; stroke-linejoin:miter; stroke-linecap:butt; "/>
+<!-- Arrowhead on XXXpoint 1200 5100 - 5145 5100-->
+<polyline points="4686 5190 5046 5100 4686 5010 " style="stroke:#000000;stroke-width:30;stroke-miterlimit:8; "/>
+<!-- Arrowhead on XXXpoint 1200 5100 - 1200 855-->
+<polyline points="1290 1314 1200 954 1110 1314 " style="stroke:#000000;stroke-width:30;stroke-miterlimit:8; "/>
+<!-- Line -->
+<polyline points="1200,2100 1350,2100 " style="stroke:#000000;stroke-width:30; stroke-linejoin:miter; stroke-linecap:butt; "/>
+<!-- Line -->
+<polyline points="4200,4950 4200,5100 " style="stroke:#000000;stroke-width:30; stroke-linejoin:miter; stroke-linecap:butt; "/>
+<!-- Line -->
+<polyline points="7800,4950 7800,5100 " style="stroke:#000000;stroke-width:30; stroke-linejoin:miter; stroke-linecap:butt; "/>
+<!-- Line -->
+<polyline points="10725,4950 10725,5100 " style="stroke:#000000;stroke-width:30; stroke-linejoin:miter; stroke-linecap:butt; "/>
+<!-- Line -->
+<polyline points="6000,2700 7800,2700 " style="stroke:#000000;stroke-width:7; stroke-linejoin:miter; stroke-linecap:butt; "/>
+<!-- Line -->
+<polyline points="7800,2850 10725,2850 " style="stroke:#000000;stroke-width:7; stroke-linejoin:miter; stroke-linecap:butt; "/>
+<!-- Line -->
+<polyline points="10725,3000 11400,3000 " style="stroke:#000000;stroke-width:7; stroke-linejoin:miter; stroke-linecap:butt; "/>
+<!-- Line -->
+<polyline points="7800,2625 7800,2775 " style="stroke:#000000;stroke-width:7; stroke-linejoin:miter; stroke-linecap:butt; "/>
+<!-- Line -->
+<polyline points="7800,2775 7800,2925 " style="stroke:#000000;stroke-width:7; stroke-linejoin:miter; stroke-linecap:butt; "/>
+<!-- Line -->
+<polyline points="10725,2775 10725,3075 " style="stroke:#000000;stroke-width:7; stroke-linejoin:miter; stroke-linecap:butt; "/>
+<!-- Line -->
+<polyline points="1200,5100 4200,2100 4200,5100 " style="stroke:#0000b0;stroke-width:30; stroke-linejoin:miter; stroke-linecap:butt; "/>
+<!-- Line -->
+<polyline points="6000,5100 7800,3300 " style="stroke:#b00000;stroke-width:30; stroke-linejoin:miter; stroke-linecap:butt; "/>
+<!-- Line -->
+<polyline points="6037,5062 9037,2062 9037,5062 " style="stroke:#000000;stroke-width:7; stroke-linejoin:miter; stroke-linecap:butt; stroke-dasharray:80 80;"/>
+<!-- Line -->
+<polyline points="7800,3300 7800,3301 7800,3302 7801,3306 7802,3311 7803,3318 7805,3327 7807,3339 7810,3354 7813,3371 7817,3391 7823,3413 7829,3438 7836,3465 7843,3493 7853,3524 7863,3556 7874,3589 7887,3623 7901,3659 7916,3695 7934,3732 7953,3769 7974,3807 7997,3846 8023,3886 8052,3926 8083,3967 8118,4009 8156,4052 8198,4095 8245,4140 8296,4186 8352,4233 8413,4281 8479,4329 8550,4377 8625,4425 8690,4464 8756,4501 8823,4537 8891,4572 8958,4604 9026,4636 9093,4665 9159,4693 9225,4719 9290,4744 9354,4768 9418,4790 9481,4811 9543,4831 9605,4850 9666,4868 9727,4885 9788,4902 9848,4917 9907,4932 9966,4947 10023,4960 10080,4973 10136,4986 10191,4998 10244,5009 10296,5020 10345,5030 10392,5039 10437,5048 10479,5056 10518,5063 10553,5070 10585,5075 10614,5081 10639,5085 10660,5089 10678,5092 10693,5095 10704,5096 10713,5098 10719,5099 10722,5100 10724,5100 10725,5100 " style="stroke:#b00000;stroke-width:30; stroke-linejoin:bevel; stroke-linecap:butt; "/>
+<!-- Text -->
+<text xml:space="preserve" x="4275" y="5550" stroke="#000000" fill="#000000" font-family="Times" font-style="normal" font-weight="normal" font-size="180" text-anchor="start">c</text>
+<!-- Text -->
+<text xml:space="preserve" x="9075" y="5550" stroke="#000000" fill="#000000" font-family="Times" font-style="normal" font-weight="normal" font-size="180" text-anchor="start">c</text>
+<!-- Text -->
+<text xml:space="preserve" x="6300" y="2625" stroke="#000000" fill="#000000" font-family="Helvetica" font-style="normal" font-weight="normal" font-size="180" text-anchor="start">supraleitender</text>
+<!-- Text -->
+<text xml:space="preserve" x="6450" y="2925" stroke="#000000" fill="#000000" font-family="Helvetica" font-style="normal" font-weight="normal" font-size="180" text-anchor="start">Zustand</text>
+<!-- Text -->
+<text xml:space="preserve" x="9150" y="2775" stroke="#000000" fill="#000000" font-family="Helvetica" font-style="normal" font-weight="normal" font-size="180" text-anchor="start">Misch-</text>
+<!-- Text -->
+<text xml:space="preserve" x="9150" y="3075" stroke="#000000" fill="#000000" font-family="Helvetica" font-style="normal" font-weight="normal" font-size="180" text-anchor="start">zustand</text>
+<!-- Text -->
+<text xml:space="preserve" x="10875" y="2925" stroke="#000000" fill="#000000" font-family="Helvetica" font-style="normal" font-weight="normal" font-size="180" text-anchor="start">Normal-</text>
+<!-- Text -->
+<text xml:space="preserve" x="10875" y="3225" stroke="#000000" fill="#000000" font-family="Helvetica" font-style="normal" font-weight="normal" font-size="180" text-anchor="start">zustand</text>
+<!-- Text -->
+<text xml:space="preserve" x="5550" y="2175" stroke="#000000" fill="#000000" font-family="Helvetica" font-style="normal" font-weight="normal" font-size="240" text-anchor="start">H</text>
+<!-- Text -->
+<text xml:space="preserve" x="7650" y="5400" stroke="#000000" fill="#000000" font-family="Helvetica" font-style="normal" font-weight="normal" font-size="240" text-anchor="start">H</text>
+<!-- Text -->
+<text xml:space="preserve" x="7875" y="5550" stroke="#000000" fill="#000000" font-family="Helvetica" font-style="normal" font-weight="normal" font-size="180" text-anchor="start">c1</text>
+<!-- Text -->
+<text xml:space="preserve" x="8850" y="5400" stroke="#000000" fill="#000000" font-family="Helvetica" font-style="normal" font-weight="normal" font-size="240" text-anchor="start">H</text>
+<!-- Text -->
+<text xml:space="preserve" x="10575" y="5400" stroke="#000000" fill="#000000" font-family="Helvetica" font-style="normal" font-weight="normal" font-size="240" text-anchor="start">H</text>
+<!-- Text -->
+<text xml:space="preserve" x="10800" y="5550" stroke="#000000" fill="#000000" font-family="Helvetica" font-style="normal" font-weight="normal" font-size="180" text-anchor="start">c2</text>
+<!-- Text -->
+<text xml:space="preserve" x="4050" y="5400" stroke="#000000" fill="#000000" font-family="Helvetica" font-style="normal" font-weight="normal" font-size="240" text-anchor="start">H</text>
+<!-- Text -->
+<text xml:space="preserve" x="750" y="2175" stroke="#000000" fill="#000000" font-family="Helvetica" font-style="normal" font-weight="normal" font-size="240" text-anchor="start">H</text>
+<!-- Text -->
+<text xml:space="preserve" x="975" y="2325" stroke="#000000" fill="#000000" font-family="Helvetica" font-style="normal" font-weight="normal" font-size="180" text-anchor="start">c</text>
+<!-- Text -->
+<text xml:space="preserve" x="5775" y="2325" stroke="#000000" fill="#000000" font-family="Helvetica" font-style="normal" font-weight="normal" font-size="180" text-anchor="start">c</text>
+<!-- Text -->
+<g transform="translate(975,1275) rotate(-90.00021046)">
+<text xml:space="preserve" x="0" y="0" stroke="#000000" fill="#000000" font-family="Times,Symbol" font-style="normal" font-weight="normal" font-size="240" text-anchor="start">π</text>
+</g><!-- Text -->
+<g transform="translate(975,1575) rotate(-90.00021046)">
+<text xml:space="preserve" x="0" y="0" stroke="#000000" fill="#000000" font-family="Helvetica" font-style="normal" font-weight="normal" font-size="240" text-anchor="start">-4   M</text>
+</g><!-- Text -->
+<g transform="translate(5775,1275) rotate(-90.00021046)">
+<text xml:space="preserve" x="0" y="0" stroke="#000000" fill="#000000" font-family="Times,Symbol" font-style="normal" font-weight="normal" font-size="240" text-anchor="start">π</text>
+</g><!-- Text -->
+<text xml:space="preserve" x="7275" y="5775" stroke="#000000" fill="#000000" font-family="Helvetica" font-style="normal" font-weight="normal" font-size="240" text-anchor="start">äußeres Magnetfeld</text>
+<!-- Text -->
+<text xml:space="preserve" x="1575" y="5775" stroke="#000000" fill="#000000" font-family="Helvetica" font-style="normal" font-weight="normal" font-size="240" text-anchor="start">äußeres Magnetfeld</text>
+<!-- Text -->
+<text xml:space="preserve" x="2175" y="1200" stroke="#000000" fill="#000000" font-family="Helvetica" font-style="normal" font-weight="normal" font-size="300" text-anchor="start">Supraleiter 1. Art</text>
+<!-- Text -->
+<text xml:space="preserve" x="8775" y="1200" stroke="#000000" fill="#000000" font-family="Helvetica" font-style="normal" font-weight="normal" font-size="300" text-anchor="start">Supraleiter 2. Art</text>
+<!-- Text -->
+<g transform="translate(5775,1575) rotate(-90.00021046)">
+<text xml:space="preserve" x="0" y="0" stroke="#000000" fill="#000000" font-family="Helvetica" font-style="normal" font-weight="normal" font-size="240" text-anchor="start">-4   M</text>
+</g></g>
+</svg>
