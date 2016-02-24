@@ -15,15 +15,67 @@
 Der Versuch besteht aus fünf Teile, welche im folgendem beschrieben und ausgewertet werden.
 
 \subsection{Inbetriebnahme}
-Vor dem einstellen des SQUID muss das Dewar-Gefäß in ein Bad von flüssigem Stickstoff getaucht werden, damit der Sensor nicht durch Feuchtigkeit zerstört wird und die Supraleitung nicht unterbrochen wird. Das Bad von flüssigem Stickstoff muss eventuell während dem Versuch nachgefüllt werden. Der Abkühlprozess dauert ca. 20 min., danach können Messungen gestartet werden. Zu erst soll die Amplitude I$_{rf}$ (VCA, voltage controlled attenuator) und die Auslesefrequenz (VCO voltage controlled oscillator) des rf-Signals so ein maximales Signal-zu-Rausch-Verhältnis von U($\Phi$) erreicht wird. Für die Einstellungen wird der Testmodus, mit eingeschaltetem Generator verwendet. Zu erst wird für VCA ein Werte von 900 eingestellt.
-% Kapazitäts- und Widerstandsangaben hinzufügen
-Dann wird der VCO Wert zwischen 0 und 4095 so variiert, das möglichst deutlich ein Dreiecksignal zu sehen ist. Der VCA Wert wird nun nochmal variiert um das Signal weiter zu optimieren.
+Vor dem einstellen des SQUID muss das Dewar-Gefäß in ein Bad von flüssigem Stickstoff getaucht werden, damit der Sensor nicht durch Feuchtigkeit zerstört wird und die Supraleitung nicht unterbrochen wird. Das Bad von flüssigem Stickstoff muss eventuell während dem Versuch nachgefüllt werden. Der Abkühlprozess dauert ca. 20 min., danach können Messungen gestartet werden. Zu erst soll die Amplitude I$_{rf}$ (VCA, voltage controlled attenuator) und die Auslesefrequenz (VCO voltage controlled oscillator) des rf-Signals so ein maximales Signal-zu-Rausch-Verhältnis von U($\Phi$) erreicht wird. Für die Einstellungen wird der Testmodus, mit eingeschaltetem Generator verwendet. Zu erst wird für VCA ein Werte von 900 eingestellt. Dabei war der Kondensator auf eine Kapazität von \SI{100}{nf} und der Rückkoppelungswiderstand auf 6k$\Omega$ eingestellt. Dann wird der VCO Wert zwischen 0 und 4095 so variiert, das möglichst deutlich ein Dreiecksignal zu sehen ist. Der VCA Wert wird nun nochmal variiert um das Signal weiter zu optimieren. Dabei ergab sich auf dem Oszilloskop der Graph in Abbildung ?\ref{sub_fig:justage_1}. Um eine deutlicheres Bild zu erhalten wurde eine Nachbeleuchtungszeit von 1s gewählt (siehe Abb. \ref{sub_fig:justage_2}). Für VCO und VCA wurde die folgenden Werte bestimmt:
 
-%  Bild und die Werte einfügen
+\begin{align*}
+VCO =&\hspace{5px} 2766 \\
+VCA =&\hspace{5px} 547
+\end{align*}
 
-Für die Einstellung des Arbeitspunkts wird das Offsets kalibriert. Das SQUID wird im Messmodus betrieben um die zeitliche Magnetfeldänderung auf dem Oszilloskop zu beobachten. Es wird ein Kompensations-Widerstand von 20k$\Omega$ gewählt. Falls das Offset richtig eingestellt ist sollten keine Peaks auf dem Oszilloskop zu sehen sein. Falls Peaks nach oben zu sehen sind, ist das Offset zu hoch eingestellt. Bei Peaks, die nach unten zeige, ist das Offset zu niedrig eingestellt.
+\begin{figure}[H]
+\begin{subfigure}{.48\textwidth}
+  \centering
+  \includegraphics[width=.7\linewidth, angle=90]{Messungen/TEK0001.JPG}
+  \caption{Aufnahme des Dreiecksignals ohne Nachbeleuchten}
+  \label{sub_fig:justage_1}
+\end{subfigure}%
+\begin{subfigure}{.48\textwidth}
+  \centering
+  \includegraphics[width=.7\linewidth, angle=90]{Messungen/TEK0002.JPG}
+  \caption{Aufnahme des Dreiecksignals mit Nachbeleucheten von einer Sekunde}
+  \label{sub_fig:justage_2}
+\end{subfigure}
+\caption{Die beiden Abbildungen zeigen das deutlich erkennbare Dreiecksignal.}
+\label{fig:justage}
+\end{figure}
+
+
+Für die Einstellung des Arbeitspunkts wird das Offsets kalibriert. Das SQUID wird im Messmodus betrieben um die zeitliche Magnetfeldänderung auf dem Oszilloskop zu beobachten. Es wird ein Kompensations-Widerstand von 20k$\Omega$ gewählt. Falls das Offset richtig eingestellt ist sollten keine Peaks auf dem Oszilloskop zu sehen sein. Falls Peaks nach oben zu sehen sind, ist das Offset zu hoch eingestellt (siehe Abb. \ref{sub_fig:offset_zu_hoch}). Bei Peaks, die nach unten zeige, ist das Offset zu niedrig eingestellt (siehe Abb. \ref{sub_fig:offset_zu_niedrig}). Nähert man sich an das optimale Offset an, so werden Peaks immer Breiter, bis sie verschwinden (siehe Abb. \ref{fig:offset_kurz_vorher})
+
+\begin{figure}[H]
+\begin{subfigure}{.48\textwidth}
+  \centering
+  \includegraphics[width=.7\linewidth, angle=90]{Messungen/TEK0003.JPG}
+  \caption{Aufnahme der Messspannung bei zu hohem Offset}
+  \label{sub_fig:offset_zu_hoch}
+\end{subfigure}%
+\begin{subfigure}{.48\textwidth}
+  \centering
+  \includegraphics[width=.7\linewidth, angle=90]{Messungen/TEK0004.JPG}
+  \caption{Aufnahme der Messspannung bei zu niedrigem Offset}
+  \label{sub_fig:offset_zu_niedrig}
+\end{subfigure}
+%\caption{Die beiden Abbildungen zeigen das deutlich erkennbare Dreiecksignal.}
+\label{fig:offset}
+\end{figure}
+
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale = 0.5,angle=90]{Messungen/TEK0005.JPG}
+\caption{Aufnahme der Messspannung mit einem Offset von 2123. Der optimale Wert für das Offset wurde mit 2126 bestimmt, musste während der Messung jedoch noch nachkorrigiert werden.}
+\label{fig:offset_kurz_vorher}
+\end{figure}
 
 % Auswertung + Bilder + weiterführende Analysen(50Hz Rauschen)
+Das Signal wurde mittels Fast-Fourier-Transformation (FFT) auf weitere Störfrequenzen untersucht. Dabei ist deutlich bei 50Hz ein Signal zu sehen und im niederfrequenten Bereich ist auch noch ein Störsignal zu erkennen, welches wahrscheinlich das Netzbrummen ist. Die FFT des Signals ist in Abb. \ref{fig:signal_fft} zu sehen.
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale = 0.5,angle=90]{Messungen/TEK0006.JPG}
+\caption{Aufnahme der FFT der Messspannung zur Untersuchung der Störsignale.}
+\label{fig:signal_fft}
+\end{figure}
 
 \subsection{Empfindlichkeit des SQUID}
 Zur Untersuchung der Empfindlichkeit wird das SQUID im Messmodus betrieben. Um einen ersten Eindruck der Empfindlichkeit zu bekommen wurde .......................................
