@@ -12,17 +12,22 @@ Der Meißner-Ochsenfeld-Effekt wurde 1993 entdeckt und beschreibt das magnetische
 
 % Bild einfügen
 
-Innerhalb des Supraleiters gilt $B=0$ und $\dot{B}=0$. Dadurch verhält sich der Supraleiter wie ein perfekter Diamagnet, sodass durch Oberflächenströme eine Magnetisierung entsteht, die dem äußerem Feld entgegenwirkt. Ab einer gewissen Feldstärke bricht die Supraleitung zusammen, da es energetisch günstiger ist das Magnetfeld in den Supraleiter eindringen zu lassen. Es hat sich herausgestellt, dass man Supraleiter in zwei verschiedene Arten unterteilen kann (siehe Abb. ??). Bei Supraleiter erster Art fällt die Supraleitung ab der kritischen Feldstärke direkt auf 0 ab. Bei Supraleitern zweiter Art fällt die Supraleitung ab der kritischen Feldstärke exponentiellen ab, da das Magnetfeld erst ab einer höheren Feldstärke vollständig eindringen kann.
+Innerhalb des Supraleiters gilt $B=0$ und $\dot{B}=0$. Dadurch verhält sich der Supraleiter wie ein perfekter Diamagnet, sodass durch Oberflächenströme eine Magnetisierung entsteht, die dem äußerem Feld entgegenwirkt. Ab einer gewissen Feldstärke bricht die Supraleitung zusammen, da es energetisch günstiger ist das Magnetfeld in den Supraleiter eindringen zu lassen. Es hat sich herausgestellt, dass man Supraleiter in zwei verschiedene Arten unterteilen kann (siehe Abb. ??). Bei Supraleitern erster Art fällt die Supraleitung ab der kritischen Feldstärke direkt auf 0 ab. Bei Supraleitern zweiter Art fällt die Supraleitung ab der kritischen Feldstärke exponentiellen ab, da das Magnetfeld erst ab einer höheren Feldstärke vollständig eindringen kann.
 
 % Bild einfügen
 
 \subsubsection{BCS-Theorie}
 Eine quantenmechanische Theorie der Supraleitung wurde 1957 von Bardeen, Cooper und Schrieffer aufgestellt, diese wird die BCS-Theorie genannt.
+Bei dieser Theorie wird davon ausgegangen, dass die Elektronen durch Coulombwechselwirkung Phononen (Gitterschwingungen) anregen. Das Gitter wird auf diese Weise lokal "`hinter"' dem Elektron zusammengezogen, sodass dort ein Überschuss positiver Ladung entsteht, der auf ein weiteres Elektron schwach attraktiv wirkt. Diese Elektronenpaare werden auch als Cooperpaare bezeichnet.
+
+%  Abbildung einfügen
 
 \subsubsection{Josephson-Effekt}
 
+Der Josephson Effekt beschreibt die Kopplung zweier makroskopischer Wellenfunktionen über eine Tunnelbarriere. Werden zwei Supraleiter durch eine dünne nicht-supraleitende Barriere getrennt, so können sogenannte Cooper-Paare (Elektron-Elektron-Singulett-Zustände) durch die Barriere in den anderen Supraleiter tunneln. Die Barriere wird auch Josephson-Kontakt genannt. Wird ein geringer Strom an den Josephson-Kontakt angelegt, verhält er sich wie ein ununterbrochener Supraleiter.
+
 \subsection{SQUID}
-In diesem Abschnitt wird kurz der grundlegende Aufbau des SQUIDs beschrieben und dann genauer auf das rf-SQUID eingegangen.
+In diesem Abschnitt wird kurz der grundlegende Aufbau des SQUIDs beschrieben und genauer auf das rf-SQUID eingegangen.
 Ein SQUID besteht aus einer supraleitenden Schleife mit ein(rf-SQUID) oder zwei(dc-SQUID) Schwachstellen. Die Schwachstelle hat eine begrenzte Stromtragfähigkeit, wodurch sie bei großen externen Änderungen des Flusses resistiv werden kann. Dadurch wird der Suprastrom für eine sehr kurze Zeit unterbrochen, was mit einem Resonanzschwingkreis gemessen werden kann.
 
 %Bild einfügen
@@ -34,6 +39,15 @@ Ein SQUID besteht aus einer supraleitenden Schleife mit ein(rf-SQUID) oder zwei(
 
 Der schematische Aufbau eines rf-SQUIDs ist in Abb. ?? zu sehen. Der Supraleitende Ring hat nur eine Schwachstelle und ist induktiv an einen Schwingkreis gekoppelt.
 
-Da in dem Supraleitendem Ring nur ganzzahlige Vielfache des Flussquants aufgenommen werden können, werden Abweichungen unterhalb eines Flussquants durch den Strom I$_{supra}$ kompensiert. Überschreitet die externe Flussänderung die Größe von einem Flussquant so bricht die Supraleitung zusammen. Der maximale Strom durch den Josephson-Kontakt ist durch ein Flussquant begrenzt, sodass die Supraleitung wegen überschreiten der kritischen Stromstärke zusammenbricht und ein Flussquant in den Ring eindringen kann. Bei diesem Prozess wird der Suprastrom vollständig zur Wärme Erzeugung verbraucht. Ein Tankschwingkreis ist induktiv mit der SQUID-Schleife gekoppelt. Der Schwingkreis wird über einen Wechselstrom mit seiner Resonanzfrequenz zwischen \SI{100}{MHz} und \SI{1}{GHz} angeregt. Die dadurch erzeugte Flussänderung muss das SQUID durch einen zusätzlich Suprastrom kompensieren. Solange der Suprastrom unter dem kritischem Strom (I$_c$) bleibt, steigt die Spannung linear mit dem Pumpstrom (I$_{rf}$) des Tankschwingkreises an. Falls die kritische Stromstärke erreicht wird findet ein Flussquantensprung statt. Dies ist energetisch günstiger und entzieht dem Tankschwingkreis Energie. Der Tankschwingkreis baut sich neu auf, bis ein weiterer Flussquantensprung stattfindet. Erhöht man den Pumpstrom, so erhöht sich zuerst die Häufigkeit der Flussquantensprünge und damit der mittlere Energieentzug aus dem Tankschwingkreis. Die mittlere am Tankschwingkreis abfallende Spannung bleibt damit konstant. Sobald bei jeder Hochfrequenzperiode ein Flussquantensprung stattfindet wird der Zusammenhang zwischen I$_{rf}$ und U$_{mess}$ aufgrund der Sättigung wieder linear, bis ein zweiter Flussquantensprung stattfindet. 
+Da in dem Supraleitendem Ring nur ganzzahlige Vielfache des Flussquants aufgenommen werden können, werden Abweichungen unterhalb eines Flussquants durch den Strom I$_{supra}$ kompensiert. Überschreitet die externe Flussänderung die Größe von einem Flussquant so bricht die Supraleitung zusammen. Der maximale Strom durch den Josephson-Kontakt ist durch ein Flussquant begrenzt, sodass die Supraleitung wegen überschreiten der kritischen Stromstärke zusammenbricht und ein Flussquant in den Ring eindringen kann. Bei diesem Prozess wird der Suprastrom vollständig zur Wärme Erzeugung verbraucht. Ein Tankschwingkreis ist induktiv mit der SQUID-Schleife gekoppelt. Der Schwingkreis wird über einen Wechselstrom mit seiner Resonanzfrequenz zwischen \SI{100}{MHz} und \SI{1}{GHz} angeregt. Die dadurch erzeugte Flussänderung muss das SQUID durch einen zusätzlich Suprastrom kompensieren. Solange der Suprastrom unter dem kritischem Strom (I$_c$) bleibt, steigt die Spannung linear mit dem Pumpstrom (I$_{rf}$) des Tankschwingkreises an. Falls die kritische Stromstärke erreicht wird findet ein Flussquantensprung statt. Dies ist energetisch günstiger und entzieht dem Tankschwingkreis Energie. Der Tankschwingkreis baut sich neu auf, bis ein weiterer Flussquantensprung stattfindet. Erhöht man den Pumpstrom, so erhöht sich zuerst die Häufigkeit der Flussquantensprünge und damit der mittlere Energieentzug aus dem Tankschwingkreis. Die mittlere am Tankschwingkreis abfallende Spannung bleibt damit konstant. Sobald bei jeder Hochfrequenzperiode ein Flussquantensprung stattfindet wird der Zusammenhang zwischen I$_{rf}$ und U$_{mess}$ bei weiterer Erhöhung von I$_{rf}$ aufgrund der Sättigung linear, bis ein zweiter Flussquantensprung stattfindet. 
 
 Die Abhängigkeit von U$_{mess}$ zu I$_{rf}$ ist in Abb. ?? dargestellt.
+
+\subsection{Magnetismus}
+
+Im Folgenden soll auf die Formeln für eine Leiterschleife (Kalibrierung), und die eines Magnetischen Dipols genauer eingegangen werden. Daneben soll das Funktionsprinzip der elektromagnetischen Abschirmung erklärt werden.
+\subsubsection{Elektromagentische Abschirmung}
+
+\subsubsection{Magnetfeld einer Leiterschleife und eines Dipols}
+
+\subsubsection{Curie-Temperatur und Magnetisierung}
