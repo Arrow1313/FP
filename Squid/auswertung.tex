@@ -15,7 +15,7 @@
 Der Versuch besteht aus vier Teilen, welche im folgendem beschrieben und ausgewertet werden.
 
 \subsection{Inbetriebnahme}
-Vor dem einstellen des SQUID muss das Dewar-Gefäß in ein Bad von flüssigem Stickstoff getaucht werden, damit der Sensor nicht durch Feuchtigkeit zerstört wird und die Supraleitung nicht unterbrochen wird. Das Bad von flüssigem Stickstoff muss eventuell während dem Versuch nachgefüllt werden. Der Abkühlprozess dauert ca. 20 min., danach können Messungen gestartet werden. Zu erst soll die Amplitude I$_{rf}$ (VCA, voltage controlled attenuator) und die Auslesefrequenz (VCO voltage controlled oscillator) des rf-Signals so ein maximales Signal-zu-Rausch-Verhältnis von U($\Phi$) erreicht wird. Für die Einstellungen wird der Testmodus, mit eingeschaltetem Generator verwendet. Zu erst wird für VCA ein Werte von 900 eingestellt. Dabei war der Kondensator auf eine Kapazität von \SI{100}{nf} und der Rückkoppelungswiderstand auf 6k$\Omega$ eingestellt. Dann wird der VCO Wert zwischen 0 und 4095 so variiert, das möglichst deutlich ein Dreiecksignal zu sehen ist. Der VCA Wert wird nun nochmal variiert um das Signal weiter zu optimieren. Dabei ergab sich auf dem Oszilloskop der Graph in Abbildung ?\ref{sub_fig:justage_1}. Um eine deutlicheres Bild zu erhalten wurde eine Nachbeleuchtungszeit von 1s gewählt (siehe Abb. \ref{sub_fig:justage_2}). Für VCO und VCA wurde die folgenden Werte bestimmt:
+Vor dem einstellen des SQUID muss das Dewar-Gefäß in ein Bad von flüssigem Stickstoff getaucht werden, damit der Sensor nicht durch Feuchtigkeit zerstört wird und die Supraleitung nicht unterbrochen wird. Das Bad von flüssigem Stickstoff muss eventuell während dem Versuch nachgefüllt werden. Der Abkühlprozess dauert ca. 20 min., danach können Messungen gestartet werden. Zu erst soll die Amplitude I$_{rf}$ (VCA, voltage controlled attenuator) und die Auslesefrequenz (VCO voltage controlled oscillator) des rf-Signals so ein maximales Signal-zu-Rausch-Verhältnis von U($\Phi$) erreicht wird. Für die Einstellungen wird der Testmodus, mit eingeschaltetem Generator verwendet. Zu erst wird für VCA ein Werte von 900 eingestellt. Dabei war der Kondensator auf eine Kapazität von \SI{100}{nf} und der Rückkoppelungswiderstand auf 6k$\Omega$ eingestellt. Dann wird der VCO Wert zwischen 0 und 4095 so variiert, das möglichst deutlich ein Dreiecksignal zu sehen ist. Der VCA Wert wird nun nochmal variiert um das Signal weiter zu optimieren. Dabei ergab sich auf dem Oszilloskop der Graph in Abbildung \ref{sub_fig:justage_1}. Um eine deutlicheres Bild zu erhalten wurde eine Nachbeleuchtungszeit von 1s gewählt (siehe Abb. \ref{sub_fig:justage_2}). Für VCO und VCA wurde die folgenden Werte bestimmt:
 
 \begin{align*}
 VCO =&\hspace{5px} 2766 \\
@@ -164,6 +164,7 @@ Das Dreiecksignal verschiebt sich um ein halbes Flussquant. Die Messung musste z
 % messergebnisse und auswertung
 
 \subsection{Kalibrierung}
+\label{sub_sec:kalib}
 Für die weiteren Messungen muss der Sensor zuerst kalibriert werden, um aus dem Signal die stärke des Magnetfeldes bestimmen zu können. Es soll auch die Empfindlichkeit des SQUID in Abhängigkeit des Rückkopplungswiderstandes gemessen werden. Zuerst wird für einen festen Widerstand das Magnetfeld in Abhängigkeit der Ströme in der Leiterschleife untersucht. Es werden Ströme zwischen \SI{0}{mA} und \SI{90}{mA} verwendet. Beispielhaft ist die Aufnahme für den Widerstand von 2k$\Omega$ in Abb. \ref{fig:fit_empfindlichkeit} zu sehen. Die aus der Aufnahme bestimmten Spannungen sind in Tabelle \ref{tab:empfindlichkeitswerte_aus_plot} aufgetragen.
 
 
@@ -237,10 +238,10 @@ Die Messcharakteristik des SQUID beträgt:
 
 Es lässt sich nun noch die Eichung für das Magnetfeld berechnen. Dafür wird das Magnetfeld der Leiterschleife verwendet, welches nach Gl.?? bestimmt werden kann. Die Eichung wird für den 20k$\Omega$ Widerstand bestimmt, da die Eichung im nächstem Versuchsteil (Abschnitt \ref{sub_sec:aufzug}) benötigt wird. Die Eichungen für die anderen Widerstände geht Analog. Rechnet man den Strom mit Gl.?? und das B-Feld der Leitschleife um so erhält man Abb.\ref{fig:kalib_20k} als U-B-Diagramm (siehe Abb.\ref{fig:b_zu_v}). Für den Fit wurde Gl.\ref{equ:invers_lin} verwendet.
 
-\begin{align*}
+\begin{align}
 \label{equ:invers_lin}
 f(y) = \frac{y-b}{a}
-\end{align*}
+\end{align}
 
 \begin{figure}[H]
 \centering
@@ -257,4 +258,25 @@ Die Eichung für den Zusammenhang zwischen dem Magnetfeld und Spannung ergibt sic
 
 \subsection{Aufzug}
 \label{sub_sec:aufzug}
-In diesem Versuchsteil soll das Magnetfeld der Aufzüge untersucht werden. Dabei wird der Aufzug als Dipol angenommen, da das Gegengewicht eine natürliche Magnetisierung besitzt. Durch die Messung soll die z-Komponente des Dipols bestimmt werden.
+In diesem Versuchsteil soll das Magnetfeld der Aufzüge untersucht werden. Dabei wird der Aufzug als Dipol angenommen, da das Gegengewicht eine natürliche Magnetisierung besitzt. Durch die Messung soll die z-Komponente des Dipols bestimmt werden. Eine Fahrt des Aufzugs von Ebene 6 auf Ebene 13 ist in Abb.\ref{fig:aufzug} zu sehen.
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale = 0.4, angle=-90]{Messungen/bearbeitet/TEK0023.png}
+\caption{Aufnahme der Aufzugfahrt von Eben 6 auf Eben 13}
+\label{fig:aufzug}
+\end{figure}
+
+Die Spannungsdifferenz zwischen Ebene 6 und Ebene 13 ergibt sich mit $\Delta U_{6-13}$ = 4.5(1) V. Für die Messung wurde der 20k$\Omega$ Widerstand verwendet. Mit der Eichung in Abschnitt \ref{sub_sec:kalib} lässt sich mit Gl.\ref{equ:del_b} die Magnetfeldänderung bestimmen.
+
+\begin{align}
+\label{equ:del_b}
+\Delta B_{6-13} = \frac{1}{a} \cdot \Delta U_{6-13}
+\end{align}
+
+Die Magnetfeldänderung ergibt sich mit 0.027(5) $\mu$T. Nimmt man nun an, dass der Aufzug einen perfekten Dipol darstellt und nur eine zum Aufzugschacht parallele Komponente hat kann mit Gl.?? das Dipolmoment des Aufzugs berechnet werden. Dabei wird der Abstand zwischen Aufzug und SQUID mit 12m und die Etagenhöhe mit 4m angenommen. Es ergibt sich ein magnetischen Dipolmoment $\mu$ von:
+
+\begin{align}
+\label{equ:dipol}
+\mu \approx 2295  A m^2
+\end{align}
