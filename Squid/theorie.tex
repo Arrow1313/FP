@@ -14,30 +14,50 @@ Der Meißner-Ochsenfeld-Effekt wurde 1993 entdeckt und beschreibt das magnetische
 \centering
 \begin{subfigure}[t]{0.49\textwidth}
 \includegraphics[scale = 0.5]{Meisner-Ochsenfeld-Kompensation-Veranschaulichung.png}
-\caption{Unterhalb der kritischen Temperatur\\ T$_c$ wird das magnetische Feld aus dem\\ Supraleiter herausgedrängt \cite{Meissner_Ochsenfeld_pic}}
+\caption{Unterhalb der kritischen Temperatur\\ T$_c$ wird das magnetische Feld aus dem\\ Supraleiter herausgedrängt Quelle: \cite{Meissner_Ochsenfeld_pic}}
 \label{fig:Meissner-Ochsenfeld-Effekt}
 \end{subfigure}
 \begin{subfigure}[t]{0.49\textwidth}
 \includegraphics[scale = 1]{Superconductivity_StateDiagram.jpg}
-\caption{Phasendiagramm eines Supraleiters (1.Art) \cite{StateDiagram}}
+\caption{Phasendiagramm eines Supraleiters (1.Art) Quelle: \cite{StateDiagram}}
 \label{fig:Phasendiagramm}
 \end{subfigure}
 \end{figure}
 
 
-Innerhalb des Supraleiters gilt $B=0$ und $\dot{B}=0$. Dadurch verhält sich der Supraleiter wie ein perfekter Diamagnet, sodass durch Oberflächenströme eine Magnetisierung entsteht, die dem äußerem Feld entgegenwirkt. Ab einer gewissen Feldstärke bricht die Supraleitung zusammen, da es energetisch günstiger ist das Magnetfeld in den Supraleiter eindringen zu lassen. Es hat sich herausgestellt, dass man Supraleiter in zwei verschiedene Arten unterteilen kann (siehe Abb. ??). Bei Supraleitern erster Art fällt die Supraleitung ab der kritischen Feldstärke direkt auf 0 ab. Bei Supraleitern zweiter Art fällt die Supraleitung ab der kritischen Feldstärke exponentiellen ab, da das Magnetfeld erst ab einer höheren Feldstärke vollständig eindringen kann. Davor dringt das Magnetfeld in der Form mikroskopisch kleiner Flussschläuche in das Material ein.
+Innerhalb des Supraleiters gilt $B=0$ und $\dot{B}=0$. Dadurch verhält sich der Supraleiter wie ein perfekter Diamagnet, sodass durch Oberflächenströme eine Magnetisierung entsteht, die dem äußerem Feld entgegenwirkt. Ab einer gewissen Feldstärke bricht die Supraleitung zusammen, da es energetisch günstiger ist das Magnetfeld in den Supraleiter eindringen zu lassen. Es hat sich herausgestellt, dass man Supraleiter in zwei verschiedene Arten unterteilen kann (siehe Abb. \ref{fig:Supraleiter_1_u_2_Art}).
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale = 0.375]{Supraleiter1u2.pdf}
+\caption{Vergleich der Magnetisierung für Supraleiter 1. und 2. Art bei verschiedenen Magnetfeldstärken Quelle: \cite{Supraleiter_pic}}
+\label{fig:Supraleiter_1_u_2_Art}
+\end{figure}
+
+Bei Supraleitern erster Art fällt die Supraleitung ab der kritischen Feldstärke direkt auf 0 ab. Bei Supraleitern zweiter Art fällt die Supraleitung ab der kritischen Feldstärke exponentiell ab, da das Magnetfeld erst ab einer höheren Feldstärke vollständig eindringen kann. Davor dringt das Magnetfeld in der Form mikroskopisch kleiner Flussschläuche in das Material ein.
 
 % Bild einfügen
 
 \subsubsection{BCS-Theorie}
 Eine quantenmechanische Theorie der Supraleitung wurde 1957 von Bardeen, Cooper und Schrieffer aufgestellt, diese wird die BCS-Theorie genannt.
-Bei dieser Theorie wird davon ausgegangen, dass die Elektronen durch Coulombwechselwirkung Phononen (Gitterschwingungen) anregen. Das Gitter wird auf diese Weise lokal "`hinter"' dem Elektron zusammengezogen, sodass dort ein Überschuss positiver Ladung entsteht, der auf ein weiteres Elektron schwach attraktiv wirkt. Diese Elektronenpaare werden auch als Cooperpaare bezeichnet.
+Bei dieser Theorie wird davon ausgegangen, dass die Elektronen durch Coulombwechselwirkung Phononen (Gitterschwingungen) anregen. Das Gitter wird auf diese Weise lokal "`hinter"' dem Elektron zusammengezogen, sodass dort ein Überschuss positiver Ladung entsteht, der auf ein weiteres Elektron schwach attraktiv wirkt. Die elektrische Ladung der Elektronen wird dabei weitestgehend abgeschirmt, da die Phononenwechselwirkung langreichweitig ist, und im vergleich zur Coulombwechselwirkung relativ langsam abläuft. Diese Elektronenpaare werden auch als Cooperpaare bezeichnet.
 
-%  Abbildung einfügen
+\begin{figure}[H]
+\centering
+\includegraphics[scale = 0.4]{Cooper-Paare.pdf}
+\caption{Veranschaulichung der Funktionsprinzips von Cooper-Paaren Quelle: \cite{Cooper-Paare}}
+\label{fig:Cooperpaare}
+\end{figure}
+
+Es ergibt sich aufgrund der hohen Dichte an Cooper-Paaren ein neuer energetisch günstigerer Grundzustand, welcher durch eine einzige Bosonenwellenfunktion beschrieben werden kann. Wegen der Eindeutigkeit der Wellenfunktion darf sich die Phase der Wellenfunktion beim Umlauf um einen Supraleiter nur um ein vielfaches von 2$\pi$ ändern, woraus man folgern kann, dass der Fluss durch den Ring nur ein ganzzahliges Vielfaches des Flussquantums
+\begin{align}
+\Phi_0 = \frac{h}{2e}
+\end{align}
+annehmen kann.
 
 \subsubsection{Josephson-Effekt}
 
-Der Josephson Effekt beschreibt die Kopplung zweier makroskopischer Wellenfunktionen über eine Tunnelbarriere. Werden zwei Supraleiter durch eine dünne nicht-supraleitende Barriere getrennt, so können sogenannte Cooper-Paare (Elektron-Elektron-Singulett-Zustände) durch die Barriere in den anderen Supraleiter tunneln. Die Barriere wird auch Josephson-Kontakt genannt. Wird ein geringer Strom an den Josephson-Kontakt angelegt, verhält er sich wie ein ununterbrochener Supraleiter.
+Der Josephson Effekt beschreibt die Kopplung zweier makroskopischer Wellenfunktionen über eine Tunnelbarriere. Werden zwei Supraleiter durch eine dünne nicht-supraleitende Barriere getrennt, so können sogenannte Cooper-Paare (Elektron-Elektron-Singulett-Zustände) durch die Barriere in den anderen Supraleiter tunneln. Die Barriere wird auch Josephson-Kontakt genannt. Wird ein geringer Strom an den Josephson-Kontakt angelegt, verhält er sich wie ein ununterbrochener Supraleiter. Wird der Strom zu groß, so wird die Barriere ab einem Strom I$_c$ normalleitend. In dem verwendeten Squid stellt eine Korngrenze in einem supraleitenden Kristall den Josephson-Kontakt dar.
 
 \subsection{SQUID}
 In diesem Abschnitt wird kurz der grundlegende Aufbau des SQUIDs beschrieben und genauer auf das rf-SQUID eingegangen.
