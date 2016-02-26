@@ -29,7 +29,7 @@ Innerhalb des Supraleiters gilt $B=0$ und $\dot{B}=0$. Dadurch verhält sich der 
 
 \begin{figure}[H]
 \centering
-\includegraphics[scale = 0.375]{Supraleiter1u2.pdf}
+\includegraphics[scale = 0.3]{Supraleiter1u2.pdf}
 \caption{Vergleich der Magnetisierung für Supraleiter 1. und 2. Art bei verschiedenen Magnetfeldstärken Quelle: \cite{Supraleiter_pic}}
 \label{fig:Supraleiter_1_u_2_Art}
 \end{figure}
@@ -44,7 +44,7 @@ Bei dieser Theorie wird davon ausgegangen, dass die Elektronen durch Coulombwech
 
 \begin{figure}[H]
 \centering
-\includegraphics[scale = 0.4]{Cooper-Paare.pdf}
+\includegraphics[scale = 0.3]{Cooper-Paare.pdf}
 \caption{Veranschaulichung der Funktionsprinzips von Cooper-Paaren Quelle: \cite{Cooper-Paare}}
 \label{fig:Cooperpaare}
 \end{figure}
@@ -60,27 +60,80 @@ annehmen kann.
 Der Josephson Effekt beschreibt die Kopplung zweier makroskopischer Wellenfunktionen über eine Tunnelbarriere. Werden zwei Supraleiter durch eine dünne nicht-supraleitende Barriere getrennt, so können sogenannte Cooper-Paare (Elektron-Elektron-Singulett-Zustände) durch die Barriere in den anderen Supraleiter tunneln. Die Barriere wird auch Josephson-Kontakt genannt. Wird ein geringer Strom an den Josephson-Kontakt angelegt, verhält er sich wie ein ununterbrochener Supraleiter. Wird der Strom zu groß, so wird die Barriere ab einem Strom I$_c$ normalleitend. In dem verwendeten Squid stellt eine Korngrenze in einem supraleitenden Kristall den Josephson-Kontakt dar.
 
 \subsection{SQUID}
-In diesem Abschnitt wird kurz der grundlegende Aufbau des SQUIDs beschrieben und genauer auf das rf-SQUID eingegangen.
-Ein SQUID besteht aus einer supraleitenden Schleife mit ein(rf-SQUID) oder zwei(dc-SQUID) Schwachstellen. Die Schwachstelle hat eine begrenzte Stromtragfähigkeit, wodurch sie bei großen externen Änderungen des Flusses resistiv werden kann. Dadurch wird der Suprastrom für eine sehr kurze Zeit unterbrochen, was mit einem Resonanzschwingkreis gemessen werden kann.
+In diesem Abschnitt wird der grundlegende Aufbau des SQUID beschrieben und genauer auf das rf-SQUID eingegangen.
+Ein SQUID besteht aus einer supraleitenden Schleife mit einer (rf-SQUID) oder zwei (dc-SQUID) Schwachstellen. Die Schwachstelle hat eine begrenzte Stromtragfähigkeit, wodurch sie bei großen externen Änderungen des Flusses resistiv werden kann. Dadurch wird der Suprastrom für eine sehr kurze Zeit unterbrochen, was mit einem Resonanzschwingkreis erzwungen werden kann und für die Magnetfeldmessung relevant ist.
 
-%Bild einfügen
+\begin{figure}[H]
+\centering
+\includegraphics[scale = 1.5]{Skizze1.pdf}
+\caption{Schematischer Aufbau eines rf-SQUID. Die angeschriebenen Größen sind die Induktivitäten L$_{Sq}$ und L$_T$, der Pumpstrom I$_{Rf}$, der Suprastrom I$_S$, die Tankschwingkreiskapazität C$_T$ und die Messspannung U$_{Mess}$. Der SQUID-Ring ist induktiv mit dem Tankschwingkreis gekoppelt. (vgl. \cite{JSQ_Tutorial})}
+\label{fig:schem_Aufb}
+\end{figure}
 
 
-%---------------------------------------
+Der schematische Aufbau eines rf-SQUID ist in Abb. \ref{fig:schem_Aufb} zu sehen. Der Supraleitende Ring hat nur eine Schwachstelle und ist induktiv an einen Schwingkreis gekoppelt.
 
-%---------------------------------------
+Da in dem Supraleitendem Ring nur ganzzahlige Vielfache des Flussquants aufgenommen werden können, werden Abweichungen unterhalb eines Flussquants durch den Strom I$_{supra}$ kompensiert. Überschreitet die externe Flussänderung die Größe von einem Flussquant so bricht die Supraleitung zusammen. Der maximale Strom durch den Josephson-Kontakt ist durch einen Flussquant begrenzt, sodass die Supraleitung durch Überschreitung der kritischen Stromstärke zusammenbricht und ein Flussquant in den Ring eindringen kann. Bei diesem Prozess wird der Suprastrom vollständig für die Wärmeerzeugung verbraucht. Der Tankschwingkreis, welcher induktiv an die SQUID-Schleife gekoppelt ist, wird über einen Wechselstrom mit seiner Resonanzfrequenz zwischen \SI{100}{MHz} und \SI{1}{GHz} angeregt. Die dadurch erzeugte Flussänderung muss das SQUID durch einen zusätzlichen Suprastrom kompensieren. Solange der Suprastrom unter dem kritischem Strom (I$_c$) bleibt, steigt die Spannung linear mit dem Pumpstrom (I$_{rf}$) des Tankschwingkreises an. Falls die kritische Stromstärke erreicht wird findet ein Flussquantensprung statt. Dies ist energetisch günstiger und entzieht dem Tankschwingkreis Energie. Der Tankschwingkreis baut sich neu auf, bis ein weiterer Flussquantensprung stattfindet. Erhöht man den Pumpstrom, so erhöht sich zuerst die Häufigkeit der Flussquantensprünge und damit der mittlere Energieentzug aus dem Tankschwingkreis. Die mittlere am Tankschwingkreis abfallende Spannung bleibt damit konstant. Sobald bei jeder Hochfrequenzperiode ein Flussquantensprung stattfindet, wird der Zusammenhang zwischen I$_{rf}$ und U$_{mess}$ bei weiterer Erhöhung von I$_{rf}$ aufgrund der Sättigung linear, bis ein zweiter Flussquantensprung stattfindet. 
+Die Abhängigkeit von U$_{mess}$ zu I$_{rf}$ ist in Abb. \ref{fig:Strom-Spann} für die beiden Extremfälle $\Phi_{ext} = n\Phi_0$ und $\Phi_{ext} = (n+\frac{1}{2}\Phi_0)$ dargestellt.
 
-Der schematische Aufbau eines rf-SQUID ist in Abb. ?? zu sehen. Der Supraleitende Ring hat nur eine Schwachstelle und ist induktiv an einen Schwingkreis gekoppelt.
+\begin{figure}[H]
+\centering
+\includegraphics[scale = 1.2]{Skizze22.pdf}
+\caption{Strom-Spannungsverlauf am Schwingkreis (vgl. \cite{JSQ_Tutorial})}
+\label{fig:Strom-Spann}
+\end{figure}
 
-Da in dem Supraleitendem Ring nur ganzzahlige Vielfache des Flussquants aufgenommen werden können, werden Abweichungen unterhalb eines Flussquants durch den Strom I$_{supra}$ kompensiert. Überschreitet die externe Flussänderung die Größe von einem Flussquant so bricht die Supraleitung zusammen. Der maximale Strom durch den Josephson-Kontakt ist durch ein Flussquant begrenzt, sodass die Supraleitung wegen überschreiten der kritischen Stromstärke zusammenbricht und ein Flussquant in den Ring eindringen kann. Bei diesem Prozess wird der Suprastrom vollständig zur Wärme Erzeugung verbraucht. Ein Tankschwingkreis ist induktiv mit der SQUID-Schleife gekoppelt. Der Schwingkreis wird über einen Wechselstrom mit seiner Resonanzfrequenz zwischen \SI{100}{MHz} und \SI{1}{GHz} angeregt. Die dadurch erzeugte Flussänderung muss das SQUID durch einen zusätzlich Suprastrom kompensieren. Solange der Suprastrom unter dem kritischem Strom (I$_c$) bleibt, steigt die Spannung linear mit dem Pumpstrom (I$_{rf}$) des Tankschwingkreises an. Falls die kritische Stromstärke erreicht wird findet ein Flussquantensprung statt. Dies ist energetisch günstiger und entzieht dem Tankschwingkreis Energie. Der Tankschwingkreis baut sich neu auf, bis ein weiterer Flussquantensprung stattfindet. Erhöht man den Pumpstrom, so erhöht sich zuerst die Häufigkeit der Flussquantensprünge und damit der mittlere Energieentzug aus dem Tankschwingkreis. Die mittlere am Tankschwingkreis abfallende Spannung bleibt damit konstant. Sobald bei jeder Hochfrequenzperiode ein Flussquantensprung stattfindet wird der Zusammenhang zwischen I$_{rf}$ und U$_{mess}$ bei weiterer Erhöhung von I$_{rf}$ aufgrund der Sättigung linear, bis ein zweiter Flussquantensprung stattfindet. 
-
-Die Abhängigkeit von U$_{mess}$ zu I$_{rf}$ ist in Abb. ?? dargestellt.
+Um den Spannungsunterschied am besten messen zu können, wählt man I$_{Rf}$ so, dass die Spannungsunterschiede maximal werden. Dies ist bei einem Strom I$_{Rf}$ von I$_2$ oder I$_1$ der Fall. In der Praxis werden SQUIDs oft auf eine Spule zurückgekoppelt, die das externe Magnetfeld kompensiert, da die Größenordnung eines Flussquants als Messbereich meistens zu klein ist. Die SQUID-Schleife dient dann als Nullpunktdetektor.
 
 \subsection{Magnetismus}
 
-Im Folgenden soll auf die Formeln für eine Leiterschleife (Kalibrierung), und die eines Magnetischen Dipols genauer eingegangen werden. Daneben soll das Funktionsprinzip der elektromagnetischen Abschirmung erklärt werden.
+Im Folgenden soll auf die Formeln für eine Leiterschleife (Kalibrierung), und die eines magnetischen Dipols genauer eingegangen werden. Daneben soll das Funktionsprinzip der elektromagnetischen Abschirmung erklärt werden.
+
 \subsubsection{Elektromagentische Abschirmung}
 
-\subsubsection{Magnetfeld einer Leiterschleife und eines Dipols}
+Da das SQUID sehr empfindlich ist, müssen äußere Wechselfelder abgeschirmt werden. Dies kann mithilfe eines Faraday-Käfigs realisiert werden. Je nach elektrischem Widerstand ist die Abschirmung nicht perfekt, sodass Wechselfelder nicht vollständig absorbiert werden. Die Eindringtiefe niederfrequenter Wellen ist am größten, sodass für die Abschirmung $\mu$-Metall verwendet wird (vgl.\cite{Versuchsanleitung}).
 
-\subsubsection{Curie-Temperatur und Magnetisierung}
+\subsubsection{Magnetfeld einer Leiterschleife und eines Dipols}
+Mithilfe des Biot-Savart-Gesetzes kann man unter der Annahme einer unendlich dünnen Leiterschleife das Magnetfeld auf der Achse senkrecht zur Leiterschleife exakt ausrechnen. Formel \ref{eqn:Leiterschleife} wird für die Kalibrierung des SQUID benötigt.
+\begin{align}
+B_z = \mu_0\cdot\frac{r_L^2}{2(r_L^2+z^2)^{3/2}}\cdot I
+\label{eqn:Leiterschleife}
+\end{align}
+\begin{table}[H]
+\begin{tabular}{l|l}
+ $B_z$ & Magnetfeld entlang der Symmetrieachse \\ 
+ $\mu_0$ & Vakuumpermeabilität \\ 
+ $r_L$ & Radius der Leiterschleife \\
+ $z$ & Abstand von der Symmetrieachse \\
+ $I$ & Strom durch die Leiterschleife \\
+\end{tabular} 
+\end{table}
+
+Für das Magnetfeld eines Dipols gilt die allgemeine Formel \ref{eqn:Dipolfeld} (vgl. \cite{JSQ_Tutorial}).
+\begin{align}
+\textbf{B}(\textbf{r}) = \frac{\mu_0}{4\pi r^2}\left[\frac{3 (\boldsymbol{\mu} \cdot \textbf{r})\textbf{r}}{r^3}-\frac{\boldsymbol{\mu}}{r}\right]
+\label{eqn:Dipolfeld}
+\end{align}
+\begin{table}[H]
+\begin{tabular}{l|l}
+$\textbf{B}$ & Magnetfeld\\
+$\textbf{r}$ & Ortsvektor des Dipolmagneten\\
+$r$ & Abstand des Dipolmagnetes zum Ursprung\\
+$\boldsymbol{\mu}$ & magn. Dipolmoment\\
+\end{tabular}
+\end{table}
+Unter der Annahme, dass das magnetische Moment des Aufzuges in Richtung der z-Achse vertikal nach oben oder unten zeigt, kann man das magnetische Moment $|\boldsymbol{\mu}| = \mu_z$ des Aufzuges nach Formel \ref{eqn:magnMoment} ausrechnen, indem man Formel \ref{eqn:Dipolfeld} nach $\mu_z$ umstellt.
+\begin{align}
+\mu_z = \frac{4\pi}{\mu_0}\left[\frac{(z_{13}^2+r_A^2)^{\frac{5}{2}}\cdot(z_6^2+r_A^2)^{\frac{5}{2}}}{(2z_{13}^2-r_A^2)\cdot(z_6^2+r_A^2)^{\frac{5}{2}}-
+(2z_{6}^2-r_A^2)\cdot(z_{13}^2+r_A^2)^{\frac{5}{2}}}\right]\Delta B_z
+\label{eqn:magnMoment}
+\end{align}
+\begin{table}[H]
+\begin{tabular}{l|l}
+$\mu_z$ & z-Komponente des magn. Dipolmomentes\\
+$z_{13}$ & Höhe von Etage 13 relativ zu Etage 11\\
+$z_6$ & Höhe von Etage 6 relativ zu Etage 11\\
+$r_A$ & Abstand des Aufzuges vom Versuchsaufbau in der x-y-Ebene (parallel zu Ebene 11)\\
+$\Delta B_z$ & Differenz zwischen dem Magnetfeld in Etage 13 und 6
+\end{tabular}
+\end{table}
