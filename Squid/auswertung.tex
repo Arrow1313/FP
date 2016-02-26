@@ -164,15 +164,96 @@ Das Dreiecksignal verschiebt sich um ein halbes Flussquant. Die Messung musste z
 % messergebnisse und auswertung
 
 \subsection{Kalibrierung}
-Für die weiteren Messungen muss der Sensor zuerst kalibriert werden, um as dem Signal die stärke des Magnetfeldes bestimmen zu können. Es soll auch die Empfindlichkeit des SQUID in Abhängigkeit des Rückkopplungswiderstandes gemessen werden. Zuerst wird für einen festen Widerstand das Magnetfeld in Abhängigkeit der Ströme in der Leiterschleife untersucht. Es werden Ströme zwischen \SI{0}{mA} und \SI{90}{mA} verwendet. 
+Für die weiteren Messungen muss der Sensor zuerst kalibriert werden, um aus dem Signal die stärke des Magnetfeldes bestimmen zu können. Es soll auch die Empfindlichkeit des SQUID in Abhängigkeit des Rückkopplungswiderstandes gemessen werden. Zuerst wird für einen festen Widerstand das Magnetfeld in Abhängigkeit der Ströme in der Leiterschleife untersucht. Es werden Ströme zwischen \SI{0}{mA} und \SI{90}{mA} verwendet. Beispielhaft ist die Aufnahme für den Widerstand von 2k$\Omega$ in Abb. \ref{fig:fit_empfindlichkeit} zu sehen. Die aus der Aufnahme bestimmten Spannungen sind in Tabelle \ref{tab:empfindlichkeitswerte_aus_plot} aufgetragen.
 
-% messdaten und widerstand angeben
 
-Aus den Höhen der Plateaus und den jeweiligen Strömen kann eine lineare Regression durchgeführt werden, um den Zusammenhang zwischen dem Strom in der Leiterschleife und der Spannung her zu stellen.
+\begin{figure}[H]
+\centering
+\includegraphics[scale = 0.4, angle=-90]{Messungen/bearbeitet/TEK0017.png}
+\caption{Aufnahme des Oszilloskops beim erhöhen des Stroms in 10mA-Schritten, für den 2k$\Omega$ Widerstand. Die aus dem Plot bestimmten Spannungen sind in Tablle \ref{tab:empfindlichkeitswerte_aus_plot} aufgetragen.}
+\label{fig:fit_empfindlichkeit}
+\end{figure}
 
-%messdaten + bilder
+\begin{table}[H]
+\centering
+\caption{Spannungen die aus dem Plot in Abb. \ref{fig:fit_empfindlichkeit} bestimmt wurden. Der Fehler wurde auf Grund der Dicke der Plateaus mit 10 mV angenommen.}
+\label{tab:empfindlichkeitswerte_aus_plot}
+\begin{tabular}{c|c}
+ Strom/mA & Spannung/mV \\ \hline
+\hline 0 & 0 \\ 
+\hline 10 & 95.68 \\ 
+\hline 20 & 170.56 \\ 
+\hline 30 & 274.56 \\ 
+\hline 40 & 374.40 \\ 
+\hline 50 & 474.24 \\ 
+\hline 60 & 569.92 \\ 
+\hline 70 & 636.48 \\ 
+\hline 80 & 736.32 \\ 
+\hline 90 & 823.68 \\ 
+\end{tabular} 
+\end{table}
 
-Die Messung wird für die anderen Widerstände wiederholt (siehe Abb. ??)
+Aus dem Abstand der Plateaus zum Zustand ohne Strom wurde die Empfindlichkeit für den jeweiligen Widerstand bestimmt. Für den Fit wurde eine lineares Model verwendet. Der Plot des Fits für die Werte aus Tabelle \ref{tab:empfindlichkeitswerte_aus_plot} ist in Abb.\ref{fig:fit_empfindlichkeit_2k} zu sehen. Es ergab sich eine Steigung von 9.2(1) V/A und ein y-Achsenabschnitt von 1(5) mA, das $\chi_{red}^2$ ergab sich mit 0.93 was einer gutes Ergebnis darstellt.
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale = 0.4]{Fits/2k.png}
+\caption{Linearer Fit für den Zusammenhang zwischen Strom und Empfindlichkeit(in Volt). Bei dem Fit ergab sich für die Steigung ein Wert von 9.2(1) V/A und für den y-Achsenabschnitt ein Wert von 1(5) mA, das $\chi_{red}^2$ ergab sich mit 0.93 was einer gutes Ergebnis darstellt.}
+\label{fig:fit_empfindlichkeit_2k}
+\end{figure}
+
+Aus den linearen Fits ergeben sich die Empfindlichkeiten in Tabelle \ref{tab:widerstand_empfindlichkeit}.
+
+\begin{table}[H]
+\centering
+\caption{Die Bestimmten Empfindlichkeiten in Abhängigkeit des Widerstandes. Die Fehler sind die Fehler, die sich aus den Fit ergeben haben.}
+\label{tab:widerstand_empfindlichkeit}
+\begin{tabular}{c|c}
+Widerstand / k$\Omega$ & Empfindlichkeit A/V \\ \hline
+\hline 1 & 4.4(8) \\ 
+\hline 1.5 & 6.8(1) \\ 
+\hline 2 & 9.2(1) \\ 
+\hline 3 & 13.11(6) \\ 
+\hline 4 & 17.8(1) \\ 
+\hline 6 & 25.7(1) \\ 
+\hline 10 & 42.2(3) \\ 
+\hline 20 & 83.5(9) \\ 
+\end{tabular} 
+\end{table}
+
+Es wird ein linearer Zusammenhang zwischen der Empfindlichkeit und dem Widerstand vermutet, deshalb werden die Werte in Tabelle \ref{tab:widerstand_empfindlichkeit} mit einem linearem Model gefittet. Der Plot des Fits und der Werte ist in Abb. \ref{fig:fit_empfindlichkeit_widerstand} zu sehen. Für die Steigung ergab sich ein Werte von 4.161(5) $\nicefrac{V}{A \cdot k\Omega}$, der y-Achsenabschnitt hat einen Wert von 0.29(7) V/A, für das $\chi_{red}^2$ ergibt sich ein Werte von 4.41 was ein zu hohen Wert ist und vermuten lässt, dass es noch Störquellen gibt, die nicht Berücksichtigt wurden. 
+Die Messcharakteristik des SQUID beträgt:
+
+\begin{align*}
+4.161(5) \text{V A$^{-1}$ k$\Omega^{-1}$}.
+\end{align*}
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale = 0.4]{Fits/empfindlichkeit.png}
+\caption{Linearer Fit für den Zusammenhang zwischen Empfindlichkeit und Widerstand. Bei dem Fit ergab sich für die Steigung ein Wert von 4.161(5) $\nicefrac{V}{A \cdot k\Omega}$ und für den y-Achsenabschnitt ein Wert von 0.29(7) V/A, das $\chi_{red}^2$ ergab sich mit 4.41 was auf weiter Störquellen schließen lässt.}
+\label{fig:fit_empfindlichkeit_widerstand}
+\end{figure}
+
+Es lässt sich nun noch die Eichung für das Magnetfeld berechnen. Dafür wird das Magnetfeld der Leiterschleife verwendet, welches nach Gl.?? bestimmt werden kann. Die Eichung wird für den 20k$\Omega$ Widerstand bestimmt, da die Eichung im nächstem Versuchsteil (Abschnitt \ref{sub_sec:aufzug}) benötigt wird. Die Eichungen für die anderen Widerstände geht Analog. Rechnet man den Strom mit Gl.?? und das B-Feld der Leitschleife um so erhält man Abb.\ref{fig:kalib_20k} als U-B-Diagramm (siehe Abb.\ref{fig:b_zu_v}). Für den Fit wurde Gl.\ref{equ:invers_lin} verwendet.
+
+\begin{align*}
+\label{equ:invers_lin}
+f(y) = \frac{y-b}{a}
+\end{align*}
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale = 0.4]{Fits/b_zu_v.png}
+\caption{U-B-Diagramm zur Bestimmung der Eichung für den 20k$\Omega$ Widerstand. Für den Fit ergab sich für b eine Werte von -0.01(4) $\mu$T, für a ergab sich ein Wert von 163(2) $\frac{V}{\mu T}$}
+\label{fig:b_zu_v}
+\end{figure}
+
+Die Eichung für den Zusammenhang zwischen dem Magnetfeld und Spannung ergibt sich durch: 
+
+\begin{align*}
+163(2) V \mu T^{-1}
+\end{align*}
 
 \subsection{Aufzug}
 \label{sub_sec:aufzug}
