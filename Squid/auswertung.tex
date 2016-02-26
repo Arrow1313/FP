@@ -67,6 +67,7 @@ Für die Einstellung des Arbeitspunkts wird das Offsets kalibriert. Das SQUID wir
 \label{fig:offset_kurz_vorher}
 \end{figure}
 
+Das optimale Offset wurde mit 2123 Bestimmte, während dem Versuch musste das Offset aufgrund eines Drifts nachjustiert werden.
 % Auswertung + Bilder + weiterführende Analysen(50Hz Rauschen)
 Das Signal wurde mittels Fast-Fourier-Transformation (FFT) auf weitere Störfrequenzen untersucht. Dabei ist deutlich bei 50Hz ein Signal zu sehen und im niederfrequenten Bereich ist auch noch ein Störsignal zu erkennen, welches wahrscheinlich das Netzbrummen ist. Die FFT des Signals ist in Abb. \ref{fig:signal_fft} zu sehen.
 
@@ -125,12 +126,13 @@ Mit den Werten aus der Tabelle ergibt sich der Plot in Abb.??. Als Fitfunktion w
 \end{figure}
 
 
-Für eine quantitative Bestimmung der Empfindlichkeit des SQUIDs wurde mit einer Spule Magnetfelder bekannter stärke erzeugt. Um bei der Messung eine möglichst hohe Empfindlichkeit zu haben wird ein Widerstand von 20k$\Omega$ verwendet. Es wird untersucht, ab welchem Strom ein Signal zu sehen ist. Ab einem Strom von 5mA war eine Änderung im Signal auf dem Oszilloskop zu sehen, die Aufnahme des Oszilloskops ist in Abb. ?? zu sehen.
+Für eine quantitative Bestimmung der Empfindlichkeit des SQUIDs wurde mit einer Spule Magnetfelder bekannter stärke erzeugt. Um bei der Messung eine möglichst hohe Empfindlichkeit zu haben wird ein Widerstand von 20k$\Omega$ verwendet. Es wird untersucht, ab welchem Strom ein Signal zu sehen ist. Ab einem Strom von 5mA war eine Änderung im Signal auf dem Oszilloskop zu sehen, die Aufnahme des Oszilloskops ist in Abb.\ref{fig:osz_5ma} zu sehen.
 
 \begin{figure}[H]
 \centering
 \includegraphics[scale = 0.5, angle=90]{Messungen/TEK0011.JPG}
 \caption{Ab einem Strom von 5mA war eine Änderung des Signals auf dem Oszilloskop zu beobachten.}
+\label{fig:osz_5ma}
 \end{figure}
 
 Um aus dem bestimmten Wert eine Aussage über die Empfindlichkeit machen zu  können, muss die Flussdichte B der Leiterschleife bestimmt werden. Die Flussdichte wird mit Gl.?? berechnet, dabei wurde der Radius mit 3.5(2)cm und der Abstand zwischen der Leiterschleife und dem Sensor mit 10.9(5)cm bestimmt. Daraus ergibt sich eine Flussdichte von B = 2.6(4)$\cdot$10$^9$T. Für die Fläche des Lochs im Supraleiter wurde ein Wert von A = 0.2mm$^2$ in der Praktikumsanleitung (cite??) angegeben. Damit ergibt sich ein Magnetischer Fluss von: 
