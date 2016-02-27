@@ -40,7 +40,7 @@ VCA =&\hspace{5px} 547
 \end{figure}
 
 
-Für die Einstellung des Arbeitspunkts wird das Offsets kalibriert. Das SQUID wird im Messmodus betrieben um die zeitliche Magnetfeldänderung auf dem Oszilloskop zu beobachten. Es wird ein Kompensations-Widerstand von 20k$\Omega$ gewählt. Falls das Offset richtig eingestellt ist sollten keine Peaks auf dem Oszilloskop zu sehen sein. Falls Peaks nach oben zu sehen sind, ist das Offset zu hoch eingestellt (siehe Abb. \ref{sub_fig:offset_zu_hoch}). Bei Peaks, die nach unten zeige, ist das Offset zu niedrig eingestellt (siehe Abb. \ref{sub_fig:offset_zu_niedrig}). Nähert man sich an das optimale Offset an, so werden Peaks immer Breiter, bis sie verschwinden (siehe Abb. \ref{fig:offset_kurz_vorher})
+Für die Einstellung des Arbeitspunkts wird das Offsets kalibriert. Das SQUID wird im Messmodus betrieben um die zeitliche Magnetfeldänderung auf dem Oszilloskop zu beobachten. Es wird ein Kompensations-Widerstand von 20k$\Omega$ gewählt. Falls das Offset richtig eingestellt ist sollten keine Peaks auf dem Oszilloskop zu sehen sein. Falls Peaks nach oben zu sehen sind, ist das Offset zu hoch eingestellt (siehe Abb. \ref{sub_fig:offset_zu_hoch}). Bei Peaks, die nach unten zeigen, ist das Offset zu niedrig eingestellt (siehe Abb. \ref{sub_fig:offset_zu_niedrig}). Nähert man sich an das optimale Offset an, so werden Peaks immer Breiter, bis sie verschwinden (siehe Abb. \ref{fig:offset_kurz_vorher}).
 
 \begin{figure}[H]
 \begin{subfigure}{.48\textwidth}
@@ -67,9 +67,9 @@ Für die Einstellung des Arbeitspunkts wird das Offsets kalibriert. Das SQUID wir
 \label{fig:offset_kurz_vorher}
 \end{figure}
 
-Das optimale Offset wurde mit 2123 Bestimmte, während dem Versuch musste das Offset aufgrund eines Drifts nachjustiert werden.
+Das optimale Offset wurde mit 2126 Bestimmte, während dem Versuch musste das Offset aufgrund eines Drifts nachjustiert werden.
 % Auswertung + Bilder + weiterführende Analysen(50Hz Rauschen)
-Das Signal wurde mittels Fast-Fourier-Transformation (FFT) auf weitere Störfrequenzen untersucht. Dabei ist deutlich bei 50Hz ein Signal zu sehen und im niederfrequenten Bereich ist auch noch ein Störsignal zu erkennen, welches wahrscheinlich das Netzbrummen ist. Die FFT des Signals ist in Abb. \ref{fig:signal_fft} zu sehen.
+Das Signal wurde mittels Fast-Fourier-Transformation (FFT) auf weitere Störfrequenzen untersucht. Dabei ist bei 50Hz deutlich  ein Signal zu sehen und im niederfrequenten Bereich ist auch noch ein Störsignal zu erkennen, welches wahrscheinlich das Netzbrummen ist. Die FFT des Signals ist in Abb. \ref{fig:signal_fft} zu sehen.
 
 \begin{figure}[H]
 \centering
@@ -97,7 +97,7 @@ Als zweites wurde ein Stuhl genommen und auf und ab bewegt, dabei ist deutlich d
 \label{fig:stuhl}
 \end{figure}
 
-Vor der qualitativen Bestimmung der Empfindlichkeit wurden noch drei Aufnahmen des Permanentmagneten mit verschiedenem Abstand gemacht. Mit den Daten soll kurz der U$\propto \nicefrac{1}{r^3}$-Zusammenhang untersucht werden. Dafür wurde die Spannung im Abstand von 1m, 1.5m und 2m bestimmt. Der Fehler auf den Abstand für 1m wurde mit 5cm angenommen und für die anderen beiden Werte mit Fehlerfortpflanzung bestimmt, da nur ein 1m-Lineal vorhanden war. Für die Spannungsdifferenz wurde eine Fehler von 0.5V genommen, da die Werte in diesem Bereich schwanken. Die Messungen der Spannung sind im Anhang in Abb.\ref{fig:magnet_1m}, Abb.\ref{fig:magnet_1.5m} und Abb.\ref{fig:magent_2m} zu sehen. Es ergeben sich daraus die Werte in Tabelle \ref{tab:r_hoch_3}.
+Vor der qualitativen Bestimmung der Empfindlichkeit wurden noch drei Aufnahmen des Permanentmagneten mit verschiedenem Abstand gemacht. Mit den Daten soll kurz der U$\propto \nicefrac{1}{r^3}$-Zusammenhang untersucht werden. Dafür wurde die Spannung im Abstand von 1m, 1.5m und 2m bestimmt. Der Fehler auf den Abstand für 1m wurde mit 5cm angenommen, die anderen Fehler wurden mit Fehlerfortpflanzung bestimmt, da nur ein 1m-Lineal vorhanden war. Für die Spannungsdifferenz wurde eine Fehler von 0.5V genommen, da die Werte in diesem Bereich schwanken. Die Messungen der Spannung sind im Anhang in Abb.\ref{fig:magnet_1m}, Abb.\ref{fig:magnet_1.5m} und Abb.\ref{fig:magent_2m} zu sehen. Es ergeben sich daraus die Werte in Tabelle \ref{tab:r_hoch_3}.
 
 \begin{table}[H]
 \centering
@@ -111,7 +111,7 @@ $\Delta$U / V & Abstand / cm \\ \hline
 \end{tabular} 
 \end{table}
 
-Mit den Werten aus der Tabelle ergibt sich der Plot in Abb.??. Als Fitfunktion wurde Gl.\ref{equ:fit_r_hoch_3} verwendet.
+Mit den Werten aus der Tabelle ergibt sich der Plot in Abb.\ref{fig:r_hoch_3}. Als Fitfunktion wurde Gl.\ref{equ:fit_r_hoch_3} verwendet.
 
 \begin{align}
 \Delta U = \frac{\alpha}{r^3}
@@ -135,14 +135,14 @@ Für eine quantitative Bestimmung der Empfindlichkeit des SQUIDs wurde mit einer 
 \label{fig:osz_5ma}
 \end{figure}
 
-Um aus dem bestimmten Wert eine Aussage über die Empfindlichkeit machen zu  können, muss die Flussdichte B der Leiterschleife bestimmt werden. Die Flussdichte wird mit Gl.?? berechnet, dabei wurde der Radius mit 3.5(2)cm und der Abstand zwischen der Leiterschleife und dem Sensor mit 10.9(5)cm bestimmt. Daraus ergibt sich eine Flussdichte von B = 2.6(4)$\cdot$10$^9$T. Für die Fläche des Lochs im Supraleiter wurde ein Wert von A = 0.2mm$^2$ in der Praktikumsanleitung (cite??) angegeben. Damit ergibt sich ein Magnetischer Fluss von: 
+Um aus dem bestimmten Wert eine Aussage über die Empfindlichkeit machen zu  können, muss die Flussdichte B der Leiterschleife bestimmt werden. Die Flussdichte wird mit Gl.\ref{eqn:Leiterschleife} berechnet, dabei wurde der Radius mit 3.5(2)cm und der Abstand zwischen der Leiterschleife und dem Sensor mit 10.9(5)cm bestimmt. Daraus ergibt sich eine Flussdichte von B = 2.6(4)$\cdot$10$^9$T. Für die Fläche des Lochs im Supraleiter wurde ein Wert von A = 0.2mm$^2$ in der Praktikumsanleitung \cite{Versuchsanleitung} angegeben. Damit ergibt sich ein Magnetischer Fluss von: 
 
 \begin{align}
 \Phi = 5.1(8) \cdot 10^{16} \text{Wb}
 \end{align}
 
-Ein Flussquant hat einen Wert von 2.06*10$^{-15}$Wb damit ist die minimal messbare Änderung ein viertel Flussquant.
-Die Empfindlichkeit kann auch mit dem Dreieckssignal untersucht werden. Dabei wird die Verschiebung des Signals beim ein-/ausschalten des 5mA Stroms untersucht. Eine Verschiebung um eine Dreieck entspricht einem Flussquant. Die Aufnahmen des Oszilloskops sind in Abb.?? zu sehen.
+Ein Flussquant hat einen Wert von 2.06$\cdot$10$^{-15}$Wb damit ist die minimal messbare Änderung ein viertel Flussquant.
+Die Empfindlichkeit kann auch mit dem Dreieckssignal untersucht werden. Dabei wird die Verschiebung des Signals beim ein-/ausschalten des 5mA Stroms untersucht. Eine Verschiebung um eine Dreieck entspricht einem Flussquant. Die Aufnahmen des Oszilloskops sind in Abb.\ref{fig:empfindlichkeit} zu sehen.
 
 \begin{figure}[H]
 \begin{subfigure}{.48\textwidth}
@@ -167,7 +167,7 @@ Das Dreiecksignal verschiebt sich um ein halbes Flussquant. Die Messung musste z
 
 \subsection{Kalibrierung}
 \label{sub_sec:kalib}
-Für die weiteren Messungen muss der Sensor zuerst kalibriert werden, um aus dem Signal die stärke des Magnetfeldes bestimmen zu können. Es soll auch die Empfindlichkeit des SQUID in Abhängigkeit des Rückkopplungswiderstandes gemessen werden. Zuerst wird für einen festen Widerstand das Magnetfeld in Abhängigkeit der Ströme in der Leiterschleife untersucht. Es werden Ströme zwischen \SI{0}{mA} und \SI{90}{mA} verwendet. Beispielhaft ist die Aufnahme für den Widerstand von 2k$\Omega$ in Abb. \ref{fig:fit_empfindlichkeit} zu sehen. Die aus der Aufnahme bestimmten Spannungen sind in Tabelle \ref{tab:empfindlichkeitswerte_aus_plot} aufgetragen.
+Für die weiteren Messungen muss der Sensor zuerst kalibriert werden, um aus dem Signal die stärke des Magnetfeldes bestimmen zu können. Es soll auch die Empfindlichkeit des SQUID in Abhängigkeit des Rückkopplungswiderstandes untersucht werden. Zuerst wird für einen festen Widerstand das Magnetfeld in Abhängigkeit der Ströme in der Leiterschleife untersucht. Es werden Ströme zwischen \SI{0}{mA} und \SI{90}{mA} verwendet. Beispielhaft ist die Aufnahme für den 2k$\Omega$ Widerstand in Abb. \ref{fig:fit_empfindlichkeit} zu sehen. Die aus der Aufnahme bestimmten Spannungen sind in Tabelle \ref{tab:empfindlichkeitswerte_aus_plot} aufgetragen.
 
 
 \begin{figure}[H]
@@ -184,19 +184,19 @@ Für die weiteren Messungen muss der Sensor zuerst kalibriert werden, um aus dem 
 \begin{tabular}{c|c}
  Strom/mA & Spannung/mV \\ \hline
 \hline 0 & 0 \\ 
-\hline 10 & 95.68 \\ 
-\hline 20 & 170.56 \\ 
-\hline 30 & 274.56 \\ 
-\hline 40 & 374.40 \\ 
-\hline 50 & 474.24 \\ 
-\hline 60 & 569.92 \\ 
-\hline 70 & 636.48 \\ 
-\hline 80 & 736.32 \\ 
-\hline 90 & 823.68 \\ 
+\hline 10 & 100 \\ 
+\hline 20 & 170 \\ 
+\hline 30 & 270 \\ 
+\hline 40 & 370 \\ 
+\hline 50 & 470 \\ 
+\hline 60 & 570 \\ 
+\hline 70 & 640 \\ 
+\hline 80 & 740 \\ 
+\hline 90 & 820 \\ 
 \end{tabular} 
 \end{table}
 
-Aus dem Abstand der Plateaus zum Zustand ohne Strom wurde die Empfindlichkeit für den jeweiligen Widerstand bestimmt. Für den Fit wurde eine lineares Model verwendet. Der Plot des Fits für die Werte aus Tabelle \ref{tab:empfindlichkeitswerte_aus_plot} ist in Abb.\ref{fig:fit_empfindlichkeit_2k} zu sehen. Es ergab sich eine Steigung von 9.2(1) V/A und ein y-Achsenabschnitt von 1(5) mA, das $\chi_{red}^2$ ergab sich mit 0.93 was einer gutes Ergebnis darstellt.
+Aus dem Abstand der Plateaus zum Zustand ohne Strom wurde die Empfindlichkeit für den jeweiligen Widerstand bestimmt. Für den Fit wurde eine lineares Model verwendet. Der Plot des Fits für die Werte aus Tabelle \ref{tab:empfindlichkeitswerte_aus_plot} ist in Abb.\ref{fig:fit_empfindlichkeit_2k} zu sehen. Es ergibt sich eine Steigung von 9.2(1) V/A und ein y-Achsenabschnitt von 1(5) mA, das $\chi_{red}^2$ ergibt sich mit 0.93 was einer gutes Ergebnis darstellt.
 
 \begin{figure}[H]
 \centering
@@ -209,7 +209,7 @@ Aus den linearen Fits ergeben sich die Empfindlichkeiten in Tabelle \ref{tab:wid
 
 \begin{table}[H]
 \centering
-\caption{Die Bestimmten Empfindlichkeiten in Abhängigkeit des Widerstandes. Die Fehler sind die Fehler, die sich aus den Fit ergeben haben.}
+\caption{Die Bestimmten Empfindlichkeiten in Abhängigkeit des Widerstandes. Die Fehler sind die Fehler, die sich aus den Fit ergeben.}
 \label{tab:widerstand_empfindlichkeit}
 \begin{tabular}{c|c}
 Widerstand / k$\Omega$ & Empfindlichkeit A/V \\ \hline
@@ -224,7 +224,7 @@ Widerstand / k$\Omega$ & Empfindlichkeit A/V \\ \hline
 \end{tabular} 
 \end{table}
 
-Es wird ein linearer Zusammenhang zwischen der Empfindlichkeit und dem Widerstand vermutet, deshalb werden die Werte in Tabelle \ref{tab:widerstand_empfindlichkeit} mit einem linearem Model gefittet. Der Plot des Fits und der Werte ist in Abb. \ref{fig:fit_empfindlichkeit_widerstand} zu sehen. Für die Steigung ergab sich ein Werte von 4.161(5) $\nicefrac{V}{A \cdot k\Omega}$, der y-Achsenabschnitt hat einen Wert von 0.29(7) V/A, für das $\chi_{red}^2$ ergibt sich ein Werte von 4.41 was ein zu hohen Wert ist und vermuten lässt, dass es noch Störquellen gibt, die nicht Berücksichtigt wurden. 
+Es wird ein linearer Zusammenhang zwischen der Empfindlichkeit und dem Widerstand vermutet, deshalb werden die Werte in Tabelle \ref{tab:widerstand_empfindlichkeit} mit einem linearem Model gefittet. Der Plot des Fits und der Werte ist in Abb. \ref{fig:fit_empfindlichkeit_widerstand} zu sehen. Für die Steigung ergab sich ein Werte von 4.161(5) $\nicefrac{V}{A \cdot k\Omega}$, der y-Achsenabschnitt hat einen Wert von 0.29(7) V/A, für das $\chi_{red}^2$ ergibt sich ein Werte von 4.41 was ein hohen Wert ist und vermuten lässt, dass es noch Störquellen gibt, die nicht Berücksichtigt wurden. 
 Die Messcharakteristik des SQUID beträgt:
 
 \begin{align*}
@@ -238,7 +238,7 @@ Die Messcharakteristik des SQUID beträgt:
 \label{fig:fit_empfindlichkeit_widerstand}
 \end{figure}
 
-Es lässt sich nun noch die Eichung für das Magnetfeld berechnen. Dafür wird das Magnetfeld der Leiterschleife verwendet, welches nach Gl.?? bestimmt werden kann. Die Eichung wird für den 20k$\Omega$ Widerstand bestimmt, da die Eichung im nächstem Versuchsteil (Abschnitt \ref{sub_sec:aufzug}) benötigt wird. Die Eichungen für die anderen Widerstände geht Analog. Rechnet man den Strom mit Gl.?? und das B-Feld der Leitschleife um so erhält man Abb.\ref{fig:kalib_20k} als U-B-Diagramm (siehe Abb.\ref{fig:b_zu_v}). Für den Fit wurde Gl.\ref{equ:invers_lin} verwendet.
+Es lässt sich nun noch die Eichung für das Magnetfeld berechnen. Dafür wird das Magnetfeld der Leiterschleife verwendet, welches mit Gl.\ref{eqn:Leiterschleife} bestimmt werden kann. Die Eichung wird für den 20k$\Omega$ Widerstand bestimmt, da die Eichung im nächstem Versuchsteil (Abschnitt \ref{sub_sec:aufzug}) benötigt wird. Die Eichungen für die anderen Widerstände geht Analog. Rechnet man den Strom mit Gl.\ref{eqn:Leiterschleife} in das B-Feld der Leitschleife um so erhält man Abb.\ref{fig:kalib_20k} als U-B-Diagramm (siehe Abb.\ref{fig:b_zu_v}). Für den Fit wurde Gl.\ref{equ:invers_lin} verwendet.
 
 \begin{align}
 \label{equ:invers_lin}
@@ -260,7 +260,7 @@ Die Eichung für den Zusammenhang zwischen dem Magnetfeld und Spannung ergibt sic
 
 \subsection{Aufzug}
 \label{sub_sec:aufzug}
-In diesem Versuchsteil soll das Magnetfeld der Aufzüge untersucht werden. Dabei wird der Aufzug als Dipol angenommen, da das Gegengewicht eine natürliche Magnetisierung besitzt. Durch die Messung soll die z-Komponente des Dipols bestimmt werden. Eine Fahrt des Aufzugs von Ebene 6 auf Ebene 13 ist in Abb.\ref{fig:aufzug} zu sehen.
+In diesem Versuchsteil soll das Magnetfeld des Aufzuges untersucht werden. Dabei wird der Aufzug als Dipol angenommen, da das Gegengewicht eine natürliche Magnetisierung besitzt. Durch die Messung soll die z-Komponente des Dipols bestimmt werden. Eine Fahrt des Aufzugs von Ebene 6 auf Ebene 13 ist in Abb.\ref{fig:aufzug} zu sehen.
 
 \begin{figure}[H]
 \centering
@@ -276,7 +276,7 @@ Die Spannungsdifferenz zwischen Ebene 6 und Ebene 13 ergibt sich mit $\Delta U_{
 \Delta B_{6-13} = \frac{1}{a} \cdot \Delta U_{6-13}
 \end{align}
 
-Die Magnetfeldänderung ergibt sich mit 0.027(5) $\mu$T. Nimmt man nun an, dass der Aufzug einen perfekten Dipol darstellt und nur eine zum Aufzugschacht parallele Komponente hat kann mit Gl.?? das Dipolmoment des Aufzugs berechnet werden. Dabei wird der Abstand zwischen Aufzug und SQUID mit 12m und die Etagenhöhe mit 4m angenommen. Es ergibt sich ein magnetischen Dipolmoment $\mu$ von:
+Die Magnetfeldänderung ergibt sich mit 0.027(5) $\mu$T. Nimmt man nun an, dass der Aufzug einen perfekten Dipol darstellt und nur eine zum Aufzugschacht parallele Komponente hat kann mit Gl.\ref{eqn:magnMoment} das Dipolmoment des Aufzugs berechnet werden. Dabei wird der Abstand zwischen Aufzug und SQUID mit 12m und die Etagenhöhe mit 4m angenommen. Es ergibt sich ein magnetischen Dipolmoment $\mu$ von:
 
 \begin{align}
 \label{equ:dipol}
