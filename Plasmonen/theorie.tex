@@ -1,10 +1,12 @@
 \section{Theorie}
 % Es sollen die wichtigsten theoretischen Formeln und Zusammenhänge einmal ausführlich erklärt werden
 Die theoretischen Grundlagen für den Versuch sollen kurz zusammengefasst werden.
+Zuerst wird auf die Anregung von Oberflächen-Plasma-Wellen eingegangen, als zweites wird die im Versuch verwendete Methode der abgeschwächten Totalreflektion erklärt und zuletzt wird die Funktionsweise des Sputterns erläutert.
 \subsection{Anregung von Oberflächen-Plasma-Wellen}
 Oberflächenplasmonen können durch Bestrahlung einer dünnen Goldschicht mit Photonen erzeugt werden. Die zur Oberfläche parallele Komponente des Wellenvektors kann, falls die Welle parallel zur Einfallsebene polarisiert ist, ein Oberflächenplasmon  anregen. Dabei muss die Energie und Impulserhaltung erfüllt sein. Das bedeutet, dass die zur Metalloberfläche parallele Komponente des Photonwellenvektors ($\equiv k_{Photon}$) mit der Wellenzahl des Oberflächenplasmons ($\equiv k_{Plasmon}$) übereinstimmen muss. Mit der Dispersionsrelation der Oberflächen-Plasma-Wellen ergibt sich eine Resonanzkurve mit einem Absorbtionsminimum bei:
 \begin{align}
 k_{Photon} = \frac{\omega}{c}n_{Prism}\sin(\alpha) = k_{Plasmon} = \frac{\omega}{c}\sqrt{\frac{\epsilon}{1+\epsilon}}
+\label{eqn:Resonanzfall}
 \end{align}
 \begin{table}[H]
 \begin{tabular}{l|l}
@@ -16,6 +18,9 @@ $\epsilon$ & von der Photonenfrequenz abhängige dielektrische Funktion des Metal
 $\omega$ & Photonenfrequenz
 \end{tabular}
 \end{table}
-Damit das Minimum durch Variation des Einfallswinkels $\alpha$ eingestellt werden kann, muss $k_{Photon} \leq k_{Plasmon}$ gelten.
+Damit das Minimum durch Variation des Einfallswinkels $\alpha$ eingestellt werden kann, muss $k_{Photon} \leq k_{Plasmon}$ gelten:
+%Abbildung einfügen
+??
 \subsection{Methode der abgeschwächten Totalreflektion}
+Die Methode der abgeschwächten Totalreflexion wird zur Anregung der Oberflächenplasmonen verwendet. Dabei wird parallel (p) und senkrecht (s) zur Einfallsebene polarisiertes Laserlicht durch ein rechtwinkliges Glasprisma, auf dessen Grundfläche eine Goldschicht aufgesputtert wurde, eingestrahlt. Entscheidend ist das an der Grenzschicht entstehende evaneszente Feld, welches bei Totalreflektion aufgrund der aus den Maxwellgleichungen folgenden Stetigkeitsbedingungen für das E-Feld entsteht. Die Amplitude des evaneszenten Feldes fällt exponentiell mit der Eindringtiefe ab. Innerhalb der Eindringtiefe besteht die Möglichkeit der Wechselwirkung mit der aufgesputterten Goldschicht, sodass es möglich ist, bei dem richtigen Einfallswinkel $\alpha$ Oberflächenplasmonen anzuregen. Da Oberflächenplasmonen Transversalwellen entlang der Oberfläche sind, kann nur die parallel zur Einfallsebene polarisierte Komponente des Lichtes, sowie dessen k-Verktorkomponente parallel zur Oberfläche des Materials, Oberflächenplasmonen anregen. Die Energie des s-polarisierten Lichtes strömt daher ohne Energieverlust zurück. Die Intensität der p-polarisierten reflektierten Welle ($R_p$) wird durch das durch die s-polarisierte reflektierte Welle gegebene Referenzsignal ($R_s$) geteilt, um die Intensitätsschwankungen, welche aus den Fresnelschen-Formeln folgen, zu ignorieren. Insgesamt ergibt sich bei Variation des Einfallswinkels $\alpha$ eine Resonanzkurve für $\frac{R_p}{R_s}(\alpha)$, welche ein Minimum im Resonanzfall, im Fall $k_{plasmon} = k_{photon}$ (\ref{eqn:Resonanzfall}), hat. Experimentell kann dieses Verfahren über zwei verschiedene Anordnungen realisiert werden, die Kretschmann- und die Otto-Konfiguration. Im Falle der Otto-Konfiguration ist das Metall durch einen Luftspalt in der Breite der Eindringtiefe $\lambda$ des evaneszenten Feldes von dem Glasprisma getrennt, sodass an der Metalloberfläche Oberflächenplasmonen erzeugt werden können. Für eine konsistente Messung muss darauf geachtet werden, dass der Abstand während der Messung nicht variiert. Im Falle der in unserem Versuch verwendeten Kretschmann-Konfiguration durchdringt das evaneszente-Feld die aufgesputterte Metallschicht und kann bei ausreichend dünner Metallschicht an der Grenzschicht Metall/Luft Oberflächenplasmonen anregen.
 \input{Sputtern}
