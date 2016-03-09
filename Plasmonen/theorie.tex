@@ -5,7 +5,7 @@ Zuerst wird auf die Anregung von Oberflächen-Plasma-Wellen eingegangen, als zwei
 \subsection{Anregung von Oberflächen-Plasma-Wellen}
 Oberflächenplasmonen können durch Bestrahlung einer dünnen Goldschicht mit Photonen erzeugt werden. Die zur Oberfläche parallele Komponente des Wellenvektors kann, falls die Welle parallel zur Einfallsebene polarisiert ist, ein Oberflächenplasmon  anregen. Dabei muss die Energie und Impulserhaltung erfüllt sein. Das bedeutet, dass die zur Metalloberfläche parallele Komponente des Photonwellenvektors ($\equiv k_{Photon}$) mit der Wellenzahl des Oberflächenplasmons ($\equiv k_{Plasmon}$) übereinstimmen muss. Mit der Dispersionsrelation der Oberflächen-Plasma-Wellen ergibt sich eine Resonanzkurve mit einem Absorbtionsminimum bei:
 \begin{align}
-k_{Photon} = \frac{\omega}{c}n_{Prism}\sin(\alpha) = k_{Plasmon} = \frac{\omega}{c}\sqrt{\frac{\epsilon}{1+\epsilon}}
+k_{Photon} = \frac{\omega}{c}n_{Prism}\sin(\alpha_{min}) = k_{Plasmon} = \frac{\omega}{c}\sqrt{\frac{\epsilon}{1+\epsilon}}
 \label{eqn:Resonanzfall}
 \end{align}
 \begin{table}[H]
@@ -13,14 +13,34 @@ k_{Photon} = \frac{\omega}{c}n_{Prism}\sin(\alpha) = k_{Plasmon} = \frac{\omega}
 $k_{Photon}$ & zur Metalloberfläche parallele Komponente des Photonwellenvektors \\
 $k_{Plasmon}$  & Plasmonenwellenzahl \\
 $n_{Prism}$ & Brechungsindex des verwendeten Glasprisma $n_{Prism} \equiv \sqrt{\epsilon_{Prism}}$ \\ 
-$\alpha$ & Einfallswinkel \\
+$\alpha_{min}$ & Einfallswinkel bei Plasmonenresonanz\\
 $\epsilon$ & von der Photonenfrequenz abhängige dielektrische Funktion des Metalls\\
 $\omega$ & Photonenfrequenz
 \end{tabular}
 \end{table}
 Damit das Minimum durch Variation des Einfallswinkels $\alpha$ eingestellt werden kann, muss $k_{Photon} \leq k_{Plasmon}$ gelten:
 %Abbildung einfügen
-??
+\begin{figure}[H]
+\centering
+\includegraphics[scale = 0.5, clip=true, trim = 0 2 0 2]{Dispersionsrel_Ob_Plasm_Licht_mit_u_ohne_Brech_Ind}
+\caption{Qualitativer Verlauf der Dispersionsrelation von Oberflächen-Plasma-Wellen an der Grenzschicht Metall/Luft, sowie die (lineare) Dispersionsrelation der Photonen aus dem Medium Luft/Vakuum (n=1) bzw. einem Medium mit Brechungsindex $n > 1$ Quelle: \cite{Versuchsanleitung}}
+\label{fig:Disp_Rel_Ob_Plasm}
+\end{figure}
+In Abbildung \ref{fig:Disp_Rel_Ob_Plasm} ist der Qualitative Verlauf der Dispersionsrelation der Oberflächenplasmonen dargestellt, sowie die Dispersionsrelation der Photonen in Luft bzw. einem anderen Medium. Man sieht, dass die Dispersionskurven sich nur schneiden, falls ein Medium mit einem Brechungsindex $n > 1$ verwendet wird. Um eine Resonanzkurve aufnehmen zu können, müssen die eingestrahlten Photonen eine Wellenlänge besitzen, die unterhalb der Asymptotik der Dispersionsrelation liegt, sodass die Resonanzkurve durch Variation des Einfallswinkels $\alpha$ durchgefahren werden kann.
 \subsection{Methode der abgeschwächten Totalreflektion}
 Die Methode der abgeschwächten Totalreflexion wird zur Anregung der Oberflächenplasmonen verwendet. Dabei wird parallel (p) und senkrecht (s) zur Einfallsebene polarisiertes Laserlicht durch ein rechtwinkliges Glasprisma, auf dessen Grundfläche eine Goldschicht aufgesputtert wurde, eingestrahlt. Entscheidend ist das an der Grenzschicht entstehende evaneszente Feld, welches bei Totalreflektion aufgrund der aus den Maxwellgleichungen folgenden Stetigkeitsbedingungen für das E-Feld entsteht. Die Amplitude des evaneszenten Feldes fällt exponentiell mit der Eindringtiefe ab. Innerhalb der Eindringtiefe besteht die Möglichkeit der Wechselwirkung mit der aufgesputterten Goldschicht, sodass es möglich ist, bei dem richtigen Einfallswinkel $\alpha$ Oberflächenplasmonen anzuregen. Da Oberflächenplasmonen Transversalwellen entlang der Oberfläche sind, kann nur die parallel zur Einfallsebene polarisierte Komponente des Lichtes, sowie dessen k-Verktorkomponente parallel zur Oberfläche des Materials, Oberflächenplasmonen anregen. Die Energie des s-polarisierten Lichtes strömt daher ohne Energieverlust zurück. Die Intensität der p-polarisierten reflektierten Welle ($R_p$) wird durch das durch die s-polarisierte reflektierte Welle gegebene Referenzsignal ($R_s$) geteilt, um die Intensitätsschwankungen, welche aus den Fresnelschen-Formeln folgen, zu ignorieren. Insgesamt ergibt sich bei Variation des Einfallswinkels $\alpha$ eine Resonanzkurve für $\frac{R_p}{R_s}(\alpha)$, welche ein Minimum im Resonanzfall, im Fall $k_{plasmon} = k_{photon}$ (\ref{eqn:Resonanzfall}), hat. Experimentell kann dieses Verfahren über zwei verschiedene Anordnungen realisiert werden, die Kretschmann- und die Otto-Konfiguration. Im Falle der Otto-Konfiguration ist das Metall durch einen Luftspalt in der Breite der Eindringtiefe $\lambda$ des evaneszenten Feldes von dem Glasprisma getrennt, sodass an der Metalloberfläche Oberflächenplasmonen erzeugt werden können. Für eine konsistente Messung muss darauf geachtet werden, dass der Abstand während der Messung nicht variiert. Im Falle der in unserem Versuch verwendeten Kretschmann-Konfiguration durchdringt das evaneszente-Feld die aufgesputterte Metallschicht und kann bei ausreichend dünner Metallschicht an der Grenzschicht Metall/Luft Oberflächenplasmonen anregen.
+\begin{figure}[H]
+\centering
+\includegraphics[scale = 0.6, clip=true, trim = 0 2 0 2]{Intensitaetsverh_geg_Einfalls_Winkel_versch_Dicke}
+\caption{Das Intensitätsverhältnis $R_p/R_s$ aufgetragen gegen den Einfallswinkel $\alpha$, für verschieden dicke, gesputterte Goldschichten. Quelle: \cite{Versuchsanleitung}}
+\label{fig:Oberflächen_Plasm_Reson}
+\end{figure}
+Man sieht die Oberflächenplasmonenresonanzkurve für verschieden dicke Goldschichten.
+\begin{figure}[H]
+\centering
+\includegraphics[scale = 0.3, clip=true, trim = 0 2 0 2]{Kretschmann_Otto_Konfiguration}
+\caption{Mögliche Konfigurationen: Kretschmann-Konfiguration (links) und Otto-Konfiguration (rechts). Die Plasmonen breiten sich an der Grenzfläche Metall-Luft aus (Pfeile) Quelle: \cite{Versuchsanleitung}}
+\label{fig:Kretschmann_Otto_Konf}
+\end{figure}
+In beiden Konfigurationen werden Oberlächenplasmonen erzeugt. In der Kretschmann-Konfiguration muss das evaneszente Feld durch eine dünne Goldschicht, sodass an der Rückseite (Metall/Luft) Oberflächenplamon angeregt werden können. Dagegen muss das evaneszente Feld in der Otto-Konfiguration eine Luftschicht überwinden, sodass an der Vorderseite des Metalls Oberflächenplasmonen angeregt werden können.
 \input{Sputtern}
