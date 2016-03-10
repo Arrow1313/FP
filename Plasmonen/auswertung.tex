@@ -97,7 +97,7 @@ Rotationstisch 2 wird auf einen Winkel von 45$^\circ$ eingestellt und das Prisma
 \subsubsection{Reflexionmessung}
 Es wird der gewünschte Winkel an Rotationstisch 2 eingestellt und die Position des reflektieren Strahls gemessen. Dann werden an dem Polarisationsdreher die zuvor bestimmten Werte für parallel und senkrecht Ausrichtung des Strahls zur Einfallsebene eingestellt. Aus den Daten wird dann das $\frac{R_p}{R_s} $-Diagramm in Abhängigkeit der Winkel gebildet.
 
-Da bei Vermessung der Prismen nicht die erwarteten Ergebnisse erzielt werden konnten wurde die Analyse mit Daten die uns von unseren Kommilitonen Philipp Pagel und Jens Roggel zur Verfügung gestellt wurden durchgeführt. Zuerst werden die von uns aufgenommenen Daten dargestellt und dann wird die Analyse mit den Daten unsere Kommilitonen durchgeführt.
+Da bei Vermessung der Prismen nicht die erwarteten Ergebnisse erzielt werden konnten wurde die Analyse mit Daten die uns von unseren Kommilitonen Philipp Pagel und Jens Roggel zur Verfügung gestellt wurden durchgeführt. Zuerst werden die von uns aufgenommenen Daten dargestellt und dann wird die Analyse mit den Daten unsere Kommilitonen durchgeführt. Alle Daten befinden sich im Anhang unter Abschnitt ??.
 
 \paragraph{Eigenmessung \\}
 Aus den Messungen ergeben sich die Werte in Tabelle ??. Die Werte sind in Abb. \ref{fig:eigen_reflexion} geplottet. Die Daten entsprechen nicht dem, was erwartet wurde (vlg. Abb. ??). Es konnte kein Grund für das auftreten der Messwerte bestimmt werden. Eine Möglichkeit ist, dass bei eine gesonderten Reinigung, die vor dem Versuch mit dem Prismen durchgeführt wurde Reste auf dem Prismenoberfläche zurückgeblieben sind.
@@ -110,5 +110,60 @@ Aus den Messungen ergeben sich die Werte in Tabelle ??. Die Werte sind in Abb. \
 \end{figure}
 
 
-\paragraph{Daten der Kommilitonen}
+\paragraph{Daten der Kommilitonen \\}
 
+Wie in Abschnitt ?? beschrieben muss mit Rotationstisch 2 der Winkelbereich von 40 bis 50 abgefahren werden. Die Messdaten sind in Anhang in Tabellenform angegeben. Die Gemessenen Daten werden mit Gl. \ref{eqn:Resonanzfit} gefittet, dabei werden alle Werte unterhalb von 41.3$^\circ$ nicht verwendet, da das Modell die Kante, ab der die Totalreflextion beginnt nicht berücksichtigt. Mit den Fitparametern und Gl. ?? kann dann die Position des Resonanzwinkels bestimmt werden. Die Messdaten für die 18nm und die 27nm Schicht sind in Abb. \ref{fig:reflexion18_27} zu sehen. Es ist deutlich zu erkennen das, sich bei 27nm Schichtdicke die Resonanzkurve deutlicher ausprägt.
+
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale = 0.39]{reflex_fit_18-27.png}
+\caption{Plot des R$_p$/R$_s$-Diagramms für die Schichtdicken von 18nm und 27nm. Der Fit wurde mit Gl. \ref{eqn:Resonanzfit} durchgeführt, dabei wurden alle Werte unterhalb von 41.3$^\circ$ nicht mitgefittet, da sie vom Model nicht berücksichtigt werden.}
+\label{fig:reflexion18_27}
+\end{figure}
+
+Die Messdaten für die 36nm, 45nm und 63nm Schichten sind in Abb. \ref{fig:reflexion36_63} zu sehen. Für die Dicken von 36nm  und 45nm ist die Resonanzkurve deutlich zu erkennen.  Bei der 63nm Schicht ist keine eindeutige Resonanzkurve mehr zu erkennen, da die Skintiefe zu hoch ist.
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale = 0.39]{reflex_fit_36-63.png}
+\caption{Plot des R$_p$/R$_s$-Diagramms für die Schichtdicken von 36nm, 45nm und 63nm. Der Fit wurde mit Gl. \ref{eqn:Resonanzfit} durchgeführt, dabei wurden alle Werte unterhalb von 41.3$^\circ$ nicht mitgefittet, da sie vom Model nicht berücksichtigt werden.}
+\label{fig:reflexion36-63}
+\end{figure}
+
+Mit den gefitteten Parametern lässt sich nun mit Gl. ?? der Resonanzwinkel bestimmten. Die Resonanzwinkel sind in Tabelle \ref{tab:resonanzwinkel} aufgetragen.
+
+\begin{table}[H]
+\centering
+\caption{Durch die Fits bestimmte Resonanzwinkel. Die Fehler wurden über Fehlerfortpflanzung mit den Fehlern der Parameter bestimmt.}
+\label{tab:resonanzwinkel}
+\begin{tabular}{c|c}
+ Schichtdicke / nm & Resonanzwinkel / $^\circ$ \\ \hline
+18 & 51(2) \\ 
+27 & 48.5(2) \\ 
+36 & 45.8(3) \\ 
+45 & 45.3(2) \\ 
+63 & 44.1(5) \\  
+\end{tabular}
+\end{table}
+
+Aus den Bestimmten Resonanzwinkeln kann mit Gl. \ref{equ:wellenzahl} die Wellenzahl der Plasmonen bestimmt werden. Die Wellenzahlen sind in Tabelle \ref{tab:wellenzahl} eingetragen.
+
+\begin{align}
+\label{equ:wellenzahl}
+k_\omega(\alpha) = n_{Prisma} \cdot \frac{2 \cdot \pi}{\lambda_{Laser}} \cdot sin(\alpha)
+\end{align}
+
+\begin{table}[H]
+\centering
+\caption{Wellenzahl berechnet mit den Resonanzwinkeln nach Gl. \ref{equ:wellenzahl}.}
+\label{tab:wellenzahl}
+\begin{tabular}{c|c}
+Resonanzwinkel / $^\circ$ & Wellenzahl / m$^{-1}$ \\ \hline
+51(2) & 1.1(1) $\cdot$ 10$^6$ \\ 
+48.5(2) & 1.1(2) $\cdot$ 10$^6$ \\ 
+45.8(3) & 1.0(2) $\cdot$ 10$^6$ \\ 
+45.3(2) & 1.0(1) $\cdot$ 10$^6$ \\ 
+44.1(5) & 9.8(3) $\cdot$ 10$^6$ \\  
+\end{tabular}
+\end{table}
