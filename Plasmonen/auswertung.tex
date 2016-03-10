@@ -10,7 +10,7 @@
 \subsection{Beschichten der Glasprismen}
 Bevor man die Oberflächenplasmonen nachweisen kann müssen die Glasprismen mit eine Goldschicht bedeckt werden. Vor der Beschichtung der Glasprismen müssen diese gereinigt werden. Falls noch eine Goldschicht auf den Prismen vorhanden ist, kann dies mit einem speziellem Tuch entfernt werden. Danach werden die Prismen in einem Ethanol und Aceton Bad mit Ultraschall gereinigt. Danach werden die Prismen noch unter eine Druck von 100 bar mit eisförmigen CO$_2$-Partikeln abgestrahlt um weiter Verunreinigungen zu entfernen.
 
-Die Goldschichten sollen eine Dicke von 30nm bis 70nm haben. Als Beschichtungsmethode wird das Vakuumbeschichtungsverfahren der Kathodenzerstäubung (engl. Sputtern) verwendet. Bei dem Prozess werden durch eine Glimmentladung zwischen zwei Elektroden freie Ionen erzeugt. Die freien Ionen werden dann über elektrischen Feld auf die Kathode beschleunigt. An der Kathode kommt es zu Stoßwechselwirkung, wodurch Kathodenmaterial emittiert wird. Das emittierte Kathodenmaterial setzt sich dann als dünner Film auf Substrat ab. Für den Versuch werden dünne Platten aus Silber und Gold als Kathoden verwendet. Die Anode besteht aus einer geerdeten Halterung für die Glasprismen. 
+Die Goldschichten sollen eine Dicke von 30nm bis 70nm haben. Als Beschichtungsmethode wird das Vakuumbeschichtungsverfahren der Kathodenzerstäubung (engl. Sputtern) verwendet. Bei dem Prozess werden durch eine Glimmentladung zwischen zwei Elektroden freie Ionen erzeugt. Die freien Ionen werden über ein elektrisches Feld auf die Kathode beschleunigt. An der Kathode kommt es zu Stoßwechselwirkung, wodurch Kathodenmaterial emittiert wird. Das emittierte Kathodenmaterial setzt sich als dünner Film auf dem Substrat ab. Für den Versuch werden dünne Platten aus Silber und Gold als Kathoden verwendet. Die Anode besteht aus einer geerdeten Halterung für die Glasprismen. 
 
 Das Sputtering wird mit der Magnetron-Sputterapparatur Polaron SC7620 der Firma VG durchgeführt. Die Glasprismen werden jeweils in einen speziellen Behälter gelegt. Über eine Membranvorpumpe und eine Turbomolekularpumpe wird der Druck in der Kammer auf 10$^{-2}$ mbar abgesenkt, dieser Prozess kann bis zu 15 min dauern. Danach wird über ein Feindosierventiel Argon in die Kammer gelassen, bis der Druck auf einige 10$^{-2}$ mbar angestiegen ist. Danach kann die Beschichtung gestartet werden, dabei liegt zwischen Anode und Kathode eine Spannung von 1000V an. Der Sputterstrom ergibt sich dann bei einem Druck von 2$\cdot$10$^{-2}$mbar mit ca. 16mA. Der Sputterstrom lässt sich über den Druck regeln. Die Schichtdicke ist von Sputterstrom abhängig, bei eine Sputterstrom von 17mA ergibt sich nach einer Sekunde eine Schichtdicke von ca. 0.6nm. 
 
@@ -90,12 +90,26 @@ Der Fit und die Messdaten sind in Abb. \ref{fig:brewster} zu sehen
 Aus dem Fit ergibt sich, dass bei einer Stellung von 89$^\circ$ das Licht parallel polarisiert ist. Daraus folgt, das bei einer Stellung von -1$^\circ$ das Licht senkrecht polarisiert ist. 
 
 \subsubsection{Justage der Prismen im Strahl}
-Dieser Justageschritt muss für jedes Prisma erneut durchgeführt werden, dabei ist es wichtig sehr exakt vorzugehen, da die Qualität der Messung von diesem Schritt abhängt. 
+Dieser Justageschritt muss für jedes Prisma durchgeführt werden, dabei ist es wichtig sehr exakt vorzugehen, da die Qualität der Messung von diesem Schritt abhängt. 
 
-Rotationstisch 2 wird auf einen Winkel von 45$^\circ$ eingestellt und das Prisma montiert. Das montierte Prisma sollte einige mm Abstand zur Rückseite der Halterung haben, die Grundfläche sollte parallel zur Rückseite sein und der Schwerpunkt des Prismas sollte sich auf der Drehachse befinden. Der reflektierte Strahl sollte direkt auf den Laser zurück geworfen werden. Falls dies nicht der Fall ist, kann mit den Goniometern nachjustiert werden. Rotationstisch 1 wird auf seine 90$^\circ$ Position gestellt.
+Rotationstisch 2 wird auf einen Winkel von 45$^\circ$ eingestellt und das Prisma montiert. Das montierte Prisma sollte einige mm Abstand zur Rückseite der Halterung haben, die Grundfläche sollte parallel zur Rückseite sein und der Schwerpunkt des Prismas sollte sich auf der Drehachse befinden. Der reflektierte Strahl sollte direkt auf den Laser zurück geworfen werden. Falls dies nicht der Fall ist, kann mit den Goniometern nachjustiert werden. Rotationstisch 1 wird auf seine 90$^\circ$ Position gestellt, sodass der Laserstrahl mittig auf die Photodiode trifft.
 
+Der Reflexionswinkel im Prisma kann über das Snelliussche Brechungsgesetz bestimmt werden (siehe Abb. ).
+\begin{figure}[H]
+\centering
+\includegraphics[scale = 1]{beta_alpha_beziehung}
+\caption{Eingezeichnet sind der gemessene Winkel $\beta$, sowie die Winkel zum Lot $\gamma$ und $\gamma'$ und der gesuchte Reflexionswinkel $\alpha$ Quelle: \cite{Versuchsanleitung} }
+\label{fig:Reflexionswinkel}
+\end{figure}
+%Abbildung einfügen
+Es gilt $\gamma = \SI{45}{\degree} -\beta, \alpha = \gamma' + \SI{45}{\degree}$ und $\gamma' = \arcsin\left(\frac{sin(\gamma)}{n_{Prism}}\right)$, woraus sich der Reflexionswinkel
+\begin{align}
+\alpha = \SI{45}{\degree} + \arcsin\left(\frac{\sin(\SI{45}{\degree}-\beta)}{n_{Prism}}\right)
+\label{eqn:Reflexionswinkel_alpha}
+\end{align}
+ergibt.
 \subsubsection{Reflexionmessung}
-Es wird der gewünschte Winkel an Rotationstisch 2 eingestellt und die Position des reflektieren Strahls gemessen. Dann werden an dem Polarisationsdreher die zuvor bestimmten Werte für parallel und senkrecht Ausrichtung des Strahls zur Einfallsebene eingestellt. Aus den Daten wird dann das $\frac{R_p}{R_s} $-Diagramm in Abhängigkeit der Winkel gebildet.
+Es wird der gewünschte Winkel an Rotationstisch 2 eingestellt und die Position des reflektieren Strahls gemessen. Dann werden an dem Polarisationsdreher die zuvor bestimmten Werte für parallel und senkrecht Ausrichtung des Strahls zur Einfallsebene eingestellt. Aus den Daten wird das $\frac{R_p}{R_s} $-Diagramm in Abhängigkeit der Winkel gebildet.
 
 Da bei Vermessung der Prismen nicht die erwarteten Ergebnisse erzielt werden konnten wurde die Analyse mit Daten die uns von unseren Kommilitonen Philipp Pagel und Jens Roggel zur Verfügung gestellt wurden durchgeführt. Zuerst werden die von uns aufgenommenen Daten dargestellt und dann wird die Analyse mit den Daten unsere Kommilitonen durchgeführt. Alle Daten befinden sich im Anhang unter Abschnitt ??.
 
@@ -112,7 +126,7 @@ Aus den Messungen ergeben sich die Werte in Tabelle ??. Die Werte sind in Abb. \
 
 \paragraph{Daten der Kommilitonen \\}
 
-Wie in Abschnitt ?? beschrieben muss mit Rotationstisch 2 der Winkelbereich von 40 bis 50 abgefahren werden. Die Messdaten sind in Anhang in Tabellenform angegeben. Die Gemessenen Daten werden mit Gl. \ref{eqn:Resonanzfit} gefittet, dabei werden alle Werte unterhalb von 41.3$^\circ$ nicht verwendet, da das Modell die Kante, ab der die Totalreflextion beginnt nicht berücksichtigt. Mit den Fitparametern und Gl. ?? kann dann die Position des Resonanzwinkels bestimmt werden. Die Messdaten für die 18nm und die 27nm Schicht sind in Abb. \ref{fig:reflexion18_27} zu sehen. Es ist deutlich zu erkennen das, sich bei 27nm Schichtdicke die Resonanzkurve deutlicher ausprägt.
+Wie in Abschnitt ?? beschrieben muss mit Rotationstisch 2 der Winkelbereich von 40 bis 50 abgefahren werden. Die Messdaten sind in Anhang in Tabellenform angegeben. Die Gemessenen Daten werden mit Gl. \ref{eqn:Resonanzfit} gefittet, dabei werden alle Werte unterhalb von 41.3$^\circ$ nicht verwendet, da das Modell die Kante, ab der die Totalreflextion beginnt nicht berücksichtigt. Mit den Fitparametern und Gl. ?? kann die Position des Resonanzwinkels bestimmt werden. Die Messdaten für die 18nm und die 27nm Schicht sind in Abb. \ref{fig:reflexion18_27} zu sehen. Es ist deutlich zu erkennen das, sich bei 27nm Schichtdicke die Resonanzkurve deutlicher ausprägt.
 
 
 \begin{figure}[H]
@@ -122,7 +136,7 @@ Wie in Abschnitt ?? beschrieben muss mit Rotationstisch 2 der Winkelbereich von 
 \label{fig:reflexion18_27}
 \end{figure}
 
-Die Messdaten für die 36nm, 45nm und 63nm Schichten sind in Abb. \ref{fig:reflexion36_63} zu sehen. Für die Dicken von 36nm  und 45nm ist die Resonanzkurve deutlich zu erkennen.  Bei der 63nm Schicht ist keine eindeutige Resonanzkurve mehr zu erkennen, da die Skintiefe zu hoch ist.
+Die Messdaten für die 36nm, 45nm und 63nm Schichten sind in Abb. \ref{fig:reflexion36-63} zu sehen. Für die Dicken von 36nm  und 45nm ist die Resonanzkurve deutlich zu erkennen.  Bei der 63nm Schicht ist keine eindeutige Resonanzkurve mehr zu erkennen, da die Skintiefe zu hoch ist.
 
 \begin{figure}[H]
 \centering
