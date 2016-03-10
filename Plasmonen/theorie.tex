@@ -18,7 +18,7 @@ $\epsilon$ & von der Photonenfrequenz abhängige dielektrische Funktion des Metal
 $\omega$ & Photonenfrequenz
 \end{tabular}
 \end{table}
-Damit das Minimum durch Variation des Einfallswinkels $\alpha$ eingestellt werden kann, muss $k_{Photon} \leq k_{Plasmon}$ gelten:
+Damit das Minimum durch Variation des Einfallswinkels $\alpha$ eingestellt werden kann, muss $k_{Photon} \geq k_{Plasmon}$ gelten:
 %Abbildung einfügen
 \begin{figure}[H]
 \centering
@@ -35,7 +35,11 @@ Die Methode der abgeschwächten Totalreflexion wird zur Anregung der Oberflächenp
 \caption{Das Intensitätsverhältnis $R_p/R_s$ aufgetragen gegen den Einfallswinkel $\alpha$, für verschieden dicke, gesputterte Goldschichten. Quelle: \cite{Versuchsanleitung}}
 \label{fig:Oberflächen_Plasm_Reson}
 \end{figure}
-Man sieht die qualitative Oberflächenplasmonenresonanzkurve für verschieden dicke Goldschichten. Der Brechungsindex des verwendeten Mediums muss größer als 1 sein.
+Man sieht die qualitative Oberflächenplasmonenresonanzkurve für verschieden dicke Goldschichten. Der Brechungsindex des verwendeten Mediums muss größer als 1 sein. Als Fitmodell an die Resonanzkurve wird das in \cite{Fitkurve} angegebene Modell verwendet:
+\begin{align}
+R(X) = A\left[1-\frac{B+C(X-D)}{(X-D)^2+E^2}\right]
+\label{eqn:Resonanzfit}
+\end{align}
 \begin{figure}[H]
 \centering
 \includegraphics[scale = 0.3, clip=true, trim = 0 2 0 2]{Kretschmann_Otto_Konfiguration}
