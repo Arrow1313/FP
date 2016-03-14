@@ -1,0 +1,33 @@
+\section{Versuchsdurchführung und Auswertung}
+%zuerst !alle! errechneten werte entweder in ganzen sätzen aufzählen, oder in tabellen (übersichtlicher) dargestellen, sowie auf die verwendeten formeln verweisen (die referenzierung der formel kann in der überschrift stehen)
+%kurz erwähnen (vor der tabelle), warum wir das ganze ausrechnen bzw. was wir dort ausrechnen
+%danach histogramme und plots erstellen, wobei wenn möglich funktionen durch die plots gelegt werden (zur not können auch splines benutzt werden, was aber angegeben werden muss)
+%bei fits immer die funktion und das reduzierte chiquadrat mit angegeben, wobei auf verständlichkeit beim entziffern der zehnerpotenzen geachtet werden muss z.b. f(x)=(wert+-fehler)\cdot10^{irgendeine zahl}\cdot x + (wert+-fehler)\cdot10^{irgendeine zahl}
+%bei jedem fit erklären, nach welchem zusammenhang gefittet wurde und warum!
+%bei plots darauf achten, dass die achsenbeschriftung (auch die tics) die richtige größe haben und die legende im plot nicht die messwerte verdeckt
+%kurz die aufgabenstellung abgehandeln
+
+Der Versuch lässt sich in 4 Teile aufteilen. Bevor Messungen gemacht werden können muss der Versuchsaufbau kalibriert werden. Im zweitem Teil wird die Absorption von $\gamma$-Strahlung durch Blei und Aluminium untersucht. Danach wird der Compton-Wirkungsquerschnitt gemessen und untersucht. Im letztem Teil wird die Elektronenmasse bestimmt.
+
+\subsection{Kalibration}
+Vor der Kalibrierung wird die Hochspannung des Photomulitpliers auf 600V gestellt, da sich nur für diese Spannung ein linearer Zusammenhang zwischen den Kanalnummern und der Energie der $\gamma$-Strahlen einstellt. Um den Arbeitspunk einzustellen, werden verschieden Eichpräparate auf Höhe der Kollimatoröffnung platziert. Die verwendeten Präparate und deren Eigenschaften sind in Tabelle ?? zu sehen \cite{??}. Die Verstärkung wird so gewählt, dass der interessante Energiebereich abgedeckt wird. Um den Untergrund von den Messungen subtrahieren zu können, wird zuerst eine Leermessung gemacht. Danach wird mit den Elementen aus Tabelle ?? die Kalibrierung für den Zusammenhang zwischen Kanalnummer und Energie gemessen. Die Daten werden mit Gl. ?? gefittet.
+
+\begin{align}
+\label{equ:lin_fit}
+f(x) = m \cdot x + b
+\end{align}
+
+\begin{table}
+\centering
+\caption{Eichpräparate für die Kalibrierung}
+\label{tab:kallibrierung}
+
+\end{table}
+
+\subsection{Absorbtion von $\gamma$-Strahlen durch Blei und Aluminium}
+Es soll der Absorptionskoeffizient der 662keV Energie mit der Hilfe verschieden dicker Blei- und Aluminiumplatten bestimmt werden. Dafür wird eine Cs-Quelle eingebaut und der Detektor auf die 0$^\circ$-Position gebracht. Es ist zu beachten, dass sich immer eine Bleiplatte von mindestens 2,5cm Dicke zwischen dem Detektor und der Quelle befindet, da sonst für mehrere Stunden nur Rausche zu messen ist.
+
+\subsection{Compton-Wirkungsquerscnitt}
+In diesem Versuchsabschnitt soll der differentielle Wirkungsquerschnitt an der Aluminiumplatte untersucht werden. Dafür wird ein Winkelbereich von 20$^\circ$ bis 80$^\circ$ und 5$^\circ$ Schritten abgefahren, dabei befindet sich keine 2,5cm dicke Aluminiumplatte vor dem Detektor. Um den Untergrund aus den Messdaten raus rechnen zu können, wird für jede Winkelpostion einmal mit und einmal ohne Aluminiumplatte gemessen.
+
+\subsection{Elektronenmasse}
