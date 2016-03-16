@@ -1,0 +1,13 @@
+set xrange [2:]
+plot 'kallibrierung_Am.csv' using 1:2 title 'kallibrierung_Am.csv' with steps
+pause -1
+
+plot 'kallibrierung_Ba.csv' using 1:2 title 'kallibrierung_Ba.csv' with steps
+pause -1
+
+plot 'kallibrierung_Cs.csv' using 1:2 title 'kallibrierung_Cs.csv' with steps
+pause -1
+
+plot 'kallibrierung_untergrund.csv' using 1:2 title 'kallibrierung_untergrund.csv' with steps
+pause -1
+

@@ -1,0 +1,91 @@
+set xrange [2:]
+plot 'Messung_1cmAlu_80Grad_LLDhoch.csv' using 1:2 title 'Messung_1cmAlu_80Grad_LLDhoch.csv' with steps
+pause -1
+
+plot 'absorbtion_2,5cmBlei+5cmAlu_LLDhoch.csv' using 1:2 title 'absorbtion_2,5cmBlei+5cmAlu_LLDhoch.csv' with steps
+pause -1
+
+plot 'absorbtion_2,5cmBlei+3cmAlu_LLDhoch.csv' using 1:2 title 'absorbtion_2,5cmBlei+3cmAlu_LLDhoch.csv' with steps
+pause -1
+
+plot 'absorbtion_3,5cm_LLDhoch.csv' using 1:2 title 'absorbtion_3,5cm_LLDhoch.csv' with steps
+pause -1
+
+plot 'Messung_40Grad_LLDhoch.csv' using 1:2 title 'Messung_40Grad_LLDhoch.csv' with steps
+pause -1
+
+plot 'kallibrierung_untergrund.csv' using 1:2 title 'kallibrierung_untergrund.csv' with steps
+pause -1
+
+plot 'Messung_30Grad_LLDhoch.csv' using 1:2 title 'Messung_30Grad_LLDhoch.csv' with steps
+pause -1
+
+plot 'kallibrierung_Ba.csv' using 1:2 title 'kallibrierung_Ba.csv' with steps
+pause -1
+
+plot 'Messung_1cmAlu_70Grad_LLDhoch.csv' using 1:2 title 'Messung_1cmAlu_70Grad_LLDhoch.csv' with steps
+pause -1
+
+plot 'Messung_20Grad_LLDhoch.csv' using 1:2 title 'Messung_20Grad_LLDhoch.csv' with steps
+pause -1
+
+plot 'absorbtion_2,5cm.csv' using 1:2 title 'absorbtion_2,5cm.csv' with steps
+pause -1
+
+plot 'kallibrierung_Cs.csv' using 1:2 title 'kallibrierung_Cs.csv' with steps
+pause -1
+
+plot 'Messung_1cmAlu_50Grad_LLDhoch.csv' using 1:2 title 'Messung_1cmAlu_50Grad_LLDhoch.csv' with steps
+pause -1
+
+plot 'Messung_80Grad_LLDhoch.csv' using 1:2 title 'Messung_80Grad_LLDhoch.csv' with steps
+pause -1
+
+plot 'Messung_60Grad_LLDhoch.csv' using 1:2 title 'Messung_60Grad_LLDhoch.csv' with steps
+pause -1
+
+plot 'absorbtion_2,5cmBlei+2cmAlu_LLDhoch.csv' using 1:2 title 'absorbtion_2,5cmBlei+2cmAlu_LLDhoch.csv' with steps
+pause -1
+
+plot 'absorbtion_7cm.csv' using 1:2 title 'absorbtion_7cm.csv' with steps
+pause -1
+
+plot 'absorbtion_2,5cmBlei+1cmAlu_LLDhoch.csv' using 1:2 title 'absorbtion_2,5cmBlei+1cmAlu_LLDhoch.csv' with steps
+pause -1
+
+plot 'Messung_70Grad_LLDhoch.csv' using 1:2 title 'Messung_70Grad_LLDhoch.csv' with steps
+pause -1
+
+plot 'absorbtion_2,5cmBlei+4cmAlu_LLDhoch.csv' using 1:2 title 'absorbtion_2,5cmBlei+4cmAlu_LLDhoch.csv' with steps
+pause -1
+
+plot 'Messung_1cmAlu_20Grad_LLDhoch.csv' using 1:2 title 'Messung_1cmAlu_20Grad_LLDhoch.csv' with steps
+pause -1
+
+plot 'Messung_50Grad_LLDhoch.csv' using 1:2 title 'Messung_50Grad_LLDhoch.csv' with steps
+pause -1
+
+plot 'Messung_1cmAlu_30Grad_LLDhoch.csv' using 1:2 title 'Messung_1cmAlu_30Grad_LLDhoch.csv' with steps
+pause -1
+
+plot 'Messung_1cmAlu_60Grad_LLDhoch.csv' using 1:2 title 'Messung_1cmAlu_60Grad_LLDhoch.csv' with steps
+pause -1
+
+plot 'Messung_1cmAlu_40Grad_LLDhoch.csv' using 1:2 title 'Messung_1cmAlu_40Grad_LLDhoch.csv' with steps
+pause -1
+
+plot 'kallibrierung_Am.csv' using 1:2 title 'kallibrierung_Am.csv' with steps
+pause -1
+
+plot 'absorbtion_5cm.csv' using 1:2 title 'absorbtion_5cm.csv' with steps
+pause -1
+
+plot 'absorbtion_4,5cm_LLDhoch.csv' using 1:2 title 'absorbtion_4,5cm_LLDhoch.csv' with steps
+pause -1
+
+plot 'absorbtion_2,5cm_LLDhoch.csv' using 1:2 title 'absorbtion_2,5cm_LLDhoch.csv' with steps
+pause -1
+
+plot 'absorbtion_6cm.csv' using 1:2 title 'absorbtion_6cm.csv' with steps
+pause -1
+
