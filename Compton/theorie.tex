@@ -1,2 +1,114 @@
 \section{Theorie}
 % Es sollen die wichtigsten theoretischen Formeln und Zusammenhänge einmal ausführlich erklärt werden
+Im Folgenden werden die für den Versuch wichtigen Grundlagen erläutert.
+\subsection{Compton-Streuung}
+Im Allgemeinen beschreibt die Compton-Streuung den elastischen Stoß eines Photons mit einem quasifreien geladenen Teilchen. Die Kinematik des Streuprozesses ist in Abbildung \ref{fig:Compton_Streuung_Kinematik} dargestellt.
+\begin{figure}[H]
+\centering
+\includegraphics[scale = 2, clip=true, trim = 0 0 0 0]{compton-effekt_1}
+\caption{Darstellung der Kinematik der Compton-Streuung Quelle: \cite{Comptonkinematikbild}}
+\label{fig:Compton_Streuung_Kinematik}
+\end{figure}
+Aus der Energie- und Impulserhaltung folgt die Wellenlängenänderung des Photons in Abhängigkeit des Streuwinkels:
+\begin{align}
+hc(\frac{1}{E'}-\frac{1}{E})=\Delta \lambda = \lambda_C(1-\cos\Theta) = \frac{h}{m_ec}(1-\cos\Theta)
+\end{align}
+\begin{table}[H]
+\begin{tabular}{l|l}
+ $E/E'$ & Energie des Photons vor$/$nach dem Stoß \\
+ $\Delta \lambda$ & Änderung der Photonenwellenlänge\\
+ $\lambda_C$ & Compton-Wellenlänge (des Elektrons)\\
+ $\Theta$ & Streuwinkel \\
+ $m_e$ & Elektronenmasse \\
+\end{tabular}
+\end{table}
+\subsection{Wirkunsquerschnitt}
+Der Wirkungsquerschnitt $\sigma$ ist eine wichtige Größe um Streuprozesse zu analysieren und zu verstehen. Er gibt die Reaktionswarscheinlichkeit $w$ normiert auf die Anzahl der Targetteilchen $N_T$ pro Flächeneinheit $F$ an (vgl. \cite{WQtot}),
+\begin{align}
+\sigma = \frac{w}{\frac{N_T}{F}}
+\end{align}
+wobei
+\begin{align}
+w = \frac{N_{Reaktion}}{N_{Gesamt}} = \frac{I_{gestreut}}{I_{einfallend}}
+\end{align}
+die Reaktionswarscheinlichkeit, also der Anteil der gestreuten/wechselwirkenden Teilchen $N_{Reaktion}$ an der Gesamtteilchenzahl $N_{Gesamt}$ bzw. der Anteil des Stromes der gestreuten Teilchen $I_{gestreut}$ am Strom der einfallenden Teilchen $I_{einfallend}$, ist.\\
+Da im Versuchsaufbau nur ein gewisser Raumwinkel $\Delta\Omega$ vermessen wird, ist es sinnvoll mit dem differentiellen Wirkungsquerschnitt $\frac{d\sigma}{d\Omega}$ zu arbeiten, welcher die Warscheinlichkeit angibt, das gestreute Teilchen in einem kleinen Winkelbereich d$\Omega$ zu finden.
+Es ergibt sich für die experimentelle Bestimmung des differentiellen Wirkungsquerschnittes:
+\begin{align}
+\frac{d\sigma}{d\Omega}(\Theta) \cong \frac{\Delta N_{Reaktion}(\Theta)}{N_{Gesamt}\frac{N_T(\Theta)}{F}\Delta\Omega}\left[1 - \frac{N_{Reaktion}}{\Delta N_{Reaktion}(\Theta)}\frac{\Delta N_T(\Theta)}{N_T(\Theta)}\right] \cong \frac{\Delta N_{Reaktion}(\Theta)}{N_{Gesamt}\frac{N_T(\Theta)}{F}\Delta\Omega}
+\label{eqn:Differentieller_Wirkungsquerschnitt}
+\end{align}
+Dabei wurde zuerst die Kettenregel angewendet und danach angenommen, dass $\frac{\Delta N_T(\Theta)}{N_T(\Theta)} \ll \frac{\Delta N_{Reaktion}(\Theta)}{N_{Reaktion}}$ gilt, also die relative Änderung der Anzahl der Targetteilchen im Winkelbereich $\Delta\Omega$, im Vergleich zur relativen Anzahl der in den Winkelbereich $\Delta\Omega$ gestreuten Teilchen an den gestreuten Teilchen, klein ist. Im Allgemeinen wird dadurch der differentielle Wirkungsquerschnitt systematisch überschätzt.
+\subsection{Compton-Wirkungsquerschnitt}
+Der differentielle Wirkungsquerschnitt der Compton-Streuung folgt aus der Quantenelektrodynamik ist als die Klein-Nishina-Formel bekannt.
+Er gibt die Winkelverteilung gestreuter Photonen an und ist durch Gleichung \ref{eqn:Klein_Nishina_WQ}  gegeben.
+\begin{align}
+\frac{d\sigma}{d\Omega}_{KN} = \frac{r_e^2}{2}P(E_{\gamma},\Theta)\left[1-P(E_{\gamma},\Theta)sin^2\Theta+P(E_{\gamma},\Theta)^2\right]
+\label{eqn:Klein_Nishina_WQ}
+\end{align}
+\begin{table}[H]
+\begin{tabular}{l|l}
+$r_e$ & Klassischer Elektronenradius\\
+$P(E_{\gamma},\Theta)$ & $\equiv\frac{E_{\gamma}'}{E_{\gamma}}$ Verhältnis der Photonenenergien
+\end{tabular}
+\end{table}
+Aus Gleichung \ref{fig:Compton_Streuung_Kinematik} ergibt sich $P(E_{\gamma},\Theta)=\frac{E_{\gamma}'}{E_{\gamma}}$. Falls $P(E_{\gamma},\Theta) \rightarrow 1 \Leftrightarrow E_{\gamma} \ll m_ec^2$ gilt, vereinfacht sich Gleichung \ref{eqn:Klein_Nishina_WQ} zum Thompson-Wirkunsquerschnitt (Gleichung \ref{eqn:Thompson_WQ}),
+\begin{align}
+\frac{d\sigma}{d\Omega}_T = \frac{r_e^2}{2}(1+cos^2\Theta)
+\label{eqn:Thompson_WQ}
+\end{align}
+sodass Vorwärts- und Rückwärtsstreuung gleichwahrscheinlich sind (vgl. \cite{wikiWQkleinnishina}). Für die experimentelle Berechnung des Wirkungsquerschnittes wird $P(E_{\gamma},\Theta):=\frac{E_{\gamma}'}{E_{\gamma}}$ mit der gemessenen Energie $E_{\gamma}'$ gesetzt.
+\subsection{Geometrischer Wirkungsquerschnitt}
+Der differentielle Wirkungsquerschnitt wird nach Gleichung \ref{eqn:Differentieller_Wirkungsquerschnitt} bestimmt. Dabei gilt für die Anzahl der gestreuten Teilchen ($\Delta N_{Reaktion}$):
+\begin{align}
+\Delta N_{Reaktion}(\Theta) = \frac{N_{Detektor}}{\epsilon(E_\gamma'(\Theta))}
+\label{eqn:N_Reaktion}
+\end{align}
+\begin{table}[H]
+\begin{tabular}{l|l}
+$\Delta N_{Reaktion}$ & Anzahl der im Winkelbereich $\Delta\Omega$ detektierten Teilchen\\
+$N_{Detektor}$ & Anzahl der Counts im Winkelbereich $\Delta\Omega$\\
+$\epsilon(E_\gamma'(\Theta))$ & Effizienz des Detektors bei der Energie $E_\gamma'(\Theta)$
+\end{tabular}
+\end{table}
+Für die Anzahl der zur Streureaktion zu Verfügung stehenden Teilchen ($N_{Gesamt}$) muss die Absorption des Aluminiumtargets berücksichtigt werden, sodass sich
+\begin{align}
+N_{Gesamt}  = N_0e^{-\lambda_{Alu}\cdot d_{Eff}}
+\label{eqn:N_Gesamt}
+\end{align}
+\begin{table}[H]
+\begin{tabular}{l|l}
+$N_{Gesamt}$ & Anzahl der zur Streureaktion zu Verfügung stehenden Teilchen\\
+$N_0$ & Gesamtzahl der eingestrahlten Teilchen (Photonen)\\
+$\lambda_{Alu}$ & Absorptionskoeffizient von Aluminium\\
+$d_{Eff}$ & effektive Dicke des Aluminiumtargets\\
+\end{tabular}
+\end{table}
+ergibt, wobei sich die effektive Dicke des Targets aus dem Streuwinkel $\Theta$ und der Dicke der Aluminiumplatte $d_{Alu}$ nach Gleichung \ref{d_Eff} berechnet.
+\begin{align}
+d_{Eff}(\Theta) = \frac{d_{Alu}}{\cos\frac{\Theta}{2}}
+\label{d_Eff}
+\end{align}
+Die Gültigkeit dieser Gleichung kann aus der Annahme einer Gleichverteilung der Eindringtiefe der Photonen bis zum Ort der Compton-Streuung mit dem Erwartungswert $\frac{d_{Alu}}{2}$ und ein wenig Geometrie gefolgert werden.
+Der gemessene Raumwinkelbereich $\Delta\Omega$ ergibt aus Gleichung \ref{eqn:Delta_Omega}.
+\begin{align}
+\Delta\Omega = \frac{\pi \left(\frac{D}{2}\right)^2}{4\pi a^2}\cdot 4\pi = \frac{\pi D^2}{4 a^2}
+\label{eqn:Delta_Omega}
+\end{align}
+\begin{table}[H]
+\begin{tabular}{l|l}
+$D$ & Durchmesser der Kreisrunden Detektorfläche\\
+$a$ & Abstand des Aluminiumtarget zum Detektor\\
+\end{tabular}
+\end{table}
+Schlussendlich ergibt sich die Flächendichte der Targetteilchen mit Gleichung ??, sodass der Wirkungsquerschnitt nach Gleichung \ref{eqn:Differentieller_Wirkungsquerschnitt} bestimmt werden kann.
+\begin{align}
+\frac{N_T(\Theta)}{F} = n_e\cdot d_{Eff}(\Theta)
+\end{align}
+\subsection{Szintillationszähler}
+Szintillationszähler werden zum detektieren von Strahlung verwendet. Sie sind aus einem Materialien aufgebaut, welche von ionisierender Strahlung angeregt werden können und die absorbierte Energie in Form von Photonen abstrahlen. Sie müssen gegen äußeren Lichteinfall geschützt werden. Bestenfalls ist dabei die Intensität des abgestrahlten Lichtes direkt proportional zur Energie der einfallenden Strahlung. Dabei ist zu beachten, dass jeder Szintillator eine gewisse Totzeit besitzt, sodass nur Ereignisse, deren Zeitdifferenz größer als die Totzeit des Szitillationszählers ist, detektiert werden können. Die abgestrahlten Photonen werden meistens mit Photomultipliern verstärkt, um die Lichtintensitäten in messbare Stromstärken, welche über eine Analog-Digital-Konverter digitalisiert und an den Computer weitergegeben werden können, umzusetzen.
+\subsection{Analog-Digital-Konverter}
+Ein Analog-Digital-Konverter wandelt ein analoges Spannungssignal eine in digitales Spannungssignal um. Das Auflösungsvermögen wird in Bit angegeben. Je größer die Anzahl der Bits, desto kleinschrittiger wird das analoge Signal aufgelöst. Die Umsetzungsgeschwindigkeit gibt an, wie lange es dauert eine Änderung des analogen Signals zu digitalisieren. 
+
+\subsection{Multi-Channel-Analyser}
+Mit einem Multi-Channel-Analyser werden Folgen von elektrischen Impulsen abhängig von der Größe einem Kanal zugeordnet und gezählt. Diese Daten können als Histogramm dargestellt werden, wobei jedem Kanal ein Energieintervall zugeordnet wird.
