@@ -8,24 +8,226 @@
 %kurz die aufgabenstellung abgehandeln
 
 Der Versuch lässt sich in 4 Teile aufteilen. Bevor Messungen gemacht werden können muss der Versuchsaufbau kalibriert werden. Im zweitem Teil wird die Absorption von $\gamma$-Strahlung durch Blei und Aluminium untersucht. Danach wird der Compton-Wirkungsquerschnitt gemessen und untersucht. Im letztem Teil wird die Elektronenmasse bestimmt.
+Es gilt für alle Angabe von Counts, das der Wert über einen Zeitraum von 300s aufgenommen wurde.
 
 \subsection{Kalibration}
-Vor der Kalibrierung wird die Hochspannung des Photomulitpliers auf 600V gestellt, da sich nur für diese Spannung ein linearer Zusammenhang zwischen den Kanalnummern und der Energie der $\gamma$-Strahlen einstellt. Um den Arbeitspunk einzustellen, werden verschieden Eichpräparate auf Höhe der Kollimatoröffnung platziert. Die verwendeten Präparate und deren Eigenschaften sind in Tabelle ?? zu sehen \cite{??}. Die Verstärkung wird so gewählt, dass der interessante Energiebereich abgedeckt wird. Um den Untergrund von den Messungen subtrahieren zu können, wird zuerst eine Leermessung gemacht. Danach wird mit den Elementen aus Tabelle ?? die Kalibrierung für den Zusammenhang zwischen Kanalnummer und Energie gemessen. Die Daten werden mit Gl. ?? gefittet.
+Vor der Kalibrierung wird die Hochspannung des Photomulitpliers auf 600V gestellt, da sich nur für diese Spannung ein linearer Zusammenhang zwischen den Kanalnummern und der Energie der $\gamma$-Strahlen einstellt. Um den Arbeitspunk einzustellen, werden verschieden Eichpräparate auf Höhe der Kollimatoröffnung platziert. Die verwendeten Präparate und deren Eigenschaften sind in Tabelle \ref{tab:kallibrierung} zu sehen \cite{??}. Es wurden dies drei Eichproben verwendet, da die eine große Halbwertszeit haben und die Peaks im Energiespektrum noch deutlich zu erkennen sind. Die Verstärkung wird so gewählt, dass der interessante Energiebereich abgedeckt wird. Um den Untergrund von den Messungen subtrahieren zu können, wird zuerst eine Leermessung gemacht, der Untergrund ist in Abb.\ref{fig:untergurnd} zusehen. 
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale = 0.39]{untergrund.png}
+\caption{Untergrund der Messung, zur Korrektur der anderen Messungen.}
+\label{fig:untergurnd}
+\end{figure}
+
+Danach wird mit den Elementen aus Tabelle \ref{tab:kallibrierung} die Kalibrierung für den Zusammenhang zwischen Kanalnummer und Energie gemessen. Die Daten werden mit Gl. \ref{equ:lin_fit} gefittet.
 
 \begin{align}
 \label{equ:lin_fit}
-f(x) = m \cdot x + b
+E(K) = \frac{K-b}{m}
 \end{align}
 
-\begin{table}
+\begin{table}[H]
 \centering
 \caption{Eichpräparate für die Kalibrierung}
 \label{tab:kallibrierung}
+\begin{tabular}{|cccc|}
+\hline
+Präparat & Halbwertszeit & Energie / keV & Intensität \\ 
+\hline $^{241}$Am & 458y & \begin{tabular}{@{}c@{}c@{}c@{}} 14 \\ 26 \\ 33 \\ 66 \end{tabular} & \begin{tabular}{@{}c@{}c@{}c@{}} 0,420 \\ 0,024 \\ 0,001 \\ 0,359 \end{tabular} \\ 
+\hline $^{133}$Ba & 10,4y & \begin{tabular}{@{}c@{}c@{}c@{}c@{}c@{}c@{}} 31 \\ 35 \\ 81 \\ 276  \\ 302 \\ 356 \\ 383 \end{tabular} & \begin{tabular}{@{}c@{}c@{}c@{}c@{}c@{}c@{}} 0,649 \\ 0,233 \\ 0,341 \\ 0,072  \\ 0,183 \\ 0,621 \\ 0,089 \end{tabular} \\ 
+\hline $^{137}$Cs & 30y & \begin{tabular}{@{}c@{}c@{}} 32 \\ 36 \\ 662 \end{tabular} & \begin{tabular}{@{}c@{}c@{}} 0,056 \\ 0,013 \\ 0,851 \end{tabular} \\ 
+\hline
+\end{tabular} 
+\end{table}
 
+Die Peaks im Energiespektrum werden mit der Gaußverteilung gefittet. Der Fit für den 662keV des Cs ist in Beispielhat in Abb. \ref{fig:cs_662} zu sehen, alle anderen Fits und die Parameter der Fits sind im Anhang zu finden.
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale = 0.39]{cs_662.png}
+\caption{Fit des 662keV Peak, zur Kalibrierung der Kanal-Energie-Beziehung. Das $\chi^2_{red}$ ergibt sich mit 1.45}
+\label{fig:cs_662}
+\end{figure}
+
+Bei dem Fit ergaben sich die Parameter in Tabelle \ref{tab:cs_662_fit}.
+
+\begin{table}[H]
+\centering
+\caption{Parameter des Fits für den 662keV Peak.}
+\label{tab:cs_662_fit}
+\begin{tabular}{c|c}
+Parameter & Wert \\ \hline
+Center & 1920,2(2) \\ 
+Amplitude & 23840(190) \\ 
+Sigma & 2,04(2) \\ 
+$\chi^2_{red}$ & 1,45 \\  
+\end{tabular} 
+\end{table}
+
+Aus den Fits ergeben sich die Werte in Tabelle \ref{tab:lin_fit} für den Fit der Geraden, die Fehler auf die Postion sind dabei durch Sigma gegen, da es sich um eine Gaußverteilung handelt.
+
+\begin{table}[H]
+\centering
+\caption{Parameter des Fits für den 662keV Peak.}
+\label{tab:lin_fit}
+\begin{tabular}{c|c} 
+Energie & Kanal \\ \hline
+14 & 65(4) \\ 
+33 & 112(6) \\ 
+60 & 213(9) \\ 
+31 & 111(7) \\ 
+81 & 285(13) \\ 
+383 & 1180(43) \\ 
+32 & 115(8) \\ 
+662 & 1920(23) \\ 
+\end{tabular} 
+\end{table}
+
+In Abb.\ref{fig:energie_kanal} ist der Plot für die Energien und Kanäle mit Fit zu sehen. Die Parameter des Fits sind in Tabelle \ref{tab:lin_fit_paras} eingetragen. Der Zusammenhang zwischen Energie und Kanal ergibt sich somit nach Gleichung \ref{equ:energie_kanal}. Das $\chi^2_{red}$ hat einen Wert von 1.88 was dafür spricht, das die Fehler unterschätzt wurden. Da für den Fit nur statistische Fehler berücksichtigt wurden und keine systematischen, kann das $\chi^2_{red}$ von 1.88 als ein gutes Ergebnis gesehen werden.
+
+\begin{align}
+\label{equ:energie_kanal}
+E(K) = K \cdot 0.345(6) - 9(2)
+\end{align}
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale = 0.39]{kanale_energie.png}
+\caption{Fit zur Bestimmung der Kanal-Energie-Beziehung. Die Parameter des Fits sind in Tabelle \ref{tab:lin_fit_paras} eingetragen.}
+\label{fig:energie_kanal}
+\end{figure}
+
+\begin{table}[H]
+\centering
+\caption{Parameter des Fits für die Kanal-Energie-Beziehung.}
+\label{tab:lin_fit_paras}
+\begin{tabular}{c|c}
+Parameter & Wert \\ \hline
+m & 0.345(6) \\ 
+b & -9(2) \\ 
+$\chi^2_{red}$ & 1.88 \\  
+\end{tabular} 
 \end{table}
 
 \subsection{Absorbtion von $\gamma$-Strahlen durch Blei und Aluminium}
-Es soll der Absorptionskoeffizient der 662keV Energie mit der Hilfe verschieden dicker Blei- und Aluminiumplatten bestimmt werden. Dafür wird eine Cs-Quelle eingebaut und der Detektor auf die 0$^\circ$-Position gebracht. Es ist zu beachten, dass sich immer eine Bleiplatte von mindestens 2,5cm Dicke zwischen dem Detektor und der Quelle befindet, da sonst für mehrere Stunden nur Rausche zu messen ist.
+Es soll der Absorptionskoeffizient der 662keV Energie mit der Hilfe verschieden dicker Blei- und Aluminiumplatten bestimmt werden. Dafür wird eine Cs-Quelle eingebaut und der Detektor auf die 0$^\circ$-Position gebracht. Es ist zu beachten, dass sich immer eine Bleiplatte von mindestens 2,5cm Dicke zwischen dem Detektor und der Quelle befindet, da sonst für mehrere Stunden nur Rausche zu messen ist. Der 663keV Peak wird mit einer Gaußverteilung angefittet. Die Zählrate ergibt sich aus der Amplitude des Fits, der Messzeit und der Effizienz des Detektors aus Gleichung \ref{equ:zaelrate}.
+
+\begin{align}
+\label{equ:zaelrate}
+n = \frac{Amplitude}{\epsilon t}
+\end{align}
+
+\begin{table}[H]
+\begin{tabular}{l|l}
+Amplitude & Amplitude des Gaußfits \\ 
+t & Messzeit \\ 
+$\epsilon$ & Effizenz (siehe Abb. \ref{fig:effizienz}) \\ 
+\end{tabular} 
+\end{table}
+
+
+\subsubsection{Blei}
+Für die Messung mit Blei wurden die Dicken in Tabelle \ref{tab:absorb_blei} verwendet. Die Rate der Peaks wurde über Gaußfits bestimmt und sind im Anhang unter Abschnitt ?? zu finden.
+
+\begin{table}[H]
+\centering
+\caption{Dicke der Bleiplatten zur Bestimmung des Absorptionskoeffizienten für Blei. Der Fehler der Rate wurde über Fehlerfortpflanzung bestimmt.}
+\label{tab:absorb_blei}
+\begin{tabular}{c|c}
+Dicke / cm & Rate / Hz \\  \hline 
+7,06(1) & 15,2(5) \\ 
+6,03(9) & 55,3(7) \\ 
+5,03(7) & 182(1) \\ 
+4,52(9) & 322(2) \\ 
+3,51(7) & 1005(4) \\ 
+2,50(1) & 3154(11) \\  
+\end{tabular} 
+\end{table}
+
+Der Fit und die Messdaten sind in Abb. \ref{fig:exp_blei_fit} aufgetragen und die Parameter des Fits sind in Tabelle \ref{tab:absorb_blei_fit} zu finden.
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale = 0.39]{exp_fit_blei.png}
+\caption{Fit zur Bestimmung des Absorptionskoeffizienten von Blei. Die Fehler auf die Counts sind so klein, das sie im Plot nicht zu erkennen sind. Die Parameter des Fits sind in Tabelle \ref{tab:absorb_blei_fit} eingetragen.}
+\label{fig:exp_blei_fit}
+\end{figure}
+
+\begin{table}[H]
+\centering
+\caption{Parameter des Fits für den Absorptionskoeffizienten von Blei. ampulitude steht für den Vorfaktor des e-Terms und decay für den Vorfaktor des Exponenten im e-Term}
+\label{tab:absorb_blei_fit}
+\begin{tabular}{c|c}
+Parameter & Wert \\ \hline 
+amplitude & 54353(152) \\ 
+decay & 0,114(7) mm$^{-1}$\\ 
+$\chi^2_{red}$ & 5,39 \\ 
+\end{tabular} 
+\end{table}
+
+\subsubsection{Aluminium}
+Für die Messung mit Aluminium wurden die Dicken in Tabelle \ref{tab:absorb_blei} verwendet. Die Rate der Peaks wurde über Gaußfits bestimmt und sind im Anhang unter Abschnitt ?? zu finden.
+
+\begin{table}[H]
+\centering
+\caption{Dicke der Bleiplatten zur Bestimmung des Absorptionskoeffizienten für Aluminium. Die Rate entspricht der Amplitude der Gaußverteilung}
+\label{tab:absorb_alu}
+\begin{tabular}{c|c}
+Dicke / cm & Rate / Hz \\  \hline 
+7.60(2) & 1168(5) \\ 
+6,58(2) & 1421(4) \\ 
+5,57(2) & 1747(5) \\ 
+4,55(1) & 2117(7) \\ 
+3,54(1) & 2620(9) \\ 
+\end{tabular} 
+\end{table}
+
+Der Fit und die Messdaten sind in Abb. \ref{fig:exp_alu_fit} aufgetragen und die Parameter des Fits sind in Tabelle \ref{tab:absorb_alu_fit} zu finden.
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale = 0.39]{exp_fit_alu.png}
+\caption{Fit zur Bestimmung des Absorptionskoeffizienten von Aluminium. Die Fehler auf die Counts sind so klein, das sie im Plot nicht zu erkennen sind. Die Parameter des Fits sind in Tabelle \ref{tab:absorb_alu_fit} eingetragen.}
+\label{fig:exp_alu_fit}
+\end{figure}
+
+\begin{table}[H]
+\centering
+\caption{Parameter des Fits für den Absorptionskoeffizienten von Aluminium. ampulitude steht für den Vorfaktor des e-Terms und decay für den Vorfaktor des Exponenten im e-Term}
+\label{tab:absorb_alu_fit}
+\begin{tabular}{c|c}
+Parameter & Wert \\ \hline 
+amplitude & 5260(65)\\ 
+decay & 0.0198(9) mm$^{-1}$\\ 
+$\chi^2_{red}$ & 3,07 \\ 
+\end{tabular} 
+\end{table}
+
+Für beide Fits ergeben sich hohe $\chi^2_{red}$ was auf die Bestimmung der Counts für die verschiedenen Dicken zurück zu führe ist. In Abb. \ref{fig:skew} sieht man den Fit für Aluminium bei 1cm Dicke. Es ist deutlich eine Skewnes der Verteilung der Messdaten zu sehen, da die Messdaten aber mit einer Gaußverteilung gefittet werden kann dieser Aspekt der Verteilung nicht berücksichtigt werden und es ergibt sich ein systematische Fehler. Die Skewnes ist in allen Messdaten zu finden, vlg. Abschnitt ??.
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale = 0.39]{skew.png}
+\caption{Messung und Fit bei einer Aluminiumplatte mit einer Dicke von 1cm. Es ist deutlich eine Skewnes in der Verteilung der Messdaten zu sehen, die durch den Fit einer Gaußverteilung nicht berücksichtigt werden kann.}
+\label{fig:skew}
+\end{figure}
+
+\subsubsection{Auswertung}
+In Tabelle \ref{tab:exp_vergleich} ist ein Vergleich zwischen dem theoretischem Absorptionskoeffizienten und den experimentell bestimmten zu sehen.
+
+\begin{table}[H]
+\centering
+\caption{Vergleich der experimentell bestimmten Absorptionskoeffizienten mit den theoretisch erwarteten. Die starke Abweichung lässt sich auf die Skewnes in der Verteilung der Messdaten für verschieden Dicken von Blei/Aluminium beim Fitten der Gaußverteilung zurückführen.}
+\label{tab:exp_vergleich}
+\begin{tabular}{c|c|c|c}
+Material & exp. Wert / mm$^{-1}$  & theo. Wert / mm$^{-1}$ & rel. Abweichung \\ \hline 
+Blei & 0,114(7) & 0,120 & 5\% \\ 
+Aluminium & 0,0198(9) & 0,0190 & 4,2\% \\ 
+\end{tabular} 
+\end{table}
+
+Mit dem Fit für Blei kann die Rate der $\gamma$-Strahlen ohne Material zwischen Quelle und Detektor bestimmt werden, dafür wird der Fit bei 0 ausgewertet. Es ergibt sich eine Rate von 54353 Hz.
 
 \subsection{Compton-Wirkungsquerscnitt}
 In diesem Versuchsabschnitt soll der differentielle Wirkungsquerschnitt an der Aluminiumplatte untersucht werden. Dafür wird ein Winkelbereich von 20$^\circ$ bis 80$^\circ$ und 5$^\circ$ Schritten abgefahren, dabei befindet sich keine 2,5cm dicke Aluminiumplatte vor dem Detektor. Um den Untergrund aus den Messdaten raus rechnen zu können, wird für jede Winkelpostion einmal mit und einmal ohne Aluminiumplatte gemessen.
