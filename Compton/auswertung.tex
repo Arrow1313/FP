@@ -111,21 +111,22 @@ $\chi^2_{red}$ & 1.88 \\
 \end{table}
 
 \subsection{Absorbtion von $\gamma$-Strahlen durch Blei und Aluminium}
-Es soll der Absorptionskoeffizient der 662keV Energie mit der Hilfe verschieden dicker Blei- und Aluminiumplatten bestimmt werden. Dafür wird eine Cs-Quelle eingebaut und der Detektor auf die 0$^\circ$-Position gebracht. Es ist zu beachten, dass sich immer eine Bleiplatte von mindestens 2,5cm Dicke zwischen dem Detektor und der Quelle befindet, da sonst für mehrere Stunden nur Rausche zu messen ist. Der 663keV Peak wird mit einer Gaußverteilung angefittet. Die Zählrate ergibt sich aus der Amplitude des Fits, der Messzeit und der Effizienz des Detektors aus Gleichung \ref{equ:zaelrate}.
+Es soll der Absorptionskoeffizient der 662keV Energie mit der Hilfe verschieden dicker Blei- und Aluminiumplatten bestimmt werden. Dafür wird eine Cs-Quelle eingebaut und der Detektor auf die 0$^\circ$-Position gebracht. Es ist zu beachten, dass sich immer eine Bleiplatte von mindestens 2,5cm Dicke zwischen dem Detektor und der Quelle befindet, da sonst für mehrere Stunden nur Rauschen zu messen ist. Der 663keV Peak wird mit einer Gaußverteilung angefittet. Die Zählrate ergibt sich aus der Amplitude des Fits, der Messzeit und der Effizienz des Detektors aus Gleichung \ref{equ:zaelrate}.
 
 \begin{align}
 \label{equ:zaelrate}
-n = \frac{Amplitude}{\epsilon t}
+n = \frac{A}{\epsilon t}
 \end{align}
 
 \begin{table}[H]
 \begin{tabular}{l|l}
-Amplitude & Amplitude des Gaußfits \\ 
+A & Fläche des Gaußfits \\ 
 t & Messzeit \\ 
 $\epsilon$ & Effizenz (siehe Abb. \ref{fig:effizienz}) \\ 
 \end{tabular} 
 \end{table}
 
+Beziehungsweise $N_{Gesamt}$ ist gegeben durch $n \cdot t$.
 
 \subsubsection{Blei}
 Für die Messung mit Blei wurden die Dicken in Tabelle \ref{tab:absorb_blei} verwendet. Die Rate der Peaks wurde über Gaußfits bestimmt und sind im Anhang unter Abschnitt ?? zu finden.
@@ -160,9 +161,9 @@ Der Fit und die Messdaten sind in Abb. \ref{fig:exp_blei_fit} aufgetragen und di
 \label{tab:absorb_blei_fit}
 \begin{tabular}{c|c}
 Parameter & Wert \\ \hline 
-amplitude & 54353(152) \\ 
-decay & 0,114(7) mm$^{-1}$\\ 
-$\chi^2_{red}$ & 5,39 \\ 
+amplitude & 1.8(1) \\ 
+decay & 0,116(2) mm$^{-1}$\\ 
+$\chi^2_{red}$ & 1,63 \\ 
 \end{tabular} 
 \end{table}
 
@@ -171,7 +172,7 @@ Für die Messung mit Aluminium wurden die Dicken in Tabelle \ref{tab:absorb_blei}
 
 \begin{table}[H]
 \centering
-\caption{Dicke der Bleiplatten zur Bestimmung des Absorptionskoeffizienten für Aluminium. Die Rate entspricht der Amplitude der Gaußverteilung}
+\caption{Dicke der Bleiplatten zur Bestimmung des Absorptionskoeffizienten für Aluminium.}
 \label{tab:absorb_alu}
 \begin{tabular}{c|c}
 Dicke / cm & Rate / Hz \\  \hline 
@@ -198,13 +199,13 @@ Der Fit und die Messdaten sind in Abb. \ref{fig:exp_alu_fit} aufgetragen und die
 \label{tab:absorb_alu_fit}
 \begin{tabular}{c|c}
 Parameter & Wert \\ \hline 
-amplitude & 5260(65)\\ 
+amplitude & 1.58(1) $\cdot 10^6$\\ 
 decay & 0.0198(9) mm$^{-1}$\\ 
-$\chi^2_{red}$ & 3,07 \\ 
+$\chi^2_{red}$ & 0,03 \\ 
 \end{tabular} 
 \end{table}
 
-Für beide Fits ergeben sich hohe $\chi^2_{red}$ was auf die Bestimmung der Counts für die verschiedenen Dicken zurück zu führe ist. In Abb. \ref{fig:skew} sieht man den Fit für Aluminium bei 1cm Dicke. Es ist deutlich eine Skewnes der Verteilung der Messdaten zu sehen, da die Messdaten aber mit einer Gaußverteilung gefittet werden kann dieser Aspekt der Verteilung nicht berücksichtigt werden und es ergibt sich ein systematische Fehler. Die Skewnes ist in allen Messdaten zu finden, vlg. Abschnitt ??.
+In Abb. \ref{fig:skew} sieht man den Fit für Aluminium bei 1cm Dicke. Es ist deutlich eine Skewnes der Verteilung der Messdaten zu sehen, da die Messdaten aber mit einer Gaußverteilung gefittet werden kann dieser Aspekt der Verteilung nicht berücksichtigt werden und es ergibt sich ein systematische Fehler. Die Skewnes ist in allen Messdaten zu finden, vlg. Abschnitt ??.
 
 \begin{figure}[H]
 \centering
@@ -222,15 +223,15 @@ In Tabelle \ref{tab:exp_vergleich} ist ein Vergleich zwischen dem theoretischem 
 \label{tab:exp_vergleich}
 \begin{tabular}{c|c|c|c}
 Material & exp. Wert / mm$^{-1}$  & theo. Wert / mm$^{-1}$ & rel. Abweichung \\ \hline 
-Blei & 0,114(7) & 0,120 & 5\% \\ 
+Blei & 0,114(7) & 0,120 & 3,33\% \\ 
 Aluminium & 0,0198(9) & 0,0190 & 4,2\% \\ 
 \end{tabular} 
 \end{table}
 
-Mit dem Fit für Blei kann die Rate der $\gamma$-Strahlen ohne Material zwischen Quelle und Detektor bestimmt werden, dafür wird der Fit bei 0 ausgewertet. Es ergibt sich eine Rate von 54353 Hz.
+Mit dem Fit für Blei kann die Rate der $\gamma$-Strahlen ohne Material zwischen Quelle und Detektor bestimmt werden, dafür wird der Fit bei 0 ausgewertet. Es ergibt sich eine Rate von n = 54353 Hz und N = 16306068 in 300s.
 
 \subsection{Compton-Wirkungsquerscnitt}
-In diesem Versuchsabschnitt soll der differentielle Wirkungsquerschnitt an der Aluminiumplatte untersucht werden. Dafür wird ein Winkelbereich von 20$^\circ$ bis 80$^\circ$ und 5$^\circ$ Schritten abgefahren, dabei befindet sich keine 2,5cm dicke Aluminiumplatte vor dem Detektor. Um den Untergrund aus den Messdaten raus rechnen zu können, wird für jede Winkelpostion einmal mit und einmal ohne Aluminiumplatte gemessen.
+In diesem Versuchsabschnitt soll der differentielle Wirkungsquerschnitt an der Aluminiumplatte untersucht werden. Dafür wird ein Winkelbereich von 20$^\circ$ bis 80$^\circ$ und 10$^\circ$ Schritten abgefahren, dabei befindet sich keine 2,5cm dicke Bleiplatte vor dee Quelle. Um den Untergrund aus den Messdaten heraus rechnen zu können, wird für jede Winkelpostion einmal mit und einmal ohne Aluminiumplatte gemessen.
 
 \subsection{Elektronenmasse}
 Mit den zuvor bestimmten Daten lässt sich nun über Gl. ?? die Elektromasse berechnen.
