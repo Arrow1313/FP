@@ -231,7 +231,23 @@ Aluminium & 0,0198(9) & 0,0190 & 4,2\% \\
 Mit dem Fit für Blei kann die Rate der $\gamma$-Strahlen ohne Material zwischen Quelle und Detektor bestimmt werden, dafür wird der Fit bei 0 ausgewertet. Es ergibt sich eine Rate von n = 54353 Hz und N = 16306068 in 300s.
 
 \subsection{Compton-Wirkungsquerscnitt}
-In diesem Versuchsabschnitt soll der differentielle Wirkungsquerschnitt der Compton-Streuung an einer Aluminiumplatte untersucht werden. Dafür wird ein Winkelbereich von 20$^\circ$ bis 80$^\circ$ und 10$^\circ$ Schritten abgefahren. Es befindet sich keine 2,5cm dicke Bleiplatte vor der Quelle. Um den Untergrund aus den Messdaten heraus rechnen zu können, wird für jede Winkelpostion einmal mit und einmal ohne Aluminiumplatte gemessen.
+In diesem Versuchsabschnitt soll der differentielle Wirkungsquerschnitt der Compton-Streuung an einer Aluminiumplatte untersucht werden. Dafür wird ein Winkelbereich von 20$^\circ$ bis 80$^\circ$ und 10$^\circ$ Schritten abgefahren. Die 2,5cm dicke Bleiplatte vor der Quelle wird, \textbf{nachdem} der Detektor auf \SI{20}{\degree} ausgelenkt wurde, entfernt. Um den Untergrund aus den Messdaten heraus rechnen zu können, wird für jede Winkelpostion einmal mit und einmal ohne Aluminiumplatte gemessen. Der Untergrund wird abgezogen und negative Schwankungen der Messdaten werden auf Null gesetzt. Die Fehler werden per Fehlerfortpflanzung berechnet. Es ergeben sich die Energien und Fehler in Tabelle \ref{tab:energien_WQ}. Die Plots der Counts gegen den Kanal mit den Gaußfits sind im Anhang Abschnitt \ref{Anh:WQ} zu finden.
+\begin{table}[H]
+\caption{Dargestellt sind die gemessenen Winkel und Energien}
+\centering
+\begin{tabular}{l|l|l}
+Winkel/\SI{}{\degree}$\pm 0,5$\SI{}{\degree}& $E_{\gamma}'$/keV& $\Delta E_{\gamma}'$/keV\\
+\hline
+\SI{20}{\degree}& 627& 12\\
+\SI{30}{\degree}& 598& 21\\
+\SI{40}{\degree}& 544& 22\\
+\SI{50}{\degree}& 489& 22\\
+\SI{60}{\degree}& 437& 22\\
+\SI{70}{\degree}& 389& 22\\
+\SI{80}{\degree}& 346& 21\\
+\end{tabular}
+\label{tab:energien_WQ}
+\end{table} 
 
 \subsection{Elektronenmasse}
 Mit den zuvor bestimmten Daten lässt sich nun über Gl. ?? die Elektromasse berechnen.
