@@ -151,18 +151,18 @@ Der Fit und die Messdaten sind in Abb. \ref{fig:exp_blei_fit} aufgetragen und di
 \begin{figure}[H]
 \centering
 \includegraphics[scale = 0.39]{exp_fit_blei.png}
-\caption{Fit zur Bestimmung des Absorptionskoeffizienten von Blei. Die Fehler auf die Counts sind so klein, das sie im Plot nicht zu erkennen sind. Die Parameter des Fits sind in Tabelle \ref{tab:absorb_blei_fit} eingetragen.}
+\caption{Fit der Funktion $ae^{\lambda x}$ zur Bestimmung des Absorptionskoeffizienten von Blei. Die Fehler auf die Counts sind so klein, das sie im Plot nicht zu erkennen sind. Die Parameter des Fits sind in Tabelle \ref{tab:absorb_blei_fit} eingetragen.}
 \label{fig:exp_blei_fit}
 \end{figure}
 
 \begin{table}[H]
 \centering
-\caption{Parameter des Fits für den Absorptionskoeffizienten von Blei. ampulitude steht für den Vorfaktor des e-Terms und decay für den Vorfaktor des Exponenten im e-Term}
+\caption{Parameter des Fits für den Absorptionskoeffizienten von Blei. A ist die Amplitude der Exponentialfunktion und $\lambda_{Blei}$ für den Vorfaktor in der Exponentialfunktion}
 \label{tab:absorb_blei_fit}
 \begin{tabular}{c|c}
 Parameter & Wert \\ \hline 
-amplitude & 1.8(1) \\ 
-decay & 0,116(2) mm$^{-1}$\\ 
+A & 1.8(1) \\ 
+$\lambda_{Blei}$ & 0,116(2) mm$^{-1}$\\
 $\chi^2_{red}$ & 1,63 \\ 
 \end{tabular} 
 \end{table}
@@ -189,7 +189,7 @@ Der Fit und die Messdaten sind in Abb. \ref{fig:exp_alu_fit} aufgetragen und die
 \begin{figure}[H]
 \centering
 \includegraphics[scale = 0.39]{exp_fit_alu.png}
-\caption{Fit zur Bestimmung des Absorptionskoeffizienten von Aluminium. Die Fehler auf die Counts sind so klein, das sie im Plot nicht zu erkennen sind. Die Parameter des Fits sind in Tabelle \ref{tab:absorb_alu_fit} eingetragen.}
+\caption{Fit der Funktion $ae^{\lambda x}$zur Bestimmung des Absorptionskoeffizienten von Aluminium. Die Fehler auf die Counts sind so klein, das sie im Plot nicht zu erkennen sind. Die Parameter des Fits sind in Tabelle \ref{tab:absorb_alu_fit} eingetragen.}
 \label{fig:exp_alu_fit}
 \end{figure}
 
@@ -199,13 +199,13 @@ Der Fit und die Messdaten sind in Abb. \ref{fig:exp_alu_fit} aufgetragen und die
 \label{tab:absorb_alu_fit}
 \begin{tabular}{c|c}
 Parameter & Wert \\ \hline 
-amplitude & 1.58(1) $\cdot 10^6$\\ 
-decay & 0.0198(9) mm$^{-1}$\\ 
+a & 1.58(1) $\cdot 10^6$\\ 
+$\lambda_{Alu}$ & 0.0198(9) mm$^{-1}$\\ 
 $\chi^2_{red}$ & 0,03 \\ 
 \end{tabular} 
 \end{table}
 
-In Abb. \ref{fig:skew} sieht man den Fit für Aluminium bei 1cm Dicke. Es ist deutlich eine Skewnes der Verteilung der Messdaten zu sehen, da die Messdaten aber mit einer Gaußverteilung gefittet werden kann dieser Aspekt der Verteilung nicht berücksichtigt werden und es ergibt sich ein systematische Fehler. Die Skewnes ist in allen Messdaten zu finden, vlg. Abschnitt ??.
+In Abb. \ref{fig:skew} sieht man den Fit für Aluminium bei 1cm Dicke. Es ist deutlich eine Skewnes der Verteilung der Messdaten zu sehen, da die Messdaten mit einer Gaußverteilung gefittet werden kann dieser Aspekt der Verteilung nicht berücksichtigt werden und es ergibt sich ein systematischer Fehler. Die Skewnes ist in allen Messdaten zu finden, vgl. Abschnitt ??.
 
 \begin{figure}[H]
 \centering
@@ -228,26 +228,38 @@ Aluminium & 0,0198(9) & 0,0190 & 4,2\% \\
 \end{tabular} 
 \end{table}
 
-Mit dem Fit für Blei kann die Rate der $\gamma$-Strahlen ohne Material zwischen Quelle und Detektor bestimmt werden, dafür wird der Fit bei 0 ausgewertet. Es ergibt sich eine Rate von n = 54353 Hz und N = 16306068 in 300s.
+Mit dem Fit für Blei kann die Rate der $\gamma$-Strahlen ohne Material zwischen Quelle und Detektor bestimmt werden, dafür wird der Fit bei 0 ausgewertet. Es ergibt sich eine Rate von n = 54353 Hz und $N_0$ = 16306068 in 300s.
 
 \subsection{Compton-Wirkungsquerscnitt}
 In diesem Versuchsabschnitt soll der differentielle Wirkungsquerschnitt der Compton-Streuung an einer Aluminiumplatte untersucht werden. Dafür wird ein Winkelbereich von 20$^\circ$ bis 80$^\circ$ und 10$^\circ$ Schritten abgefahren. Die 2,5cm dicke Bleiplatte vor der Quelle wird, \textbf{nachdem} der Detektor auf \SI{20}{\degree} ausgelenkt wurde, entfernt. Um den Untergrund aus den Messdaten heraus rechnen zu können, wird für jede Winkelpostion einmal mit und einmal ohne Aluminiumplatte gemessen. Der Untergrund wird abgezogen und negative Schwankungen der Messdaten werden auf Null gesetzt. Die Fehler werden per Fehlerfortpflanzung berechnet. Es ergeben sich die Energien und Fehler in Tabelle \ref{tab:energien_WQ}. Die Plots der Counts gegen den Kanal mit den Gaußfits sind im Anhang Abschnitt \ref{Anh:WQ} zu finden.
 \begin{table}[H]
-\caption{Dargestellt sind die gemessenen Winkel und Energien}
+\caption{Dargestellt sind die gemessenen Winkel und Energien, sowie die für die geometrische Bestimmung des differentiellen Wirkungsquerschnitts wichtigen Größen}
 \centering
-\begin{tabular}{l|l|l}
-Winkel/\SI{}{\degree}$\pm 0,5$\SI{}{\degree}& $E_{\gamma}'$/keV& $\Delta E_{\gamma}'$/keV\\
+\begin{tabular}{l|l|l|l|l}
+$\Theta$/\SI{}{\degree}$\pm 0,5$\SI{}{\degree}& $E_{\gamma}'$/keV& $\Delta E_{\gamma}'$/keV&$\epsilon(\Theta)\pm 0,025$& $N_{Detektor}(\Theta)$\\
 \hline
-\SI{20}{\degree}& 627& 12\\
-\SI{30}{\degree}& 598& 21\\
-\SI{40}{\degree}& 544& 22\\
-\SI{50}{\degree}& 489& 22\\
-\SI{60}{\degree}& 437& 22\\
-\SI{70}{\degree}& 389& 22\\
-\SI{80}{\degree}& 346& 21\\
+\SI{20}{\degree}& 628& 12& 0,495& 8804(270)\\
+\SI{30}{\degree}& 598& 18& 0,505& 8089(143)\\
+\SI{40}{\degree}& 544& 22& 0,550& 6870(103)\\
+\SI{50}{\degree}& 489& 22& 0,580& 5897(93)\\
+\SI{60}{\degree}& 437& 22& 0,540& 5432(93)\\
+\SI{70}{\degree}& 389& 22& 0,670& 5217(94)\\
+\SI{80}{\degree}& 347& 18& 0,720& 5194(99)\\
 \end{tabular}
 \label{tab:energien_WQ}
-\end{table} 
-
+\end{table}
+Daneben wurden die folgenden Größen gemessen
+\begin{table}[H]
+\centering
+\begin{tabular}{l|l|l}
+$\lambda_{Alu}$=0.0198(9) mm$^{-1}$ & Aluminiumabsorbtionskoeffizient & [Tabelle \ref{tab:absorb_alu_fit}, Gleichung \ref{eqn:N_Gesamt}]\\
+$d_{Alu}$ = 1,0050(25) cm & Aluminiumtargetdicke& [Gleichung \ref{d_Eff}]\\
+$a$ = 37,4(1) cm & Abstand Target-Detektor& [Gleichung \ref{eqn:Delta_Omega}]\\
+$D$ = 51 mm & Detektorduchmesser& [Gleichung \ref{eqn:Delta_Omega}]\\
+$N_0$ = 16306068 & Anzahl Eingestrahlter Photonen& [Gleichung \ref{eqn:N_Gesamt}]\\
+$n_e$ = 7,83$\cdot 10^{23}$ cm$^{-3}$& Aluminiumelektronendichte& [Gleichung \ref{eqn:Flächendichte}]\\
+\end{tabular}
+\end{table}
+Da der Detektordurchmesser auf dem Detektor ohne Fehler angegeben war, wird diese Größe, sowie die Aluminiumelektronendichte, als Fehlerlos behandelt.
 \subsection{Elektronenmasse}
 Mit den zuvor bestimmten Daten lässt sich nun über Gl. ?? die Elektromasse berechnen.
