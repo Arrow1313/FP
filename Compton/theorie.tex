@@ -61,7 +61,7 @@ sodass Vorwärts- und Rückwärtsstreuung gleichwahrscheinlich sind (vgl. \cite{wik
 \subsection{Geometrischer Wirkungsquerschnitt}
 Der differentielle Wirkungsquerschnitt wird nach Gleichung \ref{eqn:Differentieller_Wirkungsquerschnitt} bestimmt. Dabei gilt für die Anzahl der gestreuten Teilchen ($\Delta N_{Reaktion}$):
 \begin{align}
-\Delta N_{Reaktion}(\Theta) = \frac{N_{Detektor}}{\epsilon(E_\gamma'(\Theta))}
+\Delta N_{Reaktion}(\Theta) = \frac{N_{Detektor}(\Theta)}{\epsilon(\Theta)(E_\gamma'(\Theta))}
 \label{eqn:N_Reaktion}
 \end{align}
 \begin{table}[H]
@@ -73,7 +73,7 @@ $\epsilon(E_\gamma'(\Theta))$ & Effizienz des Detektors bei der Energie $E_\gamm
 \end{table}
 Für die Anzahl der zur Streureaktion zu Verfügung stehenden Teilchen ($N_{Gesamt}$) muss die Absorption des Aluminiumtargets berücksichtigt werden, sodass sich
 \begin{align}
-N_{Gesamt}  = N_0e^{-\lambda_{Alu}\cdot d_{Eff}}
+N_{Gesamt}(\Theta)  = N_0e^{-\lambda_{Alu}\cdot d_{Eff}(\Theta)}
 \label{eqn:N_Gesamt}
 \end{align}
 \begin{table}[H]
@@ -104,6 +104,7 @@ $a$ & Abstand des Aluminiumtarget zum Detektor\\
 Schlussendlich ergibt sich die Flächendichte der Targetteilchen mit Gleichung ??, sodass der Wirkungsquerschnitt nach Gleichung \ref{eqn:Differentieller_Wirkungsquerschnitt} bestimmt werden kann.
 \begin{align}
 \frac{N_T(\Theta)}{F} = n_e\cdot d_{Eff}(\Theta)
+\label{eqn:Flächendichte}
 \end{align}
 \subsection{Szintillationszähler}
 Szintillationszähler werden zum detektieren von Strahlung verwendet. Sie sind aus einem Materialien aufgebaut, welche von ionisierender Strahlung angeregt werden können und die absorbierte Energie in Form von Photonen abstrahlen. Sie müssen gegen äußeren Lichteinfall geschützt werden. Bestenfalls ist dabei die Intensität des abgestrahlten Lichtes direkt proportional zur Energie der einfallenden Strahlung. Dabei ist zu beachten, dass jeder Szintillator eine gewisse Totzeit besitzt, sodass nur Ereignisse, deren Zeitdifferenz größer als die Totzeit des Szitillationszählers ist, detektiert werden können. Die abgestrahlten Photonen werden meistens mit Photomultipliern verstärkt, um die Lichtintensitäten in messbare Stromstärken, welche über eine Analog-Digital-Konverter digitalisiert und an den Computer weitergegeben werden können, umzusetzen.
