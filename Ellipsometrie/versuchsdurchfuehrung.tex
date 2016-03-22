@@ -7,18 +7,242 @@ Die Durchführung setzt sich mehren Teilen zusammen, der erste Teil ist die Justa
 \subsection{Justage}
 Bevor Messungen gemacht werden können muss die Messapertur justiert werden.
 
-Zuerst wird der Detektorarm justiert/seine Nulllate festzulegen. Dafür wird der Laserstrahl auf die Si-Photodiode fokussiert und der Rotationstisch 1 solange gedreht, bis sich ein Maximum in der Intensität ergibt.
+\paragraph{Nulllage des Detektors \\}
 
+\noindent Zuerst wird der Detektorarm justiert/seine Nulllage festgelegt. Dafür wird der Laserstrahl auf die Si-Photodiode fokussiert und der Rotationstisch 1 gedreht und die Intensität gemessen, die Messwerte werden mit der Gaußverteilung gefittet. Die Messwerte sind in Tabelle ?? eingetragen.
+
+\begin{table}[H]
+\centering
+\caption{Messwerte zur Bestimmung der Nulllage des Detektors. Der Fehler des Winkels wurde mit 0.03$^\circ$ angenommen. Die Fehler der Spannung setzten sich aus dem Ablesefehler und den Schwankungen der Anzeige zusammen.}
+\label{tab:nulllage}
+\begin{tabular}{c|c}
+Winkel / $^\circ$ & Spannung / mV \\ \hline
+180 & 11,0(3) \\ 
+180.5 & 110,4(5) \\ 
+181 & 500(2) \\ 
+181.5 & 1054(4) \\ 
+181.75 & 1179(4) \\ 
+182 & 1133(2) \\ 
+182.25 & 899(2) \\ 
+182.5 & 627(2) \\ 
+183 & 178,4(5) \\  
+\end{tabular} 
+\end{table}
+
+In Abb. \ref{fig:nulllage} sind die Messdaten mit den Gaußfit abgebildet. Die Parameter des Fits sind in Tabelle ?? eingetragen. Da das $\chi^2_{red}$ einen Wert von 52,38 hat wurde die Nulllage noch nochmal bestimmt, in dem der Winkel von Hand so lange verändert werden, bis sich ein Maximum einstellte. Mit der zweiten Methode ergab sich eine Nulllage bei 181.7 was die Nulllage aus dem Fit bestätigt.
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale = 0.39]{nulllage.png}
+\caption{Bestimmung der Nulllage. Die y-Fehler sind so klein, dass sich im Plot nicht zu sehen sind.}
+\label{fig:nulllage}
+\end{figure}
+
+
+\begin{table}[H]
+\centering
+\caption{Parameter des Gaußfit zur Bestimmung der Nulllage des Detektors}
+\label{tab:nulllage_fit}
+\begin{tabular}{c|c}
+Parameter & Wert \\ \hline 
+Amplitude & 1802(13) \\ 
+Sigma & 0,607(3) \\ 
+Center & 181,815(4) \\ 
+$\chi^2_{red}$ & 52,38 \\  
+\end{tabular} 
+\end{table}
+
+\paragraph{Proben \\}
+\label{para:proben}
 Danach werden die Proben mit dem Laser justiert, dieser Justageschritt ist bei jedem Wechsel der Probe nötig. Dieser Schritt ist besonders wichtig, da eine gute Messung von ihm Abhängt. Zuerst wird Rotationstisch 2 auf einen Einfallswinkel von $\theta$ = 0$^\circ$ eingestellt und eine dünne Glasscheibe angebracht. Dabei sollte die im Detektor die maximale Intensität zu messen sein. Die Probe wird dann über den Lineartisch so weit in den Strahl gefahren, dass am Detektor nur noch die Hälfte der maximalen Intensität gemessen wird (die Positon x$_{1/2} $). Dann wird mit dem ersten Goniometer, die Neigung der Probenoberfläche senkrecht zum Strahl so geändert, dass sich eine maximale Intensität einstellt (der Winkel $\Phi_0$). Es wird überprüft, ob die x$_{1/2}$-Position sich nicht geändert hat. Falls sie sich doch geändert hat muss die Justierung des Goniometers wiederholt werden. Der Rotationstisch 1 wird um 90$^\circ$ gedreht und das zweite Goniometer so eingestellt, dass der Strahl exakt reflektiert wird.
 
 \subsection{Messungen}
 Es werden die Durchführungen der drei verschiedenen Messungen beschrieben.
 
 \subsubsection{Winkelabhängigkeit der Intensität}
-Mit der Messung soll überprüft werden, wie sich die Intensität bei Drehung der Polarisationsebene und Einsatz des Linearpolarisators ändert. Dafür wird der Polarisationsdreher auf der optischen Bank befestigt und die Glasscheibe aus dem Strahl gefahren. Dann wird die Spannung in Abhängigkeit des Winkels des Polarisators aufgenommen.
+Mit der Messung soll überprüft werden, wie sich die Intensität bei Drehung der Polarisationsebene und Einsatz des Linearpolarisators ändert. Dafür wird der Polarisationsdreher auf der optischen Bank befestigt und die Glasscheibe aus dem Strahl gefahren. Dann wird die Spannung in Abhängigkeit des Winkels des Polarisators aufgenommen. Die Intensität wurde in 45$^\circ$-Schritten aufgenommen, dabei ergaben sich die Werte in Tabelle \ref{tab:winkelabhaengigkeit}.
+
+\begin{table}[H]
+\centering
+\caption{Werte aus der Messung, zur Bestimmung der Winkelabhängigkeit der Intensität}
+\label{tab:winkelabhaengigkeit}
+\begin{tabular}{c|c}
+Winkel / $^\circ$ & Spannung / mV \\  \hline 
+0 & 1229 \\ 
+45 & 1230 \\ 
+90 & 1230 \\ 
+135 & 1231 \\ 
+180 & 1232 \\ 
+225 & 1226 \\ 
+270 & 1226 \\ 
+315 & 1232 \\ 
+360 & 1229 \\ 
+\end{tabular} 
+\end{table}
+
+Ein Plot der Messdaten mit eingezeichnetem Mittelwert der Intensität ist in Abb. ?? zu sehen. Die maximale Abweichung beträgt 6mV, was einer relativen Abweichung von 0,48\% entspricht, dies entspricht des Vorgaben aus der Praktkumsanleitung \cite{Anleitung}.
+
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale = 0.39]{winkel_zu_intensitaet.png}
+\caption{Zusammenhang zwischen Winkel des Polarisators und der Intensität des Lichtes}
+\label{fig:winkel_zu_intensitaet}
+\end{figure}
+
 
 \subsubsection{Parallele und senkrechte Polarisation}
-Es ist wichtig, für die weiteren Messungen die Winkeleinstellung am Polarisator, unter dem der Strahl parallel oder senkrecht zur Einfallsebene Polarisiert ist. Bei einem 90$^\circ $ Winkel wird erwartet, dass der Strahl parallel zur Einfallsebene polarisiert ist. Um zu überprüfen, ob der Strahl parallel zur Einfallsebene polarisiert ist, wird die Glasscheibe wieder in den Strahl gestellt und auf die x$_{1/2}$-Position gestellt. Dann wird der Winkel von Rotationstisch 2 auf den theoretischen Brewsterwinkel (57$^\circ$) des Glases eingestellt. Um zu verifizieren, dass der gesuchte Winkel bei 90$^\circ$ liegt wird der Winkelbereich von 70$^\circ$ bis 110$^\circ$ durchgemessen und das Minimum der Intensität gesucht.
+Zur Bestimmung der Einstellung des Polarisators für paralleles und senkrechtes Licht wird der Brewsterwinkel verwendet. Dazu muss die Glas-Probe zu erste wie in Abschnitt \ref{para:proben} beschrieben justiert werden.
+
+Dann wird der Winkel von Rotationstisch 2 auf den theoretischen Brewsterwinkel (57$^\circ$) des Glases eingestellt. Um zu verifizieren, dass der gesuchte Winkel bei 90$^\circ$ liegt wird der Winkelbereich von 70$^\circ$ bis 110$^\circ$ durchgemessen und das Minimum der Intensität gesucht. Die mit dem Digitalmultimeter gemessenen Daten sind in Tabelle \ref{tab:brewster} eingetragen.
+
+\begin{table}[H]
+\centering
+\caption{Messdaten für die Bestimmung des Brewsterwinkels. Der Feher der Spannung wurde mit 0.3mV angenommen, aufgrund der Ablesungenauigkeit und der Schankungen der Anzeige. Für den Winekl wurde eine Ablesefehler von 0,5Bogenminuten genommen. Der Bereich um den 90$^\circ$ wurde genauer Vermessen, da dort der Brewsterwinkel erwartet wird}
+\label{tab:brewster}
+\begin{tabular}{c|c|c|c}
+Winkel / $^\circ$ & Intensität / mV & Winkel / $^\circ$ & Intensität / mV \\ \hline
+70 & 14,5 & 88 & -1,7 \\ 
+75 & 7,0 & 86 & -1,0 \\
+80 & 2,3 & 92 & -0,9 \\ 
+85 & -0,5 & 94 & -0,2 \\  
+90 & -1,6 & 90 & -1,4 \\  
+95 & -0,2 & 88 & -1,4 \\  
+100 & 4,1 & 90 & -1,3 \\  
+105 & 9,9 & 88 & -1,2 \\  
+110 & 17,5 & 90 & -1,2 \\  
+92 & -0,7 & 86 & -0,7 \\  
+\end{tabular} 
+\end{table}
+
+Die Daten in Tabelle \ref{tab:brewster} können mit dem Gesetz von Malus gefittet werden. Als Fitfunktion wurde Gl. \ref{equ:brewster} verwendet.
+
+\begin{align}
+\label{equ:brewster}
+I(\alpha) = I_0 \cdot cos^2(a \cdot \alpha) - b
+\end{align}
+
+\begin{table}[H]
+\label{tab:brewster_fit}
+\begin{tabular}{l|l}
+$\alpha$ & Winkel \\ 
+$I_0$ & Ampulitude \\ 
+b & Offset des Digitalmultimeters \\ 
+a & Skalierung der x-Achse \\  
+\end{tabular} 
+\end{table}
+
+Der Fit und die Messdaten sind in Abb. \ref{fig:brewster} zu sehen, die Parameter des Fits sind in Tabelle \ref{tab:brewster_paras} zu sehen.
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale = 0.39]{brewster.png}
+\caption{In der Abbildung sind die Messdaten zur Bestimmung des Brewsterwinkels und der Fit nach Gleichung \ref{equ:brewster} zu sehen. Der Fehler der auf dem Winkel ist so klein, das er im Plot nicht zu sehen sind.}
+\label{fig:brewster}
+\end{figure}
+
+\begin{table}[H]
+\centering
+\caption{Parameter des Fits für den Brewsterwinkel}
+\label{tab:brewster_paras}
+\begin{tabular}{c|c}
+Parameter & Wert \\ \hline
+I$_0$ & -40,7(5) \\ 
+a & 0.03530(4) \\ 
+b & -39,2(5) \\ 
+$\chi^2_{red}$ & 1.07 \\ 
+\end{tabular} 
+\end{table}
+
+Aus dem Fit ergibt sich, dass bei einer Stellung von 89$^\circ$ das Licht parallel polarisiert ist. Daraus folgt, das bei einer Stellung von -1$^\circ$ das Licht senkrecht polarisiert ist. 
 
 \subsubsection{Reflexionmessung}
-Es wird der gewünschte Winkel an Rotationstisch 2 eingestellt und die Position des reflektieren Strahls gemessen. Dann werden an dem Polarisationsdreher die zuvor bestimmten Werte für parallel und senkrecht Ausrichtung des Strahls zur Einfallsebene eingestellt.
+Es werden an Rotationstisch 2 Winkel zwischen 85$^\circ$ und 10$^\circ$ eingestellt und die Intensität des reflektieren Strahls für parallel und senkrecht polarisiertes Licht gemessen. Aus den Intensitäten wurde dann $\frac{R_p}{R_s}$ bestimmt, womit sich der komplex Brechungsindex bestimmen lässt. Untersucht wurden sechs verschiedenen Materialien, zur Bestimmung des komplexen Brechungsindex wurden jeweils zwei Methoden verwendet, einmal ein Fit mittels eines Programms, das auf dem Computer im Versuchsraum installiert war und einmal mittels Diagrammen an denen der Brechungsindex abgelesen werden konnte. Als Vergleichswerte werden die Werte von \cite{??} verwendet, dabei handelt es sich um eine Datenbank von optischen Größen verschiedener Materialien. Für n' und $\kappa$ wird immer der Bereich, der auf der Seite zu finden ist angegeben. Die Publikationen, aus denen die Werte entnommen wurden sind auf der Seite angegeben.
+
+Die Fehler der R$_p$/R$_s$ Werte wurden mit Fehlerfortpflanzung bestimmt.
+
+
+\paragraph{Kupfer \\}
+
+Für Kupfer ergab sich der Fit in Abb. \ref{fig:kupfer_fit}, der Brechungsindex n' wurde dabei mit 0,31(2) und der Absorptionsindex $\kappa$ mit 2.2(2) bestimmt. In der Datenbank \cite{??} finden sich für n' Werte zwischen 0,08-0,4 und für $\kappa$ Werte zwischen 3,8-4,0 angegeben.
+
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale = 0.39]{kupfer_fit.png}
+\caption{Plot der Messdaten und des Fits für Kupfer.}
+\label{fig:kupfer_fit}
+\end{figure}
+
+Mit der zweiten Methode ergab sich für n' ein Wert von 0,25 und für $\kappa$ ein Wert von 2,2. In Abb. ?? ist das Diagramm für 80$^\circ$/60$^\circ$ zu sehen.
+
+\paragraph{Aluminium \\}
+
+Der Brechungsindex n' für Aluminium ergab sich mit 0.70(8) und der Absorptionsindex $\kappa$ ergab sich mit 4,2(4). Angegeben waren Werte für n' von 1,36 bis 1,7 und für $\kappa$ wurden Werte zwischen 7 bis 8,1 angegeben. Der Plot des Fits und der Messdaten ist in Abb. \ref{fig:alu_fit} zu sehen.
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale = 0.39]{alu_fit.png}
+\caption{Plot der Messdaten und des Fits für Aluminium.}
+\label{fig:alu_fit}
+\end{figure}
+
+Mit der zweiten Methode ergab sich für n' ein Wert von 0,6 und für $\kappa$ ein Wert von 4. In Abb. ?? ist das Diagramm für 80$^\circ$/60$^\circ$ zu sehen.
+
+
+\paragraph{Germanium \\}
+
+Für Germanium wurde für n' Werte zwischen 5,1 und 5,2 angegeben. Für $\kappa$ wurden Werte von 0,5 bis 0,57 angegeben. Durch den Fit ergab sich für n' ein Wert von 4(2) und für $\kappa$ ein Wert von 2(2). Der Plot der Messdaten und des Fits sind in Abb. ?? zu finden.
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale = 0.39]{ger_fit.png}
+\caption{Plot der Messdaten und des Fits für Germanium.}
+\label{fig:ger_fit}
+\end{figure}
+
+Mit der zweiten Methode ergab sich für n' ein Wert von 3,7 und für $\kappa$ ein Wert von 2,2. In Abb. ?? ist das Diagramm für 80$^\circ$/60$^\circ$ zu sehen.
+
+
+\paragraph{Glas \\}
+
+Für Glas wurde mit dem Fit ein n' von 1,467(6) bestimmt, $\kappa$ wurde mit 0.04(12) bestimmt. In der Datenbank wurden für n' Werte von 1,456 bis 1,550 angeben. Für $\kappa $ wurden Werte von 0 bis 0,00002 angegeben. Der Plot der Messdaten und des Fits ist in Abb. \ref{fig:glas_fit} zu sehen.
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale = 0.39]{glas_fit.png}
+\caption{Plot der Messdaten und des Fits für Glas.}
+\label{fig:glas_fit}
+\end{figure}
+
+Mit der zweiten Methode ergab sich für n' ein Wert von 1,4 und für $\kappa$ ein Wert von 0. In Abb. ?? ist das Diagramm für 80$^\circ$/60$^\circ$ zu sehen.
+
+
+\paragraph{Kochsalz \\}
+
+Für Kochsalz wurde kein Wert für $\kappa$ angegeben, für n' wurde ein Wert von 1,54 angegeben. Aus dem Fit ergab sich eine Werte von 1,51(1) für n' und für $\kappa$ ergab sich ein Wert von 0,19(5). Der Plot der Messdaten und des Fits ist in Abb. \ref{fig:salz_fit} zu sehen.
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale = 0.39]{salz_fit.png}
+\caption{Plot der Messdaten und des Fits für Kochsalz.}
+\label{fig:salz_fit}
+\end{figure}
+
+Mit der zweiten Methode ergab sich für n' ein Wert von 1,6 und für $\kappa$ ein Wert von 0. In Abb. ?? ist das Diagramm für 80$^\circ$/60$^\circ$ zu sehen.
+
+
+\paragraph{Si \\}
+
+Für Si wurde n' mit 3,97(8) bestimmt, $\kappa$ wurde mit 0(10) bestimmt. In der Datenbank wurde für n' Werte von 3,81 bis 3,92 angegeben. Für $\kappa$ wurden Werte zwischen 0,013 und 0,017 angegeben. Der Plot der Messdaten und des Fits ist in Abb. \ref{fig:si_fit} zu sehen.
+
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale = 0.39]{si_fit.png}
+\caption{Plot der Messdaten und des Fits für Silizium.}
+\label{fig:si_fit}
+\end{figure}
+
+
+Mit der zweiten Methode ergab sich für n' ein Wert von 3,8 und für $\kappa$ ein Wert von 0. In Abb. ?? ist das Diagramm für 80$^\circ$/60$^\circ$ zu sehen.
