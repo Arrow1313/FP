@@ -228,7 +228,7 @@ Aluminium & 0,0198(9) & 0,0190 & 4,2\% \\
 \end{tabular} 
 \end{table}
 
-Mit dem Fit für Blei kann die Rate der $\gamma$-Strahlen ohne Material zwischen Quelle und Detektor bestimmt werden, dafür wird der Fit bei 0 ausgewertet. Es ergibt sich eine Rate von n = 54353 Hz und $N_0$ = 16306068 in 300s.
+Mit dem Fit für Blei kann die Rate der $\gamma$-Strahlen ohne Material zwischen Quelle und Detektor bestimmt werden, dafür wird der Fit bei 0 ausgewertet. Es ergibt sich eine Rate von n = 59634(3920) Hz und $N_0$ = 17890296(456032) in 300s.
 
 \subsection{Compton-Wirkungsquerscnitt}
 In diesem Versuchsabschnitt soll der differentielle Wirkungsquerschnitt der Compton-Streuung an einer Aluminiumplatte untersucht werden. Dafür wird ein Winkelbereich von 20$^\circ$ bis 80$^\circ$ und 10$^\circ$ Schritten abgefahren. Die 2,5cm dicke Bleiplatte vor der Quelle wird, \textbf{nachdem} der Detektor auf \SI{20}{\degree} ausgelenkt wurde, entfernt. Um den Untergrund aus den Messdaten heraus rechnen zu können, wird für jede Winkelpostion einmal mit und einmal ohne Aluminiumplatte gemessen. Der Untergrund wird abgezogen und negative Schwankungen der Messdaten werden auf Null gesetzt. Die Fehler werden per Fehlerfortpflanzung berechnet. Es ergeben sich die Energien und Fehler in Tabelle \ref{tab:energien_WQ}. Die Plots der Counts gegen den Kanal mit den Gaußfits sind im Anhang Abschnitt \ref{Anh:WQ} zu finden.
@@ -242,24 +242,73 @@ $\Theta$/\SI{}{\degree}$\pm 0,5$\SI{}{\degree}& $E_{\gamma}'$/keV& $\Delta E_{\g
 \SI{30}{\degree}& 598& 18& 0,505& 8089(143)\\
 \SI{40}{\degree}& 544& 22& 0,550& 6870(103)\\
 \SI{50}{\degree}& 489& 22& 0,580& 5897(93)\\
-\SI{60}{\degree}& 437& 22& 0,540& 5432(93)\\
+\SI{60}{\degree}& 437& 22& 0,635& 5432(93)\\
 \SI{70}{\degree}& 389& 22& 0,670& 5217(94)\\
 \SI{80}{\degree}& 347& 18& 0,720& 5194(99)\\
 \end{tabular}
 \label{tab:energien_WQ}
 \end{table}
-Daneben wurden die folgenden Größen gemessen
+Ebenso wurden die Größen in Tabelle \ref{tab:Wichtig_Groessen_geom_WQ} gemessen
 \begin{table}[H]
+\caption{Wichtige Größen für die geometrische Bestimmung des differentiellen Wirkungsquerschnittes}
 \centering
 \begin{tabular}{l|l|l}
-$\lambda_{Alu}$=0.0198(9) mm$^{-1}$ & Aluminiumabsorbtionskoeffizient & [Tabelle \ref{tab:absorb_alu_fit}, Gleichung \ref{eqn:N_Gesamt}]\\
+$\lambda_{Alu}$=0.198(9) cm$^{-1}$ & Aluminiumabsorbtionskoeffizient & [Tabelle \ref{tab:absorb_alu_fit}, Gleichung \ref{eqn:N_Gesamt}]\\
 $d_{Alu}$ = 1,0050(25) cm & Aluminiumtargetdicke& [Gleichung \ref{d_Eff}]\\
-$a$ = 37,4(1) cm & Abstand Target-Detektor& [Gleichung \ref{eqn:Delta_Omega}]\\
-$D$ = 51 mm & Detektorduchmesser& [Gleichung \ref{eqn:Delta_Omega}]\\
-$N_0$ = 16306068 & Anzahl Eingestrahlter Photonen& [Gleichung \ref{eqn:N_Gesamt}]\\
-$n_e$ = 7,83$\cdot 10^{23}$ cm$^{-3}$& Aluminiumelektronendichte& [Gleichung \ref{eqn:Flächendichte}]\\
+$a$ = 37,8(1) cm & Abstand Target-Detektor& [Gleichung \ref{eqn:Delta_Omega}]\\
+$D$ = 5,1 cm & Detektorduchmesser& [Gleichung \ref{eqn:Delta_Omega}]\\
+$N_0$ = 17890(456)$\cdot 10^{3}$ & Anzahl Eingestrahlter Photonen& [Gleichung \ref{eqn:N_Gesamt}]\\
+$n_e$ = 7,83$\cdot 10^{23}$ cm$^{-3}$& Aluminiumelektronendichte& [Gleichung \ref{eqn:Flaechendichte}]\\
+\end{tabular}
+\label{tab:Wichtig_Groessen_geom_WQ}
+\end{table}
+Da der Detektordurchmesser auf dem Detektor ohne Fehler angegeben war, wird diese Größe, sowie die Aluminiumelektronendichte, als fehlerlos behandelt. Mit den Gleichungen \ref{eqn:N_Reaktion}, \ref{eqn:N_Gesamt}, \ref{d_Eff}, \ref{eqn:Delta_Omega} und \ref{eqn:Flaechendichte} kann der geometrische differentielle Wirkungsquerschnitt nach Formel \ref{eqn:Differentieller_Wirkungsquerschnitt} und Fehlerfortpflanzung bestimmt werden. Daneben wird der theoretische Wirkungsquerschnitt nach Formel \ref{eqn:Klein_Nishina_WQ}, der theoretische Wirkungsquerschnitt mit experimentellem $P(E_{\gamma},\Theta) \equiv \frac{E_{\gamma}'}{E_{\gamma}}$ und der theoretische Thompson-Wirkungsquerschnitt nach Formel \ref{eqn:Thompson_WQ} bestimmt.
+Es ergeben sich für die Wirkungsquerschnitte die Werte in Tabelle \ref{tab:WQ_all}.
+\begin{table}[H]
+\centering
+\caption{Die Wirkungsquerschnitte und deren Fehler sind in Einheiten von $10^{-2}$\SI{}{\barn} angegeben}
+\begin{tabular}{l|l|l|l|l|l|l|l|l}
+$\Theta$/\SI{}{\degree}$\pm 0,5$\SI{}{\degree}&
+$\frac{d\sigma}{d\Omega}_{KN_{theo}}$&$\Delta\frac{d\sigma}{d\Omega}_{KN_{theo}}$&$\frac{d\sigma}{d\Omega}_{KN_{exp}}$
+&$\Delta\frac{d\sigma}{d\Omega}_{KN_{exp}}$&$\frac{d\sigma}{d\Omega}_{T}$&$\Delta\frac{d\sigma}{d\Omega}_{T}$
+&$\frac{d\sigma}{d\Omega}_{geom}$&$\Delta\frac{d\sigma}{d\Omega}_{geom}$\\
+\hline
+20& 6.451& 0.039& 6.731& 0.187& 7.476& 0.022& 10.651& 0.695\\
+30& 5.119& 0.043& 5.696& 0.271& 6.948& 0.030& 9.446& 0.562\\
+40& 3.8758& 0.039& 4.352& 0.281& 6.300& 0.034& 7.207& 0.399\\
+50& 2.894& 0.032& 3.266& 0.247& 5.611& 0.034& 5.702& 0.307\\
+60& 2.200& 0.024& 2.462& 0.216& 4.963& 0.030& 4.631& 0.238\\
+70& 1.746& 0.018& 1.926& 0.194& 4.435& 0.022& 4.040& 0.203\\
+80& 1.467& 0.013& 1.597& 0.144& 4.090& 0.011& 3.560& 0.175\\
+\end{tabular}
+\label{tab:WQ_all}
+\end{table}
+Dabei sind die folgenden Bezeichnungen verwendet worden, wobei $\Delta$X den Fehler der Größe X angibt.
+\begin{table}[H]
+\begin{tabular}{l|l}
+$\frac{d\sigma}{d\Omega}_{KN_{theo}}$ & Theoretischer Wirkungsquerschnitt nach Formel \ref{eqn:Klein_Nishina_WQ} und Formel \ref{eqn:Compton_Streuung_Kinematik}\\
+$\frac{d\sigma}{d\Omega}_{KN_{exp}}$ & Experimenteller Wirkungsquerschnitt nach Formel \ref{eqn:Klein_Nishina_WQ} mit den gemessenen Energien $E_{\gamma}'$\\
+$\frac{d\sigma}{d\Omega}_{T}$ & Thompson Wirkungsquerschnitt nach Formel \ref{eqn:Thompson_WQ}\\
+$\frac{d\sigma}{d\Omega}_{geom}$ & geometrischer Wirkungsquerschnitt nach Formel \ref{eqn:Differentieller_Wirkungsquerschnitt}\\
 \end{tabular}
 \end{table}
-Da der Detektordurchmesser auf dem Detektor ohne Fehler angegeben war, wird diese Größe, sowie die Aluminiumelektronendichte, als fehlerlos behandelt.
+Der geometrisch bestimmte Wirkungsquerschnitt ist systematisch zu groß, was durch den vernachlässigten Zusatzterm in Formel \ref{eqn:Differentieller_Wirkungsquerschnitt} begründet werden kann. Da $N_{Reaktion}$ nicht explizit gemessen werden konnte, kann der Korrekturterm nicht  explizit bestimmt werden. $N_{Reaktion}$ kann jedoch aus dem theoretischen Gesamtwirkungsquerschnitt extrahiert werden, wobei es keine exakte Formel für den Klein-Nishina-Wirkungsquerschnitt gibt. Dagegen kann $N_{Reaktion}$ aus dem Thompson-Wirkungsquerschnitt exakt nach Gleichung \ref{eqn:N_Reaktion_aus_Thompson} berechnet werden.
+\begin{align}
+N_{Reaktion} = \sigma_T\frac{N_T}{F}N_{Gesamt} = \frac{8\pi}{3}r_e^2\frac{N_T}{F}N_{Gesamt}
+\label{eqn:N_Reaktion_aus_Thompson}
+\end{align}
+\begin{table}[H]
+\begin{tabular}{l|l}
+$\sigma_T$ & Thompson Wirkungsquerschnitt\\
+$\frac{N_T}{F}$ & Anzahl der Targetteilchen pro Fläche (Gl. \ref{eqn:N_Gesamt})\\
+$N_{Gesamt}$ & Anzahl der zur Streureaktion zu Verfügung stehenden Teilchen (Gl. \ref{eqn:Flaechendichte}) \\
+$r_e$ & Klassischer Elektronenradius\\
+\end{tabular}
+\end{table}
+Natürlich hängen dabei $N_{Gesamt}$ und $\frac{N_T}{F}$ nach Gl. \ref{eqn:N_Gesamt} und \ref{eqn:Flaechendichte} von $d_{Eff}$, und damit von $\Theta$ ab, sodass für jeden Winkel ein anderer Korrektterm berechnet werden muss. Eine für den Korrekturterm relevante Größe ist der effektive Winkelbereich $\Delta\Theta$ der von dem Detektor abgedeckt wird. Der effektive von einem Kreisrunden Detektor abgedeckte Winkel $\Delta\Theta$ (im Bogenmaß) beträgt nach Mittelung der Länge des Detektors in Richtung $\Theta$ über die Kreisscheibe:
+\begin{align}
+\Delta\Theta = \frac{\frac{\pi}{4}\cdot D}{2\pi a}\cdot 2\pi = \frac{\pi}{4}\cdot \frac{D}{a}
+\end{align}
+Dies ergibt mit den Konstanten aus Tabelle \ref{tab:Wichtig_Groessen_geom_WQ} den Winkel $\Delta \Theta =$ \SI{6,07(2)}{\degree}.
 \subsection{Elektronenmasse}
 Mit den zuvor bestimmten Daten lässt sich nun über Gl. ?? die Elektromasse berechnen.
