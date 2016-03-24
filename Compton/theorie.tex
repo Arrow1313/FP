@@ -27,6 +27,7 @@ hc(\frac{1}{E'}-\frac{1}{E})=\Delta \lambda = \lambda_C(1-\cos\Theta) = \frac{h}
 Der Wirkungsquerschnitt $\sigma$ ist eine wichtige Größe um Streuprozesse zu analysieren und zu verstehen. Er gibt die Reaktionswarscheinlichkeit $w$ normiert auf die Anzahl der Targetteilchen $N_T$ pro Flächeneinheit $F$ an (vgl. \cite{WQtot}),
 \begin{align}
 \sigma = \frac{w}{\frac{N_T}{F}}
+\label{eqn:WQ_formel}
 \end{align}
 wobei
 \begin{align}
@@ -41,7 +42,8 @@ Es ergibt sich für die experimentelle Bestimmung des differentiellen Wirkungsque
 \end{align}
 Wobei $\alpha$ durch
 \begin{align}
-\alpha = \frac{N_{Reaktion}}{\Delta N_{Reaktion}(\Theta)}\left(\frac{\Delta N_T(\Theta)}{N_T(\Theta)} + \frac{\Delta N_{Gesamt}(\Theta)}{N_{Gesamt}(\Theta)}\right)
+\alpha = \frac{N_{Reaktion}(\Theta)}{\Delta N_{Reaktion}(\Theta)}\left(\frac{\Delta N_T(\Theta)}{N_T(\Theta)} + \frac{\Delta N_{Gesamt}(\Theta)}{N_{Gesamt}(\Theta)}\right)
+\label{eqn:alpha_korrektur}
 \end{align}
 gegeben ist.
 Dabei wurde zuerst die Kettenregel angewendet und danach angenommen, dass $\frac{\Delta N_T(\Theta)}{N_T(\Theta)}+\frac{\Delta N_{Gesamt}(\Theta)}{N_{Gesamt}(\Theta)} \ll \frac{\Delta N_{Reaktion}(\Theta)}{N_{Reaktion}(\Theta)}$ gilt, also die relative Änderung der Anzahl der Targetteilchen und die relative Änderung der Anzahl der absorbierten Teilchen im Winkelbereich $\Delta\Omega$, im Vergleich zur relativen Anzahl der in den Winkelbereich $\Delta\Omega$ gestreuten Teilchen an den insgesamt gestreuten Teilchen, klein ist. Dabei ist $N_{Gesamt}$ in diesem Experiment eine mit steigendem Streuwinkel fallende Größe, und $N_T$ eine mit steigendem Streuwinkel steigende Größe, sodass $\Delta N_T(\Theta)$ positiv und $\Delta N_{Gesamt}(\Theta)$ negativ ist. Da $N_T$ direkt von der Dicke des Materials abhängt und der Absorbtionskoeffizient von Aluminium bei etwa 0,2 cm$^{-1}$ bei einer Dicke der verwendeten Aluminiumplatte von etwa \SI{1}{cm} liegt, gilt offensichtlich $\left|\frac{\Delta N_T(\Theta)}{N_T(\Theta)}\right| > \left|\frac{\Delta N_{Gesamt}(\Theta)}{N_{Gesamt}(\Theta)}\right|$ (vgl. Gleichung \ref{eqn:N_Gesamt} und \ref{eqn:Flaechendichte}). Im Allgemeinen wird dadurch der differentielle Wirkungsquerschnitt systematisch überschätzt.

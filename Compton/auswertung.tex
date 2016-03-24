@@ -292,13 +292,14 @@ $\frac{d\sigma}{d\Omega}_{T}$ & Thompson Wirkungsquerschnitt nach Formel \ref{eq
 $\frac{d\sigma}{d\Omega}_{geom}$ & geometrischer Wirkungsquerschnitt nach Formel \ref{eqn:Differentieller_Wirkungsquerschnitt}\\
 \end{tabular}
 \end{table}
-Der geometrisch bestimmte Wirkungsquerschnitt ist systematisch zu groß, was durch den vernachlässigten Zusatzterm in Formel \ref{eqn:Differentieller_Wirkungsquerschnitt} begründet werden kann. Da $N_{Reaktion}$ nicht explizit gemessen werden konnte, kann der Korrekturterm nicht  explizit bestimmt werden. $N_{Reaktion}$ kann jedoch aus dem theoretischen Gesamtwirkungsquerschnitt extrahiert werden, wobei es keine exakte Formel für den Klein-Nishina-Wirkungsquerschnitt gibt. Dagegen kann $N_{Reaktion}$ aus dem Thompson-Wirkungsquerschnitt exakt nach Gleichung \ref{eqn:N_Reaktion_aus_Thompson} berechnet werden.
+Der geometrisch bestimmte Wirkungsquerschnitt ist systematisch zu groß, was durch den vernachlässigten Zusatzterm in Formel \ref{eqn:Differentieller_Wirkungsquerschnitt} begründet werden kann. Da $N_{Reaktion}$ nicht explizit gemessen werden konnte, kann der Korrekturterm nicht  explizit bestimmt werden. $N_{Reaktion}$ kann jedoch aus dem theoretischen Gesamtwirkungsquerschnitt extrahiert werden, wobei es keine exakte Formel für den Klein-Nishina-Wirkungsquerschnitt gibt. Dagegen kann $N_{Reaktion_{ges}}$ aus dem Thompson-Wirkungsquerschnitt exakt nach Gleichung \ref{eqn:N_Reaktion_aus_Thompson} berechnet werden.
 \begin{align}
-N_{Reaktion} = \sigma_T\frac{N_T}{F}N_{Gesamt} = \frac{8\pi}{3}r_e^2\frac{N_T}{F}N_{Gesamt}
+N_{Reaktion_{ges}} = \sigma_T\frac{N_T}{F}N_{Gesamt} = \frac{8\pi}{3}r_e^2\frac{N_T}{F}N_{Gesamt}
 \label{eqn:N_Reaktion_aus_Thompson}
 \end{align}
 \begin{table}[H]
 \begin{tabular}{l|l}
+$N_{Reaktion_{ges}}$ & Gesamtzahl der gestreuten Teilchen\\
 $\sigma_T$ & Thompson Wirkungsquerschnitt\\
 $\frac{N_T}{F}$ & Anzahl der Targetteilchen pro Fläche (Gl. \ref{eqn:N_Gesamt})\\
 $N_{Gesamt}$ & Anzahl der zur Streureaktion zu Verfügung stehenden Teilchen (Gl. \ref{eqn:Flaechendichte}) \\
@@ -309,6 +310,34 @@ Natürlich hängen dabei $N_{Gesamt}$ und $\frac{N_T}{F}$ nach Gl. \ref{eqn:N_Gesa
 \begin{align}
 \Delta\Theta = \frac{\frac{\pi}{4}\cdot D}{2\pi a}\cdot 2\pi = \frac{\pi}{4}\cdot \frac{D}{a}
 \end{align}
-Dies ergibt mit den Konstanten aus Tabelle \ref{tab:Wichtig_Groessen_geom_WQ} den Winkel $\Delta \Theta =$ \SI{6,07(2)}{\degree}.
+Dies ergibt mit den Konstanten aus Tabelle \ref{tab:Wichtig_Groessen_geom_WQ} den Winkel $\Delta\Theta =$ \SI{6,07(2)}{\degree}. Um $N_{Reaktion}$ für den Winkelbereich $\Delta\Phi$ zu bestimmen, in dem $\Delta N_{Reaktion}$ gemessen wurde, muss die gleiche Rechnung mit dem Radius $a' = a\cdot\sin(\Theta)$ für den Winkel $\Delta\Phi$ durchgeführt werden,
+\begin{align}
+\Delta\Phi = \frac{\frac{\pi}{4}\cdot D}{2\pi a}\cdot 2\pi = \frac{\pi}{4}\cdot \frac{D}{a\cdot\sin(\Theta)}
+\end{align}
+sodass sich $N_{Reaktion}$ im Winkelbereich $\Delta\Phi$ aus Gleichung \ref{eqn:N_Reaktion_Delta_Phi} ergibt.
+\begin{align}
+N_{Reaktion} = N_{Reaktion_{ges}}\frac{\Delta\Phi}{2\pi}
+\label{eqn:N_Reaktion_Delta_Phi}
+\end{align}
+Diese Formel gilt, da der Wirkungsquerschnitt im Winkel $\Phi$ homogen ist.
+Die daraus resultierenden Korrekturen nach Formel \ref{eqn:alpha_korrektur} sind per Fehlerfortpflanzung mit einem immens großen Fehler versehen, was in Tabelle \ref{tab:alpha_Korrektur} gezeigt wird.
+\begin{table}[H]
+\centering
+\caption{Aus dem Thompson Wirkungsquerschnitt bestimmte Korrekturterme $\alpha$ und daraus berechnete geometische Wirkungsquerschnitte in Einheiten von $10^{-2}$\SI{}{\barn}}
+\begin{tabular}{l|l|l|l|l|l}
+$\Theta$/\SI{}{\degree}$\pm 0,5$\SI{}{\degree}&
+$\alpha$& $\Delta\alpha$ & $\frac{\Delta\alpha}{\alpha}$&$\frac{d\sigma}{d\Omega}_{geom_{korr}}$&$\Delta\frac{d\sigma}{d\Omega}_{geom_{korr}}$\\
+\hline
+20& 0,16& 0,85& 5,3& 8,9& 9,1\\
+30& 0,19& 0,68& 3,6& 7,7& 6,4\\
+40& 0,26& 0,73& 2,8& 5,4& 5,3\\
+50& 0,35& 0,83& 2,4& 3,7& 4,7\\
+60& 0,46& 0,97& 2,1& 2,5& 4,5\\
+70& 0,58& 1,12& 1,9& 1,7& 4,5\\
+80& 0,74& 1,34& 1,8& 0,9& 4,7\\
+\end{tabular}
+\label{tab:alpha_Korrektur}
+\end{table}
+Man sieht, dass die Korrekturen nicht vernachlässigbar sind, und die Fehler durch Fehlerfortpflanzung immens groß werden. Trotzdem verbessert sich der geometrische Wirkungsquerschnitt. Die Größe der Fehler begründet sich durch die Dicke der Aluminiumplatte und die Ungenauigkeit der Kettenregel bei großen Änderungen $\Delta N_{Reaktion}$, $\Delta N_T$ und $\Delta N_{Gesamt}$.
 \subsection{Elektronenmasse}
 Mit den zuvor bestimmten Daten lässt sich nun über Gl. ?? die Elektromasse berechnen.
