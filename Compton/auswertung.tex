@@ -275,7 +275,7 @@ $\frac{d\sigma}{d\Omega}_{KN_{theo}}$&$\Delta\frac{d\sigma}{d\Omega}_{KN_{theo}}
 \hline
 20& 6.451& 0.039& 6.731& 0.187& 7.476& 0.022& 10.651& 0.695\\
 30& 5.119& 0.043& 5.696& 0.271& 6.948& 0.030& 9.446& 0.562\\
-40& 3.8758& 0.039& 4.352& 0.281& 6.300& 0.034& 7.207& 0.399\\
+40& 3.876& 0.039& 4.352& 0.281& 6.300& 0.034& 7.207& 0.399\\
 50& 2.894& 0.032& 3.266& 0.247& 5.611& 0.034& 5.702& 0.307\\
 60& 2.200& 0.024& 2.462& 0.216& 4.963& 0.030& 4.631& 0.238\\
 70& 1.746& 0.018& 1.926& 0.194& 4.435& 0.022& 4.040& 0.203\\
@@ -338,6 +338,10 @@ $\alpha$& $\Delta\alpha$ & $\frac{\Delta\alpha}{\alpha}$&$\frac{d\sigma}{d\Omega
 \end{tabular}
 \label{tab:alpha_Korrektur}
 \end{table}
-Man sieht, dass die Korrekturen nicht vernachlässigbar sind, und die Fehler durch Fehlerfortpflanzung immens groß werden. Trotzdem verbessert sich der geometrische Wirkungsquerschnitt. Die Größe der Fehler begründet sich durch die Dicke der Aluminiumplatte und die Ungenauigkeit der Kettenregel bei großen Änderungen $\Delta N_{Reaktion}$, $\Delta N_T$ und $\Delta N_{Gesamt}$.
+Man sieht, dass die Korrekturen nicht vernachlässigbar sind, und die Fehler durch Fehlerfortpflanzung immens groß werden. Trotzdem nähert sich der geometrische Wirkungsquerschnitt dem Wirkungsquerschnitt nach Klein Nishina an. Die Größe der Fehler begründet sich durch die Dicke der Aluminiumplatte und die Ungenauigkeit der Kettenregel bei großen Änderungen $\Delta N_{Reaktion}$, $\Delta N_T$ und $\Delta N_{Gesamt}$. Der so bestimmte geometrische Wirkungsquerschnitt verliert durch die Fehler der Korrektur seine Aussagekraft. Trotzdem kann die systematische Abweichung nach oben dadurch begründet werden.
 \subsection{Elektronenmasse}
-Mit den zuvor bestimmten Daten lässt sich nun über Gl. ?? die Elektromasse berechnen.
+Mit den gemessenen Energien lässt sich nun über Gl. \ref{eqn:Compton_Streuung_Kinematik} die Elektromasse berechnen.
+\begin{align}
+m_ec^2 = \frac{E_{\gamma}E_{\gamma}'}{E_{\gamma}-E_{\gamma}'}\cdot(1-\cos(\Theta))
+\end{align}
+Nachdem $m_ec^2$ für alle Energien $E_{\gamma}'$ bestimmt wurde, wird wird das durch die Fehler gewichtete Mittel ausgerechnet.
