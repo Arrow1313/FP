@@ -9,7 +9,7 @@ Bevor Messungen gemacht werden können muss die Messapertur justiert werden.
 
 \paragraph{Nulllage des Detektors \\}
 
-\noindent Zuerst wird der Detektorarm justiert/seine Nulllage festgelegt. Dafür wird der Laserstrahl auf die Si-Photodiode fokussiert und der Rotationstisch 1 gedreht und die Intensität gemessen, die Messwerte werden mit der Gaußverteilung gefittet. Die Messwerte sind in Tabelle ?? eingetragen.
+\noindent Zuerst wird der Detektorarm justiert/seine Nulllage festgelegt. Dafür wird der Laserstrahl auf die Si-Photodiode fokussiert und der Rotationstisch 1 gedreht und die Intensität gemessen, die Messwerte werden mit der Gaußverteilung gefittet. Die Messwerte sind in Tabelle \ref{tab:nulllage} eingetragen.
 
 \begin{table}[H]
 \centering
@@ -29,7 +29,7 @@ Winkel / $^\circ$ & Spannung / mV \\ \hline
 \end{tabular} 
 \end{table}
 
-In Abb. \ref{fig:nulllage} sind die Messdaten mit den Gaußfit abgebildet. Die Parameter des Fits sind in Tabelle ?? eingetragen. Da das $\chi^2_{red}$ einen Wert von 52,38 hat wurde die Nulllage noch nochmal bestimmt, in dem der Winkel von Hand so lange verändert werden, bis sich ein Maximum einstellte. Mit der zweiten Methode ergab sich eine Nulllage bei 181.7 was die Nulllage aus dem Fit bestätigt.
+In Abb. \ref{fig:nulllage} sind die Messdaten mit den Gaußfit abgebildet. Die Parameter des Fits sind in Tabelle \ref{tab:nulllage_fit} eingetragen. Da das $\chi^2_{red}$ einen Wert von 52,38 hat wurde die Nulllage noch nochmal bestimmt, in dem der Winkel von Hand so lange verändert werden, bis sich ein Maximum einstellte. Mit der zweiten Methode ergab sich eine Nulllage bei 181.7 was die Nulllage aus dem Fit bestätigt.
 
 \begin{figure}[H]
 \centering
@@ -80,7 +80,7 @@ Winkel / $^\circ$ & Spannung / mV \\  \hline
 \end{tabular} 
 \end{table}
 
-Ein Plot der Messdaten mit eingezeichnetem Mittelwert der Intensität ist in Abb. ?? zu sehen. Die maximale Abweichung beträgt 6mV, was einer relativen Abweichung von 0,48\% entspricht, dies entspricht des Vorgaben aus der Praktkumsanleitung \cite{Anleitung}.
+Ein Plot der Messdaten mit eingezeichnetem Mittelwert der Intensität ist in Abb. \ref{fig:winkel_zu_intensitaet} zu sehen. Die maximale Abweichung beträgt 6mV, was einer relativen Abweichung von 0,48\% entspricht, dies entspricht des Vorgaben aus der Praktkumsanleitung \cite{Anleitung}.
 
 
 \begin{figure}[H]
@@ -157,14 +157,14 @@ $\chi^2_{red}$ & 1.07 \\
 Aus dem Fit ergibt sich, dass bei einer Stellung von 89$^\circ$ das Licht parallel polarisiert ist. Daraus folgt, das bei einer Stellung von -1$^\circ$ das Licht senkrecht polarisiert ist. 
 
 \subsubsection{Reflexionmessung}
-Es werden an Rotationstisch 2 Winkel zwischen 85$^\circ$ und 10$^\circ$ eingestellt und die Intensität des reflektieren Strahls für parallel und senkrecht polarisiertes Licht gemessen. Aus den Intensitäten wurde dann $\frac{R_p}{R_s}$ bestimmt, womit sich der komplex Brechungsindex bestimmen lässt. Untersucht wurden sechs verschiedenen Materialien, zur Bestimmung des komplexen Brechungsindex wurden jeweils zwei Methoden verwendet, einmal ein Fit mittels eines Programms, das auf dem Computer im Versuchsraum installiert war und einmal mittels Diagrammen an denen der Brechungsindex abgelesen werden konnte. Als Vergleichswerte werden die Werte von \cite{??} verwendet, dabei handelt es sich um eine Datenbank von optischen Größen verschiedener Materialien. Für n' und $\kappa$ wird immer der Bereich, der auf der Seite zu finden ist angegeben. Die Publikationen, aus denen die Werte entnommen wurden sind auf der Seite angegeben.
+Es werden an Rotationstisch 2 Winkel zwischen 85$^\circ$ und 10$^\circ$ eingestellt und die Intensität des reflektieren Strahls für parallel und senkrecht polarisiertes Licht gemessen. Aus den Intensitäten wurde dann $\frac{R_p}{R_s}$ bestimmt, womit sich der komplex Brechungsindex bestimmen lässt. Untersucht wurden sechs verschiedenen Materialien, zur Bestimmung des komplexen Brechungsindex wurden jeweils zwei Methoden verwendet, einmal ein Fit mittels eines Programms, das auf dem Computer im Versuchsraum installiert war und einmal mittels Diagrammen an denen der Brechungsindex abgelesen werden konnte. Als Vergleichswerte werden die Werte von \cite{datenbank} verwendet, dabei handelt es sich um eine Datenbank von optischen Größen verschiedener Materialien. Für n' und $\kappa$ wird immer der Bereich, der auf der Seite zu finden ist angegeben. Die Publikationen, aus denen die Werte entnommen wurden sind auf der Seite angegeben.
 
 Die Fehler der R$_p$/R$_s$ Werte wurden mit Fehlerfortpflanzung bestimmt.
 
 
 \paragraph{Kupfer \\}
 
-Für Kupfer ergab sich der Fit in Abb. \ref{fig:kupfer_fit}, der Brechungsindex n' wurde dabei mit 0,31(2) und der Absorptionsindex $\kappa$ mit 2.2(2) bestimmt. In der Datenbank \cite{??} finden sich für n' Werte zwischen 0,08-0,4 und für $\kappa$ Werte zwischen 3,8-4,0 angegeben.
+Für Kupfer ergab sich der Fit in Abb. \ref{fig:kupfer_fit}, der Brechungsindex n' wurde dabei mit 0,31(2) und der Absorptionsindex $\kappa$ mit 2.2(2) bestimmt. In der Datenbank \cite{datenbank} finden sich für n' Werte zwischen 0,08-0,4 und für $\kappa$ Werte zwischen 3,8-4,0 angegeben.
 
 
 \begin{figure}[H]
@@ -174,7 +174,14 @@ Für Kupfer ergab sich der Fit in Abb. \ref{fig:kupfer_fit}, der Brechungsindex n
 \label{fig:kupfer_fit}
 \end{figure}
 
-Mit der zweiten Methode ergab sich für n' ein Wert von 0,25 und für $\kappa$ ein Wert von 2,2. In Abb. ?? ist das Diagramm für 80$^\circ$/60$^\circ$ zu sehen.
+Mit der zweiten Methode ergab sich für n' ein Wert von 0,25 und für $\kappa$ ein Wert von 2,2. In Abb. \ref{fig:kupfer_hand} ist das Diagramm für 80$^\circ$/60$^\circ$ zu sehen.
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale = 0.25, angle=89]{Bilder/kupfer_hand.png}
+\caption{Von Hand bestimmter komplexer Brechungsindex von Kupfer. Die Linien wurden mit Lineal und Kugelschreiber eingezeichnet.}
+\label{fig:kupfer_hand}
+\end{figure}
 
 \paragraph{Aluminium \\}
 
@@ -187,12 +194,18 @@ Der Brechungsindex n' für Aluminium ergab sich mit 0.70(8) und der Absorptionsin
 \label{fig:alu_fit}
 \end{figure}
 
-Mit der zweiten Methode ergab sich für n' ein Wert von 0,6 und für $\kappa$ ein Wert von 4. In Abb. ?? ist das Diagramm für 80$^\circ$/60$^\circ$ zu sehen.
+Mit der zweiten Methode ergab sich für n' ein Wert von 0,6 und für $\kappa$ ein Wert von 4. In Abb. \ref{fig:alu_hand} ist das Diagramm für 80$^\circ$/60$^\circ$ zu sehen.
 
+\begin{figure}[H]
+\centering
+\includegraphics[scale = 0.25, angle=89]{Bilder/alu_hand.png}
+\caption{Von Hand bestimmter komplexer Brechungsindex von Aluminium. Die Linien wurden mit Lineal und Kugelschreiber eingezeichnet.}
+\label{fig:alu_hand}
+\end{figure}
 
 \paragraph{Germanium \\}
 
-Für Germanium wurde für n' Werte zwischen 5,1 und 5,2 angegeben. Für $\kappa$ wurden Werte von 0,5 bis 0,57 angegeben. Durch den Fit ergab sich für n' ein Wert von 4(2) und für $\kappa$ ein Wert von 2(2). Der Plot der Messdaten und des Fits sind in Abb. ?? zu finden.
+Für Germanium wurde für n' Werte zwischen 5,1 und 5,2 angegeben. Für $\kappa$ wurden Werte von 0,5 bis 0,57 angegeben. Durch den Fit ergab sich für n' ein Wert von 4(2) und für $\kappa$ ein Wert von 2(2). Der Plot der Messdaten und des Fits sind in Abb. \ref{fig:ger_fit} zu finden.
 
 \begin{figure}[H]
 \centering
@@ -201,8 +214,14 @@ Für Germanium wurde für n' Werte zwischen 5,1 und 5,2 angegeben. Für $\kappa$ wu
 \label{fig:ger_fit}
 \end{figure}
 
-Mit der zweiten Methode ergab sich für n' ein Wert von 3,7 und für $\kappa$ ein Wert von 2,2. In Abb. ?? ist das Diagramm für 80$^\circ$/60$^\circ$ zu sehen.
+Mit der zweiten Methode ergab sich für n' ein Wert von 3,7 und für $\kappa$ ein Wert von 2,2. In Abb. \ref{fig:ger_hand} ist das Diagramm für 80$^\circ$/60$^\circ$ zu sehen.
 
+\begin{figure}[H]
+\centering
+\includegraphics[scale = 0.25, angle=-1]{Bilder/ger_hand.png}
+\caption{Von Hand bestimmter komplexer Brechungsindex von Germanium. Die Linien wurden mit Lineal und Kugelschreiber eingezeichnet.}
+\label{fig:ger_hand}
+\end{figure}
 
 \paragraph{Glas \\}
 
@@ -215,8 +234,14 @@ Für Glas wurde mit dem Fit ein n' von 1,467(6) bestimmt, $\kappa$ wurde mit 0.04
 \label{fig:glas_fit}
 \end{figure}
 
-Mit der zweiten Methode ergab sich für n' ein Wert von 1,4 und für $\kappa$ ein Wert von 0. In Abb. ?? ist das Diagramm für 80$^\circ$/60$^\circ$ zu sehen.
+Mit der zweiten Methode ergab sich für n' ein Wert von 1,4 und für $\kappa$ ein Wert von 0. In Abb. \ref{fig:glas_hand} ist das Diagramm für 80$^\circ$/60$^\circ$ zu sehen.
 
+\begin{figure}[H]
+\centering
+\includegraphics[scale = 0.25, angle=-1]{Bilder/ger_hand.png}
+\caption{Von Hand bestimmter komplexer Brechungsindex von Glas. Die Linien wurden mit Lineal und Kugelschreiber eingezeichnet.}
+\label{fig:glas_hand}
+\end{figure}
 
 \paragraph{Kochsalz \\}
 
@@ -229,8 +254,14 @@ Für Kochsalz wurde kein Wert für $\kappa$ angegeben, für n' wurde ein Wert von 1
 \label{fig:salz_fit}
 \end{figure}
 
-Mit der zweiten Methode ergab sich für n' ein Wert von 1,6 und für $\kappa$ ein Wert von 0. In Abb. ?? ist das Diagramm für 80$^\circ$/60$^\circ$ zu sehen.
+Mit der zweiten Methode ergab sich für n' ein Wert von 1,6 und für $\kappa$ ein Wert von 0. In Abb. \ref{fig:salz_hand} ist das Diagramm für 80$^\circ$/60$^\circ$ zu sehen.
 
+\begin{figure}[H]
+\centering
+\includegraphics[scale = 0.25, angle=-1]{Bilder/ger_hand.png}
+\caption{Von Hand bestimmter komplexer Brechungsindex von Kochsalz. Die Linien wurden mit Lineal und Kugelschreiber eingezeichnet.}
+\label{fig:salz_hand}
+\end{figure}
 
 \paragraph{Si \\}
 
@@ -245,4 +276,11 @@ Für Si wurde n' mit 3,97(8) bestimmt, $\kappa$ wurde mit 0(10) bestimmt. In der 
 \end{figure}
 
 
-Mit der zweiten Methode ergab sich für n' ein Wert von 3,8 und für $\kappa$ ein Wert von 0. In Abb. ?? ist das Diagramm für 80$^\circ$/60$^\circ$ zu sehen.
+Mit der zweiten Methode ergab sich für n' ein Wert von 3,8 und für $\kappa$ ein Wert von 0. In Abb. \ref{fig:si_hand} ist das Diagramm für 80$^\circ$/60$^\circ$ zu sehen.
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale = 0.25, angle=-1]{Bilder/ger_hand.png}
+\caption{Von Hand bestimmter komplexer Brechungsindex von Silicium. Die Linien wurden mit Lineal und Kugelschreiber eingezeichnet.}
+\label{fig:si_hand}
+\end{figure}
