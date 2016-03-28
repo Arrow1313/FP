@@ -338,14 +338,28 @@ $\alpha$& $\Delta\alpha$ & $\frac{\Delta\alpha}{\alpha}$&$\frac{d\sigma}{d\Omega
 \end{tabular}
 \label{tab:alpha_Korrektur}
 \end{table}
-Man sieht, dass die Korrekturen nicht vernachlässigbar sind, und die Fehler durch Fehlerfortpflanzung immens groß werden. Trotzdem nähert sich der geometrische Wirkungsquerschnitt dem Wirkungsquerschnitt nach Klein Nishina an. Die Größe der Fehler begründet sich durch die Dicke der Aluminiumplatte und die Ungenauigkeit der Kettenregel bei großen Änderungen $\Delta N_{Reaktion}$, $\Delta N_T$ und $\Delta N_{Gesamt}$. Der so bestimmte geometrische Wirkungsquerschnitt verliert durch die Fehler der Korrektur seine Aussagekraft. Trotzdem kann die systematische Abweichung nach oben dadurch begründet werden.
+Man sieht, dass die Korrekturen nicht vernachlässigbar sind, und die Fehler durch Fehlerfortpflanzung immens groß werden. Trotzdem nähert sich der geometrische Wirkungsquerschnitt dem Wirkungsquerschnitt nach Klein Nishina an. Die Größe der Fehler begründet sich durch die Dicke der Aluminiumplatte und die Ungenauigkeit der Kettenregel bei großen Änderungen $\Delta N_{Reaktion}$, $\Delta N_T$ und $\Delta N_{Gesamt}$. Der so bestimmte geometrische Wirkungsquerschnitt verliert durch die Fehler der Korrektur seine Aussagekraft. Trotzdem kann die systematische Abweichung nach oben dadurch begründet werden. Der korrigierte Wirkungsquerschnitt ist in Abbildung \ref{fig:korr_WQ} dargestellt.
+\begin{figure}[H]
+\centering
+\caption{Korrigierter Wirkungsquerschnitt in Abhängigkeit des Streuwinkels. Die Fehler werden durch die Ungenauigkeit der Abschätzung des Korrekturfaktors immens groß.}
+\includegraphics[clip = true, scale = 0.4]{WQ_1.png}
+\label{fig:korr_WQ}
+\end{figure}
+Als Vergleich werden die in Tabelle \ref{tab:WQ_all} dargestellten Wirkungsquerschnitte in Abbildung \ref{fig:korr_WQ_all} gezeigt.
+\begin{figure}[H]
+\centering
+\caption{Bestimmte Wirkungsquerschnitte aus Tabelle \ref{tab:WQ_all} in Abhängigkeit der Streuwinkel}
+\includegraphics[clip = true, scale = 0.4]{WQ_viele.png}
+\label{fig:korr_WQ_all}
+\end{figure}
+Man sieht, dass die Fehler des experimentell bestimmten Wirkungsquerschnittes zu klein abgeschätzt wurden. Dies kann durch bereits angesprochene systematische Fehler begründet werden. Der Verlauf der beiden Klein-Nishina Wirkungsquerschnitte stimmt dabei trotzdem sehr gut miteinander überein, sodass die gemessenen Energieverhältnisse konsistent mit den theoretischen  Energieverhältnissen sind, wobei trotzdem eine systematische Abweichung des experimentellen Klein-Nishina Wirkungsquerschnittes von dem theoretischen Klein-Nishina Wirkungsquerschnitt nach oben festzustellen ist. Man sieht ebenso, dass der geometrisch bestimmte Wirkungsquerschnitt zumindest proportional zu den beiden Klein-Nishina Wirkungsquerschnitten ist, was zumindest den Verlauf der Theoriekurve bestätigt. Es ist nicht klar, woher dieser systematische Offset kommt.
 \subsection{Elektronenmasse}
 Mit den gemessenen Energien lässt sich nun über Gl. \ref{eqn:Compton_Streuung_Kinematik} die Elektromasse berechnen.
 \begin{align}
 m_ec^2 = \frac{E_{\gamma}E_{\gamma}'}{E_{\gamma}-E_{\gamma}'}\cdot(1-\cos(\Theta))
 \end{align}
 Die bestimmten Elektronenmassen sind in Tabelle \ref{tab:Elektronenmassen} dargestellt.
-\begin{table}
+\begin{table}[H]
 \centering
 \caption{Tabelle mit den bestimmten Elektronenmassen}
 \begin{tabular}{l|l|l}
