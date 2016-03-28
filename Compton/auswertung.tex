@@ -11,7 +11,7 @@ Der Versuch lässt sich in 4 Teile aufteilen. Bevor Messungen gemacht werden könn
 Es gilt für alle Angabe von Counts, das der Wert über einen Zeitraum von 300s aufgenommen wurde.
 
 \subsection{Kalibration}
-Vor der Kalibrierung wird die Hochspannung des Photomulitpliers auf 600V gestellt, da sich nur für diese Spannung ein linearer Zusammenhang zwischen den Kanalnummern und der Energie der $\gamma$-Strahlen einstellt. Um den Arbeitspunk einzustellen, werden verschieden Eichpräparate auf Höhe der Kollimatoröffnung platziert. Die verwendeten Präparate und deren Eigenschaften sind in Tabelle \ref{tab:kallibrierung} zu sehen \cite{??}. Es wurden dies drei Eichproben verwendet, da die eine große Halbwertszeit haben und die Peaks im Energiespektrum noch deutlich zu erkennen sind. Die Verstärkung wird so gewählt, dass der interessante Energiebereich abgedeckt wird. Um den Untergrund von den Messungen subtrahieren zu können, wird zuerst eine Leermessung gemacht, der Untergrund ist in Abb.\ref{fig:untergurnd} zusehen. 
+Vor der Kalibrierung wird die Hochspannung des Photomulitpliers auf 600V gestellt, da sich nur für diese Spannung ein linearer Zusammenhang zwischen den Kanalnummern und der Energie der $\gamma$-Strahlen einstellt. Um den Arbeitspunk einzustellen, werden verschieden Eichpräparate auf Höhe der Kollimatoröffnung platziert. Die verwendeten Präparate und deren Eigenschaften sind in Tabelle \ref{tab:kallibrierung} zu sehen \cite{Versuchsanleitung}. Es wurden dies drei Eichproben verwendet, da die eine große Halbwertszeit haben und die Peaks im Energiespektrum noch deutlich zu erkennen sind. Die Verstärkung wird so gewählt, dass der interessante Energiebereich abgedeckt wird. Um den Untergrund von den Messungen subtrahieren zu können, wird zuerst eine Leermessung gemacht, der Untergrund ist in Abb.\ref{fig:untergurnd} zusehen. 
 
 \begin{figure}[H]
 \centering
@@ -111,7 +111,7 @@ $\chi^2_{red}$ & 1.88 \\
 \end{table}
 
 \subsection{Absorbtion von $\gamma$-Strahlen durch Blei und Aluminium}
-Es soll der Absorptionskoeffizient der 662keV Energie mit der Hilfe verschieden dicker Blei- und Aluminiumplatten bestimmt werden. Dafür wird eine Cs-Quelle eingebaut und der Detektor auf die 0$^\circ$-Position gebracht. Es ist zu beachten, dass sich immer eine Bleiplatte von mindestens 2,5cm Dicke zwischen dem Detektor und der Quelle befindet, da sonst für mehrere Stunden nur Rauschen zu messen ist. Der 663keV Peak wird mit einer Gaußverteilung angefittet. Die Zählrate ergibt sich aus der Amplitude des Fits, der Messzeit und der Effizienz des Detektors aus Gleichung \ref{equ:zaelrate}.
+Es soll der Absorptionskoeffizient der 662keV Energie mit der Hilfe verschieden dicker Blei- und Aluminiumplatten bestimmt werden. Dafür wird eine Cs-Quelle eingebaut und der Detektor auf die 0$^\circ$-Position gebracht. Es ist zu beachten, dass sich immer eine Bleiplatte von mindestens 2,5cm Dicke zwischen dem Detektor und der Quelle befindet, da sonst für mehrere Stunden nur Rauschen zu messen ist. Der 662keV Peak wird mit einer Gaußverteilung angefittet. Die Zählrate ergibt sich aus der Amplitude des Fits, der Messzeit und der Effizienz des Detektors aus Gleichung \ref{equ:zaelrate}.
 
 \begin{align}
 \label{equ:zaelrate}
@@ -168,7 +168,7 @@ $\chi^2_{red}$ & 1,63 \\
 \end{table}
 
 \subsubsection{Aluminium}
-Für die Messung mit Aluminium wurden die Dicken in Tabelle \ref{tab:absorb_blei} verwendet. Die Rate der Peaks wurde über Gaußfits bestimmt und sind im Anhang unter Abschnitt ?? zu finden.
+Für die Messung mit Aluminium wurden die Dicken in Tabelle \ref{tab:absorb_blei} verwendet. Die Rate der Peaks wurde über Gaußfits bestimmt und sind im Anhang unter Abschnitt \ref{sec:absorption_anhang} zu finden.
 
 \begin{table}[H]
 \centering
@@ -205,7 +205,7 @@ $\chi^2_{red}$ & 0,03 \\
 \end{tabular} 
 \end{table}
 
-In Abb. \ref{fig:skew} sieht man den Fit für Aluminium bei 1cm Dicke. Es ist deutlich eine Skewnes der Verteilung der Messdaten zu sehen, da die Messdaten mit einer Gaußverteilung gefittet werden kann dieser Aspekt der Verteilung nicht berücksichtigt werden und es ergibt sich ein systematischer Fehler. Die Skewnes ist in allen Messdaten zu finden, vgl. Abschnitt ??.
+In Abb. \ref{fig:skew} sieht man den Fit für Aluminium bei 1cm Dicke. Es ist deutlich eine Skewnes der Verteilung der Messdaten zu sehen, da die Messdaten mit einer Gaußverteilung gefittet werden kann dieser Aspekt der Verteilung nicht berücksichtigt werden und es ergibt sich ein systematischer Fehler. Die Skewnes ist in allen Messdaten zu finden, vgl. Abschnitt \ref{sec:absorption_anhang}.
 
 \begin{figure}[H]
 \centering
@@ -219,7 +219,7 @@ In Tabelle \ref{tab:exp_vergleich} ist ein Vergleich zwischen dem theoretischem 
 
 \begin{table}[H]
 \centering
-\caption{Vergleich der experimentell bestimmten Absorptionskoeffizienten mit den theoretisch erwarteten. Die starke Abweichung lässt sich auf die Skewnes in der Verteilung der Messdaten für verschieden Dicken von Blei/Aluminium beim Fitten der Gaußverteilung zurückführen. Die Literaturwerte wurden von ?? entnommen.}
+\caption{Vergleich der experimentell bestimmten Absorptionskoeffizienten mit den theoretisch erwarteten. Die starke Abweichung lässt sich auf die Skewnes in der Verteilung der Messdaten für verschieden Dicken von Blei/Aluminium beim Fitten der Gaußverteilung zurückführen. Die Literaturwerte wurden von \cite{absorption} entnommen.}
 \label{tab:exp_vergleich}
 \begin{tabular}{c|c|c|c}
 Material & exp. Wert / mm$^{-1}$  & theo. Wert / mm$^{-1}$ & rel. Abweichung \\ \hline 
