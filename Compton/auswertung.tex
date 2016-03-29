@@ -224,14 +224,15 @@ In Tabelle \ref{tab:exp_vergleich} ist ein Vergleich zwischen dem theoretischem 
 \label{tab:exp_vergleich}
 \begin{tabular}{c|c|c|c}
 Material & exp. Wert / mm$^{-1}$  & theo. Wert / mm$^{-1}$ & rel. Abweichung \\ \hline 
-Blei & 0,114(7) & 0,120 & 3,33\% \\ 
-Aluminium & 0,0198(9) & 0,0190 & 3,2\% \\ 
+Blei & 0,114(7) & 0,120 & 5\% \\ 
+Aluminium & 0,0196(9) & 0,0190 & 3,2\% \\ 
 \end{tabular} 
 \end{table}
 
 Mit dem Fit für Blei kann die Rate der $\gamma$-Strahlen ohne Material zwischen Quelle und Detektor bestimmt werden, dafür wird der Fit bei 0 ausgewertet. Es ergibt sich eine Rate von n = 59634(3920) Hz und $N_0$ = 17890296(456032) in 300s.
 
 \subsection{Compton-Wirkungsquerscnitt}
+\label{durch:Compton-Wirkungsquerscnitt}
 In diesem Versuchsabschnitt soll der differentielle Wirkungsquerschnitt der Compton-Streuung an einer Aluminiumplatte untersucht werden. Dafür wird ein Winkelbereich von 20$^\circ$ bis 80$^\circ$ und 10$^\circ$ Schritten abgefahren. Die 2,5cm dicke Bleiplatte vor der Quelle wird, \textbf{nachdem} der Detektor auf \SI{20}{\degree} ausgelenkt wurde, entfernt. Um den Untergrund aus den Messdaten heraus rechnen zu können, wird für jede Winkelpostion einmal mit und einmal ohne Aluminiumplatte gemessen. Der Untergrund wird abgezogen und negative Schwankungen der Messdaten werden auf Null gesetzt. Die Fehler werden per Fehlerfortpflanzung berechnet. Es ergeben sich die Energien und Fehler in Tabelle \ref{tab:energien_WQ}. Die Plots der Counts gegen den Kanal mit den Gaußfits sind im Anhang Abschnitt \ref{Anh:WQ} zu finden.
 \begin{table}[H]
 \caption{Dargestellt sind die gemessenen Winkel und Energien, sowie die für die geometrische Bestimmung des differentiellen Wirkungsquerschnitts wichtigen Größen}
@@ -358,6 +359,7 @@ Man sieht, dass die Fehler des experimentell bestimmten Wirkungsquerschnittes zu
 Mit den gemessenen Energien lässt sich nun über Gl. \ref{eqn:Compton_Streuung_Kinematik} die Elektromasse berechnen.
 \begin{align}
 m_ec^2 = \frac{E_{\gamma}E_{\gamma}'}{E_{\gamma}-E_{\gamma}'}\cdot(1-\cos(\Theta))
+\label{eqn:Elektronenmasse}
 \end{align}
 Die bestimmten Elektronenmassen sind in Tabelle \ref{tab:Elektronenmassen} dargestellt.
 \begin{table}[H]
@@ -377,4 +379,4 @@ $\Theta$/\SI{}{\degree}$\pm 0,5$\SI{}{\degree}&$m_ec^2$/keV& $\Delta m_ec^2$/keV
 \label{tab:Elektronenmassen}
 \end{table}
 Nachdem $m_ec^2$ für alle Energien $E_{\gamma}'$ bestimmt wurde, wird das durch die Fehler gewichtete Mittel bestimmt.
-Es ergibt sich eine mittlere Elektronenmasse, von 656(44)keV. Alle bestimmten Elektronenmassen sind systematisch zu groß und weichen um mehr als 18\SI{}{\percent} von \SI{511}{keV} (vgl. \cite{Elektronenmasse}) nach oben ab. Eine mögliche Begründung können einerseits Fehler bei der Energie-Kanal-Kalibrierung, andererseits die systematischen Fehler des experimentell bestimmten Klein-Nishina-Wirkungsquerschnittes sein.
+Es ergibt sich eine mittlere Elektronenmasse von 656(44)keV. Alle bestimmten Elektronenmassen sind systematisch zu groß und weichen um mehr als 18\SI{}{\percent} von \SI{511}{keV} (vgl. \cite{Elektronenmasse}) nach oben ab. Eine mögliche Begründung können einerseits Fehler bei der Energie-Kanal-Kalibrierung, andererseits die systematischen Fehler des experimentell bestimmten Klein-Nishina-Wirkungsquerschnittes sein.

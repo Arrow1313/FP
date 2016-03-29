@@ -24,6 +24,7 @@ hc(\frac{1}{E'}-\frac{1}{E})=\Delta \lambda = \lambda_C(1-\cos\Theta) = \frac{h}
 \end{tabular}
 \end{table}
 \subsection{Wirkunsquerschnitt}
+\label{theo:Wirkunsquerschnitt}
 Der Wirkungsquerschnitt $\sigma$ ist eine wichtige Größe um Streuprozesse zu analysieren und zu verstehen. Er gibt die Reaktionswarscheinlichkeit $w$ normiert auf die Anzahl der Targetteilchen $N_T$ pro Flächeneinheit $F$ an (vgl. \cite{WQtot}),
 \begin{align}
 \sigma = \frac{w}{\frac{N_T}{F}}
@@ -48,6 +49,7 @@ Wobei $\alpha$ durch
 gegeben ist.
 Dabei wurde zuerst die Kettenregel angewendet und danach angenommen, dass $\frac{\Delta N_T(\Theta)}{N_T(\Theta)}+\frac{\Delta N_{Gesamt}(\Theta)}{N_{Gesamt}(\Theta)} \ll \frac{\Delta N_{Reaktion}(\Theta)}{N_{Reaktion}(\Theta)}$ gilt, also die relative Änderung der Anzahl der Targetteilchen und die relative Änderung der Anzahl der absorbierten Teilchen im Winkelbereich $\Delta\Omega$, im Vergleich zur relativen Anzahl der in den Winkelbereich $\Delta\Omega$ gestreuten Teilchen an den insgesamt gestreuten Teilchen, klein ist. Dabei ist $N_{Gesamt}$ in diesem Experiment eine mit steigendem Streuwinkel fallende Größe, und $N_T$ eine mit steigendem Streuwinkel steigende Größe, sodass $\Delta N_T(\Theta)$ positiv und $\Delta N_{Gesamt}(\Theta)$ negativ ist. Da $N_T$ direkt von der Dicke des Materials abhängt und der Absorbtionskoeffizient von Aluminium bei etwa 0,2 cm$^{-1}$ bei einer Dicke der verwendeten Aluminiumplatte von etwa \SI{1}{cm} liegt, gilt offensichtlich $\left|\frac{\Delta N_T(\Theta)}{N_T(\Theta)}\right| > \left|\frac{\Delta N_{Gesamt}(\Theta)}{N_{Gesamt}(\Theta)}\right|$ (vgl. Gleichung \ref{eqn:N_Gesamt} und \ref{eqn:Flaechendichte}). Im Allgemeinen wird dadurch der differentielle Wirkungsquerschnitt systematisch überschätzt.
 \subsection{Compton-Wirkungsquerschnitt}
+\label{theo:Compton_Wirkungsquerschnitt}
 Der differentielle Wirkungsquerschnitt der Compton-Streuung folgt aus der Quantenelektrodynamik ist als die Klein-Nishina-Formel bekannt.
 Er gibt die Winkelverteilung gestreuter Photonen an und ist durch Gleichung \ref{eqn:Klein_Nishina_WQ}  gegeben.
 \begin{align}
@@ -67,6 +69,7 @@ Aus Gleichung \ref{eqn:Compton_Streuung_Kinematik} ergibt sich $P(E_{\gamma},\Th
 \end{align}
 sodass Vorwärts- und Rückwärtsstreuung gleichwahrscheinlich sind (vgl. \cite{wikiWQkleinnishina}). Für die experimentelle Berechnung des Wirkungsquerschnittes wird $P(E_{\gamma},\Theta):=\frac{E_{\gamma}'}{E_{\gamma}}$ mit der gemessenen Energie $E_{\gamma}'$ gesetzt.
 \subsection{Geometrischer Wirkungsquerschnitt}
+\label{theo:Geometrischer Wirkungsquerschnitt}
 Der differentielle Wirkungsquerschnitt wird nach Gleichung \ref{eqn:Differentieller_Wirkungsquerschnitt} bestimmt. Dabei gilt für die Anzahl der gestreuten Teilchen ($\Delta N_{Reaktion}$):
 \begin{align}
 \Delta N_{Reaktion}(\Theta) = \frac{N_{Detektor}(\Theta)}{\epsilon(\Theta)}
