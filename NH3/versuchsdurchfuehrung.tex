@@ -28,3 +28,126 @@ U$_0$ & the intensity of the measured peak \\
 \caption{The plot shows the relative absorption coefficient, the coefficient was calculated with formula ??. The errors where taken from the uncertainty of the listing}
 \label{fig:alpha}
 \end{figure}
+
+
+\subsection{Dependency between pressure and line width of the 3 3 peak}
+In this section the dependency between the pressure and the line width examined. The 3 3 Peak was chosen, because it was was the biggest one. For the measurement the pressure is increased in steps and the spectrum is measured. The line broadening is given by equation \ref{equ:broadening}.
+
+\begin{align}
+\label{equ:broadening}
+\Delta\nu = \sqrt{\frac{273}{T}} \cdot p \cdot \Delta
+\end{align}
+
+\begin{table}[H]
+\begin{tabular}{c|l}
+$\Delta \nu$ & line broadening at a temperature of 273K \\ 
+T  & room temperature \\ 
+p & pressure \\
+$\Delta$ & specific to the gas, for NH$_3$ $\Delta$ = 29 $\frac{Mhz}{mmHg}$ \\ 
+\end{tabular} 
+\end{table}
+
+For the calculation of $\Delta$ a calibration of the data is needed, because the oscilloscope only gives a time-volt dependency. For the calibration three peaks with a know wave frequency are used and fitted with a linear model. The fit parameters for the calibration is in table \ref{tab:pressure_fit}. The Fit and the data can be seen in figure \ref{fig:druck_fit}.
+
+\begin{table}[H]
+\centering
+\caption{Fit parameters for the three peaks for the calibration}
+\label{tab:pressure_fit}
+\begin{tabular}{c|c|c}
+Peak & Value & $\chi_{red}^2$ \\ \hline 
+1 & 0.0410(7) & 0.93 \\ 
+2 & 0.0269(8) & 1.23 \\ 
+3 & 0.0110(5) & 1.12 \\  
+\end{tabular} 
+\end{table}
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale = 0.39]{druck_kalib.png}
+\caption{The plot shows the data and the linear fit for the calibration. The x-errors are so small, that they can barely be seen in the plot. The parameters of the fit can be found in table \ref{tab:pressure_fit_pars}}
+\label{fig:druck_fit}
+\end{figure}
+
+\begin{table}[H]
+\centering
+\caption{Fit parameters for the calibration}
+\label{tab:pressure_fit_pars}
+\begin{tabular}{c|c}
+Parameter & Value \\ \hline 
+slope & 0.60(2) GHz/s \\ 
+intercept & 23.863(4) GHz/s\\ 
+$\chi^2_{red}$ & 0.98 \\  
+\end{tabular} 
+\end{table}
+
+A plot of all the measured Peaks can be seen in figure \ref{fig:druck_alle}, the data from the measurement can be found in table \ref{tab:pressure_alle}. 
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale = 0.39]{druck_alle.png}
+\caption{The plot shows the 3 3 peak for different pressures, the pressures can be found in table \ref{tab:pressure_alle}.}
+\label{fig:druck_alle}
+\end{figure}
+
+\begin{table}[H]
+\centering
+\caption{Pressures and line width for the measured peaks. The error one the pressure is 0.1mbar for every measurement.}
+\label{tab:pressure_alle}
+\begin{tabular}{c|c|c}
+No. & Pressure/mbar & line width/ms \\ \hline
+1 & 1.0 $\cdot 10^{-2}$ & 0.136(12) \\ 
+2 & 2.6 $\cdot 10^{-2}$ & 0.139(16) \\ 
+3 & 8.7 $\cdot 10^{-2}$ & 0.18(2) \\ 
+4 & 1.5 $\cdot 10^{-1}$ & 0.31(2) \\ 
+5 & 2.7 $\cdot 10^{-1}$ & 0.56(3) \\ 
+6 & 3.8 $\cdot 10^{-1}$ & 0.82(5) \\ 
+7 & 5.8 $\cdot 10^{-1}$ & 1.3(1) \\ 
+8 & 9.3 $\cdot 10^{-1}$ & 1.7(2) \\ 
+9 & 1.1 & 2.0(1) \\ 
+10 & 1.3 & 2.3(3) \\ 
+11 & 1.6 & 2.5(3) \\ 
+12 & 2.0 & 2.8(2) \\ 
+\end{tabular} 
+\end{table}
+
+
+In figure \ref{fig:beispiel_alle} an example for a fit of a peak and the underground estimation can be seen. The underground was fitted with a polynomial of 6 degree.
+
+
+\begin{figure}[H]
+\begin{subfigure}{.49\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{druck_beispiel_alle_untergrund.png}
+  \caption{Plot of the 3 3 peak at a pressure of 1.0(1)$\cdot 10^{-2}$ with the underground fit.}
+  \label{fig:beispiel_alle_1}
+\end{subfigure}%
+\begin{subfigure}{.49\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{druck_beispiel_alle.png}
+  \caption{Plot of the 3 3 peak at a pressure of 1.0(1)$\cdot 10^{-2}$ with removed underground.}
+  \label{fig:beispiel_alle_2}
+\end{subfigure}
+\caption{Example plots of the peak fitting for the 3 3 peak at a pressure of 1.0(1)$\cdot 10^{-2}$ and underground estimation.}
+\label{fig:beispiel_alle}
+\end{figure}
+
+The data from table \ref{tab:pressure_alle} is fitted with a linear model for estimation of $\Delta$. In figure ?? the data and the fit is shown. The parameter of the fit are in table ??.
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale = 0.39]{druck_alle.png}
+\caption{The plot shows the 3 3 peak for different pressures, the pressures can be found in table ??.}
+\label{fig:druck_lin_fit}
+\end{figure}
+
+\begin{table}[H]
+\centering
+\caption{Fit parameters for the calibration}
+\label{tab:pressure_lin_fit_pars}
+\begin{tabular}{c|c}
+Parameter & Value \\ \hline 
+slope & 0.60(2) \\ 
+intercept & 23.863(4) \\ 
+$\chi^2_{red}$ & 0.98 \\  
+\end{tabular} 
+\end{table}
